@@ -14,15 +14,15 @@ id,date,league_id,league,home,away,hs,as,h1,a1
 194986,2026-10-23T20:00:00+02:00,39,Allemagne - Bundesliga,Hannover-Burgdorf,Lemgo,26,29,15,12
 195288,2026-10-23T20:00:00+02:00,43,Allemagne - 2. Bundesliga,Coburg 2000,Minden,24,33,11,16
 197673,2026-10-23T20:00:00+02:00,34,France - Starligue,Provence Aix,Toulouse,32,26,14,15
-197155,2026-10-23T20:30:00+02:00,36,France - Proligue,Besancon,Pontault,26,27,12,15
+197154,2026-10-23T20:30:00+02:00,36,France - Proligue,Cournon d&apos;Auvergne,Istres,26,30,13,15
 197676,2026-10-23T20:30:00+02:00,34,France - Starligue,Selestat,Caen,24,26,12,11
 197674,2026-10-23T20:30:00+02:00,34,France - Starligue,Tremblay,Cesson Rennes-Metropole,34,29,15,18
-197154,2026-10-23T20:30:00+02:00,36,France - Proligue,Cournon d&apos;Auvergne,Istres,26,30,13,15
+197153,2026-10-23T20:30:00+02:00,36,France - Proligue,Creteil,Ivry,33,31,16,13
+197155,2026-10-23T20:30:00+02:00,36,France - Proligue,Besancon,Pontault,26,27,12,15
 197151,2026-10-23T20:30:00+02:00,36,France - Proligue,Saintes,Frontignan,33,31,19,19
-197152,2026-10-23T20:30:00+02:00,36,France - Proligue,Massy Essonne,Valence,33,44,17,26
 197149,2026-10-23T20:30:00+02:00,36,France - Proligue,Val d&apos;Oise,Dijon,29,34,15,14
 197148,2026-10-23T20:30:00+02:00,36,France - Proligue,Pau Billere,Cherbourg,38,37,17,16
-197153,2026-10-23T20:30:00+02:00,36,France - Proligue,Creteil,Ivry,33,31,16,13
+197152,2026-10-23T20:30:00+02:00,36,France - Proligue,Massy Essonne,Valence,33,44,17,26
 204757,2026-10-24T13:00:00+02:00,147,Coupe d'Europe EHF,Mistra (Est),BK-46 (Fin),24,29,13,16
 204762,2026-10-24T13:00:00+02:00,147,Coupe d'Europe EHF,Istanbul Genclik Spor Kulubu (Tur),Ostrow Wielkopolski (Pol),30,41,15,17
 204740,2026-10-24T14:30:00+02:00,147,Coupe d'Europe EHF,Dragunas Klaipeda (Ltu),Zubri (Cze),28,22,13,8
@@ -30,8 +30,16 @@ id,date,league_id,league,home,away,hs,as,h1,a1
 204724,2026-10-24T15:00:00+02:00,147,Coupe d'Europe EHF,Ionikos (Gre),Ramat Hasharon (Isr),25,31,13,13
 204748,2026-10-24T15:00:00+02:00,147,Coupe d'Europe EHF,Sloga Doboj (Bih),Kur (Aze),32,30,14,14
 203794,2026-10-24T15:15:00+02:00,75,Norvège - Elite,Elverum,Arendal,34,25,19,11
+204772,2026-10-24T16:00:00+02:00,147,Coupe d'Europe EHF,PLER (Hun),Islington (Eng),49,20,20,10
 203795,2026-10-24T16:00:00+02:00,75,Norvège - Elite,Viking TIF,Drammen,33,26,22,13
 195290,2026-10-24T16:00:00+02:00,43,Allemagne - 2. Bundesliga,Dessauer,Leipzig,36,33,20,17
 195590,2026-10-24T16:00:00+02:00,23,Danemark - Herre Handbold Ligaen,Skjern,Ribe-Esbjerg,29,24,15,7
 199512,2026-10-24T16:00:00+02:00,84,Portugal - Andebol 1,Avanca,Aguas Santas,24,34,11,20
-204772,2026-10-24T16:00:00+02:00,147,Coupe d'Europe EHF,PLER (Hun),Islington (Eng),49,20,20,10
+204767,2026-10-24T17:00:00+02:00,147,Coupe d'Europe EHF,Butel Skopje (Mkd),Gorica (Cro),25,24,13,14
+198193,2026-10-24T17:00:00+02:00,154,Championnat du monde féminin,Kosovo W,Estonia W,25,27,14,14
+202367,2026-10-24T17:00:00+02:00,49,Hongrie - NB I,Tatabanya,NEKA,30,23,13,12
+203089,2026-10-24T17:00:00+02:00,87,Roumanie - Liga Nationala,Teutonii Ghimbav,Buzau,22,32,6,15
+203090,2026-10-24T17:00:00+02:00,87,Roumanie - Liga Nationala,Minaur Baia Mare,Suceava,39,33,20,14
+204720,2026-10-24T17:00:00+02:00,147,Coupe d'Europe EHF,Polva Serviti (Est),MK Holon (Isr),26,30,10,14
+204755,2026-10-24T17:00:00+02:00,147,Coupe d'Europe EHF,Naerbo (Nor),Dukla Prague (Cze),27,29,13,13
+204774,2026-10-24T17:00:00+02:00,147,Coupe d'Europe EHF,Potaissa Turda (Rou),Sporting Pelt (Bel),33,27,20,10
