@@ -73,6 +73,8 @@ def main() -> int:
                          bookmakers=",".join(FR_BOOKS))
         credits += cost
         for e in data or []:
+            if pd.Timestamp(e["commence_time"]) <= pd.Timestamp(now):
+                continue                    # match commencé : cotes en direct, sans intérêt ici
             row = {"sport_key": sk, "div": FOOT.get(sk), "home": e["home_team"], "away": e["away_team"],
                    "coup_envoi": e["commence_time"], "cotes": {}}
             for bk in e.get("bookmakers", []):
