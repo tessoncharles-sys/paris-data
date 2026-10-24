@@ -298,7 +298,13 @@ def analyse(today: dt.date) -> dict:
             fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
             kickoff = row["Date"].strftime("%Y-%m-%d")
             if "Time" in row and not pd.isna(row.get("Time")):
-                kickoff += f" {row['Time']}"
+                # football-data donne l'heure anglaise : conversion en heure de Paris
+                try:
+                    t = dt.datetime.combine(row["Date"].date(), dt.time.fromisoformat(str(row["Time"])),
+                                            tzinfo=ZoneInfo("Europe/London"))
+                    kickoff = t.astimezone(ZoneInfo("Europe/Paris")).strftime("%Y-%m-%d %H:%M")
+                except ValueError:
+                    kickoff += f" {row['Time']}"
             m = {
                 "match": name, "championnat": DIVISIONS[div], "div": div,
                 "coup_envoi": kickoff,
