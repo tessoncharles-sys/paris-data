@@ -47,3 +47,7 @@ Relancer le test : `python scripts/calibrate.py`.
 - **Modèle** (`scripts/tennis.py`) : Elo général + Elo par surface → probabilité de victoire ; simulation jeu par jeu → score en sets, au moins un set, match en 3 sets, total de jeux, handicap jeux.
 - **Test** (`scripts/tennis_calibrate.py`, 15 000 matchs 2025-26) : après correction apprise sur 2025, les probabilités 2026 sont bien calibrées sur tous les marchés (« 64 % annoncé → 64 % réel » sur le total de jeux). Le favori Elo gagne 64 % du temps, ce qui reste en dessous des bookmakers : aucune cote marché n'étant disponible gratuitement, toutes les cotes justes tennis viennent du modèle.
 - Joueurs avec moins de 8 matchs dans l'historique : match non analysé.
+
+## Recalibration mensuelle
+
+Le 1er de chaque mois, `.github/workflows/calibration.yml` relance les tests de fiabilité foot et tennis sur les données les plus récentes (fenêtres glissantes), met à jour les corrections utilisées chaque matin et écrit le bilan dans [`data/backtest/BILAN.md`](data/backtest/BILAN.md). Lancement à la main : onglet Actions → « Recalibration mensuelle » → Run workflow.

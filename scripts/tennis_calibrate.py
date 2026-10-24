@@ -19,8 +19,10 @@ from sklearn.linear_model import LogisticRegression
 sys.path.insert(0, str(Path(__file__).parent))
 import tennis as T  # noqa: E402
 
-START = pd.Timestamp("2025-01-01", tz="UTC")
-SPLIT = pd.Timestamp("2026-01-01", tz="UTC")
+# Fenêtre glissante : ~21 derniers mois testés, les 10 derniers servent de vérification
+_NOW = pd.Timestamp.now(tz="UTC").normalize()
+START = _NOW - pd.Timedelta(days=650)
+SPLIT = _NOW - pd.Timedelta(days=300)
 
 
 @lru_cache(maxsize=200000)
@@ -133,9 +135,10 @@ if __name__ == "__main__":
     train, test = o[o.date < SPLIT].copy(), o[o.date >= SPLIT].copy()
     co_train = fit(train)
     test["p_cal"] = [T.calibrate(k, p, co_train) for k, p in zip(test.key, test.p)]
-    rep = {"matchs": int(len(df)), "hold_moyen": bases,
-           "precision_vainqueur_favori_2026": round(float(((df[df.date >= SPLIT].p >= .5) == (df[df.date >= SPLIT].win == 1)).mean()), 3),
-           "validation_2026": report(test)}
+    rep = {"matchs": int(len(df)), "periode": f"{START.date()} → {_NOW.date()}", "verification_depuis": str(SPLIT.date()),
+           "hold_moyen": bases,
+           "precision_vainqueur_favori_test": round(float(((df[df.date >= SPLIT].p >= .5) == (df[df.date >= SPLIT].win == 1)).mean()), 3),
+           "validation_test": report(test)}
     bases_all = fit_bases(df)
     o_all = outcomes(df, bases_all)
     co = fit(o_all)

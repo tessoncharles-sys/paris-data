@@ -19,8 +19,9 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent))
 import model as M  # noqa: E402
 
-SEASON_START = pd.Timestamp("2025-11-15")   # on laisse ~3 mois d'historique au modèle
-SEASON_END = pd.Timestamp("2026-06-30")
+# Fenêtre glissante : les ~10 derniers mois (recalculée à chaque passage mensuel)
+SEASON_END = pd.Timestamp.now().normalize()
+SEASON_START = SEASON_END - pd.Timedelta(days=300)
 
 
 def outcomes(r) -> dict[str, int]:
@@ -49,6 +50,9 @@ def outcomes(r) -> dict[str, int]:
 def run() -> pd.DataFrame:
     hist = M.load_history()
     rows = []
+    global SEASON_START
+    # au moins 3 mois d'historique avant le premier match testé
+    SEASON_START = max(SEASON_START, hist["Date"].min() + pd.Timedelta(days=90))
     weeks = pd.date_range(SEASON_START, SEASON_END, freq="7D")
     for div in M.DIVISIONS:
         hd = hist[hist["Div"] == div].sort_values("Date")

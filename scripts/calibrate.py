@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import backtest as B  # noqa: E402
 import model as M  # noqa: E402
 
-SPLIT = pd.Timestamp("2026-03-01")
+SPLIT = None  # fixé après le test : 60 % de la fenêtre pour apprendre, 40 % pour vérifier
 
 
 def logit(p):
@@ -73,16 +73,18 @@ def evaluate(test: pd.DataFrame) -> dict:
                     "par_marche": {k: {"paris": int(len(v)),
                                        "rendement": round(float(np.where(v.issue == 1, v.cote - 1, -1).mean()), 3)}
                                    for k, v in sel.groupby("marche")}})
-    out["paris_simules_mars_juin"] = sim
+    out["paris_simules_periode_test"] = sim
     return out
 
 
 if __name__ == "__main__":
     df = B.run()
+    SPLIT = B.SEASON_START + (B.SEASON_END - B.SEASON_START) * 0.6
     train, test = df[df["date"] < SPLIT].copy(), df[df["date"] >= SPLIT].copy()
     coefs_train = fit(train)
     test["p_cal"] = apply(test, coefs_train)
-    report = {"validation": evaluate(test)}
+    report = {"periode_test": f"{B.SEASON_START.date()} → {B.SEASON_END.date()}",
+              "apprentissage_avant": str(SPLIT.date()), "validation": evaluate(test)}
     coefs = fit(df)
     report["coefficients"] = coefs
     (M.OUT / "calibration.json").write_text(json.dumps(coefs, ensure_ascii=False, indent=1))
