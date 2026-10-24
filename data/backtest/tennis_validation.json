@@ -1,5 +1,7 @@
 {
- "matchs": 15294,
+ "matchs": 14942,
+ "periode": "2025-01-12 → 2026-10-24",
+ "verification_depuis": "2025-12-28",
  "hold_moyen": {
   "ATP|dur": 0.64,
   "ATP|gazon": 0.5,
@@ -10,21 +12,22 @@
   "WTA|salle": 0.5,
   "WTA|terre": 0.5
  },
- "precision_vainqueur_favori_2026": 0.64,
- "validation_2026": {
+ "precision_vainqueur_favori_test": 0.64,
+ "validation_test": {
   "Handicap jeux": {
    "predictions": 78560,
    "brier_brut": 0.2273,
    "brier_calibre": 0.2268,
    "calibration": [
-    "18% annoncé → 18% réel (n=1587)",
-    "26% annoncé → 26% réel (n=7398)",
-    "36% annoncé → 36% réel (n=11595)",
-    "46% annoncé → 45% réel (n=18700)",
-    "54% annoncé → 55% réel (n=18700)",
-    "64% annoncé → 64% réel (n=11595)",
-    "74% annoncé → 74% réel (n=7398)",
-    "82% annoncé → 82% réel (n=1544)"
+    "18% annoncé → 18% réel (n=1618)",
+    "26% annoncé → 26% réel (n=7381)",
+    "35% annoncé → 36% réel (n=11591)",
+    "46% annoncé → 45% réel (n=18690)",
+    "54% annoncé → 55% réel (n=18690)",
+    "65% annoncé → 64% réel (n=11591)",
+    "74% annoncé → 74% réel (n=7381)",
+    "82% annoncé → 81% réel (n=1567)",
+    "92% annoncé → 96% réel (n=51)"
    ]
   },
   "Sets": {
@@ -32,15 +35,15 @@
    "brier_brut": 0.1985,
    "brier_calibre": 0.1939,
    "calibration": [
-    "16% annoncé → 16% réel (n=8536)",
-    "24% annoncé → 24% réel (n=9319)",
-    "36% annoncé → 37% réel (n=11484)",
-    "45% annoncé → 45% réel (n=2758)",
-    "55% annoncé → 56% réel (n=3345)",
-    "65% annoncé → 64% réel (n=4414)",
-    "75% annoncé → 75% réel (n=4763)",
-    "84% annoncé → 84% réel (n=2385)",
-    "93% annoncé → 96% réel (n=604)"
+    "16% annoncé → 16% réel (n=8402)",
+    "24% annoncé → 24% réel (n=9338)",
+    "36% annoncé → 37% réel (n=11549)",
+    "45% annoncé → 45% réel (n=2839)",
+    "55% annoncé → 57% réel (n=3282)",
+    "65% annoncé → 64% réel (n=4453)",
+    "75% annoncé → 75% réel (n=4756)",
+    "84% annoncé → 84% réel (n=2376)",
+    "93% annoncé → 96% réel (n=613)"
    ]
   },
   "Total jeux": {
@@ -49,10 +52,10 @@
    "brier_calibre": 0.2327,
    "calibration": [
     "29% annoncé → 29% réel (n=4570)",
-    "36% annoncé → 36% réel (n=19503)",
-    "44% annoncé → 44% réel (n=15194)",
-    "56% annoncé → 56% réel (n=15194)",
-    "64% annoncé → 64% réel (n=19503)",
+    "36% annoncé → 36% réel (n=19517)",
+    "44% annoncé → 44% réel (n=15180)",
+    "56% annoncé → 56% réel (n=15180)",
+    "64% annoncé → 64% réel (n=19517)",
     "71% annoncé → 71% réel (n=4570)"
    ]
   },
@@ -63,12 +66,12 @@
    "calibration": [
     "15% annoncé → 14% réel (n=190)",
     "26% annoncé → 24% réel (n=583)",
-    "36% annoncé → 35% réel (n=1256)",
-    "45% annoncé → 44% réel (n=1735)",
-    "55% annoncé → 57% réel (n=1894)",
-    "65% annoncé → 65% réel (n=1295)",
-    "74% annoncé → 75% réel (n=642)",
-    "84% annoncé → 89% réel (n=225)"
+    "36% annoncé → 35% réel (n=1231)",
+    "45% annoncé → 44% réel (n=1760)",
+    "55% annoncé → 56% réel (n=1785)",
+    "64% annoncé → 65% réel (n=1338)",
+    "74% annoncé → 74% réel (n=701)",
+    "84% annoncé → 90% réel (n=232)"
    ]
   }
  }
