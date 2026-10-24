@@ -16,10 +16,24 @@ def call(name, path, **params):
     except Exception as e:
         out[name] = {"error": repr(e)[:300]}
 
-call("status", "/status")
-call("leagues_fr", "/leagues", country="France")
-call("leagues_de", "/leagues", country="Germany")
-call("leagues_eu", "/leagues", search="Champions")
+call("leagues_all", "/leagues")
+allr = []
+try:
+    r = requests.get(B + "/leagues", headers=H, timeout=40).json().get("response", [])
+    allr = [{"id": l["id"], "name": l["name"], "type": l.get("type"), "country": (l.get("country") or {}).get("name"),
+             "seasons": sorted(s0.get("season") for s0 in l.get("seasons", []))[-3:]} for l in r]
+except Exception as e:
+    allr = [repr(e)]
+out["leagues_list"] = allr
+def lid(country, *names):
+    for l in allr:
+        if isinstance(l, dict) and l["country"] == country and any(n.lower() in l["name"].lower() for n in names) and "Women" not in l["name"]:
+            return l["id"]
+fr = lid("France", "Starligue", "Division 1", "LNH")
+call("games_fr_2025", "/games", league=fr, season=2025)
+call("games_fr_2026", "/games", league=fr, season=2026)
+call("odds_fr_2026", "/odds", league=fr, season=2026)
+out["ids"] = {"fr": fr}
 Path("data/probe").mkdir(parents=True, exist_ok=True)
 Path("data/probe/handball.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
-print(json.dumps({k: {kk: v.get(kk) for kk in ("status", "errors", "results")} for k, v in out.items()}, indent=1))
+print("ok")
