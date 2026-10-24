@@ -14,8 +14,11 @@ for name in ("dashboard_foot.csv", "dashboard_tennis.csv", "dashboard_handball.c
 df = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
 cols = ["sport", "id", "date", "heure", "championnat", "match", "famille", "marche", "proba",
         "cote_juste", "cote_minimum", "cote_moyenne_marche", "source_cote", "fiabilite", "infos",
-        "lam_dom", "lam_ext", "lam_source", "explication", "signaux", "proba_modele", "ecart_modele"]
+        "lam_dom", "lam_ext", "lam_source", "explication", "signaux", "proba_modele", "ecart_modele", "cote_winamax", "value_winamax", "meilleure_cote_fr", "meilleur_operateur"]
 df = df.reindex(columns=cols)
+# value Winamax pour les lignes qui ont une cote Winamax (tennis compris)
+mask = df["cote_winamax"].notna() & df["value_winamax"].isna()
+df.loc[mask, "value_winamax"] = (df.loc[mask, "proba"] * df.loc[mask, "cote_winamax"] - 1).round(4)
 df.to_csv(OUT / "dashboard.csv", index=False)
 print(df.groupby("sport")["match"].nunique().to_dict() if len(df) else "vide")
 

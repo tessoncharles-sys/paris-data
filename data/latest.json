@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "genere_le": "2026-10-24T16:47:02+00:00",
+ "genere_le": "2026-10-24T16:48:44+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
@@ -22273,39 +22273,48 @@
     "ext": 1.439,
     "source": "marché"
    },
-   "corners_attendus": 10.1,
+   "corners_attendus": null,
    "cartons_attendus": 4.1,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
      "proba_modele": 0.5118,
-     "source_marche": "Pinnacle",
-     "proba_marche": 0.4,
-     "proba": 0.4,
-     "cote_juste": 2.5,
-     "cote_minimum": 2.62,
-     "cote_moyenne_marche": 2.39
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.3931,
+     "proba": 0.3931,
+     "cote_juste": 2.54,
+     "cote_minimum": 2.67,
+     "cote_moyenne_marche": 2.39,
+     "cote_winamax": 2.3,
+     "meilleure_cote_fr": 2.35,
+     "meilleur_operateur": "Betclic"
     },
     {
      "marche": "N",
      "proba_modele": 0.2503,
-     "source_marche": "Pinnacle",
-     "proba_marche": 0.27,
-     "proba": 0.27,
-     "cote_juste": 3.7,
-     "cote_minimum": 3.89,
-     "cote_moyenne_marche": 3.56
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2639,
+     "proba": 0.2639,
+     "cote_juste": 3.79,
+     "cote_minimum": 3.98,
+     "cote_moyenne_marche": 3.56,
+     "cote_winamax": 3.3,
+     "meilleure_cote_fr": 3.3,
+     "meilleur_operateur": "Winamax"
     },
     {
      "marche": "2",
      "proba_modele": 0.2433,
-     "source_marche": "Pinnacle",
-     "proba_marche": 0.33,
-     "proba": 0.33,
-     "cote_juste": 3.03,
-     "cote_minimum": 3.18,
-     "cote_moyenne_marche": 2.74
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.3429,
+     "proba": 0.3429,
+     "cote_juste": 2.92,
+     "cote_minimum": 3.06,
+     "cote_moyenne_marche": 2.74,
+     "cote_winamax": 3.1,
+     "meilleure_cote_fr": 3.2,
+     "meilleur_operateur": "Unibet"
     },
     {
      "marche": "1N",
@@ -22365,7 +22374,10 @@
      "proba": 0.577,
      "cote_juste": 1.73,
      "cote_minimum": 1.82,
-     "cote_moyenne_marche": 1.62
+     "cote_moyenne_marche": 1.62,
+     "cote_winamax": 1.85,
+     "meilleure_cote_fr": 1.85,
+     "meilleur_operateur": "Winamax"
     },
     {
      "marche": "-2.5 buts",
@@ -22375,7 +22387,10 @@
      "proba": 0.423,
      "cote_juste": 2.36,
      "cote_minimum": 2.48,
-     "cote_moyenne_marche": 2.21
+     "cote_moyenne_marche": 2.21,
+     "cote_winamax": 1.9,
+     "meilleure_cote_fr": 1.9,
+     "meilleur_operateur": "Winamax"
     },
     {
      "marche": "+3.5 buts",
@@ -22390,11 +22405,11 @@
     {
      "marche": "-3.5 buts",
      "proba_modele": 0.6489,
-     "source_marche": "Pinnacle",
-     "proba_marche": 0.66,
-     "proba": 0.66,
-     "cote_juste": 1.52,
-     "cote_minimum": 1.59,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6489,
+     "cote_juste": 1.54,
+     "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     },
     {
@@ -22440,11 +22455,11 @@
     {
      "marche": "Ext. +0.5 but",
      "proba_modele": 0.7241,
-     "source_marche": "Pinnacle",
-     "proba_marche": 0.7,
-     "proba": 0.7,
-     "cote_juste": 1.43,
-     "cote_minimum": 1.5,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7241,
+     "cote_juste": 1.38,
+     "cote_minimum": 1.45,
      "cote_moyenne_marche": null
     },
     {
@@ -52560,6 +52575,18 @@
    "a_verifier": true
   },
   {
+   "match": "Lens - Paris FC",
+   "championnat": "France - Ligue 1",
+   "coup_envoi": "2026-10-24 20:45",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.7241,
+   "cote_minimum": 1.45,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
    "match": "Reading - Barnsley",
    "championnat": "Angleterre - League One",
    "coup_envoi": "2026-10-24 16:00",
@@ -52857,18 +52884,6 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
-   "match": "Lens - Paris FC",
-   "championnat": "France - Ligue 1",
-   "coup_envoi": "2026-10-24 20:45",
-   "marche": "Ext. +0.5 but",
-   "proba": 0.7,
-   "cote_minimum": 1.5,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
    "a_verifier": true
   },
   {

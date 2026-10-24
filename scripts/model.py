@@ -288,6 +288,9 @@ def analyse(today: dt.date) -> dict:
         api_odds = {v["cle"]: v for v in _oc.values()}
     except (OSError, ValueError):
         api_odds = {}
+    # cotes Winamax et des opérateurs français (odds_winamax.py), si disponibles
+    import odds_winamax as OW
+    fr_idx = OW.lookup()
     ref = pd.Timestamp(today)
     matches, picks, skipped = [], [], []
     if hist.empty or fx.empty:
@@ -363,6 +366,14 @@ def analyse(today: dt.date) -> dict:
                     "cote_moyenne_marche": odds.get(label),
                 })
 
+            frm = OW.match_odds(fr_idx, row["Date"].strftime("%Y-%m-%d"), home, away, expand=_expand) if fr_idx else None
+            if frm:
+                for mm in marches:
+                    c = frm["cotes"].get(mm["marche"])
+                    if c:
+                        best = max(c, key=c.get)
+                        mm["cote_winamax"] = c.get("Winamax")
+                        mm["meilleure_cote_fr"], mm["meilleur_operateur"] = c[best], best
             fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
             lam_m = market_lambdas(row, lam)
             kickoff = row["Date"].strftime("%Y-%m-%d")
@@ -603,6 +614,12 @@ def explain(label: str, m: dict, mm: dict) -> str:
            else "modèle calibré, testé sur 2025-26 ; pas de cote marché disponible")
     parts = [f"Proba {mm['proba']:.0%} ({src}) → cote juste {mm['cote_juste']:.2f}. "
              f"Value seulement si Winamax paie au moins {mm['cote_juste'] * 1.03:.2f} (+3 %)."]
+    if mm.get("cote_winamax"):
+        v = mm["proba"] * mm["cote_winamax"] - 1
+        txt = f"Winamax ce matin : {mm['cote_winamax']:.2f}, soit une value de {v * 100:+.0f} %"
+        if mm.get("meilleur_operateur") and mm["meilleur_operateur"] != "Winamax":
+            txt += f" (meilleure cote française : {mm['meilleure_cote_fr']:.2f} chez {mm['meilleur_operateur']})"
+        parts.append(txt + ". La cote a pu bouger depuis : vérifie dans l'appli.")
     if mm["proba_marche"] is not None:
         ec = mm["proba_modele"] - mm["proba_marche"]
         txt = f"Modèle maison : {mm['proba_modele']:.0%} (écart {ec * 100:+.0f} points avec le marché)"
@@ -666,6 +683,10 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "explication": explain(mm["marche"], m, mm),
                 "signaux": m.get("signaux", ""),
                 "proba_modele": mm["proba_modele"],
+                "cote_winamax": mm.get("cote_winamax"),
+                "value_winamax": round(mm["proba"] * mm["cote_winamax"] - 1, 4) if mm.get("cote_winamax") else None,
+                "meilleure_cote_fr": mm.get("meilleure_cote_fr"),
+                "meilleur_operateur": mm.get("meilleur_operateur"),
                 "ecart_modele": round(mm["proba_modele"] - mm["proba_marche"], 4) if mm["proba_marche"] is not None else None,
             })
     return pd.DataFrame(rows)

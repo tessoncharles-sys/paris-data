@@ -430,6 +430,22 @@ def predict_today() -> list[dict]:
     coefs = load_json("tennis_calibration.json")
     rows = []
     today = dt.datetime.now(PARIS).date()
+    import difflib
+    import odds_winamax as OW
+    fr_idx = OW.lookup()
+
+    def fr_for(day, a, b):
+        """Cotes françaises du match (ordre des joueurs indifférent) : {nom ESPN: {opérateur: cote}}."""
+        for m in fr_idx.get(day, []):
+            names = [m["home"], m["away"]]
+            sc = [max(difflib.SequenceMatcher(None, OW.norm(p), OW.norm(n)).ratio() for n in names) for p in (a, b)]
+            if min(sc) >= 0.8:
+                out = {}
+                for p in (a, b):
+                    n = max(names, key=lambda n: difflib.SequenceMatcher(None, OW.norm(p), OW.norm(n)).ratio())
+                    out[p] = m["cotes"].get("Vainqueur : " + n, {})
+                return out
+        return None
     for r in sch.itertuples():
         t = pd.Timestamp(r.date).tz_convert(PARIS)
         if not (today <= t.date() <= today + dt.timedelta(days=1)):
@@ -449,9 +465,26 @@ def predict_today() -> list[dict]:
         ko = pd.Timestamp(r.date)
         signaux = fatigue_signal(matches, (r.p1_id, r.p1), (r.p2_id, r.p2), ko)
         infos = f"{'Dur en salle' if surf == 'salle' else surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
+        fr = fr_for(t.strftime("%Y-%m-%d"), r.p1, r.p2) if fr_idx else None
+        # proba « marché » du vainqueur : cotes des opérateurs français, marge retirée, moyennées
+        p_fr = None
+        if fr:
+            books = set(fr.get(r.p1, {})) & set(fr.get(r.p2, {}))
+            ps = []
+            for b in books:
+                o1, o2 = fr[r.p1][b], fr[r.p2][b]
+                if o1 > 1 and o2 > 1:
+                    ps.append((1 / o1) / (1 / o1 + 1 / o2))
+            if ps:
+                p_fr = sum(ps) / len(ps)
         for label, praw in mk.items():
             key = calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
             pc = calibrate(key, praw, coefs)
+            p_model = pc
+            src = "modèle"
+            if p_fr is not None and label.startswith("Vainqueur"):
+                pc = p_fr if label == f"Vainqueur : {r.p1}" else 1 - p_fr
+                src = "marché"
             if pc <= 0.01 or pc >= 0.99:
                 continue
             fair = 1 / pc
@@ -463,11 +496,14 @@ def predict_today() -> list[dict]:
                 "famille": market_family(label), "marche": label,
                 "proba": round(pc, 4), "cote_juste": round(fair, 2),
                 "cote_minimum": round(fair * (1 + CONFIG["marge_value"]), 2),
-                "cote_moyenne_marche": None, "source_cote": "modèle", "fiabilite": fiab,
+                "cote_moyenne_marche": None, "source_cote": src, "fiabilite": fiab,
+                "proba_modele": round(p_model, 4),
+                "ecart_modele": round(p_model - pc, 4) if src == "marché" else None,
                 "infos": infos,
                 "explication": explain_tennis(label, pc, fair, r.p1, r.p2, fa, fb, surf, p_fav, fav)
                                + (f" Signal : {signaux}." if signaux else ""),
                 "signaux": signaux,
+                "cote_winamax": (fr or {}).get(label.replace("Vainqueur : ", ""), {}).get("Winamax") if label.startswith("Vainqueur") and fr else None,
             })
     return rows
 
