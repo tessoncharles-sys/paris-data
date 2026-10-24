@@ -1,0 +1,231 @@
+{
+ "validation": {
+  "+/- 1,5 et 3,5 buts": {
+   "brier_brut": 0.1936,
+   "brier_calibre": 0.1923,
+   "calibration": [
+    "25% annoncé → 25% réel (n=3281)",
+    "33% annoncé → 35% réel (n=643)",
+    "67% annoncé → 65% réel (n=643)",
+    "75% annoncé → 75% réel (n=3027)",
+    "82% annoncé → 78% réel (n=254)"
+   ]
+  },
+  "+/- 2,5 buts": {
+   "brier_brut": 0.2482,
+   "brier_calibre": 0.2456,
+   "brier_marche": 0.2425,
+   "brier_final": 0.2434,
+   "calibration": [
+    "38% annoncé → 29% réel (n=55)",
+    "47% annoncé → 45% réel (n=1915)",
+    "53% annoncé → 55% réel (n=1916)",
+    "62% annoncé → 70% réel (n=54)"
+   ]
+  },
+  "1X2": {
+   "brier_brut": 0.2042,
+   "brier_calibre": 0.2039,
+   "brier_marche": 0.2,
+   "brier_final": 0.2012,
+   "calibration": [
+    "24% annoncé → 24% réel (n=3238)",
+    "35% annoncé → 35% réel (n=1159)",
+    "45% annoncé → 47% réel (n=811)",
+    "54% annoncé → 53% réel (n=434)",
+    "64% annoncé → 69% réel (n=186)",
+    "74% annoncé → 73% réel (n=73)"
+   ]
+  },
+  "Buts par équipe": {
+   "brier_brut": 0.2066,
+   "brier_calibre": 0.2059,
+   "calibration": [
+    "25% annoncé → 29% réel (n=810)",
+    "35% annoncé → 34% réel (n=1510)",
+    "45% annoncé → 45% réel (n=1103)",
+    "55% annoncé → 60% réel (n=578)",
+    "66% annoncé → 65% réel (n=1220)",
+    "75% annoncé → 75% réel (n=1747)",
+    "84% annoncé → 86% réel (n=831)",
+    "92% annoncé → 92% réel (n=85)"
+   ]
+  },
+  "Cartons": {
+   "brier_brut": 0.2375,
+   "brier_calibre": 0.2335,
+   "calibration": [
+    "27% annoncé → 26% réel (n=274)",
+    "36% annoncé → 34% réel (n=1416)",
+    "45% annoncé → 45% réel (n=2252)",
+    "55% annoncé → 55% réel (n=2252)",
+    "64% annoncé → 66% réel (n=1416)",
+    "73% annoncé → 74% réel (n=265)"
+   ]
+  },
+  "Corners": {
+   "brier_brut": 0.247,
+   "brier_calibre": 0.2394,
+   "calibration": [
+    "28% annoncé → 28% réel (n=199)",
+    "36% annoncé → 37% réel (n=2468)",
+    "45% annoncé → 44% réel (n=3246)",
+    "55% annoncé → 56% réel (n=3246)",
+    "64% annoncé → 63% réel (n=2468)",
+    "72% annoncé → 72% réel (n=199)"
+   ]
+  },
+  "Double chance": {
+   "brier_brut": 0.2042,
+   "brier_calibre": 0.2039,
+   "brier_marche": 0.2,
+   "brier_final": 0.2012,
+   "calibration": [
+    "25% annoncé → 29% réel (n=84)",
+    "36% annoncé → 30% réel (n=187)",
+    "46% annoncé → 47% réel (n=435)",
+    "55% annoncé → 52% réel (n=811)",
+    "66% annoncé → 66% réel (n=1160)",
+    "74% annoncé → 75% réel (n=2724)",
+    "84% annoncé → 82% réel (n=448)",
+    "92% annoncé → 95% réel (n=64)"
+   ]
+  },
+  "Les 2 marquent": {
+   "brier_brut": 0.2481,
+   "brier_calibre": 0.2455,
+   "calibration": [
+    "39% annoncé → 36% réel (n=69)",
+    "46% annoncé → 44% réel (n=1902)",
+    "54% annoncé → 56% réel (n=1902)",
+    "61% annoncé → 64% réel (n=69)"
+   ]
+  },
+  "paris_simules_mars_juin": {
+   "paris": 1,
+   "reussite": 1.0,
+   "cote_moy": 1.62,
+   "rendement": 0.62,
+   "par_marche": {
+    "2": {
+     "paris": 1,
+     "rendement": 0.62
+    }
+   }
+  }
+ },
+ "coefficients": {
+  "+1.5 buts": [
+   0.609,
+   0.5191
+  ],
+  "+10.5 corners": [
+   -0.2539,
+   0.3441
+  ],
+  "+2.5 buts": [
+   0.1144,
+   0.4696
+  ],
+  "+3.5 buts": [
+   -0.4472,
+   0.4828
+  ],
+  "+3.5 cartons": [
+   0.114,
+   0.4918
+  ],
+  "+4.5 cartons": [
+   -0.2172,
+   0.4929
+  ],
+  "+8.5 corners": [
+   0.3428,
+   0.3189
+  ],
+  "+9.5 corners": [
+   0.0646,
+   0.3131
+  ],
+  "-1.5 buts": [
+   -0.6091,
+   0.5189
+  ],
+  "-10.5 corners": [
+   0.2539,
+   0.3441
+  ],
+  "-2.5 buts": [
+   -0.1143,
+   0.4696
+  ],
+  "-3.5 buts": [
+   0.4473,
+   0.4829
+  ],
+  "-3.5 cartons": [
+   -0.114,
+   0.4918
+  ],
+  "-4.5 cartons": [
+   0.2172,
+   0.4929
+  ],
+  "-8.5 corners": [
+   -0.3428,
+   0.3189
+  ],
+  "-9.5 corners": [
+   -0.0646,
+   0.3131
+  ],
+  "1": [
+   -0.0099,
+   0.9695
+  ],
+  "12": [
+   0.3245,
+   0.6154
+  ],
+  "1N": [
+   0.1233,
+   0.961
+  ],
+  "2": [
+   -0.1237,
+   0.9602
+  ],
+  "Dom. +0.5 but": [
+   0.288,
+   0.8732
+  ],
+  "Dom. +1.5 but": [
+   -0.019,
+   0.7532
+  ],
+  "Ext. +0.5 but": [
+   0.2455,
+   0.7783
+  ],
+  "Ext. +1.5 but": [
+   -0.1229,
+   0.7057
+  ],
+  "Les 2 marquent : non": [
+   -0.1756,
+   0.4697
+  ],
+  "Les 2 marquent : oui": [
+   0.1756,
+   0.4697
+  ],
+  "N": [
+   -0.3329,
+   0.6076
+  ],
+  "N2": [
+   0.0103,
+   0.9684
+  ]
+ }
+}

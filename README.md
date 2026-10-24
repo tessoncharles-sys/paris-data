@@ -31,3 +31,12 @@ Onglet **Actions** → « Collecte et analyse quotidiennes » → **Run workflow
 En haut de `scripts/model.py`, bloc `CONFIG` : fourchette de cotes (1,35–1,80), exigence de value (5 %), poids donné aux matchs récents, etc.
 
 > Un modèle améliore l'analyse, il ne garantit pas de gagner. Jouer avec modération.
+
+## Résultat du test sur la saison 2025-26 (nov. → juin, 4 400 matchs)
+
+- **Calibration** : le modèle brut était trop sûr de lui sur les extrêmes (ex. « 74 % » → 61 % réel sur +/-2,5 buts, corners et cartons). Une correction apprise sur nov.-fév. et vérifiée sur mars-juin le rend fiable : « 64 % annoncé → 63-66 % réel ». Elle est dans `data/calibration.json` et s'applique automatiquement.
+- **Face au marché** : sur 1X2, double chance et +/-2,5 buts, la cote moyenne des bookmakers prédit mieux que le modèle. Le modèle n'y apporte rien → pour ces marchés, la cote juste vient du marché (marge retirée).
+- **Paris simulés** : aucune value durable détectée contre la cote moyenne du marché.
+- **Où le modèle sert** : corners, cartons, buts par équipe, les 2 marquent, +/-1,5 et 3,5 buts (marchés sans cote publique dans les données), et pour juger si une cote Winamax — notamment boostée — dépasse la cote juste.
+
+Relancer le test : `python scripts/calibrate.py`.

@@ -31,7 +31,7 @@ OUT = ROOT / "data"
 CONFIG = {
     "demi_vie_jours": 140,       # un match d'il y a 140 jours compte moitié moins
     "poids_tirs_cadres": 0.5,    # part des tirs cadrés dans la mesure "buts"
-    "poids_modele": 0.5,         # mélange modèle / marché quand la cote marché existe
+    "poids_modele": 0.0,         # test saison passée : le marché seul est plus juste que le modèle sur 1X2 et +/-2,5
     "marge_value": 0.05,         # on exige 5 % de value : cote mini = cote juste × 1,05
     "cote_min": 1.35,            # fourchette de cotes de la sélection
     "cote_max": 1.80,
@@ -41,6 +41,25 @@ CONFIG = {
 }
 
 from collect import DIVISIONS  # noqa: E402  (même dossier)
+
+CALIB_FILE = OUT / "calibration.json"
+
+
+def load_calibration() -> dict:
+    try:
+        return json.loads(CALIB_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def calibrate(label: str, p: float, calib: dict) -> float:
+    """Corrige l'excès de confiance mesuré sur la saison passée (régression logistique sur logit(p))."""
+    coef = calib.get(label)
+    if not coef:
+        return p
+    p = min(max(p, 1e-4), 1 - 1e-4)
+    z = coef[0] + coef[1] * math.log(p / (1 - p))
+    return 1 / (1 + math.exp(-z))
 
 
 # ---------------------------------------------------------------- lecture
@@ -235,6 +254,7 @@ def recent_count(hist: pd.DataFrame, team: str, ref: pd.Timestamp) -> int:
 def analyse(today: dt.date) -> dict:
     hist = load_history()
     fx = load_fixtures(today)
+    calib = load_calibration()
     ref = pd.Timestamp(today)
     matches, picks, skipped = [], [], []
     if hist.empty or fx.empty:
@@ -281,7 +301,8 @@ def analyse(today: dt.date) -> dict:
             odds = market_odds(row)
             w = CONFIG["poids_modele"]
             marches = []
-            for label, p_mod in probs.items():
+            for label, p_raw in probs.items():
+                p_mod = calibrate(label, p_raw, calib)
                 p = w * p_mod + (1 - w) * mk[label] if label in mk else p_mod
                 fair = 1 / p if p > 0 else None
                 mini = fair * (1 + CONFIG["marge_value"]) if fair else None
