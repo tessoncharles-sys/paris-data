@@ -18,3 +18,7 @@ cols = ["sport", "id", "date", "heure", "championnat", "match", "famille", "marc
 df = df.reindex(columns=cols)
 df.to_csv(OUT / "dashboard.csv", index=False)
 print(df.groupby("sport")["match"].nunique().to_dict() if len(df) else "vide")
+
+# horodatage du passage, pour que les vérifications Claude sachent si les données sont fraîches
+import datetime as _dt, json as _json
+(OUT / "maj.json").write_text(_json.dumps({"genere_le": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")}))
