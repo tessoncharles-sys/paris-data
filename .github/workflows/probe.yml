@@ -1,0 +1,27 @@
+name: Test d'une source de données
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/probe.py
+      - run: |
+          git config user.name "paris-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/probe
+          git diff --cached --quiet || git commit -m "Test de source"
+          git pull --rebase -q origin main && git push
