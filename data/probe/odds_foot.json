@@ -1,0 +1,131 @@
+{
+ "fixtures_l1": {
+  "errors": {
+   "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+  },
+  "results": 0
+ },
+ "fixture": {
+  "home": {
+   "id": 505,
+   "name": "Inter",
+   "logo": "https://media.api-sports.io/football/teams/505.png",
+   "winner": null
+  },
+  "away": {
+   "id": 502,
+   "name": "Fiorentina",
+   "logo": "https://media.api-sports.io/football/teams/502.png",
+   "winner": null
+  }
+ },
+ "odds": {
+  "errors": [],
+  "results": 1
+ },
+ "bookmakers": [
+  "William Hill",
+  "Bet365",
+  "Marathonbet",
+  "Betfair",
+  "BetVictor",
+  "Pinnacle",
+  "1xBet",
+  "Betano",
+  "Dafabet"
+ ],
+ "bets": [
+  "1x2 - 15 minutes",
+  "1x2 - 30 minutes",
+  "1x2 - 60 minutes",
+  "1x2 - 75 minutes",
+  "Anytime Goal Scorer",
+  "Asian Handicap",
+  "Asian Handicap (2nd Half)",
+  "Asian Handicap First Half",
+  "Away Anytime Goal Scorer",
+  "Away Corners Over/Under",
+  "Away First Goal Scorer",
+  "Away Goal Method Header",
+  "Away Highest Scoring Half",
+  "Away Last Goal Scorer",
+  "Away Odd/Even",
+  "Away Player Shots",
+  "Away Player Shots On Target Total",
+  "Away Player Shots Total",
+  "Away Team Exact Goals Number",
+  "Away Team Score a Goal",
+  "Away Team Total Cards",
+  "Away Team Total Goals(1st Half)",
+  "Away Team Total Goals(2nd Half)",
+  "Away team will score in both halves",
+  "Away win both halves",
+  "Both Teams Score",
+  "Both Teams Score - First Half",
+  "Both Teams To Score - Second Half",
+  "Both Teams To Score in Both Halves",
+  "Cards Asian Handicap",
+  "Cards European Handicap",
+  "Cards Over/Under",
+  "Cards over/under between 0 and 10 m",
+  "Clean Sheet - Away",
+  "Clean Sheet - Home",
+  "Corners 1x2",
+  "Corners Asian Handicap",
+  "Corners Over Under",
+  "Corners Race To",
+  "Corners. Double Chance",
+  "Corners. European Handicap",
+  "Corners. Odd/Even",
+  "Corners. Total (Range)",
+  "Corners. total between 0 and 10m",
+  "Correct Score - First Half",
+  "Correct Score - Second Half",
+  "Double Chance",
+  "Double Chance - First Half",
+  "Double Chance - Second Half",
+  "Draw No Bet (1st Half)",
+  "Draw No Bet (2nd Half)",
+  "European Handicap (2nd Half)",
+  "Exact Goals Number",
+  "Exact Goals Number - First Half",
+  "Exact Score",
+  "First 10 min Winner",
+  "First Card Received (3 way)",
+  "First Goal Method",
+  "First Goal Scorer",
+  "First Half Winner",
+  "First Team to Score (3 way) 1st Half",
+  "Goal Line",
+  "Goal Line (1st Half)",
+  "Goal Method Outside the Box",
+  "Goalkeeper Saves",
+  "Goals Over/Under",
+  "Goals Over/Under - Second Half",
+  "Goals Over/Under First Half",
+  "HT/FT Double",
+  "Handicap Result",
+  "Handicap Result - First Half",
+  "Highest Scoring Half",
+  "Home Anytime Goal Scorer",
+  "Home Corners Over/Under",
+  "Home First Goal Scorer",
+  "Home Goal Method Header",
+  "Home Highest Scoring Half",
+  "Home Last Goal Scorer",
+  "Home Odd/Even",
+  "Home Player Shots"
+ ],
+ "odds_by_date": {
+  "errors": [],
+  "results": 10,
+  "paging": {
+   "current": 1,
+   "total": 50
+  }
+ },
+ "status": {
+  "current": 6,
+  "limit_day": 100
+ }
+}
