@@ -34,7 +34,7 @@ CONFIG = {
     "poids_modele": 0.0,         # test saison passée : le marché seul est plus juste que le modèle sur 1X2 et +/-2,5
     "marge_value": 0.05,         # on exige 5 % de value : cote mini = cote juste × 1,05
     "cote_min": 1.35,            # fourchette de cotes de la sélection
-    "cote_max": 1.80,
+    "cote_max": 3.00,          # fourchette élargie (sélecteur Sûr / Équilibré / Toutes dans le tableau de bord)
     "matchs_min_fiable": 5,      # en dessous, on n'analyse pas le match
     "matchs_bon_echantillon": 10,
     "horizon_jours": 1,          # aujourd'hui + demain
