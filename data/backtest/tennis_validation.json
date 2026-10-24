@@ -1,0 +1,74 @@
+{
+ "matchs": 15291,
+ "hold_moyen": {
+  "ATP|dur": 0.63,
+  "ATP|gazon": 0.5,
+  "ATP|terre": 0.5,
+  "WTA|dur": 0.5,
+  "WTA|gazon": 0.5,
+  "WTA|terre": 0.5
+ },
+ "precision_vainqueur_favori_2026": 0.64,
+ "validation_2026": {
+  "Handicap jeux": {
+   "predictions": 78530,
+   "brier_brut": 0.2269,
+   "brier_calibre": 0.2264,
+   "calibration": [
+    "18% annoncé → 17% réel (n=1679)",
+    "26% annoncé → 26% réel (n=7483)",
+    "35% annoncé → 35% réel (n=11223)",
+    "45% annoncé → 46% réel (n=18880)",
+    "55% annoncé → 54% réel (n=18880)",
+    "65% annoncé → 65% réel (n=11223)",
+    "74% annoncé → 74% réel (n=7483)",
+    "82% annoncé → 83% réel (n=1618)",
+    "92% annoncé → 97% réel (n=61)"
+   ]
+  },
+  "Sets": {
+   "predictions": 39737,
+   "brier_brut": 0.197,
+   "brier_calibre": 0.1923,
+   "calibration": [
+    "16% annoncé → 16% réel (n=8105)",
+    "24% annoncé → 24% réel (n=4883)",
+    "36% annoncé → 36% réel (n=9245)",
+    "45% annoncé → 44% réel (n=2367)",
+    "55% annoncé → 56% réel (n=3190)",
+    "65% annoncé → 64% réel (n=4216)",
+    "75% annoncé → 75% réel (n=4681)",
+    "84% annoncé → 84% réel (n=2475)",
+    "93% annoncé → 96% réel (n=575)"
+   ]
+  },
+  "Total jeux": {
+   "predictions": 78530,
+   "brier_brut": 0.2408,
+   "brier_calibre": 0.2328,
+   "calibration": [
+    "29% annoncé → 29% réel (n=4546)",
+    "36% annoncé → 36% réel (n=19200)",
+    "44% annoncé → 44% réel (n=15505)",
+    "56% annoncé → 56% réel (n=15505)",
+    "64% annoncé → 64% réel (n=19200)",
+    "71% annoncé → 71% réel (n=4546)"
+   ]
+  },
+  "Vainqueur": {
+   "predictions": 7853,
+   "brier_brut": 0.2211,
+   "brier_calibre": 0.221,
+   "calibration": [
+    "15% annoncé → 14% réel (n=197)",
+    "26% annoncé → 24% réel (n=606)",
+    "36% annoncé → 35% réel (n=1240)",
+    "45% annoncé → 45% réel (n=1781)",
+    "55% annoncé → 56% réel (n=1781)",
+    "64% annoncé → 65% réel (n=1335)",
+    "74% annoncé → 75% réel (n=668)",
+    "84% annoncé → 90% réel (n=217)"
+   ]
+  }
+ }
+}

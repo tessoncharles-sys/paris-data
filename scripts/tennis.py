@@ -62,6 +62,13 @@ def surface_of(event: str, date: str) -> str:
     return "dur"
 
 
+ROUNDS = {"Final": "Finale", "Semifinal": "Demi-finale", "Quarterfinal": "Quart de finale",
+          "Round 1": "1er tour", "Round 2": "2e tour", "Round 3": "3e tour", "Round 4": "8e de finale",
+          "Round of 16": "8e de finale", "Round of 32": "16e de finale", "Round of 64": "32e de finale",
+          "Round of 128": "1er tour", "Qualifying 1st Round": "Qualifications T1",
+          "Qualifying 2nd Round": "Qualifications T2", "Qualifying 3rd Round": "Qualifications T3",
+          "Qualifying Final": "Qualifications finale"}
+
 SLAMS = ["australian open", "roland garros", "french open", "wimbledon", "us open"]
 
 
@@ -327,7 +334,11 @@ def predict_today() -> list[dict]:
     holds = {tuple(k.split("|")): v for k, v in load_json("tennis_params.json").get("hold", {}).items()}
     coefs = load_json("tennis_calibration.json")
     rows = []
+    today = dt.datetime.now(PARIS).date()
     for r in sch.itertuples():
+        t = pd.Timestamp(r.date).tz_convert(PARIS)
+        if not (today <= t.date() <= today + dt.timedelta(days=1)):
+            continue
         n = min(elo.played(r.p1_id), elo.played(r.p2_id))
         if n < CONFIG["matchs_min_fiable"]:
             continue
@@ -336,8 +347,10 @@ def predict_today() -> list[dict]:
         p = elo.prob(r.p1_id, r.p2_id, surf)
         base = holds.get((r.tour, surf), HOLD_DEFAUT[(r.tour, surf)])
         mk, info = markets(p, base, bo, r.p1, r.p2)
-        t = pd.Timestamp(r.date).tz_convert(PARIS)
         fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
+        p_fav = calibrate("Vainqueur", max(p, 1 - p), coefs)
+        fav = r.p1 if p >= 0.5 else r.p2
+        infos = f"{surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
         for label, praw in mk.items():
             pc = calibrate(calib_key(label), praw, coefs)
             if pc <= 0.01 or pc >= 0.99:
@@ -352,8 +365,7 @@ def predict_today() -> list[dict]:
                 "proba": round(pc, 4), "cote_juste": round(fair, 2),
                 "cote_minimum": round(fair * (1 + CONFIG["marge_value"]), 2),
                 "cote_moyenne_marche": None, "source_cote": "modèle", "fiabilite": fiab,
-                "infos": f"{surf.capitalize()} · {r.round} · {info['jeux_attendus']:.1f} jeux attendus · "
-                         f"{r.p1.split()[-1]} {p:.0%}",
+                "infos": infos,
             })
     return rows
 

@@ -40,3 +40,10 @@ En haut de `scripts/model.py`, bloc `CONFIG` : fourchette de cotes (1,35–1,80)
 - **Où le modèle sert** : corners, cartons, buts par équipe, les 2 marquent, +/-1,5 et 3,5 buts (marchés sans cote publique dans les données), et pour juger si une cote Winamax — notamment boostée — dépasse la cote juste.
 
 Relancer le test : `python scripts/calibrate.py`.
+
+## Tennis (ATP, WTA, quelques Challengers)
+
+- **Données** : tableau des scores public d'ESPN (historique depuis 2024, score de chaque set), `scripts/tennis_collect.py`. Surface déduite du nom du tournoi.
+- **Modèle** (`scripts/tennis.py`) : Elo général + Elo par surface → probabilité de victoire ; simulation jeu par jeu → score en sets, au moins un set, match en 3 sets, total de jeux, handicap jeux.
+- **Test** (`scripts/tennis_calibrate.py`, 15 000 matchs 2025-26) : après correction apprise sur 2025, les probabilités 2026 sont bien calibrées sur tous les marchés (« 64 % annoncé → 64 % réel » sur le total de jeux). Le favori Elo gagne 64 % du temps, ce qui reste en dessous des bookmakers : aucune cote marché n'étant disponible gratuitement, toutes les cotes justes tennis viennent du modèle.
+- Joueurs avec moins de 8 matchs dans l'historique : match non analysé.

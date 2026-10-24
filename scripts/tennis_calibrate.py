@@ -57,7 +57,7 @@ def fit_bases(df: pd.DataFrame) -> dict:
         g = g.sample(min(len(g), 1500), random_state=1)
         target = g["tg"].mean()
         best, err = None, 1e9
-        for base in np.arange(0.55, 0.90, 0.01):
+        for base in np.arange(0.40, 0.92, 0.01):
             b = round(float(base), 2)
             pred = np.mean([mk(p, b, 3)[1]["jeux_attendus"] for p in g["p"]])
             if abs(pred - target) < err:
