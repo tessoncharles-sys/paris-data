@@ -14,7 +14,7 @@ for name in ("dashboard_foot.csv", "dashboard_tennis.csv", "dashboard_handball.c
 df = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
 cols = ["sport", "id", "date", "heure", "championnat", "match", "famille", "marche", "proba",
         "cote_juste", "cote_minimum", "cote_moyenne_marche", "source_cote", "fiabilite", "infos",
-        "lam_dom", "lam_ext", "lam_source", "explication"]
+        "lam_dom", "lam_ext", "lam_source", "explication", "signaux"]
 df = df.reindex(columns=cols)
 df.to_csv(OUT / "dashboard.csv", index=False)
 print(df.groupby("sport")["match"].nunique().to_dict() if len(df) else "vide")

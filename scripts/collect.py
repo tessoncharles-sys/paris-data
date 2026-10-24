@@ -115,11 +115,11 @@ def collect_api_football(today: dt.date) -> dict:
             json.dumps(data.get("response", []), ensure_ascii=False), encoding="utf-8"
         )
         report[d.isoformat()] = f"{data.get('results', 0)} matchs"
-    # ménage : on garde 7 jours de fichiers API
+    # ménage : on garde 60 jours de fichiers API
     for f in out.glob("fixtures_*.json"):
         try:
             d = dt.date.fromisoformat(f.stem.split("_", 1)[1])
-            if (today - d).days > 7:
+            if (today - d).days > 60:   # 60 jours gardés : sert au calcul des jours de repos
                 f.unlink()
         except ValueError:
             pass

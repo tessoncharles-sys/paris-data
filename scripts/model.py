@@ -13,6 +13,7 @@ Principe :
 from __future__ import annotations
 
 import datetime as dt
+import re
 from zoneinfo import ZoneInfo
 import io
 import json
@@ -363,6 +364,9 @@ def analyse(today: dt.date) -> dict:
                 "fiabilite": fiab, "marches": marches,
                 "forme": {"dom": team_form(hist, home, ref), "ext": team_form(hist, away, ref)},
             }
+            ko = pd.Timestamp(kickoff) if len(kickoff) > 10 else pd.Timestamp(kickoff + " 15:00")
+            sig = [x for x in (rest_signal(hist, home, div, ko), rest_signal(hist, away, div, ko)) if x]
+            m["signaux"] = " ; ".join(sig)
             matches.append(m)
 
             for mm in marches:
@@ -439,6 +443,121 @@ def famille(label: str) -> str:
     return "Autre"
 
 
+# ------------------------------------------------------------------ signaux : repos et rotation
+
+DIV_COUNTRY = {"E": "England", "SC": "Scotland", "D": "Germany", "I": "Italy", "SP": "Spain", "F": "France",
+               "N": "Netherlands", "B": "Belgium", "P": "Portugal", "T": "Turkey", "G": "Greece"}
+EURO = ("UEFA", "Champions League", "Europa", "Conference League")
+# Compétitions masculines prises en compte (identifiants API-Football) : championnats suivis, coupes nationales, coupes d'Europe
+COMPETITIONS = {39, 40, 41, 42, 45, 48, 179, 180, 181, 185, 78, 79, 81, 135, 136, 137, 140, 141, 143, 61, 62, 66,
+                88, 90, 144, 147, 94, 96, 97, 203, 206, 197, 199, 2, 3, 848, 531}
+JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+
+
+def _norm(name: str) -> str:
+    import unicodedata
+    n = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode().lower()
+    n = " " + n.replace("-", " ").replace(".", " ") + " "
+    for w in (" fc ", " cf ", " ac ", " afc ", " sc ", " ss ", " calcio ", " 1 ", " as ", " ogc ", " ud ", " cd ", " sd ", " kv "):
+        n = n.replace(w, " ")
+    return " ".join(n.split())
+
+
+_ARCHIVE = None
+
+
+def api_archive() -> pd.DataFrame:
+    """Matchs (toutes compétitions) archivés chaque jour depuis API-Football."""
+    global _ARCHIVE
+    if _ARCHIVE is None:
+        rows = []
+        for f in sorted((ROOT / "data" / "raw" / "api-football").glob("fixtures_*.json")):
+            try:
+                for x in json.loads(f.read_text(encoding="utf-8")):
+                    if x["league"]["id"] not in COMPETITIONS:
+                        continue
+                    d = pd.Timestamp(x["fixture"]["date"]).tz_convert("Europe/Paris")
+                    for side in ("home", "away"):
+                        rows.append({"team": x["teams"][side]["name"], "norm": _norm(x["teams"][side]["name"]),
+                                     "date": d, "competition": x["league"]["name"], "country": x["league"]["country"],
+                                     "league_id": x["league"]["id"]})
+            except (OSError, ValueError, KeyError):
+                continue
+        _ARCHIVE = pd.DataFrame(rows).drop_duplicates() if rows else pd.DataFrame(columns=["team", "norm", "date", "competition", "country", "league_id"])
+    return _ARCHIVE
+
+
+_MAP: dict = {}
+
+
+DIV_LEAGUE = {"E0": 39, "E1": 40, "E2": 41, "E3": 42, "SC0": 179, "SC1": 180, "D1": 78, "D2": 79, "I1": 135, "I2": 136,
+              "SP1": 140, "SP2": 141, "F1": 61, "F2": 62, "N1": 88, "B1": 144, "P1": 94, "T1": 203, "G1": 197}
+ABBR = {"st": "saint", "ath": "atletico", "man": "manchester", "sp": "sporting", "nott'm": "nottingham", "ein": "eintracht",
+        "m'gladbach": "monchengladbach", "wolves": "wolverhampton", "psg": "paris saint germain", "sheffield weds": "sheffield wednesday",
+        "qpr": "queens park rangers", "west brom": "west bromwich", "espanol": "espanyol", "sociedad": "real sociedad",
+        "betis": "real betis", "paris sg": "paris saint germain", "sp lisbon": "sporting cp", "ath bilbao": "athletic club",
+        "ath madrid": "atletico madrid", "leverkusen": "bayer leverkusen", "dortmund": "borussia dortmund"}
+
+
+def _expand(name: str) -> str:
+    n = _norm(name.replace("'", "'"))
+    low = name.lower()
+    if low in ABBR:
+        return _norm(ABBR[low])
+    return " ".join(ABBR.get(t, t) for t in n.split())
+
+
+def api_team(fd_name: str, div: str) -> str | None:
+    """Nom API-Football de l'équipe, cherché uniquement parmi les équipes du même championnat (pour éviter les erreurs)."""
+    import difflib
+    key = (fd_name, div)
+    if key not in _MAP:
+        arc = api_archive()
+        cand = arc[arc["league_id"] == DIV_LEAGUE.get(div)]
+        best, score, ties = None, 0.0, 0
+        target = _expand(fd_name)
+        ta = set(target.split())
+        for team in set(cand["team"]):
+            t = _norm(team)
+            tb = set(t.split())
+            # même nom, ou tous les mots du plus court contenus dans le plus long ; sinon quasi identique
+            sc = 1.0 if (ta and tb and (ta <= tb or tb <= ta)) else difflib.SequenceMatcher(None, target, t).ratio()
+            if sc > score:
+                best, score, ties = team, sc, 0
+            elif sc == score == 1.0:
+                ties += 1                         # deux équipes possibles : on préfère ne rien dire
+        _MAP[key] = best if score >= 0.88 and not ties else None
+    return _MAP[key]
+
+
+def rest_signal(hist: pd.DataFrame, team: str, div: str, kickoff: pd.Timestamp) -> str | None:
+    """Jours de repos avant le match et match européen proche (risque de rotation)."""
+    k = kickoff.tz_localize("Europe/Paris") if kickoff.tzinfo is None else kickoff
+    dates = []                                   # (date, compétition)
+    g = hist[((hist["HomeTeam"] == team) | (hist["AwayTeam"] == team))]
+    dates += [(pd.Timestamp(d).tz_localize("Europe/Paris") + pd.Timedelta(hours=15), "championnat") for d in g["Date"]]
+    at = api_team(team, div)
+    arc = api_archive()
+    nxt_euro = None
+    if at is not None and len(arc):
+        a = arc[arc["team"] == at]
+        dates += list(zip(a["date"], a["competition"]))
+        fut = a[(a["date"] > k + pd.Timedelta(hours=12)) & (a["date"] < k + pd.Timedelta(days=5)) & a["competition"].str.contains("|".join(EURO))]
+        if len(fut):
+            nxt_euro = fut.sort_values("date").iloc[0]
+    past = sorted([(d, c) for d, c in dates if d < k - pd.Timedelta(hours=12)], key=lambda x: x[0])
+    msgs = []
+    if past:
+        d, c = past[-1]
+        rest = (k.normalize() - d.normalize()).days
+        comp = "match européen" if any(e in str(c) for e in EURO) else ("championnat" if c == "championnat" else str(c))
+        if rest <= 3:
+            msgs.append(f"{team} : seulement {rest} jour{'s' if rest > 1 else ''} de repos (dernier match : {comp}, {JOURS[d.weekday()]})")
+    if nxt_euro is not None:
+        msgs.append(f"{team} joue en {nxt_euro['competition']} {JOURS[nxt_euro['date'].weekday()]} : risque de rotation")
+    return " ; ".join(msgs) if msgs else None
+
+
 def team_form(hist: pd.DataFrame, team: str, ref: pd.Timestamp, n: int = 10) -> dict | None:
     """Statistiques des n derniers matchs d'une équipe (toutes divisions collectées)."""
     g = hist[((hist["HomeTeam"] == team) | (hist["AwayTeam"] == team)) & (hist["Date"] < ref)]
@@ -488,8 +607,9 @@ def explain(label: str, m: dict, mm: dict) -> str:
                 parts.append(f"Moyenne de buts : {home} {fh['bm'] + fh['be']:.1f}/match, {away} {fa['bm'] + fa['be']:.1f}/match.")
         else:
             parts.append(f"Forme : {f(home, fh)}, {fh['bm']}-{fh['be']} buts/match ; {f(away, fa)}, {fa['bm']}-{fa['be']}.")
-    parts.append("Absences et compositions non vérifiées automatiquement.")
-    import re
+    if m.get("signaux"):
+        parts.append("Signal : " + m["signaux"] + ".")
+    parts.append("Absences et compositions : voir la vérification de contexte (6h, 12h, 18h).")
     return re.sub(r"(\d)\.(\d)", r"\1,\2", " ".join(parts))
 
 
@@ -517,6 +637,7 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "lam_dom": m["lambda_boost"]["dom"], "lam_ext": m["lambda_boost"]["ext"],
                 "lam_source": m["lambda_boost"]["source"],
                 "explication": explain(mm["marche"], m, mm),
+                "signaux": m.get("signaux", ""),
             })
     return pd.DataFrame(rows)
 

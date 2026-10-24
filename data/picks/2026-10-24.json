@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "genere_le": "2026-10-24T16:10:04+00:00",
+ "genere_le": "2026-10-24T16:28:34+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
@@ -322,7 +322,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Oud-Heverlee Leuven - Lommel SK",
@@ -629,7 +630,8 @@
      "o25": 3,
      "btts": 2
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "RAAL La Louviere - Waregem",
@@ -936,7 +938,8 @@
      "o25": 6,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Westerlo - Beveren",
@@ -1243,7 +1246,8 @@
      "o25": 5,
      "btts": 2
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Genk - Standard",
@@ -1550,7 +1554,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Club Brugge - St Truiden",
@@ -1857,7 +1862,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Gent - Anderlecht",
@@ -2164,7 +2170,8 @@
      "o25": 6,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "St. Gilloise - Cercle Brugge",
@@ -2471,7 +2478,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Augsburg - Union Berlin",
@@ -2778,7 +2786,8 @@
      "o25": 8,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "FC Koln - Schalke 04",
@@ -3085,7 +3094,8 @@
      "o25": 5,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Mainz - Werder Bremen",
@@ -3392,7 +3402,8 @@
      "o25": 6,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Paderborn - Hamburg",
@@ -3699,7 +3710,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "RB Leipzig - Elversberg",
@@ -4006,7 +4018,8 @@
      "o25": 8,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Dortmund - Ein Frankfurt",
@@ -4313,7 +4326,8 @@
      "o25": 8,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Hoffenheim - Leverkusen",
@@ -4620,7 +4634,8 @@
      "o25": 8,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Freiburg - Bayern Munich",
@@ -4927,7 +4942,8 @@
      "o25": 8,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Heidenheim - Cottbus",
@@ -5234,7 +5250,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Hertha - Bielefeld",
@@ -5541,7 +5558,8 @@
      "o25": 8,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Magdeburg - Karlsruhe",
@@ -5848,7 +5866,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Nurnberg - Kaiserslautern",
@@ -6155,7 +6174,8 @@
      "o25": 3,
      "btts": 1
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Braunschweig - Hannover",
@@ -6462,7 +6482,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Holstein Kiel - Dresden",
@@ -6769,7 +6790,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Osnabruck - Greuther Furth",
@@ -7076,7 +7098,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Aston Villa - Man City",
@@ -7383,7 +7406,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Arsenal - Everton",
@@ -7690,7 +7714,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Coventry - Fulham",
@@ -7997,7 +8022,8 @@
      "o25": 3,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Chelsea - Tottenham",
@@ -8304,7 +8330,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Crystal Palace - Newcastle",
@@ -8611,7 +8638,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Hull - Brentford",
@@ -8918,7 +8946,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Liverpool - Brighton",
@@ -9225,7 +9254,8 @@
      "o25": 7,
      "btts": 2
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Man United - Bournemouth",
@@ -9532,7 +9562,8 @@
      "o25": 4,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sunderland - Leeds",
@@ -9839,7 +9870,8 @@
      "o25": 3,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Charlton - Norwich",
@@ -10146,7 +10178,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Portsmouth - Millwall",
@@ -10453,7 +10486,8 @@
      "o25": 8,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sheffield United - Derby",
@@ -10760,7 +10794,8 @@
      "o25": 5,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Blackburn - Wrexham",
@@ -11067,7 +11102,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cardiff - Birmingham",
@@ -11374,7 +11410,8 @@
      "o25": 8,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Lincoln - Burnley",
@@ -11681,7 +11718,8 @@
      "o25": 7,
      "btts": 9
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Preston - West Brom",
@@ -11988,7 +12026,8 @@
      "o25": 4,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "QPR - Swansea",
@@ -12295,7 +12334,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Stoke - Bristol City",
@@ -12602,7 +12642,8 @@
      "o25": 5,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "West Ham - Southampton",
@@ -12909,7 +12950,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Wolves - Watford",
@@ -13216,7 +13258,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Huddersfield - Wigan",
@@ -13523,7 +13566,8 @@
      "o25": 4,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Luton - Leicester",
@@ -13830,7 +13874,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "AFC Wimbledon - Wycombe",
@@ -14137,7 +14182,8 @@
      "o25": 7,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Blackpool - Mansfield",
@@ -14444,7 +14490,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Bromley - Peterboro",
@@ -14751,7 +14798,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Burton - Leyton Orient",
@@ -15058,7 +15106,8 @@
      "o25": 3,
      "btts": 3
     }
-   }
+   },
+   "signaux": "Leyton Orient : seulement 3 jours de repos (dernier match : championnat, mercredi)"
   },
   {
    "match": "Cambridge - Plymouth",
@@ -15365,7 +15414,8 @@
      "o25": 5,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Doncaster - Sheffield Weds",
@@ -15672,7 +15722,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Notts County - Stockport",
@@ -15979,7 +16030,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Oxford - Bradford",
@@ -16286,7 +16338,8 @@
      "o25": 1,
      "btts": 2
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Reading - Barnsley",
@@ -16593,7 +16646,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": "Reading : seulement 3 jours de repos (dernier match : championnat, mercredi)"
   },
   {
    "match": "Stevenage - Milton Keynes Dons",
@@ -16900,7 +16954,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Bristol Rvs - Swindon",
@@ -17207,7 +17262,8 @@
      "o25": 5,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cheltenham - Newport County",
@@ -17514,7 +17570,8 @@
      "o25": 4,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Northampton - Colchester",
@@ -17821,7 +17878,8 @@
      "o25": 3,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Barnet - Oldham",
@@ -18128,7 +18186,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Chesterfield - Crewe",
@@ -18435,7 +18494,8 @@
      "o25": 3,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Crawley Town - Tranmere",
@@ -18742,7 +18802,8 @@
      "o25": 4,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Exeter - Fleetwood Town",
@@ -19049,7 +19110,8 @@
      "o25": 4,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Gillingham - Grimsby",
@@ -19356,7 +19418,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Rochdale - Accrington",
@@ -19663,7 +19726,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Rotherham - Shrewsbury",
@@ -19970,7 +20034,8 @@
      "o25": 4,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "York - Port Vale",
@@ -20277,7 +20342,8 @@
      "o25": 1,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Lens - Paris FC",
@@ -20584,7 +20650,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Monaco - Lille",
@@ -20891,7 +20958,8 @@
      "o25": 2,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Angers - Lorient",
@@ -21198,7 +21266,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Auxerre - Le Mans",
@@ -21505,7 +21574,8 @@
      "o25": 6,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Marseille - Le Havre",
@@ -21812,7 +21882,8 @@
      "o25": 3,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Rennes - Strasbourg",
@@ -22119,7 +22190,8 @@
      "o25": 8,
      "btts": 9
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Toulouse - Troyes",
@@ -22426,7 +22498,8 @@
      "o25": 5,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Dijon - Rodez",
@@ -22733,7 +22806,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "St Etienne - Nantes",
@@ -23040,7 +23114,8 @@
      "o25": 5,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Iraklis - Kifisia",
@@ -23347,7 +23422,8 @@
      "o25": 5,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Asteras Tripolis - Levadeiakos",
@@ -23654,7 +23730,8 @@
      "o25": 4,
      "btts": 1
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "AEK - Panetolikos",
@@ -23961,7 +24038,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Olympiakos - Kalamata",
@@ -24268,7 +24346,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Volos NFC - Panathinaikos",
@@ -24575,7 +24654,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Aris - Atromitos",
@@ -24882,7 +24962,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "OFI Crete - PAOK",
@@ -25189,7 +25270,8 @@
      "o25": 7,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cagliari - Bologna",
@@ -25496,7 +25578,8 @@
      "o25": 5,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Como - Sassuolo",
@@ -25803,7 +25886,8 @@
      "o25": 8,
      "btts": 9
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Napoli - Roma",
@@ -26110,7 +26194,8 @@
      "o25": 5,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Lazio - Parma",
@@ -26417,7 +26502,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Inter - Fiorentina",
@@ -26724,7 +26810,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Atalanta - Frosinone",
@@ -27031,7 +27118,8 @@
      "o25": 6,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Genoa - Venezia",
@@ -27338,7 +27426,8 @@
      "o25": 4,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Lecce - Juventus",
@@ -27645,7 +27734,8 @@
      "o25": 3,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Udinese - Milan",
@@ -27952,7 +28042,8 @@
      "o25": 7,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Avellino - Padova",
@@ -28259,7 +28350,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cremonese - Juve Stabia",
@@ -28566,7 +28658,8 @@
      "o25": 3,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Modena - Cesena",
@@ -28873,7 +28966,8 @@
      "o25": 3,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sudtirol - Sampdoria",
@@ -29180,7 +29274,8 @@
      "o25": 5,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Virtus Entella - Mantova",
@@ -29487,7 +29582,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Catanzaro - Ascoli",
@@ -29794,7 +29890,8 @@
      "o25": 2,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Arezzo - Benevento",
@@ -30101,7 +30198,8 @@
      "o25": 3,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Palermo - Carrarese",
@@ -30408,7 +30506,8 @@
      "o25": 4,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Verona - Pisa",
@@ -30715,7 +30814,8 @@
      "o25": 9,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Utrecht - Zwolle",
@@ -31022,7 +31122,8 @@
      "o25": 6,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Willem II - Cambuur",
@@ -31329,7 +31430,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Den Haag - Heerenveen",
@@ -31636,7 +31738,8 @@
      "o25": 5,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "For Sittard - Excelsior",
@@ -31943,7 +32046,8 @@
      "o25": 10,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Nijmegen - Groningen",
@@ -32250,7 +32354,8 @@
      "o25": 9,
      "btts": 9
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "PSV Eindhoven - Feyenoord",
@@ -32557,7 +32662,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sparta Rotterdam - Ajax",
@@ -32864,7 +32970,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "AZ Alkmaar - Twente",
@@ -33171,7 +33278,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Estrela - Casa Pia",
@@ -33478,7 +33586,8 @@
      "o25": 3,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Alverca - Arouca",
@@ -33785,7 +33894,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Gil Vicente - Porto",
@@ -34092,7 +34202,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Estoril - Moreirense",
@@ -34399,7 +34510,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Nacional - Sp Braga",
@@ -34706,7 +34818,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Rio Ave - Famalicao",
@@ -35013,7 +35126,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sp Lisbon - Academico Viseu",
@@ -35320,7 +35434,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Dundee United - Aberdeen",
@@ -35627,7 +35742,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Falkirk - Kilmarnock",
@@ -35934,7 +36050,8 @@
      "o25": 6,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Rangers - St Johnstone",
@@ -36241,7 +36358,8 @@
      "o25": 3,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "St Mirren - Dundee",
@@ -36548,7 +36666,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Hibernian - Celtic",
@@ -36855,7 +36974,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Motherwell - Hearts",
@@ -37162,7 +37282,8 @@
      "o25": 9,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Livingston - Arbroath",
@@ -37469,7 +37590,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Morton - Ayr",
@@ -37776,7 +37898,8 @@
      "o25": 2,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Partick - Stenhousemuir",
@@ -38083,7 +38206,8 @@
      "o25": 1,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Queens Park - Dunfermline",
@@ -38390,7 +38514,8 @@
      "o25": 0,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Raith Rvs - Inverness C",
@@ -38697,7 +38822,8 @@
      "o25": 4,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Vallecano - Elche",
@@ -39004,7 +39130,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Santander - Espanol",
@@ -39311,7 +39438,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Valencia - Villarreal",
@@ -39618,7 +39746,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Ath Madrid - La Coruna",
@@ -39925,7 +40054,8 @@
      "o25": 4,
      "btts": 9
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Ath Bilbao - Getafe",
@@ -40232,7 +40362,8 @@
      "o25": 2,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Celta - Betis",
@@ -40539,7 +40670,8 @@
      "o25": 5,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sociedad - Levante",
@@ -40846,7 +40978,8 @@
      "o25": 7,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Barcelona - Real Madrid",
@@ -41153,7 +41286,8 @@
      "o25": 8,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cordoba - Eibar",
@@ -41460,7 +41594,8 @@
      "o25": 7,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Leganes - Mallorca",
@@ -41767,7 +41902,8 @@
      "o25": 2,
      "btts": 2
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Girona - Celta B",
@@ -42074,7 +42210,8 @@
      "o25": 5,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Las Palmas - Sociedad B",
@@ -42381,7 +42518,8 @@
      "o25": 7,
      "btts": 8
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Almeria - Oviedo",
@@ -42688,7 +42826,8 @@
      "o25": 5,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Sabadell - Tenerife",
@@ -42995,7 +43134,8 @@
      "o25": 3,
      "btts": 6
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Albacete - Eldense",
@@ -43302,7 +43442,8 @@
      "o25": 6,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Cadiz - Ceuta",
@@ -43609,7 +43750,8 @@
      "o25": 6,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Castellon - Sp Gijon",
@@ -43916,7 +44058,8 @@
      "o25": 3,
      "btts": 3
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Eyupspor - Kasimpasa",
@@ -44223,7 +44366,8 @@
      "o25": 5,
      "btts": 7
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Gaziantep - Erzurumspor",
@@ -44530,7 +44674,8 @@
      "o25": 3,
      "btts": 1
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Samsunspor - Amedspor",
@@ -44837,7 +44982,8 @@
      "o25": 6,
      "btts": 4
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Konyaspor - Genclerbirligi",
@@ -45144,7 +45290,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   },
   {
    "match": "Goztep - Corum",
@@ -45451,7 +45598,8 @@
      "o25": 7,
      "btts": 5
     }
-   }
+   },
+   "signaux": ""
   }
  ],
  "selection": [

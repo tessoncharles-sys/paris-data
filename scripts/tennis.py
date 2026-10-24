@@ -372,6 +372,34 @@ def player_form(matches: pd.DataFrame, pid: str, n: int = 10) -> dict | None:
             "tb": tb, "jeux": round(float(np.mean(games)), 1)}
 
 
+def fatigue_load(matches: pd.DataFrame, pid: str, kickoff: pd.Timestamp) -> dict:
+    """Charge des 3 derniers jours : nombre de matchs, jeux joués, abandon au dernier match."""
+    k = kickoff.tz_convert("UTC") if kickoff.tzinfo else kickoff.tz_localize("UTC")
+    g = matches[((matches["p1_id"] == pid) | (matches["p2_id"] == pid)) & (matches["date"] < k - pd.Timedelta(hours=2))]
+    if g.empty:
+        return {"n": 0, "jeux": 0, "abandon": False}
+    last = g.iloc[-1]
+    me = 1 if last["p1_id"] == pid else 2
+    recent = g[g["date"] >= k - pd.Timedelta(days=3)]
+    return {"n": len(recent), "jeux": sum(sum(x + y for x, y in parse_sets(s)) for s in recent["sets"]),
+            "abandon": last["status"] == "STATUS_RETIRED" and last["winner"] != me}
+
+
+def fatigue_signal(matches: pd.DataFrame, a: tuple, b: tuple, kickoff: pd.Timestamp) -> str:
+    """Ne signale que ce qui distingue les deux joueurs (jouer tous les jours est normal en tournoi)."""
+    la, lb = fatigue_load(matches, a[0], kickoff), fatigue_load(matches, b[0], kickoff)
+    msgs = []
+    for (pid, name), l in ((a, la), (b, lb)):
+        if l["abandon"]:
+            msgs.append(f"{name} a abandonné lors de son dernier match")
+    for (na, l1), (nb, l2) in (((a[1], la), (b[1], lb)), ((b[1], lb), (a[1], la))):
+        if l1["jeux"] - l2["jeux"] >= 15:
+            msgs.append(f"{na} a joué {l1['jeux']} jeux en 3 jours contre {l2['jeux']} pour {nb}")
+        if l1["n"] >= 3 and l2["n"] < 3:
+            msgs.append(f"{na} dispute son {l1['n'] + 1}e match en 4 jours")
+    return " ; ".join(msgs)
+
+
 def explain_tennis(label: str, pc: float, fair: float, a: str, b: str, fa: dict | None, fb: dict | None,
                    surf: str, p_fav: float, fav: str) -> str:
     parts = [f"Proba {pc:.0%} (modèle Elo + simulation jeu par jeu, calibré sur 15 000 matchs) → cote juste {fair:.2f}. "
@@ -384,7 +412,7 @@ def explain_tennis(label: str, pc: float, fair: float, a: str, b: str, fa: dict 
         elif "jeux" in label:
             parts.append(f"Jeux par match sur 10 matchs : {a} {fa['jeux']}, {b} {fb['jeux']}.")
     parts.append("Limite : le modèle ne connaît pas les statistiques de service de chaque joueur ; "
-                 "blessures et fatigue non vérifiées automatiquement.")
+                 "blessures et forfaits : voir la vérification de contexte (6h, 12h, 18h).")
     import re
     return re.sub(r"(\d)\.(\d)", r"\1,\2", " ".join(parts))
 
@@ -418,6 +446,8 @@ def predict_today() -> list[dict]:
         p_fav = calibrate("Vainqueur", max(p, 1 - p), coefs)
         fav = r.p1 if p >= 0.5 else r.p2
         fa, fb = player_form(matches, r.p1_id), player_form(matches, r.p2_id)
+        ko = pd.Timestamp(r.date)
+        signaux = fatigue_signal(matches, (r.p1_id, r.p1), (r.p2_id, r.p2), ko)
         infos = f"{'Dur en salle' if surf == 'salle' else surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
         for label, praw in mk.items():
             key = calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
@@ -435,7 +465,9 @@ def predict_today() -> list[dict]:
                 "cote_minimum": round(fair * (1 + CONFIG["marge_value"]), 2),
                 "cote_moyenne_marche": None, "source_cote": "modèle", "fiabilite": fiab,
                 "infos": infos,
-                "explication": explain_tennis(label, pc, fair, r.p1, r.p2, fa, fb, surf, p_fav, fav),
+                "explication": explain_tennis(label, pc, fair, r.p1, r.p2, fa, fb, surf, p_fav, fav)
+                               + (f" Signal : {signaux}." if signaux else ""),
+                "signaux": signaux,
             })
     return rows
 

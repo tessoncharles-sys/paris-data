@@ -91,17 +91,25 @@ def collect() -> tuple[list, dict]:
     if len(allr):
         allr.drop_duplicates(subset=["id"], keep="last").sort_values("date").to_csv(hist_f, index=False)
 
-    # cotes des matchs à venir, par priorité de championnat
+    # cotes des matchs à venir. Trois passages par jour se partagent le quota de 100 requêtes :
+    # matin 40, midi 22, soir 20 (+ 3 appels de calendrier par passage).
     upcoming = [g for g in games if g["status"]["short"] == "NS"]
+    now = dt.datetime.now(PARIS)
+    budget = 40 if now.hour < 9 else 22 if now.hour < 15 else 20
+    cache_f = RAW / "odds.json"
+    cache = json.loads(cache_f.read_text()) if cache_f.exists() else {}
+    up_ids = {str(g["id"]) for g in upcoming}
+    cache = {k: v for k, v in cache.items() if k in up_ids}       # on garde les cotes des matchs encore à venir
     order = {lid: i for i, lid in enumerate(LEAGUES)}
-    upcoming.sort(key=lambda g: (order[g["league"]["id"]], g["date"]))
+    # priorité : matchs sans cotes, puis championnat, puis heure du match
+    upcoming.sort(key=lambda g: (str(g["id"]) in cache, order[g["league"]["id"]], g["date"]))
     # quota restant du jour (l'appel /status ne compte pas)
-    left = MAX_ODDS_CALLS
+    left = min(MAX_ODDS_CALLS, budget)
     st = api("/status")
     if isinstance(st, dict):
         req = st.get("requests", {})
-        left = max(0, min(MAX_ODDS_CALLS, req.get("limit_day", 100) - req.get("current", 0) - 2))
-    odds = {}
+        left = max(0, min(left, req.get("limit_day", 100) - req.get("current", 0) - 2))
+    odds = dict(cache)
     for g in upcoming[:left]:
         resp = api("/odds", game=g["id"])
         if resp:

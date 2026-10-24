@@ -2,7 +2,11 @@ name: Collecte et analyse quotidiennes
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # chaque jour vers 6h-7h (heure de Paris)
+    # 3 passages par jour, avant les vérifications Claude de 6h, 12h et 18h
+    # (heures UTC : 4h23/10h23/16h23 à Paris l'hiver, 5h23/11h23/17h23 l'été)
+    - cron: "23 3 * * *"
+    - cron: "23 9 * * *"
+    - cron: "23 15 * * *"
   workflow_dispatch: {}     # bouton "Run workflow" pour lancer à la main
 
 permissions:
@@ -53,5 +57,5 @@ jobs:
           git config user.name "paris-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Données du $(date +%F)"
-          git push
+          git diff --cached --quiet || git commit -m "Données du $(date +%F) $(date +%H)h UTC"
+          git pull --rebase -q origin main && git push
