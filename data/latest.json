@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "genere_le": "2026-10-24T13:33:36+00:00",
+ "genere_le": "2026-10-24T15:34:49+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
@@ -25,6 +25,11 @@
    "buts_attendus": {
     "dom": 1.16,
     "ext": 1.61
+   },
+   "lambda_boost": {
+    "dom": 1.171,
+    "ext": 1.827,
+    "source": "marché"
    },
    "corners_attendus": 10.2,
    "cartons_attendus": 4.0,
@@ -302,6 +307,11 @@
     "dom": 0.94,
     "ext": 0.99
    },
+   "lambda_boost": {
+    "dom": 1.789,
+    "ext": 1.261,
+    "source": "marché"
+   },
    "corners_attendus": 12.3,
    "cartons_attendus": 3.4,
    "fiabilite": "moyenne",
@@ -577,6 +587,11 @@
    "buts_attendus": {
     "dom": 1.15,
     "ext": 1.51
+   },
+   "lambda_boost": {
+    "dom": 1.25,
+    "ext": 1.443,
+    "source": "marché"
    },
    "corners_attendus": 9.0,
    "cartons_attendus": 3.5,
@@ -854,6 +869,11 @@
     "dom": 2.47,
     "ext": 0.97
    },
+   "lambda_boost": {
+    "dom": 1.82,
+    "ext": 1.468,
+    "source": "marché"
+   },
    "corners_attendus": 9.7,
    "cartons_attendus": 3.3,
    "fiabilite": "moyenne",
@@ -1129,6 +1149,11 @@
    "buts_attendus": {
     "dom": 1.71,
     "ext": 1.06
+   },
+   "lambda_boost": {
+    "dom": 1.896,
+    "ext": 1.17,
+    "source": "marché"
    },
    "corners_attendus": 10.5,
    "cartons_attendus": 3.3,
@@ -1406,6 +1431,11 @@
     "dom": 2.4,
     "ext": 1.04
    },
+   "lambda_boost": {
+    "dom": 2.583,
+    "ext": 1.081,
+    "source": "marché"
+   },
    "corners_attendus": 10.7,
    "cartons_attendus": 3.3,
    "fiabilite": "bonne",
@@ -1681,6 +1711,11 @@
    "buts_attendus": {
     "dom": 1.45,
     "ext": 1.08
+   },
+   "lambda_boost": {
+    "dom": 1.364,
+    "ext": 1.176,
+    "source": "marché"
    },
    "corners_attendus": 10.0,
    "cartons_attendus": 4.0,
@@ -1958,6 +1993,11 @@
     "dom": 2.54,
     "ext": 0.71
    },
+   "lambda_boost": {
+    "dom": 2.44,
+    "ext": 0.898,
+    "source": "marché"
+   },
    "corners_attendus": 10.0,
    "cartons_attendus": 3.8,
    "fiabilite": "bonne",
@@ -2233,6 +2273,11 @@
    "buts_attendus": {
     "dom": 2.34,
     "ext": 1.24
+   },
+   "lambda_boost": {
+    "dom": 1.937,
+    "ext": 1.324,
+    "source": "marché"
    },
    "corners_attendus": 11.0,
    "cartons_attendus": 4.4,
@@ -2510,6 +2555,11 @@
     "dom": 1.44,
     "ext": 0.89
    },
+   "lambda_boost": {
+    "dom": 1.733,
+    "ext": 1.344,
+    "source": "marché"
+   },
    "corners_attendus": 10.3,
    "cartons_attendus": 3.1,
    "fiabilite": "moyenne",
@@ -2785,6 +2835,11 @@
    "buts_attendus": {
     "dom": 2.08,
     "ext": 1.33
+   },
+   "lambda_boost": {
+    "dom": 1.971,
+    "ext": 1.208,
+    "source": "marché"
    },
    "corners_attendus": 9.1,
    "cartons_attendus": 3.8,
@@ -3062,6 +3117,11 @@
     "dom": 1.29,
     "ext": 1.2
    },
+   "lambda_boost": {
+    "dom": 1.673,
+    "ext": 1.44,
+    "source": "marché"
+   },
    "corners_attendus": 10.3,
    "cartons_attendus": 3.0,
    "fiabilite": "moyenne",
@@ -3337,6 +3397,11 @@
    "buts_attendus": {
     "dom": 2.57,
     "ext": 1.52
+   },
+   "lambda_boost": {
+    "dom": 2.62,
+    "ext": 1.245,
+    "source": "marché"
    },
    "corners_attendus": 13.5,
    "cartons_attendus": 2.9,
@@ -3614,6 +3679,11 @@
     "dom": 2.43,
     "ext": 0.89
    },
+   "lambda_boost": {
+    "dom": 2.447,
+    "ext": 1.194,
+    "source": "marché"
+   },
    "corners_attendus": 8.8,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -3889,6 +3959,11 @@
    "buts_attendus": {
     "dom": 1.81,
     "ext": 1.84
+   },
+   "lambda_boost": {
+    "dom": 1.689,
+    "ext": 1.848,
+    "source": "marché"
    },
    "corners_attendus": 10.1,
    "cartons_attendus": 4.2,
@@ -4166,6 +4241,11 @@
     "dom": 1.29,
     "ext": 2.38
    },
+   "lambda_boost": {
+    "dom": 1.257,
+    "ext": 2.775,
+    "source": "marché"
+   },
    "corners_attendus": 8.3,
    "cartons_attendus": 3.0,
    "fiabilite": "bonne",
@@ -4441,6 +4521,11 @@
    "buts_attendus": {
     "dom": 2.5,
     "ext": 1.85
+   },
+   "lambda_boost": {
+    "dom": 2.324,
+    "ext": 1.518,
+    "source": "marché"
    },
    "corners_attendus": 14.6,
    "cartons_attendus": 4.3,
@@ -4718,6 +4803,11 @@
     "dom": 1.9,
     "ext": 1.19
    },
+   "lambda_boost": {
+    "dom": 1.929,
+    "ext": 1.264,
+    "source": "marché"
+   },
    "corners_attendus": 10.8,
    "cartons_attendus": 4.4,
    "fiabilite": "bonne",
@@ -4993,6 +5083,11 @@
    "buts_attendus": {
     "dom": 2.28,
     "ext": 1.41
+   },
+   "lambda_boost": {
+    "dom": 1.994,
+    "ext": 1.322,
+    "source": "marché"
    },
    "corners_attendus": 9.3,
    "cartons_attendus": 4.1,
@@ -5270,6 +5365,11 @@
     "dom": 1.66,
     "ext": 1.07
    },
+   "lambda_boost": {
+    "dom": 1.813,
+    "ext": 1.37,
+    "source": "marché"
+   },
    "corners_attendus": 9.8,
    "cartons_attendus": 4.4,
    "fiabilite": "bonne",
@@ -5545,6 +5645,11 @@
    "buts_attendus": {
     "dom": 1.61,
     "ext": 1.44
+   },
+   "lambda_boost": {
+    "dom": 1.573,
+    "ext": 1.754,
+    "source": "marché"
    },
    "corners_attendus": 11.2,
    "cartons_attendus": 4.6,
@@ -5822,6 +5927,11 @@
     "dom": 1.25,
     "ext": 1.19
    },
+   "lambda_boost": {
+    "dom": 1.64,
+    "ext": 1.451,
+    "source": "marché"
+   },
    "corners_attendus": 10.5,
    "cartons_attendus": 5.6,
    "fiabilite": "bonne",
@@ -6097,6 +6207,11 @@
    "buts_attendus": {
     "dom": 1.69,
     "ext": 1.5
+   },
+   "lambda_boost": {
+    "dom": 1.65,
+    "ext": 1.435,
+    "source": "marché"
    },
    "corners_attendus": 10.1,
    "cartons_attendus": 4.0,
@@ -6374,6 +6489,11 @@
     "dom": 1.21,
     "ext": 1.81
    },
+   "lambda_boost": {
+    "dom": 1.147,
+    "ext": 2.067,
+    "source": "marché"
+   },
    "corners_attendus": 9.7,
    "cartons_attendus": 4.1,
    "fiabilite": "bonne",
@@ -6649,6 +6769,11 @@
    "buts_attendus": {
     "dom": 1.7,
     "ext": 0.68
+   },
+   "lambda_boost": {
+    "dom": 1.985,
+    "ext": 0.762,
+    "source": "marché"
    },
    "corners_attendus": 9.0,
    "cartons_attendus": 3.8,
@@ -6926,6 +7051,11 @@
     "dom": 1.16,
     "ext": 1.28
    },
+   "lambda_boost": {
+    "dom": 1.31,
+    "ext": 1.558,
+    "source": "marché"
+   },
    "corners_attendus": 8.6,
    "cartons_attendus": 2.4,
    "fiabilite": "moyenne",
@@ -7201,6 +7331,11 @@
    "buts_attendus": {
     "dom": 1.88,
     "ext": 1.22
+   },
+   "lambda_boost": {
+    "dom": 2.016,
+    "ext": 1.202,
+    "source": "marché"
    },
    "corners_attendus": 11.2,
    "cartons_attendus": 5.5,
@@ -7478,6 +7613,11 @@
     "dom": 1.61,
     "ext": 1.54
    },
+   "lambda_boost": {
+    "dom": 1.439,
+    "ext": 1.629,
+    "source": "marché"
+   },
    "corners_attendus": 9.8,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -7753,6 +7893,11 @@
    "buts_attendus": {
     "dom": 1.21,
     "ext": 1.22
+   },
+   "lambda_boost": {
+    "dom": 1.082,
+    "ext": 1.895,
+    "source": "marché"
    },
    "corners_attendus": 10.1,
    "cartons_attendus": 3.9,
@@ -8030,6 +8175,11 @@
     "dom": 1.36,
     "ext": 1.55
    },
+   "lambda_boost": {
+    "dom": 1.749,
+    "ext": 1.403,
+    "source": "marché"
+   },
    "corners_attendus": 10.9,
    "cartons_attendus": 4.4,
    "fiabilite": "bonne",
@@ -8305,6 +8455,11 @@
    "buts_attendus": {
     "dom": 1.86,
     "ext": 1.27
+   },
+   "lambda_boost": {
+    "dom": 1.689,
+    "ext": 1.341,
+    "source": "marché"
    },
    "corners_attendus": 9.8,
    "cartons_attendus": 4.6,
@@ -8582,6 +8737,11 @@
     "dom": 1.16,
     "ext": 1.19
    },
+   "lambda_boost": {
+    "dom": 1.141,
+    "ext": 1.328,
+    "source": "marché"
+   },
    "corners_attendus": 8.4,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -8857,6 +9017,11 @@
    "buts_attendus": {
     "dom": 1.09,
     "ext": 1.47
+   },
+   "lambda_boost": {
+    "dom": 1.207,
+    "ext": 1.491,
+    "source": "marché"
    },
    "corners_attendus": 9.0,
    "cartons_attendus": 4.0,
@@ -9134,6 +9299,11 @@
     "dom": 1.19,
     "ext": 1.25
    },
+   "lambda_boost": {
+    "dom": 1.339,
+    "ext": 1.241,
+    "source": "marché"
+   },
    "corners_attendus": 12.1,
    "cartons_attendus": 4.4,
    "fiabilite": "bonne",
@@ -9409,6 +9579,11 @@
    "buts_attendus": {
     "dom": 1.64,
     "ext": 1.16
+   },
+   "lambda_boost": {
+    "dom": 1.712,
+    "ext": 1.065,
+    "source": "marché"
    },
    "corners_attendus": 10.6,
    "cartons_attendus": 4.7,
@@ -9686,6 +9861,11 @@
     "dom": 1.28,
     "ext": 1.14
    },
+   "lambda_boost": {
+    "dom": 1.221,
+    "ext": 1.232,
+    "source": "marché"
+   },
    "corners_attendus": 10.2,
    "cartons_attendus": 3.4,
    "fiabilite": "bonne",
@@ -9961,6 +10141,11 @@
    "buts_attendus": {
     "dom": 1.63,
     "ext": 1.77
+   },
+   "lambda_boost": {
+    "dom": 1.508,
+    "ext": 1.606,
+    "source": "marché"
    },
    "corners_attendus": 11.9,
    "cartons_attendus": 4.0,
@@ -10238,6 +10423,11 @@
     "dom": 1.28,
     "ext": 1.62
    },
+   "lambda_boost": {
+    "dom": 1.269,
+    "ext": 1.441,
+    "source": "marché"
+   },
    "corners_attendus": 10.2,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -10513,6 +10703,11 @@
    "buts_attendus": {
     "dom": 0.95,
     "ext": 1.37
+   },
+   "lambda_boost": {
+    "dom": 1.105,
+    "ext": 1.595,
+    "source": "marché"
    },
    "corners_attendus": 10.5,
    "cartons_attendus": 3.2,
@@ -10790,6 +10985,11 @@
     "dom": 1.3,
     "ext": 1.21
    },
+   "lambda_boost": {
+    "dom": 1.372,
+    "ext": 1.272,
+    "source": "marché"
+   },
    "corners_attendus": 8.8,
    "cartons_attendus": 3.5,
    "fiabilite": "bonne",
@@ -11065,6 +11265,11 @@
    "buts_attendus": {
     "dom": 1.3,
     "ext": 1.15
+   },
+   "lambda_boost": {
+    "dom": 1.392,
+    "ext": 1.198,
+    "source": "marché"
    },
    "corners_attendus": 10.3,
    "cartons_attendus": 3.7,
@@ -11342,6 +11547,11 @@
     "dom": 2.15,
     "ext": 1.25
    },
+   "lambda_boost": {
+    "dom": 2.058,
+    "ext": 1.235,
+    "source": "marché"
+   },
    "corners_attendus": 10.5,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -11617,6 +11827,11 @@
    "buts_attendus": {
     "dom": 1.96,
     "ext": 1.01
+   },
+   "lambda_boost": {
+    "dom": 2.247,
+    "ext": 0.83,
+    "source": "marché"
    },
    "corners_attendus": 10.7,
    "cartons_attendus": 5.5,
@@ -11894,6 +12109,11 @@
     "dom": 1.85,
     "ext": 0.76
    },
+   "lambda_boost": {
+    "dom": 2.279,
+    "ext": 0.827,
+    "source": "marché"
+   },
    "corners_attendus": 10.3,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -12169,6 +12389,11 @@
    "buts_attendus": {
     "dom": 1.89,
     "ext": 1.5
+   },
+   "lambda_boost": {
+    "dom": 1.734,
+    "ext": 1.506,
+    "source": "marché"
    },
    "corners_attendus": 12.7,
    "cartons_attendus": 4.0,
@@ -12446,6 +12671,11 @@
     "dom": 1.1,
     "ext": 1.83
    },
+   "lambda_boost": {
+    "dom": 1.103,
+    "ext": 1.699,
+    "source": "marché"
+   },
    "corners_attendus": 11.3,
    "cartons_attendus": 3.1,
    "fiabilite": "bonne",
@@ -12721,6 +12951,11 @@
    "buts_attendus": {
     "dom": 1.19,
     "ext": 1.45
+   },
+   "lambda_boost": {
+    "dom": 1.414,
+    "ext": 1.508,
+    "source": "marché"
    },
    "corners_attendus": 10.5,
    "cartons_attendus": 3.7,
@@ -12998,6 +13233,11 @@
     "dom": 1.29,
     "ext": 2.08
    },
+   "lambda_boost": {
+    "dom": 1.466,
+    "ext": 1.825,
+    "source": "marché"
+   },
    "corners_attendus": 9.3,
    "cartons_attendus": 3.8,
    "fiabilite": "bonne",
@@ -13273,6 +13513,11 @@
    "buts_attendus": {
     "dom": 1.35,
     "ext": 1.16
+   },
+   "lambda_boost": {
+    "dom": 1.32,
+    "ext": 1.314,
+    "source": "marché"
    },
    "corners_attendus": 9.7,
    "cartons_attendus": 4.1,
@@ -13550,6 +13795,11 @@
     "dom": 1.6,
     "ext": 1.46
    },
+   "lambda_boost": {
+    "dom": 1.531,
+    "ext": 1.403,
+    "source": "marché"
+   },
    "corners_attendus": 14.0,
    "cartons_attendus": 4.0,
    "fiabilite": "bonne",
@@ -13825,6 +14075,11 @@
    "buts_attendus": {
     "dom": 1.01,
     "ext": 1.72
+   },
+   "lambda_boost": {
+    "dom": 1.431,
+    "ext": 1.529,
+    "source": "marché"
    },
    "corners_attendus": 10.6,
    "cartons_attendus": 3.9,
@@ -14102,6 +14357,11 @@
     "dom": 1.03,
     "ext": 1.21
    },
+   "lambda_boost": {
+    "dom": 0.923,
+    "ext": 1.861,
+    "source": "marché"
+   },
    "corners_attendus": 8.4,
    "cartons_attendus": 4.3,
    "fiabilite": "bonne",
@@ -14377,6 +14637,11 @@
    "buts_attendus": {
     "dom": 1.26,
     "ext": 0.98
+   },
+   "lambda_boost": {
+    "dom": 1.279,
+    "ext": 1.317,
+    "source": "marché"
    },
    "corners_attendus": 12.5,
    "cartons_attendus": 6.4,
@@ -14654,6 +14919,11 @@
     "dom": 1.97,
     "ext": 1.22
    },
+   "lambda_boost": {
+    "dom": 2.162,
+    "ext": 1.207,
+    "source": "marché"
+   },
    "corners_attendus": 10.9,
    "cartons_attendus": 3.7,
    "fiabilite": "bonne",
@@ -14929,6 +15199,11 @@
    "buts_attendus": {
     "dom": 1.7,
     "ext": 0.69
+   },
+   "lambda_boost": {
+    "dom": 1.48,
+    "ext": 1.048,
+    "source": "marché"
    },
    "corners_attendus": 8.4,
    "cartons_attendus": 2.5,
@@ -15206,6 +15481,11 @@
     "dom": 1.65,
     "ext": 1.14
    },
+   "lambda_boost": {
+    "dom": 1.996,
+    "ext": 1.03,
+    "source": "marché"
+   },
    "corners_attendus": 11.9,
    "cartons_attendus": 3.3,
    "fiabilite": "bonne",
@@ -15481,6 +15761,11 @@
    "buts_attendus": {
     "dom": 1.54,
     "ext": 1.31
+   },
+   "lambda_boost": {
+    "dom": 1.353,
+    "ext": 1.314,
+    "source": "marché"
    },
    "corners_attendus": 8.9,
    "cartons_attendus": 4.3,
@@ -15758,6 +16043,11 @@
     "dom": 0.92,
     "ext": 0.72
    },
+   "lambda_boost": {
+    "dom": 1.431,
+    "ext": 1.0,
+    "source": "marché"
+   },
    "corners_attendus": 9.1,
    "cartons_attendus": 3.5,
    "fiabilite": "bonne",
@@ -16033,6 +16323,11 @@
    "buts_attendus": {
     "dom": 1.93,
     "ext": 1.19
+   },
+   "lambda_boost": {
+    "dom": 1.853,
+    "ext": 1.138,
+    "source": "marché"
    },
    "corners_attendus": 10.8,
    "cartons_attendus": 3.9,
@@ -16310,6 +16605,11 @@
     "dom": 1.69,
     "ext": 1.01
    },
+   "lambda_boost": {
+    "dom": 1.901,
+    "ext": 1.067,
+    "source": "marché"
+   },
    "corners_attendus": 9.4,
    "cartons_attendus": 3.9,
    "fiabilite": "bonne",
@@ -16585,6 +16885,11 @@
    "buts_attendus": {
     "dom": 1.53,
     "ext": 1.3
+   },
+   "lambda_boost": {
+    "dom": 1.404,
+    "ext": 1.417,
+    "source": "marché"
    },
    "corners_attendus": 10.7,
    "cartons_attendus": 4.7,
@@ -16862,6 +17167,11 @@
     "dom": 0.88,
     "ext": 0.64
    },
+   "lambda_boost": {
+    "dom": 1.314,
+    "ext": 1.228,
+    "source": "marché"
+   },
    "corners_attendus": 9.5,
    "cartons_attendus": 4.0,
    "fiabilite": "bonne",
@@ -17137,6 +17447,11 @@
    "buts_attendus": {
     "dom": 1.27,
     "ext": 1.51
+   },
+   "lambda_boost": {
+    "dom": 1.232,
+    "ext": 1.545,
+    "source": "marché"
    },
    "corners_attendus": 10.8,
    "cartons_attendus": 4.3,
@@ -17414,6 +17729,11 @@
     "dom": 1.26,
     "ext": 1.25
    },
+   "lambda_boost": {
+    "dom": 1.328,
+    "ext": 1.28,
+    "source": "marché"
+   },
    "corners_attendus": 10.0,
    "cartons_attendus": 3.7,
    "fiabilite": "bonne",
@@ -17689,6 +18009,11 @@
    "buts_attendus": {
     "dom": 1.39,
     "ext": 1.21
+   },
+   "lambda_boost": {
+    "dom": 1.326,
+    "ext": 1.161,
+    "source": "marché"
    },
    "corners_attendus": 7.5,
    "cartons_attendus": 4.8,
@@ -17966,6 +18291,11 @@
     "dom": 1.38,
     "ext": 0.78
    },
+   "lambda_boost": {
+    "dom": 1.587,
+    "ext": 1.134,
+    "source": "marché"
+   },
    "corners_attendus": 11.1,
    "cartons_attendus": 3.5,
    "fiabilite": "bonne",
@@ -18241,6 +18571,11 @@
    "buts_attendus": {
     "dom": 1.8,
     "ext": 1.23
+   },
+   "lambda_boost": {
+    "dom": 1.552,
+    "ext": 1.439,
+    "source": "marché"
    },
    "corners_attendus": 10.1,
    "cartons_attendus": 4.1,
@@ -18518,6 +18853,11 @@
     "dom": 1.23,
     "ext": 1.14
    },
+   "lambda_boost": {
+    "dom": 1.587,
+    "ext": 1.176,
+    "source": "marché"
+   },
    "corners_attendus": 8.6,
    "cartons_attendus": 4.3,
    "fiabilite": "bonne",
@@ -18793,6 +19133,11 @@
    "buts_attendus": {
     "dom": 0.94,
     "ext": 1.44
+   },
+   "lambda_boost": {
+    "dom": 1.216,
+    "ext": 1.341,
+    "source": "marché"
    },
    "corners_attendus": 9.1,
    "cartons_attendus": 3.1,
@@ -19070,6 +19415,11 @@
     "dom": 1.81,
     "ext": 1.45
    },
+   "lambda_boost": {
+    "dom": 1.636,
+    "ext": 1.279,
+    "source": "marché"
+   },
    "corners_attendus": 9.0,
    "cartons_attendus": 5.2,
    "fiabilite": "moyenne",
@@ -19345,6 +19695,11 @@
    "buts_attendus": {
     "dom": 1.94,
     "ext": 0.98
+   },
+   "lambda_boost": {
+    "dom": 2.088,
+    "ext": 1.076,
+    "source": "marché"
    },
    "corners_attendus": 9.1,
    "cartons_attendus": 4.3,
@@ -19622,6 +19977,11 @@
     "dom": 2.47,
     "ext": 1.75
    },
+   "lambda_boost": {
+    "dom": 2.062,
+    "ext": 1.337,
+    "source": "marché"
+   },
    "corners_attendus": 10.4,
    "cartons_attendus": 3.8,
    "fiabilite": "bonne",
@@ -19897,6 +20257,11 @@
    "buts_attendus": {
     "dom": 2.18,
     "ext": 0.78
+   },
+   "lambda_boost": {
+    "dom": 1.99,
+    "ext": 1.05,
+    "source": "marché"
    },
    "corners_attendus": 9.3,
    "cartons_attendus": 2.8,
@@ -20174,6 +20539,11 @@
     "dom": 2.35,
     "ext": 1.74
    },
+   "lambda_boost": {
+    "dom": 1.759,
+    "ext": 1.349,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 2.7,
    "fiabilite": "moyenne",
@@ -20449,6 +20819,11 @@
    "buts_attendus": {
     "dom": 2.16,
     "ext": 0.83
+   },
+   "lambda_boost": {
+    "dom": 1.781,
+    "ext": 1.014,
+    "source": "marché"
    },
    "corners_attendus": 9.0,
    "cartons_attendus": 3.7,
@@ -20726,6 +21101,11 @@
     "dom": 1.06,
     "ext": 0.88
    },
+   "lambda_boost": {
+    "dom": 1.218,
+    "ext": 1.207,
+    "source": "marché"
+   },
    "corners_attendus": 6.5,
    "cartons_attendus": 6.7,
    "fiabilite": "moyenne",
@@ -21001,6 +21381,11 @@
    "buts_attendus": {
     "dom": 1.43,
     "ext": 1.19
+   },
+   "lambda_boost": {
+    "dom": 1.383,
+    "ext": 0.969,
+    "source": "marché"
    },
    "corners_attendus": 9.9,
    "cartons_attendus": 4.7,
@@ -21278,6 +21663,11 @@
     "dom": 2.58,
     "ext": 0.48
    },
+   "lambda_boost": {
+    "dom": 2.829,
+    "ext": 0.66,
+    "source": "marché"
+   },
    "corners_attendus": 8.9,
    "cartons_attendus": 4.6,
    "fiabilite": "bonne",
@@ -21553,6 +21943,11 @@
    "buts_attendus": {
     "dom": 2.02,
     "ext": 0.66
+   },
+   "lambda_boost": {
+    "dom": 2.648,
+    "ext": 0.528,
+    "source": "marché"
    },
    "corners_attendus": 13.0,
    "cartons_attendus": 6.8,
@@ -21830,6 +22225,11 @@
     "dom": 0.79,
     "ext": 1.97
    },
+   "lambda_boost": {
+    "dom": 0.816,
+    "ext": 2.191,
+    "source": "marché"
+   },
    "corners_attendus": 8.1,
    "cartons_attendus": 5.8,
    "fiabilite": "bonne",
@@ -22105,6 +22505,11 @@
    "buts_attendus": {
     "dom": 1.73,
     "ext": 0.96
+   },
+   "lambda_boost": {
+    "dom": 1.716,
+    "ext": 0.893,
+    "source": "marché"
    },
    "corners_attendus": 8.7,
    "cartons_attendus": 5.1,
@@ -22382,6 +22787,11 @@
     "dom": 1.18,
     "ext": 1.85
    },
+   "lambda_boost": {
+    "dom": 0.988,
+    "ext": 1.762,
+    "source": "marché"
+   },
    "corners_attendus": 8.1,
    "cartons_attendus": 4.0,
    "fiabilite": "bonne",
@@ -22657,6 +23067,11 @@
    "buts_attendus": {
     "dom": 1.03,
     "ext": 1.07
+   },
+   "lambda_boost": {
+    "dom": 1.126,
+    "ext": 1.288,
+    "source": "marché"
    },
    "corners_attendus": 9.6,
    "cartons_attendus": 3.6,
@@ -22934,6 +23349,11 @@
     "dom": 2.24,
     "ext": 0.96
    },
+   "lambda_boost": {
+    "dom": 2.27,
+    "ext": 1.095,
+    "source": "marché"
+   },
    "corners_attendus": 10.5,
    "cartons_attendus": 4.6,
    "fiabilite": "bonne",
@@ -23209,6 +23629,11 @@
    "buts_attendus": {
     "dom": 1.04,
     "ext": 1.21
+   },
+   "lambda_boost": {
+    "dom": 1.314,
+    "ext": 1.387,
+    "source": "marché"
    },
    "corners_attendus": 8.0,
    "cartons_attendus": 3.1,
@@ -23486,6 +23911,11 @@
     "dom": 1.41,
     "ext": 0.66
    },
+   "lambda_boost": {
+    "dom": 2.015,
+    "ext": 0.705,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 4.6,
    "fiabilite": "bonne",
@@ -23761,6 +24191,11 @@
    "buts_attendus": {
     "dom": 2.86,
     "ext": 0.92
+   },
+   "lambda_boost": {
+    "dom": 2.471,
+    "ext": 0.96,
+    "source": "marché"
    },
    "corners_attendus": 9.0,
    "cartons_attendus": 4.1,
@@ -24038,6 +24473,11 @@
     "dom": 1.68,
     "ext": 1.6
    },
+   "lambda_boost": {
+    "dom": 2.08,
+    "ext": 1.408,
+    "source": "marché"
+   },
    "corners_attendus": 12.2,
    "cartons_attendus": 2.9,
    "fiabilite": "moyenne",
@@ -24313,6 +24753,11 @@
    "buts_attendus": {
     "dom": 1.76,
     "ext": 1.09
+   },
+   "lambda_boost": {
+    "dom": 1.504,
+    "ext": 1.115,
+    "source": "marché"
    },
    "corners_attendus": 8.6,
    "cartons_attendus": 5.0,
@@ -24590,6 +25035,11 @@
     "dom": 0.78,
     "ext": 1.69
    },
+   "lambda_boost": {
+    "dom": 0.76,
+    "ext": 1.976,
+    "source": "marché"
+   },
    "corners_attendus": 9.6,
    "cartons_attendus": 3.1,
    "fiabilite": "bonne",
@@ -24865,6 +25315,11 @@
    "buts_attendus": {
     "dom": 1.08,
     "ext": 1.49
+   },
+   "lambda_boost": {
+    "dom": 0.935,
+    "ext": 1.775,
+    "source": "marché"
    },
    "corners_attendus": 7.7,
    "cartons_attendus": 3.1,
@@ -25142,6 +25597,11 @@
     "dom": 1.49,
     "ext": 0.92
    },
+   "lambda_boost": {
+    "dom": 1.387,
+    "ext": 1.086,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 4.5,
    "fiabilite": "bonne",
@@ -25417,6 +25877,11 @@
    "buts_attendus": {
     "dom": 0.95,
     "ext": 1.1
+   },
+   "lambda_boost": {
+    "dom": 1.573,
+    "ext": 0.975,
+    "source": "marché"
    },
    "corners_attendus": 7.0,
    "cartons_attendus": 3.8,
@@ -25694,6 +26159,11 @@
     "dom": 1.83,
     "ext": 0.93
    },
+   "lambda_boost": {
+    "dom": 1.931,
+    "ext": 0.926,
+    "source": "marché"
+   },
    "corners_attendus": 10.8,
    "cartons_attendus": 3.7,
    "fiabilite": "bonne",
@@ -25969,6 +26439,11 @@
    "buts_attendus": {
     "dom": 1.17,
     "ext": 0.91
+   },
+   "lambda_boost": {
+    "dom": 1.175,
+    "ext": 1.246,
+    "source": "marché"
    },
    "corners_attendus": 8.5,
    "cartons_attendus": 4.2,
@@ -26246,6 +26721,11 @@
     "dom": 1.26,
     "ext": 1.2
    },
+   "lambda_boost": {
+    "dom": 1.38,
+    "ext": 1.14,
+    "source": "marché"
+   },
    "corners_attendus": 8.5,
    "cartons_attendus": 4.3,
    "fiabilite": "bonne",
@@ -26521,6 +27001,11 @@
    "buts_attendus": {
     "dom": 1.2,
     "ext": 1.17
+   },
+   "lambda_boost": {
+    "dom": 1.42,
+    "ext": 1.364,
+    "source": "marché"
    },
    "corners_attendus": 11.1,
    "cartons_attendus": 5.2,
@@ -26798,6 +27283,11 @@
     "dom": 0.91,
     "ext": 1.54
    },
+   "lambda_boost": {
+    "dom": 1.175,
+    "ext": 1.335,
+    "source": "marché"
+   },
    "corners_attendus": 10.4,
    "cartons_attendus": 4.7,
    "fiabilite": "moyenne",
@@ -27073,6 +27563,11 @@
    "buts_attendus": {
     "dom": 1.71,
     "ext": 0.86
+   },
+   "lambda_boost": {
+    "dom": 2.178,
+    "ext": 0.992,
+    "source": "marché"
    },
    "corners_attendus": 10.6,
    "cartons_attendus": 4.3,
@@ -27350,6 +27845,11 @@
     "dom": 1.74,
     "ext": 1.92
    },
+   "lambda_boost": {
+    "dom": 1.478,
+    "ext": 1.253,
+    "source": "marché"
+   },
    "corners_attendus": 10.8,
    "cartons_attendus": 5.0,
    "fiabilite": "moyenne",
@@ -27625,6 +28125,11 @@
    "buts_attendus": {
     "dom": 2.17,
     "ext": 1.32
+   },
+   "lambda_boost": {
+    "dom": 2.084,
+    "ext": 1.2,
+    "source": "marché"
    },
    "corners_attendus": 9.9,
    "cartons_attendus": 2.8,
@@ -27902,6 +28407,11 @@
     "dom": 1.28,
     "ext": 2.09
    },
+   "lambda_boost": {
+    "dom": 1.625,
+    "ext": 1.618,
+    "source": "marché"
+   },
    "corners_attendus": 9.4,
    "cartons_attendus": 3.6,
    "fiabilite": "moyenne",
@@ -28177,6 +28687,11 @@
    "buts_attendus": {
     "dom": 1.11,
     "ext": 1.88
+   },
+   "lambda_boost": {
+    "dom": 1.452,
+    "ext": 1.845,
+    "source": "marché"
    },
    "corners_attendus": 8.3,
    "cartons_attendus": 3.0,
@@ -28454,6 +28969,11 @@
     "dom": 1.62,
     "ext": 1.48
    },
+   "lambda_boost": {
+    "dom": 1.628,
+    "ext": 1.488,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 2.5,
    "fiabilite": "bonne",
@@ -28729,6 +29249,11 @@
    "buts_attendus": {
     "dom": 1.79,
     "ext": 1.66
+   },
+   "lambda_boost": {
+    "dom": 1.773,
+    "ext": 1.615,
+    "source": "marché"
    },
    "corners_attendus": 9.9,
    "cartons_attendus": 3.1,
@@ -29006,6 +29531,11 @@
     "dom": 2.07,
     "ext": 1.87
    },
+   "lambda_boost": {
+    "dom": 2.083,
+    "ext": 1.695,
+    "source": "marché"
+   },
    "corners_attendus": 10.1,
    "cartons_attendus": 3.2,
    "fiabilite": "bonne",
@@ -29281,6 +29811,11 @@
    "buts_attendus": {
     "dom": 1.2,
     "ext": 2.49
+   },
+   "lambda_boost": {
+    "dom": 1.219,
+    "ext": 2.377,
+    "source": "marché"
    },
    "corners_attendus": 11.2,
    "cartons_attendus": 4.3,
@@ -29558,6 +30093,11 @@
     "dom": 1.39,
     "ext": 1.42
    },
+   "lambda_boost": {
+    "dom": 1.792,
+    "ext": 1.55,
+    "source": "marché"
+   },
    "corners_attendus": 10.5,
    "cartons_attendus": 2.5,
    "fiabilite": "bonne",
@@ -29833,6 +30373,11 @@
    "buts_attendus": {
     "dom": 1.68,
     "ext": 0.93
+   },
+   "lambda_boost": {
+    "dom": 1.669,
+    "ext": 0.971,
+    "source": "marché"
    },
    "corners_attendus": 9.9,
    "cartons_attendus": 5.4,
@@ -30110,6 +30655,11 @@
     "dom": 1.4,
     "ext": 1.32
    },
+   "lambda_boost": {
+    "dom": 1.507,
+    "ext": 1.172,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 5.3,
    "fiabilite": "bonne",
@@ -30385,6 +30935,11 @@
    "buts_attendus": {
     "dom": 0.76,
     "ext": 1.45
+   },
+   "lambda_boost": {
+    "dom": 0.757,
+    "ext": 1.941,
+    "source": "marché"
    },
    "corners_attendus": 8.6,
    "cartons_attendus": 4.1,
@@ -30662,6 +31217,11 @@
     "dom": 1.51,
     "ext": 1.07
    },
+   "lambda_boost": {
+    "dom": 1.571,
+    "ext": 1.074,
+    "source": "marché"
+   },
    "corners_attendus": 8.0,
    "cartons_attendus": 4.1,
    "fiabilite": "bonne",
@@ -30937,6 +31497,11 @@
    "buts_attendus": {
     "dom": 1.03,
     "ext": 1.83
+   },
+   "lambda_boost": {
+    "dom": 0.864,
+    "ext": 1.822,
+    "source": "marché"
    },
    "corners_attendus": 8.6,
    "cartons_attendus": 5.0,
@@ -31214,6 +31779,11 @@
     "dom": 1.0,
     "ext": 1.55
    },
+   "lambda_boost": {
+    "dom": 1.039,
+    "ext": 1.461,
+    "source": "marché"
+   },
    "corners_attendus": 11.6,
    "cartons_attendus": 4.2,
    "fiabilite": "bonne",
@@ -31489,6 +32059,11 @@
    "buts_attendus": {
     "dom": 2.57,
     "ext": 0.97
+   },
+   "lambda_boost": {
+    "dom": 2.55,
+    "ext": 0.781,
+    "source": "marché"
    },
    "corners_attendus": 8.5,
    "cartons_attendus": 4.9,
@@ -31766,6 +32341,11 @@
     "dom": 1.5,
     "ext": 1.05
    },
+   "lambda_boost": {
+    "dom": 1.568,
+    "ext": 1.269,
+    "source": "marché"
+   },
    "corners_attendus": 11.2,
    "cartons_attendus": 4.9,
    "fiabilite": "bonne",
@@ -32041,6 +32621,11 @@
    "buts_attendus": {
     "dom": 1.71,
     "ext": 1.32
+   },
+   "lambda_boost": {
+    "dom": 1.778,
+    "ext": 1.211,
+    "source": "marché"
    },
    "corners_attendus": 9.6,
    "cartons_attendus": 4.2,
@@ -32318,6 +32903,11 @@
     "dom": 2.13,
     "ext": 0.82
    },
+   "lambda_boost": {
+    "dom": 2.572,
+    "ext": 0.743,
+    "source": "marché"
+   },
    "corners_attendus": 12.5,
    "cartons_attendus": 2.6,
    "fiabilite": "moyenne",
@@ -32593,6 +33183,11 @@
    "buts_attendus": {
     "dom": 1.2,
     "ext": 1.31
+   },
+   "lambda_boost": {
+    "dom": 1.629,
+    "ext": 1.37,
+    "source": "marché"
    },
    "corners_attendus": 10.6,
    "cartons_attendus": 2.8,
@@ -32870,6 +33465,11 @@
     "dom": 1.02,
     "ext": 1.96
    },
+   "lambda_boost": {
+    "dom": 1.158,
+    "ext": 1.989,
+    "source": "marché"
+   },
    "corners_attendus": 12.6,
    "cartons_attendus": 4.1,
    "fiabilite": "bonne",
@@ -33145,6 +33745,11 @@
    "buts_attendus": {
     "dom": 1.26,
     "ext": 1.56
+   },
+   "lambda_boost": {
+    "dom": 1.341,
+    "ext": 1.631,
+    "source": "marché"
    },
    "corners_attendus": 8.5,
    "cartons_attendus": 4.4,
@@ -33422,6 +34027,11 @@
     "dom": 1.45,
     "ext": 0.69
    },
+   "lambda_boost": {
+    "dom": 2.162,
+    "ext": 0.788,
+    "source": "marché"
+   },
    "corners_attendus": 8.2,
    "cartons_attendus": 4.2,
    "fiabilite": "bonne",
@@ -33697,6 +34307,11 @@
    "buts_attendus": {
     "dom": 1.23,
     "ext": 1.24
+   },
+   "lambda_boost": {
+    "dom": 1.163,
+    "ext": 1.45,
+    "source": "marché"
    },
    "corners_attendus": 9.4,
    "cartons_attendus": 4.3,
@@ -33974,6 +34589,11 @@
     "dom": 1.01,
     "ext": 0.64
    },
+   "lambda_boost": {
+    "dom": 1.96,
+    "ext": 0.793,
+    "source": "marché"
+   },
    "corners_attendus": 13.8,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -34249,6 +34869,11 @@
    "buts_attendus": {
     "dom": 0.76,
     "ext": 1.42
+   },
+   "lambda_boost": {
+    "dom": 0.892,
+    "ext": 1.838,
+    "source": "marché"
    },
    "corners_attendus": 9.8,
    "cartons_attendus": 3.7,
@@ -34526,6 +35151,11 @@
     "dom": 1.26,
     "ext": 1.19
    },
+   "lambda_boost": {
+    "dom": 1.293,
+    "ext": 1.172,
+    "source": "marché"
+   },
    "corners_attendus": 8.0,
    "cartons_attendus": 3.2,
    "fiabilite": "bonne",
@@ -34801,6 +35431,11 @@
    "buts_attendus": {
     "dom": 1.71,
     "ext": 1.09
+   },
+   "lambda_boost": {
+    "dom": 1.707,
+    "ext": 1.01,
+    "source": "marché"
    },
    "corners_attendus": 10.1,
    "cartons_attendus": 5.4,
@@ -35078,6 +35713,11 @@
     "dom": 1.87,
     "ext": 1.68
    },
+   "lambda_boost": {
+    "dom": 1.556,
+    "ext": 1.43,
+    "source": "marché"
+   },
    "corners_attendus": 11.7,
    "cartons_attendus": 6.5,
    "fiabilite": "moyenne",
@@ -35353,6 +35993,11 @@
    "buts_attendus": {
     "dom": 1.0,
     "ext": 1.36
+   },
+   "lambda_boost": {
+    "dom": 1.282,
+    "ext": 1.593,
+    "source": "marché"
    },
    "corners_attendus": 9.5,
    "cartons_attendus": 4.1,
@@ -35630,6 +36275,11 @@
     "dom": 2.15,
     "ext": 0.89
    },
+   "lambda_boost": {
+    "dom": 2.421,
+    "ext": 0.716,
+    "source": "marché"
+   },
    "corners_attendus": 12.2,
    "cartons_attendus": 3.8,
    "fiabilite": "moyenne",
@@ -35905,6 +36555,11 @@
    "buts_attendus": {
     "dom": 1.21,
     "ext": 0.61
+   },
+   "lambda_boost": {
+    "dom": 1.648,
+    "ext": 0.698,
+    "source": "marché"
    },
    "corners_attendus": 10.6,
    "cartons_attendus": 5.5,
@@ -36182,6 +36837,11 @@
     "dom": 1.44,
     "ext": 1.33
    },
+   "lambda_boost": {
+    "dom": 1.292,
+    "ext": 1.454,
+    "source": "marché"
+   },
    "corners_attendus": 7.8,
    "cartons_attendus": 3.6,
    "fiabilite": "bonne",
@@ -36457,6 +37117,11 @@
    "buts_attendus": {
     "dom": 2.26,
     "ext": 1.54
+   },
+   "lambda_boost": {
+    "dom": 1.987,
+    "ext": 1.103,
+    "source": "marché"
    },
    "corners_attendus": 11.2,
    "cartons_attendus": 4.9,
@@ -36734,6 +37399,11 @@
     "dom": 2.37,
     "ext": 1.32
    },
+   "lambda_boost": {
+    "dom": 2.643,
+    "ext": 1.675,
+    "source": "marché"
+   },
    "corners_attendus": 10.1,
    "cartons_attendus": 3.8,
    "fiabilite": "bonne",
@@ -37009,6 +37679,11 @@
    "buts_attendus": {
     "dom": 1.52,
     "ext": 1.51
+   },
+   "lambda_boost": {
+    "dom": 1.655,
+    "ext": 1.365,
+    "source": "marché"
    },
    "corners_attendus": 11.1,
    "cartons_attendus": 5.9,
@@ -37286,6 +37961,11 @@
     "dom": 0.6,
     "ext": 1.15
    },
+   "lambda_boost": {
+    "dom": 1.072,
+    "ext": 1.304,
+    "source": "marché"
+   },
    "corners_attendus": 9.5,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -37561,6 +38241,11 @@
    "buts_attendus": {
     "dom": 2.17,
     "ext": 1.19
+   },
+   "lambda_boost": {
+    "dom": 2.268,
+    "ext": 0.934,
+    "source": "marché"
    },
    "corners_attendus": 8.0,
    "cartons_attendus": 7.0,
@@ -37838,6 +38523,11 @@
     "dom": 1.8,
     "ext": 1.23
    },
+   "lambda_boost": {
+    "dom": 1.654,
+    "ext": 1.218,
+    "source": "marché"
+   },
    "corners_attendus": 9.2,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -38113,6 +38803,11 @@
    "buts_attendus": {
     "dom": 1.94,
     "ext": 1.34
+   },
+   "lambda_boost": {
+    "dom": 1.768,
+    "ext": 0.944,
+    "source": "marché"
    },
    "corners_attendus": 11.0,
    "cartons_attendus": 6.7,
@@ -38390,6 +39085,11 @@
     "dom": 1.1,
     "ext": 0.59
    },
+   "lambda_boost": {
+    "dom": 1.351,
+    "ext": 0.826,
+    "source": "marché"
+   },
    "corners_attendus": 6.8,
    "cartons_attendus": 4.1,
    "fiabilite": "bonne",
@@ -38665,6 +39365,11 @@
    "buts_attendus": {
     "dom": 1.33,
     "ext": 1.48
+   },
+   "lambda_boost": {
+    "dom": 1.527,
+    "ext": 1.288,
+    "source": "marché"
    },
    "corners_attendus": 11.7,
    "cartons_attendus": 3.9,
@@ -38942,6 +39647,11 @@
     "dom": 1.36,
     "ext": 1.1
    },
+   "lambda_boost": {
+    "dom": 1.606,
+    "ext": 1.06,
+    "source": "marché"
+   },
    "corners_attendus": 8.7,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -39217,6 +39927,11 @@
    "buts_attendus": {
     "dom": 1.62,
     "ext": 0.88
+   },
+   "lambda_boost": {
+    "dom": 1.999,
+    "ext": 0.933,
+    "source": "marché"
    },
    "corners_attendus": 10.7,
    "cartons_attendus": 5.8,
@@ -39494,6 +40209,11 @@
     "dom": 1.0,
     "ext": 1.26
    },
+   "lambda_boost": {
+    "dom": 0.842,
+    "ext": 1.757,
+    "source": "marché"
+   },
    "corners_attendus": 8.6,
    "cartons_attendus": 4.8,
    "fiabilite": "bonne",
@@ -39769,6 +40489,11 @@
    "buts_attendus": {
     "dom": 1.16,
     "ext": 0.75
+   },
+   "lambda_boost": {
+    "dom": 1.373,
+    "ext": 1.094,
+    "source": "marché"
    },
    "corners_attendus": 7.6,
    "cartons_attendus": 4.3,
@@ -40046,6 +40771,11 @@
     "dom": 1.31,
     "ext": 2.11
    },
+   "lambda_boost": {
+    "dom": 1.165,
+    "ext": 1.563,
+    "source": "marché"
+   },
    "corners_attendus": 10.1,
    "cartons_attendus": 4.9,
    "fiabilite": "moyenne",
@@ -40322,6 +41052,11 @@
     "dom": 1.39,
     "ext": 0.89
    },
+   "lambda_boost": {
+    "dom": 1.559,
+    "ext": 0.98,
+    "source": "marché"
+   },
    "corners_attendus": 9.9,
    "cartons_attendus": 4.4,
    "fiabilite": "bonne",
@@ -40597,6 +41332,11 @@
    "buts_attendus": {
     "dom": 1.99,
     "ext": 1.69
+   },
+   "lambda_boost": {
+    "dom": 1.631,
+    "ext": 1.347,
+    "source": "marché"
    },
    "corners_attendus": 9.9,
    "cartons_attendus": 4.5,

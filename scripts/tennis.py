@@ -35,8 +35,8 @@ CONFIG = {
 }
 
 # Taux moyen de jeux de service gagnés (valeurs de départ, réajustées par tennis_calibrate.py)
-HOLD_DEFAUT = {("ATP", "dur"): 0.80, ("ATP", "terre"): 0.77, ("ATP", "gazon"): 0.84,
-               ("WTA", "dur"): 0.66, ("WTA", "terre"): 0.63, ("WTA", "gazon"): 0.69}
+HOLD_DEFAUT = {("ATP", "dur"): 0.80, ("ATP", "terre"): 0.77, ("ATP", "gazon"): 0.84, ("ATP", "salle"): 0.83,
+               ("WTA", "dur"): 0.66, ("WTA", "terre"): 0.63, ("WTA", "gazon"): 0.69, ("WTA", "salle"): 0.68}
 
 CLAY = ["roland garros", "french open", "monte", "madrid", "internazionali", "italian", "rome", "roma",
         "barcelona", "hamburg", "buenos aires", "rio open", "santiago", "estoril", "houston", "marrakech",
@@ -52,9 +52,19 @@ GRASS = ["wimbledon", "halle", "queen", "hertogenbosch", "libema", "eastbourne",
          "ilkley", "surbiton"]
 
 
+INDOOR = ["european open", "swiss indoors", "basel", "erste bank", "vienna", "rolex paris", "paris masters",
+          "stockholm", "moselle", "metz", "nitto atp finals", "atp finals", "wta finals", "next gen",
+          "rotterdam", "abn amro", "open 13", "marseille", "montpellier", "occitanie", "dallas", "auvergne",
+          "almaty", "linz", "ostrava", "cluj", "transylvania", "st. petersburg", "sofia", "astana",
+          "davis cup", "billie jean king", "united cup", "antwerp", "belgrade", "helsinki", "bergamo",
+          "mouilleron", "brest", "rennes", "eckental", "ismaning", "koblenz", "quimper", "lille"]
+
+
 def surface_of(event: str, date: str) -> str:
     e = (event or "").lower()
     month = int(str(date)[5:7]) if date else 1
+    if any(k in e for k in INDOOR):
+        return "salle"
     if any(k in e for k in GRASS) and month in (6, 7):
         return "gazon"
     if any(k in e for k in CLAY):
@@ -210,7 +220,30 @@ def fit_holds(p_win: float, base: float, bo: int) -> tuple[float, float]:
     return round(min(max(base + d, 0.3), 0.97), 3), round(min(max(base - d, 0.3), 0.97), 3)
 
 
-def markets(p_win: float, base: float, bo: int, a: str, b: str) -> tuple[dict, dict]:
+@lru_cache(maxsize=20000)
+def tiebreak_prob(p_win: float, tb_base: float, bo: int) -> float:
+    """Proba d'au moins un tie-break, avec un taux de jeux de service réaliste pour le circuit
+    et la surface (les tie-breaks dépendent du niveau de service, que le total de jeux ne suffit pas à fixer)."""
+    ha, hb = fit_holds(round(p_win, 2), tb_base, bo)
+    dist_no_tb = {}
+    need = bo // 2 + 1
+    no_tb = 0.0
+    for first in (True, False):
+        sd = set_dist(ha, hb, first)
+        sdo = set_dist(ha, hb, not first)
+        # probabilité qu'un set se termine sans tie-break, selon qui sert en premier
+        q = {True: sum(v for (x, y), v in sd.items() if max(x, y) < 7 or abs(x - y) == 2 and max(x, y) == 7),
+             False: sum(v for (x, y), v in sdo.items() if max(x, y) < 7 or abs(x - y) == 2 and max(x, y) == 7)}
+        dist_no_tb[first] = q
+    # approximation : sets indépendants, serveur alterné → moyenne des deux cas
+    q_avg = (dist_no_tb[True][True] + dist_no_tb[True][False]) / 2
+    md = match_dist(ha, hb, bo)
+    for (sa, sb, _, _), v in md.items():
+        no_tb += v * q_avg ** (sa + sb)
+    return 1 - no_tb
+
+
+def markets(p_win: float, base: float, bo: int, a: str, b: str, tb_base: float | None = None) -> tuple[dict, dict]:
     ha, hb = fit_holds(p_win, base, bo)
     dist = match_dist(ha, hb, bo)
     need = bo // 2 + 1
@@ -235,6 +268,8 @@ def markets(p_win: float, base: float, bo: int, a: str, b: str) -> tuple[dict, d
         p = pr[sign * gd > h].sum()
         m[f"Handicap {fav} -{h:g} jeux"] = p
         m[f"Handicap {dog} +{h:g} jeux"] = 1 - p
+    if tb_base is not None:
+        m["Au moins un tie-break"] = tiebreak_prob(p_win, tb_base, bo)
     info = {"jeux_attendus": round(mean, 1), "hold_a": ha, "hold_b": hb}
     return {k: float(v) for k, v in m.items()}, info
 
@@ -261,7 +296,7 @@ def calib_key(label: str) -> str:
         return label.split(" :")[0]
     if label.startswith("Handicap"):
         return "Handicap " + ("fav " if " -" in label else "outsider ") + label.split()[-2]
-    if label.startswith("Match en"):
+    if label.startswith(("Match en", "Au moins un tie")):
         return label
     if "jeux" in label:
         return "Total jeux " + label[0]
@@ -346,13 +381,14 @@ def predict_today() -> list[dict]:
         bo = best_of(r.tour, r.event, r.round)
         p = elo.prob(r.p1_id, r.p2_id, surf)
         base = holds.get((r.tour, surf), HOLD_DEFAUT[(r.tour, surf)])
-        mk, info = markets(p, base, bo, r.p1, r.p2)
+        mk, info = markets(p, base, bo, r.p1, r.p2, HOLD_DEFAUT[(r.tour, surf)])
         fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
         p_fav = calibrate("Vainqueur", max(p, 1 - p), coefs)
         fav = r.p1 if p >= 0.5 else r.p2
-        infos = f"{surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
+        infos = f"{'Dur en salle' if surf == 'salle' else surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
         for label, praw in mk.items():
-            pc = calibrate(calib_key(label), praw, coefs)
+            key = calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
+            pc = calibrate(key, praw, coefs)
             if pc <= 0.01 or pc >= 0.99:
                 continue
             fair = 1 / pc

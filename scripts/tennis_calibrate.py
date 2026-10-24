@@ -24,8 +24,8 @@ SPLIT = pd.Timestamp("2026-01-01", tz="UTC")
 
 
 @lru_cache(maxsize=200000)
-def mk(p: float, base: float, bo: int):
-    return T.markets(p, base, bo, "A", "B")
+def mk(p: float, base: float, bo: int, tb_base: float | None = None):
+    return T.markets(p, base, bo, "A", "B", tb_base)
 
 
 def collect_rows() -> pd.DataFrame:
@@ -44,7 +44,8 @@ def collect_rows() -> pd.DataFrame:
                 rows.append({"date": r.date, "tour": r.tour, "surface": r.surface, "bo": bo,
                              "p": round(elo.prob(r.p1_id, r.p2_id, r.surface), 2),
                              "win": int(r.winner == 1), "sa": sa, "sb": sb,
-                             "tg": sum(x + y for x, y in sets), "gd": sum(x - y for x, y in sets),
+                             "tg": sum(x + y for x, y in sets),
+                             "tb": any(max(x, y) == 7 and min(x, y) == 6 for x, y in sets), "gd": sum(x - y for x, y in sets),
                              "n": min(elo.played(r.p1_id), elo.played(r.p2_id))})
         w, l = (r.p1_id, r.p2_id) if r.winner == 1 else (r.p2_id, r.p1_id)
         elo.update(w, l, r.surface)
@@ -71,11 +72,11 @@ def outcomes(df: pd.DataFrame, bases: dict) -> pd.DataFrame:
     recs = []
     for r in df.itertuples():
         base = bases.get(f"{r.tour}|{r.surface}", T.HOLD_DEFAUT[(r.tour, r.surface)])
-        m, _ = mk(r.p, base, r.bo)
+        m, _ = mk(r.p, base, r.bo, T.HOLD_DEFAUT[(r.tour, r.surface)])
         need = r.bo // 2 + 1
         fav_a = r.p >= 0.5
         gd_fav = r.gd if fav_a else -r.gd
-        res = {"Vainqueur : A": r.win,
+        res = {"Vainqueur : A": r.win, "Au moins un tie-break": int(r.tb),
                "Au moins un set : A": int(r.sa >= 1), "Au moins un set : B": int(r.sb >= 1),
                f"Match en {2 * need - 1} sets": int(r.sa + r.sb == 2 * need - 1)}
         for x in range(need):
@@ -90,7 +91,8 @@ def outcomes(df: pd.DataFrame, bases: dict) -> pd.DataFrame:
                 res[label] = int(gd_fav > h) if fav_line else int(gd_fav < h)
         for label, o in res.items():
             if label in m:
-                recs.append({"date": r.date, "tour": r.tour, "key": T.calib_key(label),
+                key = T.calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
+                recs.append({"date": r.date, "tour": r.tour, "key": key,
                              "famille": T.market_family(label), "p": m[label], "issue": o})
     return pd.DataFrame(recs)
 

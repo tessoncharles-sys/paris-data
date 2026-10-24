@@ -21,6 +21,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy.optimize import minimize
 from scipy.stats import poisson
 from sklearn.linear_model import PoissonRegressor
 
@@ -234,6 +235,30 @@ def market_implied(row: pd.Series) -> dict[str, float]:
     return out
 
 
+def market_lambdas(row: pd.Series, lam_model: tuple[float, float]) -> tuple[float, float, str]:
+    """Buts attendus (dom, ext) qui reproduisent les cotes du marché (1X2 + plus/moins 2,5).
+
+    Le test sur 2025-26 montre que le marché est plus juste que le modèle : ces buts attendus
+    servent au calculateur de boosts. Sans cote marché, on garde ceux du modèle."""
+    mk = market_implied(row)
+    if not {"1", "2"}.issubset(mk):
+        return lam_model[0], lam_model[1], "modèle"
+    over = mk.get("+2.5 buts")
+
+    def loss(x):
+        g = score_grid(*np.exp(x))
+        i, j = np.indices(g.shape)
+        e = (g[i > j].sum() - mk["1"]) ** 2 + (g[i < j].sum() - mk["2"]) ** 2
+        if over is not None:
+            e += (g[(i + j) > 2].sum() - over) ** 2
+        return e
+
+    x = minimize(loss, np.log(np.clip(lam_model, 0.2, 5)), method="Nelder-Mead",
+                 options={"xatol": 1e-4, "fatol": 1e-9}).x
+    lh, la = np.exp(x)
+    return float(lh), float(la), "marché"
+
+
 def market_odds(row: pd.Series) -> dict[str, float]:
     """Cotes moyennes brutes, pour comparer à la cote minimum."""
     m = {}
@@ -318,6 +343,7 @@ def analyse(today: dt.date) -> dict:
                 })
 
             fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
+            lam_m = market_lambdas(row, lam)
             kickoff = row["Date"].strftime("%Y-%m-%d")
             if "Time" in row and not pd.isna(row.get("Time")):
                 # football-data donne l'heure anglaise : conversion en heure de Paris
@@ -331,6 +357,7 @@ def analyse(today: dt.date) -> dict:
                 "match": name, "championnat": DIVISIONS[div], "div": div,
                 "coup_envoi": kickoff,
                 "buts_attendus": {"dom": round(lam[0], 2), "ext": round(lam[1], 2)},
+                "lambda_boost": {"dom": round(lam_m[0], 3), "ext": round(lam_m[1], 3), "source": lam_m[2]},
                 "corners_attendus": round(sum(c), 1) if c else None,
                 "cartons_attendus": round(sum(k), 1) if k else None,
                 "fiabilite": fiab, "marches": marches,
@@ -431,7 +458,9 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "cote_moyenne_marche": mm["cote_moyenne_marche"],
                 "source_cote": "marché" if mm["proba_marche"] is not None else "modèle",
                 "fiabilite": m["fiabilite"],
-                "infos": f"Buts attendus {m['buts_attendus']['dom']:.1f} – {m['buts_attendus']['ext']:.1f}",
+                "infos": f"Buts attendus {m['lambda_boost']['dom']:.1f} – {m['lambda_boost']['ext']:.1f}",
+                "lam_dom": m["lambda_boost"]["dom"], "lam_ext": m["lambda_boost"]["ext"],
+                "lam_source": m["lambda_boost"]["source"],
             })
     return pd.DataFrame(rows)
 

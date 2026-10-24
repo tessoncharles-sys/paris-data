@@ -1,10 +1,12 @@
 {
  "hold": {
-  "ATP|dur": 0.61,
+  "ATP|dur": 0.49,
   "ATP|gazon": 0.5,
+  "ATP|salle": 0.67,
   "ATP|terre": 0.5,
   "WTA|dur": 0.5,
   "WTA|gazon": 0.5,
+  "WTA|salle": 0.5,
   "WTA|terre": 0.5
  }
 }
