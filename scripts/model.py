@@ -1,0 +1,378 @@
+"""Modèle de probabilités foot multi-marchés.
+
+Principe :
+- Pour chaque championnat, on estime la force offensive / défensive de chaque équipe
+  (régression de Poisson, matchs récents plus pondérés que les anciens).
+- Buts : on lisse les buts réels avec les tirs cadrés (moins de bruit que le score seul).
+- Même méthode pour les corners et les cartons.
+- On en déduit la grille des scores exacts → tous les marchés buts.
+- Quand la cote moyenne du marché est connue, on mélange modèle et marché (50/50) :
+  le marché est très informé, ça évite les faux signaux.
+- Sortie : probabilité, cote juste et COTE MINIMUM à exiger sur Winamax.
+"""
+from __future__ import annotations
+
+import datetime as dt
+from zoneinfo import ZoneInfo
+import io
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from scipy.stats import poisson
+from sklearn.linear_model import PoissonRegressor
+
+ROOT = Path(__file__).resolve().parent.parent
+FD = ROOT / "data" / "raw" / "football-data"
+OUT = ROOT / "data"
+
+CONFIG = {
+    "demi_vie_jours": 140,       # un match d'il y a 140 jours compte moitié moins
+    "poids_tirs_cadres": 0.5,    # part des tirs cadrés dans la mesure "buts"
+    "poids_modele": 0.5,         # mélange modèle / marché quand la cote marché existe
+    "marge_value": 0.05,         # on exige 5 % de value : cote mini = cote juste × 1,05
+    "cote_min": 1.35,            # fourchette de cotes de la sélection
+    "cote_max": 1.80,
+    "matchs_min_fiable": 5,      # en dessous, on n'analyse pas le match
+    "matchs_bon_echantillon": 10,
+    "horizon_jours": 1,          # aujourd'hui + demain
+}
+
+from collect import DIVISIONS  # noqa: E402  (même dossier)
+
+
+# ---------------------------------------------------------------- lecture
+
+def read_csv(path: Path) -> pd.DataFrame:
+    raw = path.read_bytes()
+    for enc in ("utf-8-sig", "latin-1"):
+        try:
+            return pd.read_csv(io.StringIO(raw.decode(enc)), on_bad_lines="skip")
+        except (UnicodeDecodeError, pd.errors.ParserError):
+            continue
+    return pd.DataFrame()
+
+
+def parse_dates(s: pd.Series) -> pd.Series:
+    return pd.to_datetime(s, dayfirst=True, errors="coerce", format="mixed")
+
+
+def load_history() -> pd.DataFrame:
+    frames = []
+    for f in sorted(FD.glob("*_*.csv")):
+        df = read_csv(f)
+        if df.empty or "HomeTeam" not in df.columns:
+            continue
+        df["Div"] = f.stem.split("_", 1)[1]
+        frames.append(df)
+    if not frames:
+        return pd.DataFrame()
+    h = pd.concat(frames, ignore_index=True)
+    h["Date"] = parse_dates(h["Date"])
+    h = h.dropna(subset=["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG"])
+    return h
+
+
+def load_fixtures(today: dt.date) -> pd.DataFrame:
+    f = FD / "fixtures.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    fx = read_csv(f)
+    if fx.empty or "Div" not in fx.columns:
+        return pd.DataFrame()
+    fx["Date"] = parse_dates(fx["Date"])
+    end = today + dt.timedelta(days=CONFIG["horizon_jours"])
+    mask = fx["Div"].isin(DIVISIONS) & fx["Date"].dt.date.between(today, end)
+    return fx[mask].copy()
+
+
+# ---------------------------------------------------------------- modèle
+
+def decay_weights(dates: pd.Series, ref: pd.Timestamp) -> np.ndarray:
+    age = (ref - dates).dt.days.clip(lower=0).to_numpy()
+    return np.power(0.5, age / CONFIG["demi_vie_jours"])
+
+
+class TeamModel:
+    """Poisson : log(mu) = constante + domicile + attaque(équipe) + défense(adversaire)."""
+
+    def __init__(self, home_col: str, away_col: str):
+        self.home_col, self.away_col = home_col, away_col
+        self.ok = False
+
+    def fit(self, df: pd.DataFrame, ref: pd.Timestamp, home_y=None, away_y=None) -> "TeamModel":
+        hy = df[self.home_col] if home_y is None else home_y
+        ay = df[self.away_col] if away_y is None else away_y
+        d = pd.DataFrame({
+            "att": pd.concat([df["HomeTeam"], df["AwayTeam"]], ignore_index=True),
+            "dfn": pd.concat([df["AwayTeam"], df["HomeTeam"]], ignore_index=True),
+            "home": np.r_[np.ones(len(df)), np.zeros(len(df))],
+            "y": pd.concat([hy, ay], ignore_index=True).astype(float),
+            "w": np.tile(decay_weights(df["Date"], ref), 2),
+        }).dropna()
+        if len(d) < 40:
+            return self
+        self.teams = sorted(set(d["att"]) | set(d["dfn"]))
+        X = self._design(d["att"], d["dfn"], d["home"])
+        self.reg = PoissonRegressor(alpha=1e-3, max_iter=1000)
+        self.reg.fit(X, d["y"], sample_weight=d["w"])
+        self.ok = True
+        return self
+
+    def _design(self, att, dfn, home) -> np.ndarray:
+        idx = {t: i for i, t in enumerate(self.teams)}
+        n = len(self.teams)
+        X = np.zeros((len(att), 2 * n + 1))
+        for r, (a, b, h) in enumerate(zip(att, dfn, home)):
+            X[r, idx[a]] = 1
+            X[r, n + idx[b]] = 1
+            X[r, 2 * n] = h
+        return X
+
+    def predict(self, home: str, away: str) -> tuple[float, float] | None:
+        if not self.ok or home not in self.teams or away not in self.teams:
+            return None
+        X = self._design([home, away], [away, home], [1, 0])
+        mu = self.reg.predict(X)
+        return float(mu[0]), float(mu[1])
+
+
+def smoothed_goals(df: pd.DataFrame) -> tuple[pd.Series, pd.Series]:
+    """Buts lissés avec les tirs cadrés × taux de conversion du championnat."""
+    w = CONFIG["poids_tirs_cadres"]
+    if not {"HST", "AST"}.issubset(df.columns) or df[["HST", "AST"]].isna().mean().max() > 0.2:
+        return df["FTHG"], df["FTAG"]
+    sot = df["HST"].sum() + df["AST"].sum()
+    conv = (df["FTHG"].sum() + df["FTAG"].sum()) / sot if sot else 0.3
+    hg = (1 - w) * df["FTHG"] + w * df["HST"].fillna(df["FTHG"] / conv) * conv
+    ag = (1 - w) * df["FTAG"] + w * df["AST"].fillna(df["FTAG"] / conv) * conv
+    return hg, ag
+
+
+# ---------------------------------------------------------------- marchés
+
+def score_grid(lh: float, la: float, n: int = 11) -> np.ndarray:
+    return np.outer(poisson.pmf(range(n), lh), poisson.pmf(range(n), la))
+
+
+def goal_markets(lh: float, la: float) -> dict[str, float]:
+    g = score_grid(lh, la)
+    i, j = np.indices(g.shape)
+    tot = i + j
+    p = {
+        "1": g[i > j].sum(), "N": g[i == j].sum(), "2": g[i < j].sum(),
+    }
+    p.update({"1N": p["1"] + p["N"], "12": p["1"] + p["2"], "N2": p["N"] + p["2"]})
+    for line in (1.5, 2.5, 3.5):
+        p[f"+{line} buts"] = g[tot > line].sum()
+        p[f"-{line} buts"] = g[tot < line].sum()
+    p["Les 2 marquent : oui"] = g[(i > 0) & (j > 0)].sum()
+    p["Les 2 marquent : non"] = 1 - p["Les 2 marquent : oui"]
+    p["Dom. +0.5 but"] = g[i > 0].sum()
+    p["Dom. +1.5 but"] = g[i > 1].sum()
+    p["Ext. +0.5 but"] = g[j > 0].sum()
+    p["Ext. +1.5 but"] = g[j > 1].sum()
+    p["Dom. ou nul, les 2 marquent : non"] = g[(i >= j) & ~((i > 0) & (j > 0))].sum()
+    return {k: float(v) for k, v in p.items()}
+
+
+def count_markets(lh: float, la: float, lines, label: str) -> dict[str, float]:
+    lam = lh + la
+    out = {}
+    for line in lines:
+        over = 1 - poisson.cdf(math.floor(line), lam)
+        out[f"+{line} {label}"] = float(over)
+        out[f"-{line} {label}"] = float(1 - over)
+    return out
+
+
+def market_implied(row: pd.Series) -> dict[str, float]:
+    """Probabilités implicites des cotes moyennes du marché (marge retirée)."""
+    out = {}
+
+    def norm(cols):
+        vals = [row.get(c) for c in cols]
+        if any(v is None or pd.isna(v) or v <= 1 for v in vals):
+            return None
+        inv = [1 / v for v in vals]
+        s = sum(inv)
+        return [x / s for x in inv]
+
+    for prefix in ("Avg", "B365", "PS"):
+        r = norm([f"{prefix}H", f"{prefix}D", f"{prefix}A"])
+        if r:
+            out.update({"1": r[0], "N": r[1], "2": r[2]})
+            out.update({"1N": r[0] + r[1], "12": r[0] + r[2], "N2": r[1] + r[2]})
+            break
+    for prefix in ("Avg", "B365", "P"):
+        r = norm([f"{prefix}>2.5", f"{prefix}<2.5"])
+        if r:
+            out.update({"+2.5 buts": r[0], "-2.5 buts": r[1]})
+            break
+    return out
+
+
+def market_odds(row: pd.Series) -> dict[str, float]:
+    """Cotes moyennes brutes, pour comparer à la cote minimum."""
+    m = {}
+    for k, c in (("1", "AvgH"), ("N", "AvgD"), ("2", "AvgA"),
+                 ("+2.5 buts", "Avg>2.5"), ("-2.5 buts", "Avg<2.5")):
+        v = row.get(c)
+        if v is not None and not pd.isna(v) and v > 1:
+            m[k] = float(v)
+    return m
+
+
+# ---------------------------------------------------------------- pipeline
+
+def recent_count(hist: pd.DataFrame, team: str, ref: pd.Timestamp) -> int:
+    h = hist[hist["Date"] > ref - pd.Timedelta(days=365)]
+    return int(((h["HomeTeam"] == team) | (h["AwayTeam"] == team)).sum())
+
+
+def analyse(today: dt.date) -> dict:
+    hist = load_history()
+    fx = load_fixtures(today)
+    ref = pd.Timestamp(today)
+    matches, picks, skipped = [], [], []
+    if hist.empty or fx.empty:
+        return {"date": today.isoformat(), "matchs": [], "selection": [],
+                "ecartes": [], "note": "données absentes"}
+
+    for div, fx_div in fx.groupby("Div"):
+        h = hist[(hist["Div"] == div) & (hist["Date"] < ref)]
+        if len(h) < 30:
+            skipped += [{"match": f"{r.HomeTeam} - {r.AwayTeam}", "raison": "historique insuffisant"}
+                        for r in fx_div.itertuples()]
+            continue
+        hg, ag = smoothed_goals(h)
+        goals = TeamModel("FTHG", "FTAG").fit(h, ref, hg, ag)
+        corners = TeamModel("HC", "AC").fit(h.dropna(subset=["HC", "AC"]), ref) \
+            if {"HC", "AC"}.issubset(h.columns) else TeamModel("HC", "AC")
+        if {"HY", "AY"}.issubset(h.columns):
+            hc = h.dropna(subset=["HY", "AY"])
+            cards = TeamModel("HY", "AY").fit(
+                hc, ref,
+                hc["HY"] + (hc["HR"].fillna(0) if "HR" in hc else 0),
+                hc["AY"] + (hc["AR"].fillna(0) if "AR" in hc else 0))
+        else:
+            cards = TeamModel("HY", "AY")
+
+        for _, row in fx_div.iterrows():
+            home, away = row["HomeTeam"], row["AwayTeam"]
+            name = f"{home} - {away}"
+            n = min(recent_count(h, home, ref), recent_count(h, away, ref))
+            lam = goals.predict(home, away)
+            if lam is None or n < CONFIG["matchs_min_fiable"]:
+                skipped.append({"match": name, "raison": "équipe sans assez de matchs dans ce championnat"})
+                continue
+
+            probs = goal_markets(*lam)
+            c = corners.predict(home, away)
+            if c:
+                probs.update(count_markets(*c, (8.5, 9.5, 10.5), "corners"))
+            k = cards.predict(home, away)
+            if k:
+                probs.update(count_markets(*k, (3.5, 4.5), "cartons"))
+
+            mk = market_implied(row)
+            odds = market_odds(row)
+            w = CONFIG["poids_modele"]
+            marches = []
+            for label, p_mod in probs.items():
+                p = w * p_mod + (1 - w) * mk[label] if label in mk else p_mod
+                fair = 1 / p if p > 0 else None
+                mini = fair * (1 + CONFIG["marge_value"]) if fair else None
+                marches.append({
+                    "marche": label,
+                    "proba_modele": round(p_mod, 4),
+                    "proba_marche": round(mk[label], 4) if label in mk else None,
+                    "proba": round(p, 4),
+                    "cote_juste": round(fair, 2) if fair else None,
+                    "cote_minimum": round(mini, 2) if mini else None,
+                    "cote_moyenne_marche": odds.get(label),
+                })
+
+            fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
+            kickoff = row["Date"].strftime("%Y-%m-%d")
+            if "Time" in row and not pd.isna(row.get("Time")):
+                kickoff += f" {row['Time']}"
+            m = {
+                "match": name, "championnat": DIVISIONS[div], "div": div,
+                "coup_envoi": kickoff,
+                "buts_attendus": {"dom": round(lam[0], 2), "ext": round(lam[1], 2)},
+                "corners_attendus": round(sum(c), 1) if c else None,
+                "cartons_attendus": round(sum(k), 1) if k else None,
+                "fiabilite": fiab, "marches": marches,
+            }
+            matches.append(m)
+
+            for mm in marches:
+                mini = mm["cote_minimum"]
+                if not mini or not (CONFIG["cote_min"] <= mini <= CONFIG["cote_max"]):
+                    continue
+                avg = mm["cote_moyenne_marche"]
+                if avg is not None and avg < mini:
+                    continue  # le marché paie moins que notre exigence : pas de value
+                picks.append({
+                    "match": name, "championnat": DIVISIONS[div], "coup_envoi": kickoff,
+                    "marche": mm["marche"], "proba": mm["proba"],
+                    "cote_minimum": mini, "cote_moyenne_marche": avg,
+                    "value_vs_marche": round(mm["proba"] * avg - 1, 3) if avg else None,
+                    "fiabilite": fiab,
+                    "a_verifier": avg is None,
+                })
+
+    # classement : value confirmée par le marché d'abord, puis probabilité
+    picks.sort(key=lambda p: (p["a_verifier"], -(p["value_vs_marche"] or 0), -p["proba"]))
+    # au plus 2 paris "à vérifier" par match, pour garder une liste lisible
+    seen: dict[str, int] = {}
+    kept = []
+    for p in picks:
+        if p["a_verifier"]:
+            seen[p["match"]] = seen.get(p["match"], 0) + 1
+            if seen[p["match"]] > 2:
+                continue
+        kept.append(p)
+    picks = kept
+    return {
+        "date": today.isoformat(), "genere_le": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "config": CONFIG, "matchs": matches, "selection": picks, "ecartes": skipped,
+    }
+
+
+def to_markdown(res: dict) -> str:
+    lines = [f"# Sélection du {res['date']}", ""]
+    sel = res["selection"]
+    confirmed = [p for p in sel if not p["a_verifier"]]
+    check = [p for p in sel if p["a_verifier"]]
+    lines += ["## Value confirmée par le marché", ""]
+    if not confirmed:
+        lines.append("_Aucune aujourd'hui._")
+    for p in confirmed[:15]:
+        lines.append(f"- **{p['match']}** ({p['championnat']}, {p['coup_envoi']}) — {p['marche']} : "
+                     f"proba {p['proba']:.0%}, **cote mini {p['cote_minimum']}** "
+                     f"(marché {p['cote_moyenne_marche']}, value {p['value_vs_marche']:+.1%}) — fiabilité {p['fiabilite']}")
+    lines += ["", "## À vérifier sur Winamax (pas de cote marché dans les données)", ""]
+    for p in check[:20]:
+        lines.append(f"- {p['match']} — {p['marche']} : proba {p['proba']:.0%}, "
+                     f"**jouer seulement si cote ≥ {p['cote_minimum']}** — fiabilité {p['fiabilite']}")
+    lines += ["", f"_{len(res['matchs'])} matchs analysés, {len(res['ecartes'])} écartés._"]
+    return "\n".join(lines)
+
+
+def main() -> None:
+    today = dt.datetime.now(ZoneInfo("Europe/Paris")).date()
+    res = analyse(today)
+    (OUT / "picks").mkdir(parents=True, exist_ok=True)
+    js = json.dumps(res, ensure_ascii=False, indent=1, default=str)
+    (OUT / "picks" / f"{today.isoformat()}.json").write_text(js, encoding="utf-8")
+    (OUT / "latest.json").write_text(js, encoding="utf-8")
+    (OUT / "latest.md").write_text(to_markdown(res), encoding="utf-8")
+    print(f"{len(res['matchs'])} matchs analysés, {len(res['selection'])} paris retenus")
+
+
+if __name__ == "__main__":
+    main()
