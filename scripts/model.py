@@ -420,6 +420,7 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
             if not mm["cote_juste"] or any(x in mm["marche"] for x in CONFIG["marches_exclus"]):
                 continue
             rows.append({
+                "sport": "Football",
                 "id": f"{m['div']}|{m['match']}|{mm['marche']}",
                 "date": date, "heure": heure or "",
                 "championnat": m["championnat"], "match": m["match"],
@@ -430,8 +431,7 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "cote_moyenne_marche": mm["cote_moyenne_marche"],
                 "source_cote": "marché" if mm["proba_marche"] is not None else "modèle",
                 "fiabilite": m["fiabilite"],
-                "buts_dom": m["buts_attendus"]["dom"], "buts_ext": m["buts_attendus"]["ext"],
-                "corners_attendus": m["corners_attendus"], "cartons_attendus": m["cartons_attendus"],
+                "infos": f"Buts attendus {m['buts_attendus']['dom']:.1f} – {m['buts_attendus']['ext']:.1f}",
             })
     return pd.DataFrame(rows)
 
@@ -444,7 +444,7 @@ def main() -> None:
     (OUT / "picks" / f"{today.isoformat()}.json").write_text(js, encoding="utf-8")
     (OUT / "latest.json").write_text(js, encoding="utf-8")
     (OUT / "latest.md").write_text(to_markdown(res), encoding="utf-8")
-    to_dashboard_rows(res).to_csv(OUT / "dashboard.csv", index=False)
+    to_dashboard_rows(res).to_csv(OUT / "dashboard_foot.csv", index=False)
     print(f"{len(res['matchs'])} matchs analysés, {len(res['selection'])} paris retenus")
 
 

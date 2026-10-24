@@ -11,7 +11,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -28,8 +28,19 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/collect.py
 
-      - name: Calculer les probabilités
+      - name: Calculer les probabilités (foot)
         run: python scripts/model.py
+
+      - name: Collecter le tennis
+        continue-on-error: true
+        run: python scripts/tennis_collect.py
+
+      - name: Calculer les probabilités (tennis)
+        continue-on-error: true
+        run: python scripts/tennis.py
+
+      - name: Assembler le fichier du tableau de bord
+        run: python scripts/merge.py
 
       - name: Enregistrer dans le dépôt
         run: |

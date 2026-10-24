@@ -54,8 +54,9 @@ def parse(tour: str, payload: dict) -> list[dict]:
                     continue
                 comps = sorted(comps, key=lambda x: x.get("order", 0))
                 a, b = comps
+                circuit = "WTA" if "Women" in gname else ("ATP" if "Men" in gname else tour.upper())
                 row = {
-                    "id": c.get("id"), "tour": tour.upper(), "event_id": ev.get("id"),
+                    "id": c.get("id"), "tour": circuit, "event_id": ev.get("id"),
                     "event": ev.get("name"), "major": bool(ev.get("major")),
                     "round": (c.get("round") or {}).get("displayName", ""),
                     "date": c.get("date"), "status": ((c.get("status") or {}).get("type") or {}).get("name"),
