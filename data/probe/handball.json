@@ -1,0 +1,701 @@
+{
+ "status": {
+  "error": "KeyError(slice(None, 3, None))"
+ },
+ "leagues_fr": {
+  "status": 200,
+  "errors": [],
+  "results": 8,
+  "paging": null,
+  "sample": [
+   {
+    "id": 32,
+    "name": "Coupe de France",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/32.png",
+    "country": {
+     "id": 11,
+     "name": "France",
+     "code": "FR",
+     "flag": "https://media.api-sports.io/flags/fr.svg"
+    },
+    "seasons": [
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-21",
+      "end": "2022-06-11"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-09-06",
+      "end": "2023-06-10"
+     },
+     {
+      "season": 2012,
+      "current": false,
+      "start": "2013-01-31",
+      "end": "2013-05-25"
+     },
+     {
+      "season": 2020,
+      "current": false,
+      "start": "2021-05-15",
+      "end": "2021-05-15"
+     },
+     {
+      "season": 2026,
+      "current": true,
+      "start": "2026-08-26",
+      "end": "2026-11-10"
+     },
+     {
+      "season": 2013,
+      "current": false,
+      "start": "2013-12-17",
+      "end": "2014-05-25"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-10-30",
+      "end": "2015-04-26"
+     },
+     {
+      "season": 2025,
+      "current": false,
+      "start": "2025-09-02",
+      "end": "2026-05-23"
+     },
+     {
+      "season": 2023,
+      "current": false,
+      "start": "2023-08-29",
+      "end": "2024-04-20"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-09-07",
+      "end": "2019-05-25"
+     },
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-09-08",
+      "end": "2018-05-05"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-09-24",
+      "end": "2017-05-27"
+     },
+     {
+      "season": 2015,
+      "current": false,
+      "start": "2015-11-07",
+      "end": "2016-05-21"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-09-03",
+      "end": "2025-05-18"
+     }
+    ]
+   },
+   {
+    "id": 35,
+    "name": "Coupe de France Women",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/35.png",
+    "country": {
+     "id": 11,
+     "name": "France",
+     "code": "FR",
+     "flag": "https://media.api-sports.io/flags/fr.svg"
+    },
+    "seasons": [
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-10-27",
+      "end": "2018-05-05"
+     },
+     {
+      "season": 2026,
+      "current": true,
+      "start": "2026-09-19",
+      "end": "2026-11-14"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-09-28",
+      "end": "2019-05-25"
+     },
+     {
+      "season": 2023,
+      "current": false,
+      "start": "2023-09-22",
+      "end": "2024-05-18"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-09-06",
+      "end": "2025-05-17"
+     },
+     {
+      "season": 2020,
+      "current": false,
+      "start": "2020-09-12",
+      "end": "2021-05-15"
+     },
+     {
+      "season": 2025,
+      "current": false,
+      "start": "2025-08-30",
+      "end": "2026-05-24"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-09-10",
+      "end": "2023-06-10"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-11",
+      "end": "2022-06-11"
+     }
+    ]
+   },
+   {
+    "id": 30,
+    "name": "Coupe de la Ligue",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/30.png",
+    "country": {
+     "id": 11,
+     "name": "France",
+     "code": "FR",
+     "flag": "https://media.api-sports.io/flags/fr.svg"
+    },
+    "seasons": [
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-09-07",
+      "end": "2019-03-17"
+     },
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-09-07",
+      "end": "2018-03-18"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-09-14",
+      "end": "2017-04-08"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-09-03",
+      "end": "2015-03-29"
+     },
+     {
+      "season": 2013,
+      "current": false,
+      "start": "2013-10-02",
+      "end": "2014-02-02"
+     },
+     {
+      "season": 2012,
+      "current": false,
+      "start": "2012-10-06",
+      "end": "2012-12-09"
+     },
+     {
+      "season": 2011,
+      "current": false,
+      "start": "2011-09-30",
+      "end": "2011-12-11"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-21",
+      "end": "2021-12-19"
+     },
+     {
+      "season": 2015,
+      "current": false,
+      "start": "2015-08-26",
+      "end": "2016-03-13"
+     }
+    ]
+   }
+  ]
+ },
+ "leagues_de": {
+  "status": 200,
+  "errors": [],
+  "results": 8,
+  "paging": null,
+  "sample": [
+   {
+    "id": 42,
+    "name": "1. Bundesliga Women",
+    "type": "League",
+    "logo": "https://media.api-sports.io/handball/leagues/42.png",
+    "country": {
+     "id": 13,
+     "name": "Germany",
+     "code": "DE",
+     "flag": "https://media.api-sports.io/flags/de.svg"
+    },
+    "seasons": [
+     {
+      "season": 2026,
+      "current": true,
+      "start": "2026-08-29",
+      "end": "2027-04-04"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-04",
+      "end": "2022-06-04"
+     },
+     {
+      "season": 2025,
+      "current": false,
+      "start": "2025-08-29",
+      "end": "2026-06-06"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-09-04",
+      "end": "2025-05-24"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-09-08",
+      "end": "2019-05-18"
+     },
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-09-09",
+      "end": "2018-05-26"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-09-10",
+      "end": "2017-05-20"
+     },
+     {
+      "season": 2015,
+      "current": false,
+      "start": "2015-09-11",
+      "end": "2016-05-14"
+     },
+     {
+      "season": 2023,
+      "current": false,
+      "start": "2023-09-06",
+      "end": "2024-05-25"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-09-06",
+      "end": "2015-05-23"
+     },
+     {
+      "season": 2013,
+      "current": false,
+      "start": "2013-08-31",
+      "end": "2014-05-31"
+     },
+     {
+      "season": 2012,
+      "current": false,
+      "start": "2012-09-08",
+      "end": "2013-05-12"
+     },
+     {
+      "season": 2011,
+      "current": false,
+      "start": "2011-09-03",
+      "end": "2012-05-19"
+     },
+     {
+      "season": 2010,
+      "current": false,
+      "start": "2010-09-04",
+      "end": "2011-05-14"
+     },
+     {
+      "season": 2008,
+      "current": false,
+      "start": "2008-09-05",
+      "end": "2009-06-01"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-09-07",
+      "end": "2023-06-03"
+     }
+    ]
+   },
+   {
+    "id": 43,
+    "name": "2. Bundesliga",
+    "type": "League",
+    "logo": "https://media.api-sports.io/handball/leagues/43.png",
+    "country": {
+     "id": 13,
+     "name": "Germany",
+     "code": "DE",
+     "flag": "https://media.api-sports.io/flags/de.svg"
+    },
+    "seasons": [
+     {
+      "season": 2013,
+      "current": false,
+      "start": "2013-08-30",
+      "end": "2014-05-25"
+     },
+     {
+      "season": 2026,
+      "current": true,
+      "start": "2026-08-28",
+      "end": "2027-06-05"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-10",
+      "end": "2022-06-11"
+     },
+     {
+      "season": 2025,
+      "current": false,
+      "start": "2025-08-29",
+      "end": "2026-06-06"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-08-24",
+      "end": "2019-06-08"
+     },
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-08-25",
+      "end": "2018-06-02"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-09-03",
+      "end": "2017-06-10"
+     },
+     {
+      "season": 2015,
+      "current": false,
+      "start": "2015-08-21",
+      "end": "2016-06-04"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-09-06",
+      "end": "2025-06-29"
+     },
+     {
+      "season": 2023,
+      "current": false,
+      "start": "2023-09-01",
+      "end": "2024-06-01"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-08-23",
+      "end": "2015-06-07"
+     },
+     {
+      "season": 2012,
+      "current": false,
+      "start": "2012-09-01",
+      "end": "2013-06-08"
+     },
+     {
+      "season": 2011,
+      "current": false,
+      "start": "2011-09-02",
+      "end": "2012-06-02"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-08-31",
+      "end": "2023-06-07"
+     }
+    ]
+   },
+   {
+    "id": 45,
+    "name": "2. Bundesliga Women",
+    "type": "League",
+    "logo": "https://media.api-sports.io/handball/leagues/45.png",
+    "country": {
+     "id": 13,
+     "name": "Germany",
+     "code": "DE",
+     "flag": "https://media.api-sports.io/flags/de.svg"
+    },
+    "seasons": [
+     {
+      "season": 2026,
+      "current": true,
+      "start": "2026-08-29",
+      "end": "2027-05-29"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-09-08",
+      "end": "2019-05-18"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-09-07",
+      "end": "2025-05-24"
+     },
+     {
+      "season": 2023,
+      "current": false,
+      "start": "2023-09-09",
+      "end": "2024-06-01"
+     },
+     {
+      "season": 2017,
+      "current": false,
+      "start": "2017-09-09",
+      "end": "2018-05-26"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-09-10",
+      "end": "2017-05-20"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-09-10",
+      "end": "2023-05-27"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-09-04",
+      "end": "2022-05-21"
+     },
+     {
+      "season": 2025,
+      "current": false,
+      "start": "2025-08-30",
+      "end": "2026-05-30"
+     },
+     {
+      "season": 2015,
+      "current": false,
+      "start": "2015-09-12",
+      "end": "2016-05-14"
+     },
+     {
+      "season": 2013,
+      "current": false,
+      "start": "2013-09-07",
+      "end": "2014-05-17"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-09-13",
+      "end": "2015-05-09"
+     }
+    ]
+   }
+  ]
+ },
+ "leagues_eu": {
+  "status": 200,
+  "errors": [],
+  "results": 32,
+  "paging": null,
+  "sample": [
+   {
+    "id": 183,
+    "name": "African Championship",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/183.png",
+    "country": {
+     "id": 42,
+     "name": "Africa",
+     "code": null,
+     "flag": null
+    },
+    "seasons": [
+     {
+      "season": 2020,
+      "current": false,
+      "start": "2020-01-16",
+      "end": "2020-01-26"
+     },
+     {
+      "season": 2026,
+      "current": false,
+      "start": "2026-01-21",
+      "end": "2026-01-31"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-01-17",
+      "end": "2018-01-27"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-01-21",
+      "end": "2016-01-30"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-01-17",
+      "end": "2024-01-27"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-07-11",
+      "end": "2022-07-18"
+     }
+    ]
+   },
+   {
+    "id": 184,
+    "name": "African Championship Women",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/184.png",
+    "country": {
+     "id": 42,
+     "name": "Africa",
+     "code": null,
+     "flag": null
+    },
+    "seasons": [
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-11-27",
+      "end": "2024-12-07"
+     },
+     {
+      "season": 2021,
+      "current": false,
+      "start": "2021-06-08",
+      "end": "2021-06-18"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-12-02",
+      "end": "2018-12-12"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-11-09",
+      "end": "2022-11-19"
+     }
+    ]
+   },
+   {
+    "id": 186,
+    "name": "Asian Championship",
+    "type": "Cup",
+    "logo": "https://media.api-sports.io/handball/leagues/186.png",
+    "country": {
+     "id": 43,
+     "name": "Asia",
+     "code": null,
+     "flag": null
+    },
+    "seasons": [
+     {
+      "season": 2026,
+      "current": false,
+      "start": "2026-01-15",
+      "end": "2026-01-29"
+     },
+     {
+      "season": 2024,
+      "current": false,
+      "start": "2024-01-11",
+      "end": "2024-01-25"
+     },
+     {
+      "season": 2022,
+      "current": false,
+      "start": "2022-01-18",
+      "end": "2022-01-31"
+     },
+     {
+      "season": 2020,
+      "current": false,
+      "start": "2020-01-16",
+      "end": "2020-01-27"
+     },
+     {
+      "season": 2018,
+      "current": false,
+      "start": "2018-01-18",
+      "end": "2018-01-28"
+     },
+     {
+      "season": 2016,
+      "current": false,
+      "start": "2016-01-15",
+      "end": "2016-01-28"
+     },
+     {
+      "season": 2014,
+      "current": false,
+      "start": "2014-01-25",
+      "end": "2014-02-06"
+     }
+    ]
+   }
+  ]
+ }
+}
