@@ -25,47 +25,50 @@ jobs:
           cache: pip
 
       - name: Installer les dépendances
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          mkdir -p data/logs && date -u +"Passage du %F %H:%M UTC" > data/logs/dernier_passage.txt
 
       - name: Collecter les données
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/collect.py
+        run: set -o pipefail; python scripts/collect.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Cotes foot des bookmakers (Pinnacle et autres)
         continue-on-error: true
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/odds_foot.py
+        run: set -o pipefail; python scripts/odds_foot.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Cotes Winamax et opérateurs français (passage du matin uniquement)
         if: github.event.schedule == '23 3 * * *' || github.event_name == 'workflow_dispatch'
         continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python scripts/odds_winamax.py
+        run: set -o pipefail; python scripts/odds_winamax.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Calculer les probabilités (foot)
-        run: python scripts/model.py
+        run: set -o pipefail; python scripts/model.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Collecter le tennis
         continue-on-error: true
-        run: python scripts/tennis_collect.py
+        run: set -o pipefail; python scripts/tennis_collect.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Calculer les probabilités (tennis)
         continue-on-error: true
-        run: python scripts/tennis.py
+        run: set -o pipefail; python scripts/tennis.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Handball (matchs, cotes, cotes justes)
         continue-on-error: true
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: python scripts/handball.py
+        run: set -o pipefail; python scripts/handball.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Assembler le fichier du tableau de bord
-        run: python scripts/merge.py
+        run: set -o pipefail; python scripts/merge.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Enregistrer dans le dépôt
+        if: always()
         run: |
           git config user.name "paris-data-bot"
           git config user.email "actions@users.noreply.github.com"
