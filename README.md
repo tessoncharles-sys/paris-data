@@ -61,3 +61,7 @@ Le 1er de chaque mois, `.github/workflows/calibration.yml` relance les tests de 
 ## Cotes des bookmakers (foot)
 
 `scripts/odds_foot.py` récupère à chaque passage, via API-Football, les cotes de Pinnacle et de 8 autres bookmakers pour les matchs du tableau (jusqu'à ~80 matchs par jour avec le quota gratuit, championnats majeurs en priorité). Marge retirée, la cote Pinnacle devient la cote juste de référence ; la probabilité du modèle reste affichée avec l'écart (un écart de 8 points ou plus est signalé). Toutes les cotes sont archivées dans `data/raw/api-football/odds_archive/` pour tester le modèle face au marché et suivre la cote de clôture.
+
+## Cotes Winamax (The Odds API)
+
+`scripts/odds_winamax.py` (passage du matin, clé `ODDS_API_KEY`) récupère les cotes de Winamax et des autres opérateurs français (Betclic, Unibet, PMU, Parions Sport, NetBet) sur la victoire et le total 2,5 buts des grands championnats, et sur le vainqueur des tournois de tennis couverts. Le tableau affiche alors la value Winamax automatiquement (proba × cote Winamax − 1) et la meilleure cote française. Budget : 16 crédits par jour au maximum, sur les 500 gratuits par mois.
