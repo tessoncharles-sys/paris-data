@@ -361,6 +361,7 @@ def analyse(today: dt.date) -> dict:
                 "corners_attendus": round(sum(c), 1) if c else None,
                 "cartons_attendus": round(sum(k), 1) if k else None,
                 "fiabilite": fiab, "marches": marches,
+                "forme": {"dom": team_form(hist, home, ref), "ext": team_form(hist, away, ref)},
             }
             matches.append(m)
 
@@ -438,6 +439,60 @@ def famille(label: str) -> str:
     return "Autre"
 
 
+def team_form(hist: pd.DataFrame, team: str, ref: pd.Timestamp, n: int = 10) -> dict | None:
+    """Statistiques des n derniers matchs d'une équipe (toutes divisions collectées)."""
+    g = hist[((hist["HomeTeam"] == team) | (hist["AwayTeam"] == team)) & (hist["Date"] < ref)]
+    g = g.sort_values("Date").tail(n)
+    if g.empty:
+        return None
+    home = g["HomeTeam"] == team
+    gf = np.where(home, g["FTHG"], g["FTAG"]).astype(int)
+    ga = np.where(home, g["FTAG"], g["FTHG"]).astype(int)
+    tot = gf + ga
+    res = "".join("V" if a > b else "N" if a == b else "D" for a, b in zip(gf, ga))
+    return {"n": len(g), "bilan": res, "bm": round(float(gf.mean()), 1), "be": round(float(ga.mean()), 1),
+            "marque": int((gf > 0).sum()), "encaisse": int((ga > 0).sum()), "o15": int((tot > 1).sum()),
+            "u35": int((tot < 4).sum()), "o25": int((tot > 2).sum()), "btts": int(((gf > 0) & (ga > 0)).sum())}
+
+
+def explain(label: str, m: dict, mm: dict) -> str:
+    """Pourquoi ce pari : proba, prix à exiger, chiffres de forme pertinents."""
+    home, away = m["match"].split(" - ", 1)
+    fh, fa = m.get("forme", {}).get("dom"), m.get("forme", {}).get("ext")
+    lb = m["lambda_boost"]
+    src = "cotes du marché" if mm["proba_marche"] is not None else "modèle calibré, testé sur 2025-26"
+    parts = [f"Proba {mm['proba']:.0%} ({src}) → cote juste {mm['cote_juste']:.2f}. "
+             f"Value seulement si Winamax paie au moins {mm['cote_juste'] * 1.03:.2f} (+3 %)."]
+    parts.append(f"Buts attendus {home} {lb['dom']:.1f} – {lb['ext']:.1f} {away} (calés sur les cotes du marché).")
+    if fh and fa:
+        def f(t, x):
+            return f"{t} ({x['n']} derniers matchs : {x['bilan']})"
+        if label.startswith("Dom."):
+            parts.append(f"{f(home, fh)} a marqué dans {fh['marque']}/{fh['n']} matchs ({fh['bm']} but/match) ; "
+                         f"{away} a encaissé dans {fa['encaisse']}/{fa['n']} ({fa['be']} but/match).")
+        elif label.startswith("Ext."):
+            parts.append(f"{f(away, fa)} a marqué dans {fa['marque']}/{fa['n']} matchs ({fa['bm']} but/match) ; "
+                         f"{home} a encaissé dans {fh['encaisse']}/{fh['n']} ({fh['be']} but/match).")
+        elif "marquent" in label:
+            parts.append(f"Les 2 équipes ont marqué dans {fh['btts']}/{fh['n']} matchs de {home} et "
+                         f"{fa['btts']}/{fa['n']} de {away}.")
+        elif "buts" in label:
+            key = {"+1.5": "o15", "-3.5": "u35", "+2.5": "o25"}.get(label.split()[0])
+            if key:
+                txt = {"o15": "plus de 1,5 but", "u35": "moins de 3,5 buts", "o25": "plus de 2,5 buts"}[key]
+                parts.append(f"{txt.capitalize()} dans {fh[key]}/{fh['n']} matchs de {home} et {fa[key]}/{fa['n']} de {away}.")
+            elif label.startswith("-2.5"):
+                parts.append(f"Moins de 2,5 buts dans {fh['n'] - fh['o25']}/{fh['n']} matchs de {home} et "
+                             f"{fa['n'] - fa['o25']}/{fa['n']} de {away}.")
+            elif label.startswith("-1.5") or label.startswith("+3.5"):
+                parts.append(f"Moyenne de buts : {home} {fh['bm'] + fh['be']:.1f}/match, {away} {fa['bm'] + fa['be']:.1f}/match.")
+        else:
+            parts.append(f"Forme : {f(home, fh)}, {fh['bm']}-{fh['be']} buts/match ; {f(away, fa)}, {fa['bm']}-{fa['be']}.")
+    parts.append("Absences et compositions non vérifiées automatiquement.")
+    import re
+    return re.sub(r"(\d)\.(\d)", r"\1,\2", " ".join(parts))
+
+
 def to_dashboard_rows(res: dict) -> pd.DataFrame:
     """Une ligne par match × marché, pour le tableau de bord Claude."""
     rows = []
@@ -461,6 +516,7 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "infos": f"Buts attendus {m['lambda_boost']['dom']:.1f} – {m['lambda_boost']['ext']:.1f}",
                 "lam_dom": m["lambda_boost"]["dom"], "lam_ext": m["lambda_boost"]["ext"],
                 "lam_source": m["lambda_boost"]["source"],
+                "explication": explain(mm["marche"], m, mm),
             })
     return pd.DataFrame(rows)
 

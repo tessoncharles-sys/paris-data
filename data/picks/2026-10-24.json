@@ -1,6 +1,6 @@
 {
  "date": "2026-10-24",
- "genere_le": "2026-10-24T15:34:49+00:00",
+ "genere_le": "2026-10-24T15:47:27+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
@@ -296,7 +296,33 @@
      "cote_minimum": 1.71,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVVNDDDDD",
+     "bm": 1.4,
+     "be": 2.0,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVVVVDVVV",
+     "bm": 1.9,
+     "be": 0.8,
+     "marque": 10,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 6,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Oud-Heverlee Leuven - Lommel SK",
@@ -577,7 +603,33 @@
      "cote_minimum": 1.56,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDDDDDDNVN",
+     "bm": 0.7,
+     "be": 1.7,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 9,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "NDVVDDNV",
+     "bm": 1.1,
+     "be": 1.1,
+     "marque": 4,
+     "encaisse": 5,
+     "o15": 4,
+     "u35": 5,
+     "o25": 3,
+     "btts": 2
+    }
+   }
   },
   {
    "match": "RAAL La Louviere - Waregem",
@@ -858,7 +910,33 @@
      "cote_minimum": 1.58,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDDDNDVDD",
+     "bm": 1.2,
+     "be": 2.3,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 5,
+     "o25": 8,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVNVNVDDD",
+     "bm": 1.5,
+     "be": 1.2,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Westerlo - Beveren",
@@ -1139,7 +1217,33 @@
      "cote_minimum": 1.52,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDDDDNVVVV",
+     "bm": 2.1,
+     "be": 2.1,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 3,
+     "o25": 8,
+     "btts": 6
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "DVDDVVDD",
+     "bm": 1.0,
+     "be": 1.8,
+     "marque": 5,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 5,
+     "o25": 5,
+     "btts": 2
+    }
+   }
   },
   {
    "match": "Genk - Standard",
@@ -1420,7 +1524,33 @@
      "cote_minimum": 1.53,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVDVNVNNDV",
+     "bm": 1.8,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDNNVVVDDD",
+     "bm": 1.5,
+     "be": 1.6,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Club Brugge - St Truiden",
@@ -1701,7 +1831,33 @@
      "cote_minimum": 1.52,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVVVDVVVV",
+     "bm": 2.6,
+     "be": 0.6,
+     "marque": 10,
+     "encaisse": 4,
+     "o15": 8,
+     "u35": 6,
+     "o25": 8,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVNNVDVDDD",
+     "bm": 1.9,
+     "be": 1.9,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 5,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Gent - Anderlecht",
@@ -1982,7 +2138,33 @@
      "cote_minimum": 1.7,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDVVVVVNVV",
+     "bm": 1.5,
+     "be": 0.9,
+     "marque": 8,
+     "encaisse": 5,
+     "o15": 8,
+     "u35": 9,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVDDVNVVV",
+     "bm": 1.3,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 8,
+     "o25": 6,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "St. Gilloise - Cercle Brugge",
@@ -2263,7 +2445,33 @@
      "cote_minimum": 1.66,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVNVVVVVN",
+     "bm": 2.7,
+     "be": 0.5,
+     "marque": 8,
+     "encaisse": 4,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDNNDDDNDD",
+     "bm": 1.2,
+     "be": 2.3,
+     "marque": 7,
+     "encaisse": 10,
+     "o15": 8,
+     "u35": 5,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Augsburg - Union Berlin",
@@ -2544,7 +2752,33 @@
      "cote_minimum": 1.81,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDVVNDND",
+     "bm": 2.3,
+     "be": 1.9,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 2,
+     "o25": 9,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVVNDDDVN",
+     "bm": 1.5,
+     "be": 2.3,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 2,
+     "o25": 8,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "FC Koln - Schalke 04",
@@ -2825,7 +3059,33 @@
      "cote_minimum": 1.48,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNDDVDNDVD",
+     "bm": 1.3,
+     "be": 2.3,
+     "marque": 9,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 5,
+     "o25": 8,
+     "btts": 9
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDVDNVNDD",
+     "bm": 0.9,
+     "be": 1.2,
+     "marque": 5,
+     "encaisse": 6,
+     "o15": 5,
+     "u35": 8,
+     "o25": 5,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Mainz - Werder Bremen",
@@ -3106,7 +3366,33 @@
      "cote_minimum": 1.66,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDVNVDVDV",
+     "bm": 2.2,
+     "be": 1.8,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 4,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDDDVNVNN",
+     "bm": 1.4,
+     "be": 1.9,
+     "marque": 8,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 4,
+     "o25": 6,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Paderborn - Hamburg",
@@ -3387,7 +3673,33 @@
      "cote_minimum": 1.45,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNVNDDVDN",
+     "bm": 1.2,
+     "be": 1.9,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 5,
+     "o25": 6,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVVNDDDVVV",
+     "bm": 1.3,
+     "be": 2.1,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "RB Leipzig - Elversberg",
@@ -3668,7 +3980,33 @@
      "cote_minimum": 1.44,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVDVDVDVD",
+     "bm": 2.3,
+     "be": 2.1,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 10,
+     "u35": 3,
+     "o25": 9,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDVVVDNDV",
+     "bm": 2.4,
+     "be": 1.8,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 4,
+     "o25": 8,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Dortmund - Ein Frankfurt",
@@ -3949,7 +4287,33 @@
      "cote_minimum": 1.69,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVVVVVVNN",
+     "bm": 2.0,
+     "be": 0.7,
+     "marque": 8,
+     "encaisse": 4,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDNNDVNDV",
+     "bm": 1.6,
+     "be": 2.4,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 3,
+     "o25": 8,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Hoffenheim - Leverkusen",
@@ -4230,7 +4594,33 @@
      "cote_minimum": 1.76,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNVDDDVDDV",
+     "bm": 1.7,
+     "be": 2.2,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 9,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDNDVNVVV",
+     "bm": 2.4,
+     "be": 1.5,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 4,
+     "o25": 8,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Freiburg - Bayern Munich",
@@ -4511,7 +4901,33 @@
      "cote_minimum": 1.46,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNDVVVVNVD",
+     "bm": 2.2,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNVVVNVVNV",
+     "bm": 3.5,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 3,
+     "o25": 8,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Heidenheim - Cottbus",
@@ -4792,7 +5208,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVDVVVNND",
+     "bm": 1.8,
+     "be": 1.8,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 4,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "VDDNVNDN",
+     "bm": 2.0,
+     "be": 2.1,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 4,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Hertha - Bielefeld",
@@ -5073,7 +5515,33 @@
      "cote_minimum": 1.82,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVVVVVVVN",
+     "bm": 2.2,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVDNDNVV",
+     "bm": 1.9,
+     "be": 1.6,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 8,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Magdeburg - Karlsruhe",
@@ -5354,7 +5822,33 @@
      "cote_minimum": 1.73,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDVVDVNVD",
+     "bm": 1.7,
+     "be": 1.3,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVNDNDDDV",
+     "bm": 1.3,
+     "be": 1.8,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Nurnberg - Kaiserslautern",
@@ -5635,7 +6129,33 @@
      "cote_minimum": 1.83,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNVVVNVVNN",
+     "bm": 2.7,
+     "be": 1.4,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 5,
+     "o25": 8,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVNNVVDVNV",
+     "bm": 1.1,
+     "be": 0.4,
+     "marque": 6,
+     "encaisse": 2,
+     "o15": 5,
+     "u35": 10,
+     "o25": 3,
+     "btts": 1
+    }
+   }
   },
   {
    "match": "Braunschweig - Hannover",
@@ -5916,7 +6436,33 @@
      "cote_minimum": 1.89,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVDDDNDVD",
+     "bm": 1.5,
+     "be": 1.7,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 6,
+     "u35": 6,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDDVNDVDN",
+     "bm": 1.2,
+     "be": 1.7,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Holstein Kiel - Dresden",
@@ -6197,7 +6743,33 @@
      "cote_minimum": 2.22,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNNDNDNDN",
+     "bm": 0.9,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVDDNDNV",
+     "bm": 1.4,
+     "be": 1.8,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 8,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Osnabruck - Greuther Furth",
@@ -6478,7 +7050,33 @@
      "cote_minimum": 1.7,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 8,
+     "bilan": "DDVVDNND",
+     "bm": 1.4,
+     "be": 1.9,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 5,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVNDVDNNDV",
+     "bm": 1.6,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 8,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Aston Villa - Man City",
@@ -6759,7 +7357,33 @@
      "cote_minimum": 1.72,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDDNDVNV",
+     "bm": 1.5,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNDVVVVVVV",
+     "bm": 2.4,
+     "be": 1.0,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 7,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Arsenal - Everton",
@@ -7040,7 +7664,33 @@
      "cote_minimum": 1.65,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVVVVVDVV",
+     "bm": 1.5,
+     "be": 0.6,
+     "marque": 9,
+     "encaisse": 4,
+     "o15": 6,
+     "u35": 10,
+     "o25": 5,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDVNNNVND",
+     "bm": 1.1,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Coventry - Fulham",
@@ -7321,7 +7971,33 @@
      "cote_minimum": 1.32,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVDDDDVVD",
+     "bm": 1.8,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 4,
+     "o25": 7,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVDDDNNDV",
+     "bm": 1.0,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 8,
+     "o25": 3,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Chelsea - Tottenham",
@@ -7602,7 +8278,33 @@
      "cote_minimum": 2.18,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVDVVDNDVV",
+     "bm": 2.1,
+     "be": 1.7,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 6,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVDDNNDNV",
+     "bm": 0.9,
+     "be": 1.3,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Crystal Palace - Newcastle",
@@ -7883,7 +8585,33 @@
      "cote_minimum": 1.67,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNDDDVDNVD",
+     "bm": 1.2,
+     "be": 2.4,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDNVNDVDD",
+     "bm": 1.4,
+     "be": 1.8,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 5,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Hull - Brentford",
@@ -8164,7 +8892,33 @@
      "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDVVVNNDND",
+     "bm": 1.3,
+     "be": 1.2,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNNVNNNVND",
+     "bm": 1.6,
+     "be": 1.4,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 7,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Liverpool - Brighton",
@@ -8445,7 +9199,33 @@
      "cote_minimum": 1.82,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDNNNVNVDV",
+     "bm": 1.3,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDDVDNVVVV",
+     "bm": 2.6,
+     "be": 0.9,
+     "marque": 8,
+     "encaisse": 4,
+     "o15": 9,
+     "u35": 6,
+     "o25": 7,
+     "btts": 2
+    }
+   }
   },
   {
    "match": "Man United - Bournemouth",
@@ -8726,7 +9506,33 @@
      "cote_minimum": 1.88,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDVNDNNN",
+     "bm": 1.6,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 4,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNNDNNNDDV",
+     "bm": 1.2,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 4,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Sunderland - Leeds",
@@ -9007,7 +9813,33 @@
      "cote_minimum": 1.69,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDVNDDDD",
+     "bm": 1.1,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDVNNVNDN",
+     "bm": 1.1,
+     "be": 1.0,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 9,
+     "o25": 3,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Charlton - Norwich",
@@ -9288,7 +10120,33 @@
      "cote_minimum": 1.7,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVNDNNDNND",
+     "bm": 0.8,
+     "be": 1.4,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVVDDDDD",
+     "bm": 1.6,
+     "be": 1.9,
+     "marque": 6,
+     "encaisse": 10,
+     "o15": 7,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Portsmouth - Millwall",
@@ -9569,7 +10427,33 @@
      "cote_minimum": 1.82,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDVNNDVVN",
+     "bm": 1.3,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDDVDNNVDN",
+     "bm": 1.6,
+     "be": 1.8,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 4,
+     "o25": 8,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Sheffield United - Derby",
@@ -9850,7 +10734,33 @@
      "cote_minimum": 1.92,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNVDVDDVDV",
+     "bm": 1.5,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVDDDNNDD",
+     "bm": 0.8,
+     "be": 1.8,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 8,
+     "o25": 5,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Blackburn - Wrexham",
@@ -10131,7 +11041,33 @@
      "cote_minimum": 1.55,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDNDDVNVVD",
+     "bm": 1.5,
+     "be": 1.4,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVNNDVNDV",
+     "bm": 1.4,
+     "be": 1.5,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Cardiff - Birmingham",
@@ -10412,7 +11348,33 @@
      "cote_minimum": 1.7,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNDDNDVDVN",
+     "bm": 1.7,
+     "be": 1.6,
+     "marque": 8,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 5,
+     "o25": 7,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVNNDVNVVV",
+     "bm": 2.0,
+     "be": 1.1,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 6,
+     "o25": 8,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Lincoln - Burnley",
@@ -10693,7 +11655,33 @@
      "cote_minimum": 1.94,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVNNVVDDDN",
+     "bm": 0.8,
+     "be": 1.7,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDNDNDNVND",
+     "bm": 1.4,
+     "be": 1.9,
+     "marque": 10,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 5,
+     "o25": 7,
+     "btts": 9
+    }
+   }
   },
   {
    "match": "Preston - West Brom",
@@ -10974,7 +11962,33 @@
      "cote_minimum": 1.51,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDDVDDNDDD",
+     "bm": 0.8,
+     "be": 2.2,
+     "marque": 6,
+     "encaisse": 10,
+     "o15": 7,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDNVVNDDVV",
+     "bm": 1.3,
+     "be": 1.1,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 6,
+     "u35": 7,
+     "o25": 4,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "QPR - Swansea",
@@ -11255,7 +12269,33 @@
      "cote_minimum": 1.58,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDNNNNVD",
+     "bm": 1.2,
+     "be": 1.1,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVNDVVVVD",
+     "bm": 1.4,
+     "be": 0.7,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 8,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Stoke - Bristol City",
@@ -11536,7 +12576,33 @@
      "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVVNVVVDV",
+     "bm": 1.7,
+     "be": 1.4,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVVDDVNDD",
+     "bm": 1.2,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "West Ham - Southampton",
@@ -11817,7 +12883,33 @@
      "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNVVVVNNVV",
+     "bm": 2.8,
+     "be": 1.0,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVNNVVDVVN",
+     "bm": 2.0,
+     "be": 0.8,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Wolves - Watford",
@@ -12098,7 +13190,33 @@
      "cote_minimum": 2.19,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDNVVDDVN",
+     "bm": 1.7,
+     "be": 1.4,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 5,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDDVDDDDV",
+     "bm": 0.8,
+     "be": 1.8,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Huddersfield - Wigan",
@@ -12379,7 +13497,33 @@
      "cote_minimum": 1.67,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVNNDVNVV",
+     "bm": 1.9,
+     "be": 1.0,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDDVDNDDVD",
+     "bm": 0.7,
+     "be": 1.5,
+     "marque": 4,
+     "encaisse": 8,
+     "o15": 5,
+     "u35": 7,
+     "o25": 4,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Luton - Leicester",
@@ -12660,7 +13804,33 @@
      "cote_minimum": 1.69,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDVNDDVDV",
+     "bm": 1.9,
+     "be": 1.8,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 6,
+     "o25": 7,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDNVDVNDVV",
+     "bm": 1.6,
+     "be": 1.5,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "AFC Wimbledon - Wycombe",
@@ -12941,7 +14111,33 @@
      "cote_minimum": 1.47,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVDVVNNDDD",
+     "bm": 0.7,
+     "be": 1.5,
+     "marque": 6,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 8,
+     "o25": 4,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDNVVNDVN",
+     "bm": 1.7,
+     "be": 2.1,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 4,
+     "o25": 7,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Blackpool - Mansfield",
@@ -13222,7 +14418,33 @@
      "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDDNDDDV",
+     "bm": 1.5,
+     "be": 1.6,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVDDNNVNV",
+     "bm": 1.6,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Bromley - Peterboro",
@@ -13503,7 +14725,33 @@
      "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDDDNVDDD",
+     "bm": 0.9,
+     "be": 2.5,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDNDNDDVND",
+     "bm": 1.0,
+     "be": 1.8,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Burton - Leyton Orient",
@@ -13784,7 +15032,33 @@
      "cote_minimum": 1.73,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVNDNVDDNN",
+     "bm": 1.3,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVNDVDNVD",
+     "bm": 1.4,
+     "be": 1.0,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 7,
+     "o25": 3,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Cambridge - Plymouth",
@@ -14065,7 +15339,33 @@
      "cote_minimum": 1.7,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDVNVNNVVN",
+     "bm": 1.5,
+     "be": 1.2,
+     "marque": 10,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 9
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVVVDVVDD",
+     "bm": 1.6,
+     "be": 1.3,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 8,
+     "o25": 5,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Doncaster - Sheffield Weds",
@@ -14346,7 +15646,33 @@
      "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNNNDDVVDD",
+     "bm": 1.0,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVVVNNNVD",
+     "bm": 2.0,
+     "be": 1.0,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Notts County - Stockport",
@@ -14627,7 +15953,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNVNNDDDDV",
+     "bm": 1.0,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 9,
+     "o25": 3,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVDNVVVV",
+     "bm": 2.0,
+     "be": 1.0,
+     "marque": 8,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Oxford - Bradford",
@@ -14908,7 +16260,33 @@
      "cote_minimum": 2.56,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNVDVVNVNV",
+     "bm": 1.8,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 7,
+     "o25": 7,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDDVVVNNVN",
+     "bm": 0.8,
+     "be": 0.5,
+     "marque": 7,
+     "encaisse": 3,
+     "o15": 4,
+     "u35": 10,
+     "o25": 1,
+     "btts": 2
+    }
+   }
   },
   {
    "match": "Reading - Barnsley",
@@ -15189,7 +16567,33 @@
      "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVDVNNVDV",
+     "bm": 2.0,
+     "be": 0.8,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVVDDNDDD",
+     "bm": 1.0,
+     "be": 1.9,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 7,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Stevenage - Milton Keynes Dons",
@@ -15470,7 +16874,33 @@
      "cote_minimum": 1.35,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDNNVVDVDV",
+     "bm": 1.5,
+     "be": 1.0,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNNDNNNDVD",
+     "bm": 1.1,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Bristol Rvs - Swindon",
@@ -15751,7 +17181,33 @@
      "cote_minimum": 1.53,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVDDVDDDD",
+     "bm": 0.9,
+     "be": 1.4,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVVDDNDDNV",
+     "bm": 1.1,
+     "be": 1.5,
+     "marque": 5,
+     "encaisse": 10,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Cheltenham - Newport County",
@@ -16032,7 +17488,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVNVNVDDDV",
+     "bm": 1.8,
+     "be": 1.9,
+     "marque": 8,
+     "encaisse": 10,
+     "o15": 10,
+     "u35": 4,
+     "o25": 7,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDNNVNVNN",
+     "bm": 1.0,
+     "be": 1.0,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 8,
+     "o25": 4,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Northampton - Colchester",
@@ -16313,7 +17795,33 @@
      "cote_minimum": 1.57,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDNNVDDNVD",
+     "bm": 0.6,
+     "be": 0.8,
+     "marque": 5,
+     "encaisse": 7,
+     "o15": 5,
+     "u35": 10,
+     "o25": 0,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDDNNNDNN",
+     "bm": 0.9,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 8,
+     "o25": 3,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Barnet - Oldham",
@@ -16594,7 +18102,33 @@
      "cote_minimum": 1.67,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVNNNVVVVD",
+     "bm": 2.3,
+     "be": 1.5,
+     "marque": 10,
+     "encaisse": 10,
+     "o15": 10,
+     "u35": 3,
+     "o25": 9,
+     "btts": 10
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVNDDDDNVD",
+     "bm": 1.1,
+     "be": 1.7,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Chesterfield - Crewe",
@@ -16875,7 +18409,33 @@
      "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNNVVDVNDN",
+     "bm": 1.7,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 7,
+     "o25": 6,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNNNNNVVVD",
+     "bm": 1.3,
+     "be": 1.1,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 3,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Crawley Town - Tranmere",
@@ -17156,7 +18716,33 @@
      "cote_minimum": 1.91,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDNDDDNDD",
+     "bm": 1.1,
+     "be": 2.0,
+     "marque": 7,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNVDNNDNDV",
+     "bm": 1.2,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 7,
+     "o25": 4,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Exeter - Fleetwood Town",
@@ -17437,7 +19023,33 @@
      "cote_minimum": 1.69,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNNDNDVVNV",
+     "bm": 0.6,
+     "be": 0.5,
+     "marque": 5,
+     "encaisse": 4,
+     "o15": 3,
+     "u35": 10,
+     "o25": 1,
+     "btts": 2
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNVNDDDNVD",
+     "bm": 1.3,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 7,
+     "o25": 4,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Gillingham - Grimsby",
@@ -17718,7 +19330,33 @@
      "cote_minimum": 1.77,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNVVVDNVDN",
+     "bm": 1.7,
+     "be": 1.1,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNNVVDDDDN",
+     "bm": 1.4,
+     "be": 1.5,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Rochdale - Accrington",
@@ -17999,7 +19637,33 @@
      "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDNVVVNDN",
+     "bm": 1.4,
+     "be": 1.2,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 7,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVDNNVNVN",
+     "bm": 1.5,
+     "be": 1.2,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Rotherham - Shrewsbury",
@@ -18280,7 +19944,33 @@
      "cote_minimum": 1.94,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDNVNDDDN",
+     "bm": 1.2,
+     "be": 1.7,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDDVNNVDVV",
+     "bm": 1.2,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "York - Port Vale",
@@ -18561,7 +20251,33 @@
      "cote_minimum": 1.58,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVDNVDVNNN",
+     "bm": 1.6,
+     "be": 1.1,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 8,
+     "o25": 4,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNNDDVDVVN",
+     "bm": 0.6,
+     "be": 1.0,
+     "marque": 6,
+     "encaisse": 6,
+     "o15": 5,
+     "u35": 9,
+     "o25": 1,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Lens - Paris FC",
@@ -18842,7 +20558,33 @@
      "cote_minimum": 1.73,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVVDDNDVV",
+     "bm": 1.9,
+     "be": 1.3,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVNVVNVDV",
+     "bm": 1.9,
+     "be": 1.0,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 7,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Monaco - Lille",
@@ -19123,7 +20865,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDVVVNVND",
+     "bm": 1.6,
+     "be": 1.3,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDVNVVDVN",
+     "bm": 1.2,
+     "be": 0.8,
+     "marque": 9,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 9,
+     "o25": 2,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Angers - Lorient",
@@ -19404,7 +21172,33 @@
      "cote_minimum": 1.47,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNNDVDNVDD",
+     "bm": 1.2,
+     "be": 2.0,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDNDVNDVV",
+     "bm": 1.3,
+     "be": 1.0,
+     "marque": 8,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Auxerre - Le Mans",
@@ -19685,7 +21479,33 @@
      "cote_minimum": 2.08,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVDDDVVDV",
+     "bm": 1.8,
+     "be": 1.9,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNVNDNNVDD",
+     "bm": 1.4,
+     "be": 1.7,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 6,
+     "o25": 6,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Marseille - Le Havre",
@@ -19966,7 +21786,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVVVDDDDVV",
+     "bm": 1.8,
+     "be": 1.4,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVDNDNDDD",
+     "bm": 0.8,
+     "be": 1.3,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 6,
+     "u35": 8,
+     "o25": 3,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Rennes - Strasbourg",
@@ -20247,7 +22093,33 @@
      "cote_minimum": 1.65,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDNVVVDVD",
+     "bm": 2.0,
+     "be": 2.2,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 3,
+     "o25": 9,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVDVVNDDD",
+     "bm": 2.0,
+     "be": 2.1,
+     "marque": 9,
+     "encaisse": 10,
+     "o15": 10,
+     "u35": 6,
+     "o25": 8,
+     "btts": 9
+    }
+   }
   },
   {
    "match": "Toulouse - Troyes",
@@ -20528,7 +22400,33 @@
      "cote_minimum": 1.42,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVNDNDNVNV",
+     "bm": 1.6,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDNVDDDDD",
+     "bm": 1.2,
+     "be": 1.7,
+     "marque": 5,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 7,
+     "o25": 5,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Dijon - Rodez",
@@ -20809,7 +22707,33 @@
      "cote_minimum": 1.39,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 9,
+     "bilan": "NDNDNVVVD",
+     "bm": 1.8,
+     "be": 1.8,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 5,
+     "o25": 5,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDVNDDDDD",
+     "bm": 1.6,
+     "be": 2.2,
+     "marque": 6,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "St Etienne - Nantes",
@@ -21090,7 +23014,33 @@
      "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVVVVDNVV",
+     "bm": 2.7,
+     "be": 0.8,
+     "marque": 10,
+     "encaisse": 5,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDDDNVDVND",
+     "bm": 1.1,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 5,
+     "u35": 7,
+     "o25": 5,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Iraklis - Kifisia",
@@ -21371,7 +23321,33 @@
      "cote_minimum": 2.71,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 7,
+     "bilan": "DNVNNVD",
+     "bm": 1.0,
+     "be": 1.1,
+     "marque": 5,
+     "encaisse": 4,
+     "o15": 6,
+     "u35": 6,
+     "o25": 2,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVNDDNVVD",
+     "bm": 1.0,
+     "be": 1.4,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 8,
+     "o25": 5,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Asteras Tripolis - Levadeiakos",
@@ -21652,7 +23628,33 @@
      "cote_minimum": 1.9,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNVDDDNNVD",
+     "bm": 1.0,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDDDDNDDN",
+     "bm": 0.6,
+     "be": 1.6,
+     "marque": 2,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 1
+    }
+   }
   },
   {
    "match": "AEK - Panetolikos",
@@ -21933,7 +23935,33 @@
      "cote_minimum": 1.88,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVNNVNVNVV",
+     "bm": 2.0,
+     "be": 0.6,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 8,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDVVVDDDD",
+     "bm": 1.1,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Olympiakos - Kalamata",
@@ -22214,7 +24242,33 @@
      "cote_minimum": 2.77,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVNVVNDVVV",
+     "bm": 1.0,
+     "be": 0.4,
+     "marque": 9,
+     "encaisse": 4,
+     "o15": 4,
+     "u35": 10,
+     "o25": 0,
+     "btts": 3
+    },
+    "ext": {
+     "n": 7,
+     "bilan": "DDNVDVV",
+     "bm": 1.9,
+     "be": 1.7,
+     "marque": 5,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 3,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Volos NFC - Panathinaikos",
@@ -22495,7 +24549,33 @@
      "cote_minimum": 2.29,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDDDNNDDDN",
+     "bm": 0.8,
+     "be": 2.0,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 7,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDNVVVVVDV",
+     "bm": 2.0,
+     "be": 0.9,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Aris - Atromitos",
@@ -22776,7 +24856,33 @@
      "cote_minimum": 2.03,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVVVDDNVV",
+     "bm": 1.8,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 8,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVDDNNDD",
+     "bm": 1.6,
+     "be": 1.3,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 9,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "OFI Crete - PAOK",
@@ -23057,7 +25163,33 @@
      "cote_minimum": 1.71,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVVDVVNDD",
+     "bm": 1.7,
+     "be": 1.8,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNNVVDVVDV",
+     "bm": 1.9,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 5,
+     "o25": 7,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Cagliari - Bologna",
@@ -23338,7 +25470,33 @@
      "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVVVDVVVND",
+     "bm": 1.0,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 9,
+     "o25": 4,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVNDDNDNVD",
+     "bm": 1.3,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 6,
+     "u35": 6,
+     "o25": 5,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Como - Sassuolo",
@@ -23619,7 +25777,33 @@
      "cote_minimum": 1.87,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVVNVVVDNV",
+     "bm": 1.8,
+     "be": 0.8,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDDDVNVDND",
+     "bm": 1.5,
+     "be": 2.0,
+     "marque": 9,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 6,
+     "o25": 8,
+     "btts": 9
+    }
+   }
   },
   {
    "match": "Napoli - Roma",
@@ -23900,7 +26084,33 @@
      "cote_minimum": 1.47,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVVVDDVNVD",
+     "bm": 1.6,
+     "be": 1.0,
+     "marque": 9,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVVVVNNV",
+     "bm": 2.3,
+     "be": 0.5,
+     "marque": 9,
+     "encaisse": 3,
+     "o15": 9,
+     "u35": 6,
+     "o25": 5,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Lazio - Parma",
@@ -24181,7 +26391,33 @@
      "cote_minimum": 1.87,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVVVVNVVV",
+     "bm": 1.6,
+     "be": 1.0,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 8,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDVDDNDVDD",
+     "bm": 0.7,
+     "be": 1.7,
+     "marque": 5,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 9,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Inter - Fiorentina",
@@ -24462,7 +26698,33 @@
      "cote_minimum": 1.74,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNNVVVVNVV",
+     "bm": 2.8,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVNDDDVNDD",
+     "bm": 1.1,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 7,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Atalanta - Frosinone",
@@ -24743,7 +27005,33 @@
      "cote_minimum": 1.42,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDNVVDDDVD",
+     "bm": 1.4,
+     "be": 1.5,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVDVVNVDV",
+     "bm": 2.2,
+     "be": 0.9,
+     "marque": 8,
+     "encaisse": 5,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Genoa - Venezia",
@@ -25024,7 +27312,33 @@
      "cote_minimum": 2.0,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDDDDDNDVD",
+     "bm": 0.6,
+     "be": 1.6,
+     "marque": 5,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 9,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNVDDDDDDV",
+     "bm": 1.2,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 6,
+     "o25": 4,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Lecce - Juventus",
@@ -25305,7 +27619,33 @@
      "cote_minimum": 1.48,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVVVDDVDDV",
+     "bm": 1.3,
+     "be": 1.5,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 6,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDNVVNDVND",
+     "bm": 1.2,
+     "be": 1.2,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 8,
+     "o25": 3,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Udinese - Milan",
@@ -25586,7 +27926,33 @@
      "cote_minimum": 1.49,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDNVDDDDD",
+     "bm": 1.1,
+     "be": 1.8,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDVVNNVNV",
+     "bm": 1.9,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 7,
+     "o25": 7,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Avellino - Padova",
@@ -25867,7 +28233,33 @@
      "cote_minimum": 1.85,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVDVVNDVN",
+     "bm": 1.5,
+     "be": 0.9,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVVVNDVDDD",
+     "bm": 1.1,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 8,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Cremonese - Juve Stabia",
@@ -26148,7 +28540,33 @@
      "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDDDVNNND",
+     "bm": 1.1,
+     "be": 1.4,
+     "marque": 6,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 6,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDNDVDNNNV",
+     "bm": 1.0,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 10,
+     "o25": 3,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Modena - Cesena",
@@ -26429,7 +28847,33 @@
      "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDVVDNVVD",
+     "bm": 1.4,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 9,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDNVNNNDN",
+     "bm": 1.1,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 8,
+     "o25": 3,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Sudtirol - Sampdoria",
@@ -26710,7 +29154,33 @@
      "cote_minimum": 1.75,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNVNVNVND",
+     "bm": 1.0,
+     "be": 1.1,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 9,
+     "o25": 3,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDNDDDVDD",
+     "bm": 0.8,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Virtus Entella - Mantova",
@@ -26991,7 +29461,33 @@
      "cote_minimum": 1.79,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVDDNVNNV",
+     "bm": 1.3,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDVVNVNVD",
+     "bm": 1.9,
+     "be": 1.5,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Catanzaro - Ascoli",
@@ -27272,7 +29768,33 @@
      "cote_minimum": 2.05,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDDDDVDDN",
+     "bm": 1.6,
+     "be": 2.2,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 7,
+     "bilan": "VNVDVNN",
+     "bm": 1.1,
+     "be": 0.7,
+     "marque": 5,
+     "encaisse": 5,
+     "o15": 4,
+     "u35": 6,
+     "o25": 2,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Arezzo - Benevento",
@@ -27553,7 +30075,33 @@
      "cote_minimum": 1.89,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 7,
+     "bilan": "VDDVDNV",
+     "bm": 1.1,
+     "be": 2.0,
+     "marque": 5,
+     "encaisse": 5,
+     "o15": 5,
+     "u35": 4,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 7,
+     "bilan": "DNDVVVN",
+     "bm": 1.4,
+     "be": 1.0,
+     "marque": 6,
+     "encaisse": 5,
+     "o15": 5,
+     "u35": 5,
+     "o25": 3,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Palermo - Carrarese",
@@ -27834,7 +30382,33 @@
      "cote_minimum": 1.79,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVDVVVNVVV",
+     "bm": 2.0,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNDDNDDDVV",
+     "bm": 0.7,
+     "be": 1.2,
+     "marque": 5,
+     "encaisse": 8,
+     "o15": 6,
+     "u35": 10,
+     "o25": 4,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Verona - Pisa",
@@ -28115,7 +30689,33 @@
      "cote_minimum": 1.99,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNDDNVDVDN",
+     "bm": 1.5,
+     "be": 1.6,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 6,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDDDVVDNVV",
+     "bm": 1.5,
+     "be": 1.7,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 7,
+     "o25": 9,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Utrecht - Zwolle",
@@ -28396,7 +30996,33 @@
      "cote_minimum": 1.4,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDNDNVDVV",
+     "bm": 1.8,
+     "be": 2.6,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 4,
+     "o25": 9,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDDVDNDDDV",
+     "bm": 1.0,
+     "be": 2.4,
+     "marque": 5,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 5,
+     "o25": 6,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Willem II - Cambuur",
@@ -28677,7 +31303,33 @@
      "cote_minimum": 1.6,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 9,
+     "bilan": "DDNDNDDDD",
+     "bm": 1.0,
+     "be": 2.9,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 3,
+     "o25": 7,
+     "btts": 7
+    },
+    "ext": {
+     "n": 9,
+     "bilan": "DDDDNVNVN",
+     "bm": 1.4,
+     "be": 2.3,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 3,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Den Haag - Heerenveen",
@@ -28958,7 +31610,33 @@
      "cote_minimum": 1.45,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 9,
+     "bilan": "DDDNDDNNV",
+     "bm": 1.2,
+     "be": 2.2,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVNDNDNVDV",
+     "bm": 1.5,
+     "be": 1.1,
+     "marque": 6,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 5,
+     "o25": 5,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "For Sittard - Excelsior",
@@ -29239,7 +31917,33 @@
      "cote_minimum": 1.35,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNVDVVDVNN",
+     "bm": 1.6,
+     "be": 1.9,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDVVNDNDD",
+     "bm": 1.9,
+     "be": 2.0,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 4,
+     "o25": 10,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Nijmegen - Groningen",
@@ -29520,7 +32224,33 @@
      "cote_minimum": 1.48,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDVVDNDNNN",
+     "bm": 1.7,
+     "be": 1.7,
+     "marque": 9,
+     "encaisse": 10,
+     "o15": 10,
+     "u35": 5,
+     "o25": 8,
+     "btts": 9
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVDDNNVVD",
+     "bm": 2.4,
+     "be": 2.0,
+     "marque": 10,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 4,
+     "o25": 9,
+     "btts": 9
+    }
+   }
   },
   {
    "match": "PSV Eindhoven - Feyenoord",
@@ -29801,7 +32531,33 @@
      "cote_minimum": 1.5,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNVVVVVDVD",
+     "bm": 3.2,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 3,
+     "o25": 9,
+     "btts": 9
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVNVNVVVVV",
+     "bm": 3.3,
+     "be": 1.0,
+     "marque": 10,
+     "encaisse": 5,
+     "o15": 9,
+     "u35": 3,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Sparta Rotterdam - Ajax",
@@ -30082,7 +32838,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVNDNDDNV",
+     "bm": 1.8,
+     "be": 2.5,
+     "marque": 8,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 2,
+     "o25": 9,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVNVDVVNNV",
+     "bm": 2.7,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 3,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "AZ Alkmaar - Twente",
@@ -30363,7 +33145,33 @@
      "cote_minimum": 1.34,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVVVVNVDN",
+     "bm": 2.3,
+     "be": 1.3,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 5,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDVVNVVVND",
+     "bm": 1.8,
+     "be": 1.5,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 5,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Estrela - Casa Pia",
@@ -30644,7 +33452,33 @@
      "cote_minimum": 2.14,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNNNVNVNDD",
+     "bm": 1.6,
+     "be": 1.7,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 4,
+     "o25": 7,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNDDDDNDVD",
+     "bm": 0.5,
+     "be": 1.8,
+     "marque": 4,
+     "encaisse": 8,
+     "o15": 5,
+     "u35": 8,
+     "o25": 3,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Alverca - Arouca",
@@ -30925,7 +33759,33 @@
      "cote_minimum": 2.1,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDDNDNDVVV",
+     "bm": 1.4,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVDVNDNV",
+     "bm": 1.7,
+     "be": 0.9,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 6,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Gil Vicente - Porto",
@@ -31206,7 +34066,33 @@
      "cote_minimum": 1.74,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVVNDDNVV",
+     "bm": 0.9,
+     "be": 1.2,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 8,
+     "o25": 4,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVVVVVVVVV",
+     "bm": 2.2,
+     "be": 0.7,
+     "marque": 10,
+     "encaisse": 5,
+     "o15": 9,
+     "u35": 7,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Estoril - Moreirense",
@@ -31487,7 +34373,33 @@
      "cote_minimum": 1.73,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDNDDDNDDD",
+     "bm": 0.6,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 9,
+     "o25": 4,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNNDVDDVND",
+     "bm": 0.8,
+     "be": 1.7,
+     "marque": 5,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Nacional - Sp Braga",
@@ -31768,7 +34680,33 @@
      "cote_minimum": 1.99,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVNVDDDDDD",
+     "bm": 1.1,
+     "be": 2.0,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 5,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNNVVDVNDD",
+     "bm": 1.3,
+     "be": 1.4,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Rio Ave - Famalicao",
@@ -32049,7 +34987,33 @@
      "cote_minimum": 1.76,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DNDDVDDNDV",
+     "bm": 1.0,
+     "be": 2.2,
+     "marque": 5,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 5,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVNDDNNNVD",
+     "bm": 1.1,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Sp Lisbon - Academico Viseu",
@@ -32330,7 +35294,33 @@
      "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVNVVVVNNV",
+     "bm": 2.7,
+     "be": 1.0,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 10,
+     "u35": 3,
+     "o25": 8,
+     "btts": 7
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "NDNDVVVV",
+     "bm": 1.4,
+     "be": 1.2,
+     "marque": 6,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 6,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Dundee United - Aberdeen",
@@ -32611,7 +35601,33 @@
      "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNDDVDNVVN",
+     "bm": 1.2,
+     "be": 1.3,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 9,
+     "u35": 8,
+     "o25": 4,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVDDDNVNDV",
+     "bm": 1.2,
+     "be": 1.3,
+     "marque": 5,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 7,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Falkirk - Kilmarnock",
@@ -32892,7 +35908,33 @@
      "cote_minimum": 1.76,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNDDNVNDV",
+     "bm": 1.1,
+     "be": 1.7,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 9,
+     "o25": 6,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDDDDNVNDV",
+     "bm": 1.4,
+     "be": 2.1,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 4,
+     "o25": 6,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Rangers - St Johnstone",
@@ -33173,7 +36215,33 @@
      "cote_minimum": 1.36,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDVVVVVVN",
+     "bm": 1.8,
+     "be": 0.9,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDDNVDNVN",
+     "bm": 1.2,
+     "be": 1.1,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 6,
+     "u35": 9,
+     "o25": 3,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "St Mirren - Dundee",
@@ -33454,7 +36522,33 @@
      "cote_minimum": 1.42,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVNVDDDDD",
+     "bm": 1.0,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVVDNDVVN",
+     "bm": 1.6,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Hibernian - Celtic",
@@ -33735,7 +36829,33 @@
      "cote_minimum": 1.74,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDVVDDDNDD",
+     "bm": 0.9,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 10,
+     "o15": 7,
+     "u35": 9,
+     "o25": 6,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVVVVDVV",
+     "bm": 2.6,
+     "be": 0.6,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 7,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Motherwell - Hearts",
@@ -34016,7 +37136,33 @@
      "cote_minimum": 1.81,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVNNVDDDDD",
+     "bm": 1.2,
+     "be": 1.6,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 7,
+     "o25": 6,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDVVVVDNVD",
+     "bm": 2.1,
+     "be": 1.8,
+     "marque": 10,
+     "encaisse": 8,
+     "o15": 10,
+     "u35": 5,
+     "o25": 9,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Livingston - Arbroath",
@@ -34297,7 +37443,33 @@
      "cote_minimum": 1.77,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDDVNVDDN",
+     "bm": 1.2,
+     "be": 1.1,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 8,
+     "o25": 4,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVNDDVDDD",
+     "bm": 0.7,
+     "be": 1.5,
+     "marque": 5,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 9,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Morton - Ayr",
@@ -34578,7 +37750,33 @@
      "cote_minimum": 1.79,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNDDDDDVV",
+     "bm": 0.9,
+     "be": 1.7,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 9,
+     "o25": 5,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDNDDVDVND",
+     "bm": 0.8,
+     "be": 1.2,
+     "marque": 6,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 9,
+     "o25": 2,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Partick - Stenhousemuir",
@@ -34859,7 +38057,33 @@
      "cote_minimum": 1.92,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNNVDNVVVN",
+     "bm": 1.1,
+     "be": 0.4,
+     "marque": 7,
+     "encaisse": 4,
+     "o15": 5,
+     "u35": 10,
+     "o25": 2,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVVVVVVDN",
+     "bm": 1.3,
+     "be": 0.5,
+     "marque": 9,
+     "encaisse": 4,
+     "o15": 6,
+     "u35": 9,
+     "o25": 1,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Queens Park - Dunfermline",
@@ -35140,7 +38364,33 @@
      "cote_minimum": 1.63,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNVDDDDVD",
+     "bm": 0.6,
+     "be": 1.6,
+     "marque": 4,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 10,
+     "o25": 4,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDVNVVNNN",
+     "bm": 0.8,
+     "be": 0.6,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 10,
+     "o25": 0,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Raith Rvs - Inverness C",
@@ -35421,7 +38671,33 @@
      "cote_minimum": 1.49,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDVVNDVVN",
+     "bm": 1.5,
+     "be": 0.6,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 8,
+     "u35": 9,
+     "o25": 3,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDDVNVVDV",
+     "bm": 1.4,
+     "be": 1.1,
+     "marque": 8,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Vallecano - Elche",
@@ -35702,7 +38978,33 @@
      "cote_minimum": 2.14,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDNDVDVNN",
+     "bm": 1.6,
+     "be": 1.8,
+     "marque": 10,
+     "encaisse": 9,
+     "o15": 10,
+     "u35": 7,
+     "o25": 6,
+     "btts": 9
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NNDDDNDVNN",
+     "bm": 1.2,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 5,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Santander - Espanol",
@@ -35983,7 +39285,33 @@
      "cote_minimum": 2.62,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDVDVDDND",
+     "bm": 1.7,
+     "be": 2.6,
+     "marque": 7,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 3,
+     "o25": 8,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDDNVDDND",
+     "bm": 1.2,
+     "be": 1.3,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 9,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Valencia - Villarreal",
@@ -36264,7 +39592,33 @@
      "cote_minimum": 1.72,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDDDDVDNN",
+     "bm": 0.9,
+     "be": 1.6,
+     "marque": 5,
+     "encaisse": 7,
+     "o15": 5,
+     "u35": 5,
+     "o25": 5,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VNNDDDVVDN",
+     "bm": 1.8,
+     "be": 1.4,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 7,
+     "u35": 4,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Ath Madrid - La Coruna",
@@ -36545,7 +39899,33 @@
      "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVNVDVVVVV",
+     "bm": 2.0,
+     "be": 1.3,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 6,
+     "o25": 8,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNNVVNDNDN",
+     "bm": 1.4,
+     "be": 1.4,
+     "marque": 9,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 7,
+     "o25": 4,
+     "btts": 9
+    }
+   }
   },
   {
    "match": "Ath Bilbao - Getafe",
@@ -36826,7 +40206,33 @@
      "cote_minimum": 2.18,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDDDVVNNND",
+     "bm": 1.1,
+     "be": 1.4,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVDNNDVDN",
+     "bm": 0.6,
+     "be": 1.1,
+     "marque": 6,
+     "encaisse": 7,
+     "o15": 5,
+     "u35": 10,
+     "o25": 2,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Celta - Betis",
@@ -37107,7 +40513,33 @@
      "cote_minimum": 1.6,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDDNNNVNV",
+     "bm": 1.1,
+     "be": 0.7,
+     "marque": 6,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 9,
+     "o25": 3,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVDVVVNVD",
+     "bm": 1.8,
+     "be": 1.5,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Sociedad - Levante",
@@ -37388,7 +40820,33 @@
      "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDDVNVDVVV",
+     "bm": 1.8,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 5,
+     "o25": 7,
+     "btts": 7
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDNVNDDNNV",
+     "bm": 1.6,
+     "be": 1.9,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 5,
+     "o25": 7,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Barcelona - Real Madrid",
@@ -37669,7 +41127,33 @@
      "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVVVVVVVVV",
+     "bm": 4.0,
+     "be": 1.2,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 10,
+     "u35": 2,
+     "o25": 9,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVDVVDVV",
+     "bm": 2.7,
+     "be": 1.1,
+     "marque": 9,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 4,
+     "o25": 8,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Cordoba - Eibar",
@@ -37950,7 +41434,33 @@
      "cote_minimum": 2.35,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVDDDVDVDV",
+     "bm": 1.5,
+     "be": 2.0,
+     "marque": 9,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 5,
+     "o25": 8,
+     "btts": 8
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVVVVVVVDN",
+     "bm": 2.0,
+     "be": 1.1,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 8,
+     "u35": 5,
+     "o25": 7,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Leganes - Mallorca",
@@ -38231,7 +41741,33 @@
      "cote_minimum": 1.92,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NVVNDVDDDD",
+     "bm": 0.6,
+     "be": 1.5,
+     "marque": 4,
+     "encaisse": 7,
+     "o15": 6,
+     "u35": 8,
+     "o25": 3,
+     "btts": 2
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VDVNVVDNVN",
+     "bm": 1.2,
+     "be": 0.5,
+     "marque": 6,
+     "encaisse": 4,
+     "o15": 6,
+     "u35": 9,
+     "o25": 2,
+     "btts": 2
+    }
+   }
   },
   {
    "match": "Girona - Celta B",
@@ -38512,7 +42048,33 @@
      "cote_minimum": 2.88,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NDVVDVVNNV",
+     "bm": 1.7,
+     "be": 0.9,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 9,
+     "o25": 4,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVDVDDNDVN",
+     "bm": 1.5,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 9,
+     "u35": 6,
+     "o25": 5,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Las Palmas - Sociedad B",
@@ -38793,7 +42355,33 @@
      "cote_minimum": 1.92,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDNVDDNDD",
+     "bm": 1.3,
+     "be": 1.9,
+     "marque": 8,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVNNVDDDDD",
+     "bm": 1.4,
+     "be": 2.1,
+     "marque": 8,
+     "encaisse": 10,
+     "o15": 8,
+     "u35": 4,
+     "o25": 7,
+     "btts": 8
+    }
+   }
   },
   {
    "match": "Almeria - Oviedo",
@@ -39074,7 +42662,33 @@
      "cote_minimum": 2.71,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDDVVVVVVV",
+     "bm": 2.0,
+     "be": 0.7,
+     "marque": 8,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 8,
+     "o25": 5,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NDVNVDVDVV",
+     "bm": 1.3,
+     "be": 1.0,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Sabadell - Tenerife",
@@ -39355,7 +42969,33 @@
      "cote_minimum": 1.74,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNVVDVNNVD",
+     "bm": 1.0,
+     "be": 0.8,
+     "marque": 5,
+     "encaisse": 6,
+     "o15": 5,
+     "u35": 8,
+     "o25": 3,
+     "btts": 4
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVDNVDNDNN",
+     "bm": 1.2,
+     "be": 1.4,
+     "marque": 8,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 3,
+     "btts": 6
+    }
+   }
   },
   {
    "match": "Albacete - Eldense",
@@ -39636,7 +43276,33 @@
      "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDDDNDDDDD",
+     "bm": 0.6,
+     "be": 2.2,
+     "marque": 6,
+     "encaisse": 10,
+     "o15": 9,
+     "u35": 8,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNDNVDDVVV",
+     "bm": 1.3,
+     "be": 1.3,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 6,
+     "u35": 7,
+     "o25": 6,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Cadiz - Ceuta",
@@ -39917,7 +43583,33 @@
      "cote_minimum": 1.93,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "NNNDDDNVDD",
+     "bm": 1.1,
+     "be": 1.3,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 7,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DDDDDNVNDD",
+     "bm": 0.9,
+     "be": 2.2,
+     "marque": 7,
+     "encaisse": 10,
+     "o15": 10,
+     "u35": 7,
+     "o25": 6,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Castellon - Sp Gijon",
@@ -40198,7 +43890,33 @@
      "cote_minimum": 2.31,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNVVVVVNDV",
+     "bm": 1.8,
+     "be": 0.4,
+     "marque": 8,
+     "encaisse": 4,
+     "o15": 7,
+     "u35": 9,
+     "o25": 4,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVDDVDVVV",
+     "bm": 1.1,
+     "be": 0.9,
+     "marque": 6,
+     "encaisse": 6,
+     "o15": 5,
+     "u35": 8,
+     "o25": 3,
+     "btts": 3
+    }
+   }
   },
   {
    "match": "Eyupspor - Kasimpasa",
@@ -40479,7 +44197,33 @@
      "cote_minimum": 1.94,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNDDVDDDDD",
+     "bm": 0.9,
+     "be": 2.5,
+     "marque": 3,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 6,
+     "o25": 6,
+     "btts": 2
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DVNVNNVNDV",
+     "bm": 1.5,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 7,
+     "o15": 7,
+     "u35": 6,
+     "o25": 5,
+     "btts": 7
+    }
+   }
   },
   {
    "match": "Gaziantep - Erzurumspor",
@@ -40760,7 +44504,33 @@
      "cote_minimum": 1.78,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNVDVNDDD",
+     "bm": 1.0,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 9,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "DDNVDVNV",
+     "bm": 0.6,
+     "be": 1.4,
+     "marque": 4,
+     "encaisse": 4,
+     "o15": 5,
+     "u35": 7,
+     "o25": 3,
+     "btts": 1
+    }
+   }
   },
   {
    "match": "Samsunspor - Amedspor",
@@ -41041,7 +44811,33 @@
      "cote_minimum": 1.96,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DVNVDDDDDD",
+     "bm": 1.0,
+     "be": 2.2,
+     "marque": 5,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 3
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "VDVNVVNV",
+     "bm": 2.2,
+     "be": 1.1,
+     "marque": 7,
+     "encaisse": 5,
+     "o15": 7,
+     "u35": 4,
+     "o25": 6,
+     "btts": 4
+    }
+   }
   },
   {
    "match": "Konyaspor - Genclerbirligi",
@@ -41322,7 +45118,33 @@
      "cote_minimum": 1.81,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDDDDDVNND",
+     "bm": 0.5,
+     "be": 1.4,
+     "marque": 4,
+     "encaisse": 7,
+     "o15": 4,
+     "u35": 9,
+     "o25": 4,
+     "btts": 3
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVNDDDND",
+     "bm": 1.3,
+     "be": 1.8,
+     "marque": 7,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 6,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   },
   {
    "match": "Goztep - Corum",
@@ -41603,7 +45425,33 @@
      "cote_minimum": 1.84,
      "cote_moyenne_marche": null
     }
-   ]
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VDNDDDNNVV",
+     "bm": 1.9,
+     "be": 2.0,
+     "marque": 8,
+     "encaisse": 9,
+     "o15": 9,
+     "u35": 4,
+     "o25": 9,
+     "btts": 7
+    },
+    "ext": {
+     "n": 8,
+     "bilan": "NDDVVDVV",
+     "bm": 2.2,
+     "be": 1.6,
+     "marque": 7,
+     "encaisse": 6,
+     "o15": 7,
+     "u35": 5,
+     "o25": 7,
+     "btts": 5
+    }
+   }
   }
  ],
  "selection": [

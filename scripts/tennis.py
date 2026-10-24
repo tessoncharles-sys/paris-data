@@ -357,6 +357,38 @@ def calibrate(key: str, p: float, coefs: dict) -> float:
 
 # ------------------------------------------------------------------ prédictions du jour
 
+def player_form(matches: pd.DataFrame, pid: str, n: int = 10) -> dict | None:
+    g = matches[((matches["p1_id"] == pid) | (matches["p2_id"] == pid)) & (matches["status"] == "STATUS_FINAL")].tail(n)
+    if g.empty:
+        return None
+    won, tb, games, sets_lost = [], 0, [], 0
+    for r in g.itertuples():
+        me = 1 if r.p1_id == pid else 2
+        won.append(r.winner == me)
+        ss = parse_sets(r.sets)
+        tb += any(max(x, y) == 7 and min(x, y) == 6 for x, y in ss)
+        games.append(sum(x + y for x, y in ss))
+    return {"n": len(g), "bilan": "".join("V" if w else "D" for w in won), "v": sum(won),
+            "tb": tb, "jeux": round(float(np.mean(games)), 1)}
+
+
+def explain_tennis(label: str, pc: float, fair: float, a: str, b: str, fa: dict | None, fb: dict | None,
+                   surf: str, p_fav: float, fav: str) -> str:
+    parts = [f"Proba {pc:.0%} (modèle Elo + simulation jeu par jeu, calibré sur 15 000 matchs) → cote juste {fair:.2f}. "
+             f"Value seulement si Winamax paie au moins {fair * 1.03:.2f} (+3 %).",
+             f"{fav} favori à {p_fav:.0%} sur {('dur en salle' if surf == 'salle' else surf)} (Elo par surface)."]
+    if fa and fb:
+        parts.append(f"Forme : {a} {fa['v']}/{fa['n']} victoires ({fa['bilan']}), {b} {fb['v']}/{fb['n']} ({fb['bilan']}).")
+        if "tie-break" in label:
+            parts.append(f"Au moins un tie-break dans {fa['tb']}/{fa['n']} matchs de {a} et {fb['tb']}/{fb['n']} de {b}.")
+        elif "jeux" in label:
+            parts.append(f"Jeux par match sur 10 matchs : {a} {fa['jeux']}, {b} {fb['jeux']}.")
+    parts.append("Limite : le modèle ne connaît pas les statistiques de service de chaque joueur ; "
+                 "blessures et fatigue non vérifiées automatiquement.")
+    import re
+    return re.sub(r"(\d)\.(\d)", r"\1,\2", " ".join(parts))
+
+
 def predict_today() -> list[dict]:
     matches = load_matches()
     sch_f = RAW / "schedule.csv"
@@ -385,6 +417,7 @@ def predict_today() -> list[dict]:
         fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
         p_fav = calibrate("Vainqueur", max(p, 1 - p), coefs)
         fav = r.p1 if p >= 0.5 else r.p2
+        fa, fb = player_form(matches, r.p1_id), player_form(matches, r.p2_id)
         infos = f"{'Dur en salle' if surf == 'salle' else surf.capitalize()} · {ROUNDS.get(r.round, r.round)} · {fav} favori à {p_fav:.0%}"
         for label, praw in mk.items():
             key = calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
@@ -402,6 +435,7 @@ def predict_today() -> list[dict]:
                 "cote_minimum": round(fair * (1 + CONFIG["marge_value"]), 2),
                 "cote_moyenne_marche": None, "source_cote": "modèle", "fiabilite": fiab,
                 "infos": infos,
+                "explication": explain_tennis(label, pc, fair, r.p1, r.p2, fa, fb, surf, p_fav, fav),
             })
     return rows
 
