@@ -54,8 +54,12 @@ def api(path: str, **params):
         try:
             r = requests.get(BASE + path, headers={"x-apisports-key": key}, params=params, timeout=40)
             j = r.json()
-            if j.get("errors"):
-                print("  erreur API", path, params, j["errors"])
+            err = j.get("errors")
+            if err:
+                if "rateLimit" in str(err) or "Too many" in str(err):
+                    time.sleep(65)           # offre gratuite : 10 requêtes par minute
+                    continue
+                print("  erreur API", path, params, err)
                 return []
             return j.get("response", [])
         except (requests.RequestException, ValueError) as e:
@@ -91,12 +95,18 @@ def collect() -> tuple[list, dict]:
     upcoming = [g for g in games if g["status"]["short"] == "NS"]
     order = {lid: i for i, lid in enumerate(LEAGUES)}
     upcoming.sort(key=lambda g: (order[g["league"]["id"]], g["date"]))
+    # quota restant du jour (l'appel /status ne compte pas)
+    left = MAX_ODDS_CALLS
+    st = api("/status")
+    if isinstance(st, dict):
+        req = st.get("requests", {})
+        left = max(0, min(MAX_ODDS_CALLS, req.get("limit_day", 100) - req.get("current", 0) - 2))
     odds = {}
-    for g in upcoming[:MAX_ODDS_CALLS]:
+    for g in upcoming[:left]:
         resp = api("/odds", game=g["id"])
         if resp:
             odds[str(g["id"])] = resp[0].get("bookmakers", [])
-        time.sleep(0.2)
+        time.sleep(6.5)                      # rester sous 10 requêtes par minute
     (RAW / "upcoming.json").write_text(json.dumps(upcoming, ensure_ascii=False))
     (RAW / "odds.json").write_text(json.dumps(odds, ensure_ascii=False))
     print(f"handball : {len(games)} matchs suivis, {len(done)} résultats, {len(upcoming)} à venir, cotes pour {len(odds)}")
