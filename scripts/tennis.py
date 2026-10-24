@@ -504,6 +504,8 @@ def predict_today() -> list[dict]:
                                + (f" Signal : {signaux}." if signaux else ""),
                 "signaux": signaux,
                 "cote_winamax": (fr or {}).get(label.replace("Vainqueur : ", ""), {}).get("Winamax") if label.startswith("Vainqueur") and fr else None,
+                "meilleure_cote_fr": max((fr or {}).get(label.replace("Vainqueur : ", ""), {}).values(), default=None) if label.startswith("Vainqueur") and fr else None,
+                "meilleur_operateur": max((fr or {}).get(label.replace("Vainqueur : ", ""), {}).items(), key=lambda x: x[1], default=(None,))[0] if label.startswith("Vainqueur") and fr else None,
             })
     return rows
 

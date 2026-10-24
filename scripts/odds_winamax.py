@@ -26,11 +26,17 @@ BASE = "https://api.the-odds-api.com/v4"
 PARIS = ZoneInfo("Europe/Paris")
 FR_BOOKS = {"winamax_fr": "Winamax", "betclic_fr": "Betclic", "unibet_fr": "Unibet", "pmu_fr": "PMU",
             "parionssport_fr": "Parions Sport", "netbet_fr": "NetBet"}
-FOOT = {"soccer_france_ligue_one": "F1", "soccer_epl": "E0", "soccer_spain_la_liga": "SP1", "soccer_italy_serie_a": "I1",
-        "soccer_germany_bundesliga": "D1", "soccer_france_ligue_two": "F2", "soccer_uefa_champs_league": None,
-        "soccer_uefa_europa_league": None}
-MAX_CREDITS_RUN = 16          # ~480 crédits par mois avec un passage par jour
-
+# Priorité 1 : grands championnats, victoire + total 2,5 buts
+TOP = {"soccer_france_ligue_one": "F1", "soccer_epl": "E0", "soccer_spain_la_liga": "SP1", "soccer_italy_serie_a": "I1",
+       "soccer_germany_bundesliga": "D1", "soccer_uefa_champs_league": None, "soccer_uefa_europa_league": None}
+# Priorité 3 : autres championnats suivis, victoire seulement (si l'API les couvre)
+SECOND = {"soccer_france_ligue_two": "F2", "soccer_efl_champ": "E1", "soccer_netherlands_eredivisie": "N1",
+          "soccer_portugal_primeira_liga": "P1", "soccer_belgium_first_div": "B1", "soccer_germany_bundesliga2": "D2",
+          "soccer_italy_serie_b": "I2", "soccer_spain_segunda_division": "SP2", "soccer_spl": "SC0",
+          "soccer_turkey_super_league": "T1", "soccer_greece_super_league": "G1", "soccer_england_league1": "E2",
+          "soccer_england_league2": "E3", "soccer_uefa_europa_conference_league": None}
+FOOT = {**TOP, **SECOND}
+MAX_CREDITS_DAY = 30          # plafond ; le vrai budget = crédits restants du mois / jours restants
 
 def get(path, **params):
     key = os.environ.get("ODDS_API_KEY")
@@ -51,24 +57,32 @@ def norm(s: str) -> str:
 
 
 def main() -> int:
+    import calendar
     now = dt.datetime.now(dt.timezone.utc)
-    sports, left = get("/sports")
+    sports, left = get("/sports")                          # gratuit
     if not sports:
         return 1
     active = {s["key"] for s in sports if s.get("active")}
-    wanted = [k for k in FOOT if k in active]
-    wanted += [s["key"] for s in sports if s.get("active") and s["key"].startswith(("tennis_atp", "tennis_wta"))]
+    # budget du jour : crédits restants répartis sur les jours restants du mois
+    today = now.astimezone(PARIS).date()
+    days_left = calendar.monthrange(today.year, today.month)[1] - today.day + 1
+    budget = min(MAX_CREDITS_DAY, int(int(left or 0) / max(days_left, 1))) if left else 12
+    others = sorted(k for k in active if k.startswith(("handball", "basketball")))
+    print(f"  crédits restants : {left}, budget du jour : {budget} ; autres sports disponibles : {', '.join(others) or 'aucun'}")
+    plan = [(k, "h2h,totals") for k in TOP if k in active]
+    plan += [(s["key"], "h2h") for s in sports if s.get("active") and s["key"].startswith(("tennis_atp", "tennis_wta"))]
+    plan += [(k, "h2h") for k in SECOND if k in active]
+    plan += [(k, "h2h") for k in active if k.startswith("handball")]
     out, credits = [], 0
-    for sk in wanted:
+    for sk, markets in plan:
         events, left = get(f"/sports/{sk}/events")          # gratuit
         soon = [e for e in (events or []) if 0 <= (pd.Timestamp(e["commence_time"]) - pd.Timestamp(now)).total_seconds() <= 36 * 3600]
         if not soon:
             continue
-        markets = "h2h,totals" if sk.startswith("soccer") else "h2h"
         cost = len(markets.split(","))
-        if credits + cost > MAX_CREDITS_RUN:
-            print("  budget du passage atteint")
-            break
+        if credits + cost > budget:
+            print(f"  budget du jour atteint avant {sk}")
+            continue
         data, left = get(f"/sports/{sk}/odds", regions="fr", markets=markets, oddsFormat="decimal",
                          bookmakers=",".join(FR_BOOKS))
         credits += cost
