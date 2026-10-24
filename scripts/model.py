@@ -390,6 +390,49 @@ def to_markdown(res: dict) -> str:
     return "\n".join(lines)
 
 
+def famille(label: str) -> str:
+    if label in ("1", "N", "2"):
+        return "1X2"
+    if label in ("1N", "12", "N2"):
+        return "Double chance"
+    if "buts" in label and ("+" in label[:1] or "-" in label[:1]):
+        return "Total buts"
+    if "marquent" in label:
+        return "Les 2 marquent"
+    if label.startswith(("Dom.", "Ext.")):
+        return "Buts par équipe"
+    if "corners" in label:
+        return "Corners"
+    if "cartons" in label:
+        return "Cartons"
+    return "Autre"
+
+
+def to_dashboard_rows(res: dict) -> pd.DataFrame:
+    """Une ligne par match × marché, pour le tableau de bord Claude."""
+    rows = []
+    for m in res["matchs"]:
+        date, _, heure = m["coup_envoi"].partition(" ")
+        for mm in m["marches"]:
+            if not mm["cote_juste"]:
+                continue
+            rows.append({
+                "id": f"{m['div']}|{m['match']}|{mm['marche']}",
+                "date": date, "heure": heure or "",
+                "championnat": m["championnat"], "match": m["match"],
+                "famille": famille(mm["marche"]), "marche": mm["marche"],
+                "proba": round(mm["proba"], 4),
+                "cote_juste": mm["cote_juste"],
+                "cote_minimum": mm["cote_minimum"],
+                "cote_moyenne_marche": mm["cote_moyenne_marche"],
+                "source_cote": "marché" if mm["proba_marche"] is not None else "modèle",
+                "fiabilite": m["fiabilite"],
+                "buts_dom": m["buts_attendus"]["dom"], "buts_ext": m["buts_attendus"]["ext"],
+                "corners_attendus": m["corners_attendus"], "cartons_attendus": m["cartons_attendus"],
+            })
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
     today = dt.datetime.now(ZoneInfo("Europe/Paris")).date()
     res = analyse(today)
@@ -398,6 +441,7 @@ def main() -> None:
     (OUT / "picks" / f"{today.isoformat()}.json").write_text(js, encoding="utf-8")
     (OUT / "latest.json").write_text(js, encoding="utf-8")
     (OUT / "latest.md").write_text(to_markdown(res), encoding="utf-8")
+    to_dashboard_rows(res).to_csv(OUT / "dashboard.csv", index=False)
     print(f"{len(res['matchs'])} matchs analysés, {len(res['selection'])} paris retenus")
 
 
