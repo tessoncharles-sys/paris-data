@@ -1,16 +1,20 @@
 {
  "date": "2026-10-24",
- "genere_le": "2026-10-24T12:51:52+00:00",
+ "genere_le": "2026-10-24T13:10:47+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
   "poids_modele": 0.0,
   "marge_value": 0.05,
   "cote_min": 1.35,
-  "cote_max": 1.8,
+  "cote_max": 3.0,
   "matchs_min_fiable": 5,
   "matchs_bon_echantillon": 10,
-  "horizon_jours": 1
+  "horizon_jours": 1,
+  "marches_exclus": [
+   "corners",
+   "cartons"
+  ]
  },
  "matchs": [
   {
@@ -40864,18 +40868,6 @@
  ],
  "selection": [
   {
-   "match": "For Sittard - Excelsior",
-   "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-25 12:15",
-   "marche": "-4.5 cartons",
-   "proba": 0.7801,
-   "cote_minimum": 1.35,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Alverca - Arouca",
    "championnat": "Portugal - Liga",
    "coup_envoi": "2026-10-24 19:00",
@@ -41080,18 +41072,6 @@
    "a_verifier": true
   },
   {
-   "match": "Stevenage - Milton Keynes Dons",
-   "championnat": "Angleterre - League One",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "-4.5 cartons",
-   "proba": 0.7774,
-   "cote_minimum": 1.35,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Konyaspor - Genclerbirligi",
    "championnat": "Turquie - Süper Lig",
    "coup_envoi": "2026-10-25 14:00",
@@ -41245,18 +41225,6 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Olympiakos - Kalamata",
-   "championnat": "Grèce - Super League",
-   "coup_envoi": "2026-10-25 15:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.775,
-   "cote_minimum": 1.35,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -41524,18 +41492,6 @@
    "a_verifier": true
   },
   {
-   "match": "Rangers - St Johnstone",
-   "championnat": "Écosse - Premiership",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "-4.5 cartons",
-   "proba": 0.7708,
-   "cote_minimum": 1.36,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Luton - Leicester",
    "championnat": "Angleterre - League One",
    "coup_envoi": "2026-10-24 13:30",
@@ -41577,18 +41533,6 @@
    "coup_envoi": "2026-10-25 14:00",
    "marche": "1N",
    "proba": 0.7706,
-   "cote_minimum": 1.36,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Cambridge - Plymouth",
-   "championnat": "Angleterre - League One",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+8.5 corners",
-   "proba": 0.7705,
    "cote_minimum": 1.36,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -41656,18 +41600,6 @@
    "a_verifier": true
   },
   {
-   "match": "Almeria - Oviedo",
-   "championnat": "Espagne - LaLiga 2",
-   "coup_envoi": "2026-10-24 21:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.7684,
-   "cote_minimum": 1.37,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Nurnberg - Kaiserslautern",
    "championnat": "Allemagne - 2. Bundesliga",
    "coup_envoi": "2026-10-24 20:30",
@@ -41677,18 +41609,6 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Iraklis - Kifisia",
-   "championnat": "Grèce - Super League",
-   "coup_envoi": "2026-10-24 18:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.768,
-   "cote_minimum": 1.37,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -41860,18 +41780,6 @@
    "a_verifier": true
   },
   {
-   "match": "Partick - Stenhousemuir",
-   "championnat": "Écosse - Championship",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+8.5 corners",
-   "proba": 0.764,
-   "cote_minimum": 1.37,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Nacional - Sp Braga",
    "championnat": "Portugal - Liga",
    "coup_envoi": "2026-10-25 19:00",
@@ -41949,18 +41857,6 @@
    "coup_envoi": "2026-10-25 17:15",
    "marche": "Ext. +0.5 but",
    "proba": 0.7628,
-   "cote_minimum": 1.38,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
-   "match": "Iraklis - Kifisia",
-   "championnat": "Grèce - Super League",
-   "coup_envoi": "2026-10-24 18:00",
-   "marche": "-10.5 corners",
-   "proba": 0.7626,
    "cote_minimum": 1.38,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -42268,18 +42164,6 @@
    "a_verifier": true
   },
   {
-   "match": "Santander - Espanol",
-   "championnat": "Espagne - LaLiga",
-   "coup_envoi": "2026-10-24 16:15",
-   "marche": "+3.5 cartons",
-   "proba": 0.7575,
-   "cote_minimum": 1.39,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Estrela - Casa Pia",
    "championnat": "Portugal - Liga",
    "coup_envoi": "2026-10-24 16:30",
@@ -42320,18 +42204,6 @@
    "championnat": "Allemagne - Bundesliga",
    "coup_envoi": "2026-10-24 15:30",
    "marche": "Dom. +0.5 but",
-   "proba": 0.7564,
-   "cote_minimum": 1.39,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
-   "match": "RB Leipzig - Elversberg",
-   "championnat": "Allemagne - Bundesliga",
-   "coup_envoi": "2026-10-24 15:30",
-   "marche": "+8.5 corners",
    "proba": 0.7564,
    "cote_minimum": 1.39,
    "cote_moyenne_marche": null,
@@ -42397,18 +42269,6 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Dijon - Rodez",
-   "championnat": "France - Ligue 2",
-   "coup_envoi": "2026-10-24 14:00",
-   "marche": "-4.5 cartons",
-   "proba": 0.7548,
-   "cote_minimum": 1.39,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -42676,18 +42536,6 @@
    "a_verifier": true
   },
   {
-   "match": "Oxford - Bradford",
-   "championnat": "Angleterre - League One",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.7501,
-   "cote_minimum": 1.4,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Motherwell - Hearts",
    "championnat": "Écosse - Premiership",
    "coup_envoi": "2026-10-25 15:00",
@@ -42808,6 +42656,18 @@
    "a_verifier": true
   },
   {
+   "match": "Oxford - Bradford",
+   "championnat": "Angleterre - League One",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.7487,
+   "cote_minimum": 1.4,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
    "match": "Raith Rvs - Inverness C",
    "championnat": "Écosse - Championship",
    "coup_envoi": "2026-10-24 16:00",
@@ -42849,18 +42709,6 @@
    "coup_envoi": "2026-10-24 16:00",
    "marche": "+1.5 buts",
    "proba": 0.748,
-   "cote_minimum": 1.4,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Utrecht - Zwolle",
-   "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-24 16:30",
-   "marche": "-4.5 cartons",
-   "proba": 0.7479,
    "cote_minimum": 1.4,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43012,18 +42860,6 @@
    "a_verifier": true
   },
   {
-   "match": "Sabadell - Tenerife",
-   "championnat": "Espagne - LaLiga 2",
-   "coup_envoi": "2026-10-25 14:00",
-   "marche": "-10.5 corners",
-   "proba": 0.7457,
-   "cote_minimum": 1.41,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Asteras Tripolis - Levadeiakos",
    "championnat": "Grèce - Super League",
    "coup_envoi": "2026-10-24 18:30",
@@ -43065,6 +42901,18 @@
    "coup_envoi": "2026-10-25 15:00",
    "marche": "-3.5 buts",
    "proba": 0.7449,
+   "cote_minimum": 1.41,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "For Sittard - Excelsior",
+   "championnat": "Pays-Bas - Eredivisie",
+   "coup_envoi": "2026-10-25 12:15",
+   "marche": "12",
+   "proba": 0.7448,
    "cote_minimum": 1.41,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43216,11 +43064,35 @@
    "a_verifier": true
   },
   {
+   "match": "Almeria - Oviedo",
+   "championnat": "Espagne - LaLiga 2",
+   "coup_envoi": "2026-10-24 21:00",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.7415,
+   "cote_minimum": 1.42,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
    "match": "Man United - Bournemouth",
    "championnat": "Angleterre - Premier League",
    "coup_envoi": "2026-10-25 15:00",
    "marche": "12",
    "proba": 0.7414,
+   "cote_minimum": 1.42,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Stevenage - Milton Keynes Dons",
+   "championnat": "Angleterre - League One",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "1N",
+   "proba": 0.7413,
    "cote_minimum": 1.42,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43336,18 +43208,6 @@
    "a_verifier": true
   },
   {
-   "match": "Toulouse - Troyes",
-   "championnat": "France - Ligue 1",
-   "coup_envoi": "2026-10-25 17:15",
-   "marche": "-4.5 cartons",
-   "proba": 0.7397,
-   "cote_minimum": 1.42,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Auxerre - Le Mans",
    "championnat": "France - Ligue 1",
    "coup_envoi": "2026-10-25 17:15",
@@ -43369,6 +43229,18 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
+   "match": "Cambridge - Plymouth",
+   "championnat": "Angleterre - League One",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "12",
+   "proba": 0.7391,
+   "cote_minimum": 1.42,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
    "a_verifier": true
   },
   {
@@ -43492,6 +43364,18 @@
    "a_verifier": true
   },
   {
+   "match": "Utrecht - Zwolle",
+   "championnat": "Pays-Bas - Eredivisie",
+   "coup_envoi": "2026-10-24 16:30",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.7368,
+   "cote_minimum": 1.43,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
    "match": "Sparta Rotterdam - Ajax",
    "championnat": "Pays-Bas - Eredivisie",
    "coup_envoi": "2026-10-25 16:45",
@@ -43600,18 +43484,6 @@
    "a_verifier": true
   },
   {
-   "match": "Cremonese - Juve Stabia",
-   "championnat": "Italie - Serie B",
-   "coup_envoi": "2026-10-24 15:00",
-   "marche": "-10.5 corners",
-   "proba": 0.7327,
-   "cote_minimum": 1.43,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Dundee United - Aberdeen",
    "championnat": "Écosse - Premiership",
    "coup_envoi": "2026-10-24 16:00",
@@ -43684,6 +43556,18 @@
    "a_verifier": true
   },
   {
+   "match": "Cremonese - Juve Stabia",
+   "championnat": "Italie - Serie B",
+   "coup_envoi": "2026-10-24 15:00",
+   "marche": "12",
+   "proba": 0.7291,
+   "cote_minimum": 1.44,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
    "match": "Las Palmas - Sociedad B",
    "championnat": "Espagne - LaLiga 2",
    "coup_envoi": "2026-10-24 18:30",
@@ -43720,18 +43604,6 @@
    "a_verifier": true
   },
   {
-   "match": "Hibernian - Celtic",
-   "championnat": "Écosse - Premiership",
-   "coup_envoi": "2026-10-25 13:00",
-   "marche": "+8.5 corners",
-   "proba": 0.7276,
-   "cote_minimum": 1.44,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
    "match": "Man United - Bournemouth",
    "championnat": "Angleterre - Premier League",
    "coup_envoi": "2026-10-25 15:00",
@@ -43756,35 +43628,11 @@
    "a_verifier": true
   },
   {
-   "match": "Den Haag - Heerenveen",
-   "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-24 21:00",
-   "marche": "-4.5 cartons",
-   "proba": 0.7258,
-   "cote_minimum": 1.45,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
    "match": "Verona - Pisa",
    "championnat": "Italie - Serie B",
    "coup_envoi": "2026-10-25 17:15",
    "marche": "12",
    "proba": 0.7255,
-   "cote_minimum": 1.45,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "moyenne",
-   "a_verifier": true
-  },
-  {
-   "match": "Rangers - St Johnstone",
-   "championnat": "Écosse - Premiership",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+8.5 corners",
-   "proba": 0.7252,
    "cote_minimum": 1.45,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43821,18 +43669,6 @@
    "coup_envoi": "2026-10-24 18:00",
    "marche": "+1.5 buts",
    "proba": 0.7203,
-   "cote_minimum": 1.46,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Freiburg - Bayern Munich",
-   "championnat": "Allemagne - Bundesliga",
-   "coup_envoi": "2026-10-25 17:30",
-   "marche": "-4.5 cartons",
-   "proba": 0.7199,
    "cote_minimum": 1.46,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43924,10 +43760,10 @@
    "a_verifier": true
   },
   {
-   "match": "Ath Madrid - La Coruna",
-   "championnat": "Espagne - LaLiga",
-   "coup_envoi": "2026-10-24 21:00",
-   "marche": "+8.5 corners",
+   "match": "Dijon - Rodez",
+   "championnat": "France - Ligue 2",
+   "coup_envoi": "2026-10-24 14:00",
+   "marche": "1N",
    "proba": 0.7135,
    "cote_minimum": 1.47,
    "cote_moyenne_marche": null,
@@ -43948,23 +43784,35 @@
    "a_verifier": true
   },
   {
-   "match": "Nijmegen - Groningen",
+   "match": "Den Haag - Heerenveen",
    "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-25 14:30",
-   "marche": "-4.5 cartons",
+   "coup_envoi": "2026-10-24 21:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.7116,
+   "cote_minimum": 1.48,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
+   "match": "Olympiakos - Kalamata",
+   "championnat": "Grèce - Super League",
+   "coup_envoi": "2026-10-25 15:00",
+   "marche": "-3.5 buts",
    "proba": 0.7105,
    "cote_minimum": 1.48,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
-   "fiabilite": "bonne",
+   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
-   "match": "Volos NFC - Panathinaikos",
-   "championnat": "Grèce - Super League",
-   "coup_envoi": "2026-10-25 17:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.7087,
+   "match": "Sabadell - Tenerife",
+   "championnat": "Espagne - LaLiga 2",
+   "coup_envoi": "2026-10-25 14:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.7096,
    "cote_minimum": 1.48,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -43981,6 +43829,18 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Iraklis - Kifisia",
+   "championnat": "Grèce - Super League",
+   "coup_envoi": "2026-10-24 18:00",
+   "marche": "12",
+   "proba": 0.7082,
+   "cote_minimum": 1.48,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -44001,18 +43861,6 @@
    "coup_envoi": "2026-10-24 16:15",
    "marche": "12",
    "proba": 0.7069,
-   "cote_minimum": 1.49,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Cardiff - Birmingham",
-   "championnat": "Angleterre - Championship",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+8.5 corners",
-   "proba": 0.7054,
    "cote_minimum": 1.49,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44044,12 +43892,12 @@
    "a_verifier": true
   },
   {
-   "match": "PSV Eindhoven - Feyenoord",
-   "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-25 14:30",
-   "marche": "-4.5 cartons",
-   "proba": 0.7023,
-   "cote_minimum": 1.5,
+   "match": "Volos NFC - Panathinaikos",
+   "championnat": "Grèce - Super League",
+   "coup_envoi": "2026-10-25 17:00",
+   "marche": "-3.5 buts",
+   "proba": 0.7026,
+   "cote_minimum": 1.49,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
@@ -44068,11 +43916,11 @@
    "a_verifier": true
   },
   {
-   "match": "Westerlo - Beveren",
-   "championnat": "Belgique - Pro League",
-   "coup_envoi": "2026-10-24 20:45",
-   "marche": "1N",
-   "proba": 0.698,
+   "match": "Iraklis - Kifisia",
+   "championnat": "Grèce - Super League",
+   "coup_envoi": "2026-10-24 18:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.6987,
    "cote_minimum": 1.5,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44080,12 +43928,12 @@
    "a_verifier": true
   },
   {
-   "match": "Heidenheim - Cottbus",
-   "championnat": "Allemagne - 2. Bundesliga",
-   "coup_envoi": "2026-10-24 13:00",
-   "marche": "+9.5 corners",
-   "proba": 0.694,
-   "cote_minimum": 1.51,
+   "match": "Westerlo - Beveren",
+   "championnat": "Belgique - Pro League",
+   "coup_envoi": "2026-10-24 20:45",
+   "marche": "1N",
+   "proba": 0.698,
+   "cote_minimum": 1.5,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "moyenne",
@@ -44104,23 +43952,11 @@
    "a_verifier": true
   },
   {
-   "match": "Wolves - Watford",
-   "championnat": "Angleterre - Championship",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+3.5 cartons",
-   "proba": 0.6905,
-   "cote_minimum": 1.52,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Club Brugge - St Truiden",
-   "championnat": "Belgique - Pro League",
-   "coup_envoi": "2026-10-25 16:00",
-   "marche": "-4.5 cartons",
-   "proba": 0.6897,
+   "match": "PSV Eindhoven - Feyenoord",
+   "championnat": "Pays-Bas - Eredivisie",
+   "coup_envoi": "2026-10-25 14:30",
+   "marche": "1N",
+   "proba": 0.6911,
    "cote_minimum": 1.52,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44137,6 +43973,18 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
+   "match": "Hibernian - Celtic",
+   "championnat": "Écosse - Premiership",
+   "coup_envoi": "2026-10-25 13:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.6863,
+   "cote_minimum": 1.53,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
    "a_verifier": true
   },
   {
@@ -44164,15 +44012,15 @@
    "a_verifier": true
   },
   {
-   "match": "Girona - Celta B",
-   "championnat": "Espagne - LaLiga 2",
-   "coup_envoi": "2026-10-24 18:30",
-   "marche": "-10.5 corners",
-   "proba": 0.6842,
-   "cote_minimum": 1.53,
+   "match": "Rangers - St Johnstone",
+   "championnat": "Écosse - Premiership",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "-3.5 buts",
+   "proba": 0.6829,
+   "cote_minimum": 1.54,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
-   "fiabilite": "bonne",
+   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -44188,15 +44036,27 @@
    "a_verifier": true
   },
   {
-   "match": "Sparta Rotterdam - Ajax",
-   "championnat": "Pays-Bas - Eredivisie",
-   "coup_envoi": "2026-10-25 16:45",
-   "marche": "+8.5 corners",
-   "proba": 0.6793,
-   "cote_minimum": 1.55,
+   "match": "Toulouse - Troyes",
+   "championnat": "France - Ligue 1",
+   "coup_envoi": "2026-10-25 17:15",
+   "marche": "-3.5 buts",
+   "proba": 0.6808,
+   "cote_minimum": 1.54,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
-   "fiabilite": "bonne",
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
+   "match": "Heidenheim - Cottbus",
+   "championnat": "Allemagne - 2. Bundesliga",
+   "coup_envoi": "2026-10-24 13:00",
+   "marche": "Les 2 marquent : oui",
+   "proba": 0.6802,
+   "cote_minimum": 1.54,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
    "a_verifier": true
   },
   {
@@ -44236,6 +44096,18 @@
    "a_verifier": true
   },
   {
+   "match": "RB Leipzig - Elversberg",
+   "championnat": "Allemagne - Bundesliga",
+   "coup_envoi": "2026-10-24 15:30",
+   "marche": "Dom. +1.5 but",
+   "proba": 0.6723,
+   "cote_minimum": 1.56,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
    "match": "Sp Lisbon - Academico Viseu",
    "championnat": "Portugal - Liga",
    "coup_envoi": "2026-10-25 21:30",
@@ -44252,18 +44124,6 @@
    "championnat": "Belgique - Pro League",
    "coup_envoi": "2026-10-25 16:00",
    "marche": "Ext. +0.5 but",
-   "proba": 0.6708,
-   "cote_minimum": 1.57,
-   "cote_moyenne_marche": null,
-   "value_vs_marche": null,
-   "fiabilite": "bonne",
-   "a_verifier": true
-  },
-  {
-   "match": "Reading - Barnsley",
-   "championnat": "Angleterre - League One",
-   "coup_envoi": "2026-10-24 16:00",
-   "marche": "+8.5 corners",
    "proba": 0.6708,
    "cote_minimum": 1.57,
    "cote_moyenne_marche": null,
@@ -44308,11 +44168,23 @@
    "a_verifier": true
   },
   {
-   "match": "Sp Lisbon - Academico Viseu",
-   "championnat": "Portugal - Liga",
-   "coup_envoi": "2026-10-25 21:30",
-   "marche": "-10.5 corners",
-   "proba": 0.6589,
+   "match": "Wolves - Watford",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.6627,
+   "cote_minimum": 1.58,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Santander - Espanol",
+   "championnat": "Espagne - LaLiga",
+   "coup_envoi": "2026-10-24 16:15",
+   "marche": "1N",
+   "proba": 0.6588,
    "cote_minimum": 1.59,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44320,11 +44192,11 @@
    "a_verifier": true
   },
   {
-   "match": "Como - Sassuolo",
-   "championnat": "Italie - Serie A",
-   "coup_envoi": "2026-10-24 15:00",
+   "match": "Reading - Barnsley",
+   "championnat": "Angleterre - League One",
+   "coup_envoi": "2026-10-24 16:00",
    "marche": "-3.5 buts",
-   "proba": 0.6565,
+   "proba": 0.6578,
    "cote_minimum": 1.6,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44335,8 +44207,8 @@
    "match": "Como - Sassuolo",
    "championnat": "Italie - Serie A",
    "coup_envoi": "2026-10-24 15:00",
-   "marche": "+8.5 corners",
-   "proba": 0.6559,
+   "marche": "-3.5 buts",
+   "proba": 0.6565,
    "cote_minimum": 1.6,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
@@ -44356,6 +44228,18 @@
    "a_verifier": true
   },
   {
+   "match": "Nijmegen - Groningen",
+   "championnat": "Pays-Bas - Eredivisie",
+   "coup_envoi": "2026-10-25 14:30",
+   "marche": "1N",
+   "proba": 0.6543,
+   "cote_minimum": 1.6,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
    "match": "Marseille - Le Havre",
    "championnat": "France - Ligue 1",
    "coup_envoi": "2026-10-25 17:15",
@@ -44368,12 +44252,48 @@
    "a_verifier": true
   },
   {
+   "match": "Sp Lisbon - Academico Viseu",
+   "championnat": "Portugal - Liga",
+   "coup_envoi": "2026-10-25 21:30",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.6524,
+   "cote_minimum": 1.61,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
    "match": "St. Gilloise - Cercle Brugge",
    "championnat": "Belgique - Pro League",
    "coup_envoi": "2026-10-25 19:15",
    "marche": "-3.5 buts",
    "proba": 0.6518,
    "cote_minimum": 1.61,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Como - Sassuolo",
+   "championnat": "Italie - Serie A",
+   "coup_envoi": "2026-10-24 15:00",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.649,
+   "cote_minimum": 1.62,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Cardiff - Birmingham",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "N2",
+   "proba": 0.6486,
+   "cote_minimum": 1.62,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
@@ -44395,9 +44315,45 @@
    "match": "Dortmund - Ein Frankfurt",
    "championnat": "Allemagne - Bundesliga",
    "coup_envoi": "2026-10-24 18:30",
-   "marche": "-10.5 corners",
-   "proba": 0.6453,
+   "marche": "-3.5 buts",
+   "proba": 0.6446,
    "cote_minimum": 1.63,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Partick - Stenhousemuir",
+   "championnat": "Écosse - Championship",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "+1.5 buts",
+   "proba": 0.6443,
+   "cote_minimum": 1.63,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Club Brugge - St Truiden",
+   "championnat": "Belgique - Pro League",
+   "coup_envoi": "2026-10-25 16:00",
+   "marche": "Dom. +1.5 but",
+   "proba": 0.6437,
+   "cote_minimum": 1.63,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Girona - Celta B",
+   "championnat": "Espagne - LaLiga 2",
+   "coup_envoi": "2026-10-24 18:30",
+   "marche": "-3.5 buts",
+   "proba": 0.641,
+   "cote_minimum": 1.64,
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
@@ -44413,6 +44369,54 @@
    "cote_moyenne_marche": null,
    "value_vs_marche": null,
    "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Ath Madrid - La Coruna",
+   "championnat": "Espagne - LaLiga",
+   "coup_envoi": "2026-10-24 21:00",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.6282,
+   "cote_minimum": 1.67,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
+   "a_verifier": true
+  },
+  {
+   "match": "Sparta Rotterdam - Ajax",
+   "championnat": "Pays-Bas - Eredivisie",
+   "coup_envoi": "2026-10-25 16:45",
+   "marche": "Ext. +1.5 but",
+   "proba": 0.6257,
+   "cote_minimum": 1.68,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Freiburg - Bayern Munich",
+   "championnat": "Allemagne - Bundesliga",
+   "coup_envoi": "2026-10-25 17:30",
+   "marche": "Les 2 marquent : oui",
+   "proba": 0.6179,
+   "cote_minimum": 1.7,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Rangers - St Johnstone",
+   "championnat": "Écosse - Premiership",
+   "coup_envoi": "2026-10-24 16:00",
+   "marche": "Ext. +0.5 but",
+   "proba": 0.6049,
+   "cote_minimum": 1.74,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "moyenne",
    "a_verifier": true
   }
  ],

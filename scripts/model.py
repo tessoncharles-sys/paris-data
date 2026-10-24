@@ -38,6 +38,7 @@ CONFIG = {
     "matchs_min_fiable": 5,      # en dessous, on n'analyse pas le match
     "matchs_bon_echantillon": 10,
     "horizon_jours": 1,          # aujourd'hui + demain
+    "marches_exclus": ["corners", "cartons"],  # non proposés sur Winamax
 }
 
 from collect import DIVISIONS  # noqa: E402  (même dossier)
@@ -337,6 +338,8 @@ def analyse(today: dt.date) -> dict:
             matches.append(m)
 
             for mm in marches:
+                if any(x in mm["marche"] for x in CONFIG["marches_exclus"]):
+                    continue
                 mini = mm["cote_minimum"]
                 if not mini or not (CONFIG["cote_min"] <= mini <= CONFIG["cote_max"]):
                     continue
@@ -414,7 +417,7 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
     for m in res["matchs"]:
         date, _, heure = m["coup_envoi"].partition(" ")
         for mm in m["marches"]:
-            if not mm["cote_juste"]:
+            if not mm["cote_juste"] or any(x in mm["marche"] for x in CONFIG["marches_exclus"]):
                 continue
             rows.append({
                 "id": f"{m['div']}|{m['match']}|{mm['marche']}",

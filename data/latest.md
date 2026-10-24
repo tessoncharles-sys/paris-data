@@ -6,7 +6,6 @@ _Aucune aujourd'hui._
 
 ## À vérifier sur Winamax (pas de cote marché dans les données)
 
-- For Sittard - Excelsior — -4.5 cartons : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Alverca - Arouca — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Rio Ave - Famalicao — Ext. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Nacional - Sp Braga — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
@@ -24,7 +23,8 @@ _Aucune aujourd'hui._
 - Mainz - Werder Bremen — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Sudtirol - Sampdoria — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - AZ Alkmaar - Twente — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Stevenage - Milton Keynes Dons — -4.5 cartons : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Konyaspor - Genclerbirligi — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Genk - Standard — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Sabadell - Tenerife — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 
 _148 matchs analysés, 0 écartés._
