@@ -1,113 +1,254 @@
 {
- "apisports_date": {
-  "status": 200,
-  "bytes": 113249,
-  "keys": [
-   "get",
-   "parameters",
-   "errors",
-   "results",
-   "response"
+ "par_ligue": [
+  [
+   "147|European Cup|Europe",
+   25
   ],
-  "keep": {
-   "errors": [],
-   "results": 157,
-   "s": [
-    [
-     "Superlig",
-     "Mihaliccik",
-     "Guneysu"
-    ],
-    [
-     "European Cup",
-     "Mistra (Est)",
-     "BK-46 (Fin)"
-    ],
-    [
-     "European Cup",
-     "Istanbul Genclik Spor Kulubu (Tur)",
-     "Ostrow Wielkopolski (Pol)"
-    ],
-    [
-     "1. Division",
-     "Raekker Molle",
-     "Vendsyssel"
-    ],
-    [
-     "Lietuvos Lyga",
-     "Sviesa",
-     "Pieno zvaigzdes"
-    ]
-   ]
-  }
- },
- "sofa_today": {
-  "status": 403,
-  "bytes": 48,
-  "keys": [
-   "error"
+  [
+   "81|I Liga|Poland",
+   19
   ],
-  "keep": {
-   "n": 0,
-   "s": []
-  }
- },
- "sofa_past": {
-  "status": 403,
-  "bytes": 48,
-  "keys": [
-   "error"
+  [
+   "104|Division de Honor Plata|Spain",
+   8
   ],
-  "keep": {
-   "n": 0,
-   "s": []
-  }
- },
- "sofa_www": {
-  "status": 403,
-  "bytes": 48,
-  "keys": [
-   "error"
+  [
+   "66|Eredivisie|Netherlands",
+   7
   ],
-  "keep": {
-   "n": 0,
-   "s": []
-  }
- },
- "espn_handball": {
-  "status": 404,
-  "bytes": 12,
-  "keys": [
-   "code"
+  [
+   "56|Serie A|Italy",
+   6
   ],
-  "keep": {
-   "leagues": [],
-   "events": 0
-  }
- },
- "lnh": {
-  "status": 200,
-  "bytes": 126748,
-  "text": "<!DOCTYPE HTML>\r\n<html lang=\"fr\">\r\n\r\n<head>\r\n<meta charset=\"utf-8\" />\r\n<meta name=\"robots\" content=\"index,follow\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1\" />\r\n<meta name=\"google-site-verification\" content=\"P--fUhIuIGKkFFtGycgE_q9tWgbusgiNWsyOte3kj_8\" />\r"
- },
- "wiki": {
-  "status": 200,
-  "bytes": 2319,
-  "keys": [
-   "warnings",
-   "parse"
+  [
+   "49|NB I|Hungary",
+   5
   ],
-  "keep": [
-   "Teams",
-   "Team changes",
-   "Stadiums",
-   "League table",
-   "Results",
-   "Top goalscorers",
-   "Awards",
-   "All-star team",
-   "References",
-   "External links"
+  [
+   "7|Division 1|Belgium",
+   5
+  ],
+  [
+   "10|Premijer liga|Croatia",
+   5
+  ],
+  [
+   "8|Premijer Liga|Bosnia-And-Herzegovina",
+   5
+  ],
+  [
+   "15|1. Division|Denmark",
+   4
+  ],
+  [
+   "6|Division 1|Belarus",
+   4
+  ],
+  [
+   "127|Central League|Poland",
+   4
+  ],
+  [
+   "37|Superleague|North-Macedonia",
+   4
+  ],
+  [
+   "111|Allsvenskan|Sweden",
+   3
+  ],
+  [
+   "91|Superleague|Russia",
+   3
+  ],
+  [
+   "43|2. Bundesliga|Germany",
+   3
+  ],
+  [
+   "98|Extraliga|Slovakia",
+   3
+  ],
+  [
+   "103|Liga ASOBAL|Spain",
+   3
+  ],
+  [
+   "120|Superlig|Turkey",
+   2
+  ],
+  [
+   "190|Golden League - Denmark Women|Europe",
+   2
+  ],
+  [
+   "112|Allsvenskan Women|Sweden",
+   2
+  ],
+  [
+   "69|1. Division|Norway",
+   2
+  ],
+  [
+   "23|Herre Handbold Ligaen|Denmark",
+   2
+  ],
+  [
+   "75|Elkjop-ligaen|Norway",
+   2
+  ],
+  [
+   "84|Andebol 1|Portugal",
+   2
+  ],
+  [
+   "65|Prva liga|Montenegro",
+   2
+  ],
+  [
+   "47|A1|Greece",
+   2
+  ],
+  [
+   "87|Liga Nationala|Romania",
+   2
+  ],
+  [
+   "115|NLA|Switzerland",
+   2
+  ],
+  [
+   "39|Bundesliga|Germany",
+   2
+  ],
+  [
+   "12|Extraliga|Czech-Republic",
+   2
+  ],
+  [
+   "82|I Liga Women|Poland",
+   2
+  ],
+  [
+   "100|1. NLB Liga|Slovenia",
+   2
+  ],
+  [
+   "2|HLA|Austria",
+   2
+  ],
+  [
+   "61|Lietuvos Lyga|Lithuania",
+   1
+  ],
+  [
+   "9|A RHG|Bulgaria",
+   1
+  ],
+  [
+   "154|World Championship Women|World",
+   1
+  ],
+  [
+   "197|Friendly International Women|World",
+   1
+  ],
+  [
+   "34|Starligue|France",
+   1
+  ],
+  [
+   "45|2. Bundesliga Women|Germany",
+   1
+  ],
+  [
+   "78|Superliga|Poland",
+   1
+  ],
+  [
+   "36|Proligue|France",
+   1
+  ],
+  [
+   "63|AXA League|Luxembourg",
+   1
   ]
+ ],
+ "exemple": {
+  "id": 197677,
+  "date": "2026-10-24T19:00:00+02:00",
+  "time": "19:00",
+  "timestamp": 1792861200,
+  "timezone": "Europe/Paris",
+  "week": "8",
+  "status": {
+   "long": "Not Started",
+   "short": "NS"
+  },
+  "country": {
+   "id": 11,
+   "name": "France",
+   "code": "FR",
+   "flag": "https://media.api-sports.io/flags/fr.svg"
+  },
+  "league": {
+   "id": 34,
+   "name": "Starligue",
+   "type": "League",
+   "logo": "https://media.api-sports.io/handball/leagues/34.png",
+   "season": 2026
+  },
+  "teams": {
+   "home": {
+    "id": 257,
+    "name": "Nantes",
+    "logo": "https://media.api-sports.io/handball/teams/257.png"
+   },
+   "away": {
+    "id": 251,
+    "name": "Chambery Savoie",
+    "logo": "https://media.api-sports.io/handball/teams/251.png"
+   }
+  },
+  "scores": {
+   "home": null,
+   "away": null
+  },
+  "periods": {
+   "first": {
+    "home": null,
+    "away": null
+   },
+   "second": {
+    "home": null,
+    "away": null
+   }
+  }
+ },
+ "odds": {
+  "errors": [],
+  "results": 1,
+  "sample": "[{\"game\": {\"id\": 197677}, \"league\": {\"id\": 34, \"name\": \"Starligue\", \"type\": \"League\", \"season\": 2026, \"logo\": \"https://media.api-sports.io/handball/leagues/34.png\"}, \"country\": {\"id\": 11, \"name\": \"France\", \"code\": \"FR\", \"flag\": \"https://media.api-sports.io/flags/fr.svg\"}, \"update\": \"2026-10-24T13:25:13+00:00\", \"bookmakers\": [{\"id\": 17, \"name\": \"WilliamHill\", \"bets\": [{\"id\": 1, \"name\": \"3Way Result\", \"values\": [{\"value\": \"Home\", \"odd\": \"1.05\"}, {\"value\": \"Draw\", \"odd\": \"15.00\"}, {\"value\": \"Away\", \"odd\": \"9.00\"}]}, {\"id\": 12, \"name\": \"1st Half 3Way Result\", \"values\": [{\"value\": \"Home\", \"odd\": \"1.20\"}, {\"value\": \"Draw\", \"odd\": \"9.00\"}, {\"value\": \"Away\", \"odd\": \"5.50\"}]}, {\"id\": 18, \"name\": \"Odd/Even\", \"values\": [{\"value\": \"Odd\", \"odd\": \"1.83\"}, {\"value\": \"Even\", \"odd\": \"1.83\"}]}]}, {\"id\": 4, \"name\": \"Bet365\", \"bets\": [{\"id\": 1, \"name\": \"3Way Result\", \"values\": [{\"value\": \"Home\", \"odd\": \"1.12\"}, {\"value\": \"Draw\", \"odd\": \"15.00\"}, {\"value\": \"Away\", \"odd\": \"10.00\"}]}, {\"id\": 2, \"name\": \"Home/Away\", \"values\": [{\"value\": \"Home\", \"odd\": \"1.05\"}, {\"value\": \"Away\", \"odd\": \"8.00\"}]}, {\"id\": 4, \"name\": \"Asian Handicap\", \"values\": [{\"value\": \"Home -5.5\", \"odd\": \"1.78\"}, {\"value\": \"Away -5.5\", \"odd\": \"2.00\"}]}, {\"id\": 5, \"name\": \"Over/Under\", \"values\": [{\"value\": \"Over 63.5\", \"odd\": \"1.90\"}, {\"value\": \"Under 63.5\", \"odd\": \"1.85\"}, {\"value\": \"Over 64.5\", \"odd\": \"1.80\"}, {\"value\": \"Under 64.5\", \"odd\": \"1.95\"}]}, {\"id\": 6, \"name\": \"Over/Under 1st Half\", \"values\": [{\"value\": \"Over 31.5\", \"odd\": \"1.75\"}, {\"value\": \"Under 31.5\", \"odd\": \"2.00\"}]}, {\"id\": 8, \"name\": \"HT/FT Double\", \"values\": [{\"value\": \"Draw/Draw\", \"odd\": \"45.00\"}, {\"value\": \"Draw/Nantes\", \"odd\": \"8.00\"}, {\"value\": \"Nantes/Draw\", \"odd\": \"25.00\"}, {\"value\": \"Nantes/Nantes\", \"odd\": \"1.30\"}, {\"value\": \"Draw/Chambery Savoie\", \"odd\": \"22.00\"}, {\"value\": \"Chambery Savoie/Draw\", \"odd\": \"35.00\"}, {\"value\": \"Chambery Savoie/Chambery Savoie\", \"odd\": \"10.00\"}, {\"value\": \"Nantes/Chambery Savoie\", \"odd\": \"16.00\"}, {\"value\": \"Chambery Savoie/Nantes\", \"odd\": \"8.50\"}]}, {\"id\": 9, \"name\": \"Handicap Result\", \"values\": [{\"value\": \"Home -3\", \"odd\": \"1.38\"}, {\"value\": \"Draw -3\", \"odd\": \"14.00\"}, {\"value\": \"Away -3\", \"odd\": \"3.30\"}, {\"value\": \"Home -2\", \"odd\": \"1.28\"}, {\"value\": \"Draw -2\", \"odd\": \"16.00\"}, {\"value\": \"Away -2\", \"odd\": \"4.25\"}, {\"value\": \"Home -4\", \"odd\": \"1.55\"}, {\"value\": \"Draw -4\", \"odd\": \"14.00\"}, {\"value\": \"Away -4\", \"odd\": \"2.85\"}, {\"value\": \"Home -6\", \"odd\": \"1.95\"}, {\"value\": \"Draw -6\", \"odd\": \"13.00\"}, {\"value\": \"Away -6\", \"odd\": \"2.00\"}, {\"value\": \"Home -10\", \"odd\": \"4.00\"}, {\"value\": \"Away -10\", \"odd\": \"1.27\"}, {\"value\": \"Draw -10\", \"odd\": \"18.00\"}, {\"value\": \"Home -9\", \"odd\": \"3.30\"}, {\"value\": \"Away -9\", \"odd\": \"1.40\"}, {\"value\": \"Draw -9\", \"odd\": \"16.00\"}, {\"value\": \"Home -8\", \"odd\": \"2.75\"}, {\"value\": \"Away -8\", \"odd\": \"1.55\"}, {\"value\": \"Draw -8\", \"odd\": \"14.00\"}]}, {\"id\": 10, \"name\": \"Highest Scoring Half\", \"values\": [{\"value\": \"Draw\", \"odd\": \"12.00\"}, {\"value\": \"1st Half\", \"odd\": \"2.25\"}, {\""
+ },
+ "passe": {
+  "errors": {
+   "plan": "Free plans do not have access to this date, try from 2026-10-23 to 2026-10-25."
+  },
+  "results": 0
+ },
+ "status": {
+  "account": {
+   "firstname": "Charles",
+   "lastname": "Tesson",
+   "email": "tesson.charles@gmail.com"
+  },
+  "subscription": {
+   "plan": "Free",
+   "end": "2027-10-24T00:00:00+00:00",
+   "active": true
+  },
+  "requests": {
+   "current": 3,
+   "limit_day": 100
+  }
  }
 }
