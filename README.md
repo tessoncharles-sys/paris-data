@@ -57,3 +57,7 @@ Le 1er de chaque mois, `.github/workflows/calibration.yml` relance les tests de 
 - **Données** : API-Sports handball avec ta clé (offre gratuite : matchs d'hier, d'aujourd'hui et de demain, cotes de plusieurs bookmakers par match ; jusqu'à 80 matchs avec cotes par jour). Championnats suivis : Starligue, Proligue, Bundesliga, ASOBAL, Danemark, Ligues EHF, etc.
 - **Cotes justes** (`scripts/handball.py`) : consensus des bookmakers marge retirée → loi normale de l'écart et du total de buts ajustée sur les lignes de handicap et de total → victoire, nul, écarts, totaux, buts d'une équipe, 1re mi-temps.
 - **Pas encore de test de fiabilité** : l'offre gratuite ne donne pas d'historique. Résultats et prédictions s'archivent chaque jour (`data/raw/handball/`) pour un test dans quelques semaines.
+
+## Cotes des bookmakers (foot)
+
+`scripts/odds_foot.py` récupère à chaque passage, via API-Football, les cotes de Pinnacle et de 8 autres bookmakers pour les matchs du tableau (jusqu'à ~80 matchs par jour avec le quota gratuit, championnats majeurs en priorité). Marge retirée, la cote Pinnacle devient la cote juste de référence ; la probabilité du modèle reste affichée avec l'écart (un écart de 8 points ou plus est signalé). Toutes les cotes sont archivées dans `data/raw/api-football/odds_archive/` pour tester le modèle face au marché et suivre la cote de clôture.

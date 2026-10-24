@@ -282,6 +282,12 @@ def analyse(today: dt.date) -> dict:
     hist = load_history()
     fx = load_fixtures(today)
     calib = load_calibration()
+    # cotes des bookmakers (Pinnacle en priorité), récupérées par odds_foot.py
+    try:
+        _oc = json.loads((ROOT / "data" / "raw" / "api-football" / "odds_latest.json").read_text())
+        api_odds = {v["cle"]: v for v in _oc.values()}
+    except (OSError, ValueError):
+        api_odds = {}
     ref = pd.Timestamp(today)
     matches, picks, skipped = [], [], []
     if hist.empty or fx.empty:
@@ -328,15 +334,29 @@ def analyse(today: dt.date) -> dict:
             odds = market_odds(row)
             w = CONFIG["poids_modele"]
             marches = []
+            ao = api_odds.get(f"{div}|{home}|{away}", {})
             for label, p_raw in probs.items():
                 p_mod = calibrate(label, p_raw, calib)
-                p = w * p_mod + (1 - w) * mk[label] if label in mk else p_mod
+                api_p = (ao.get("marches") or {}).get(label)
+                src_m = None
+                if api_p and (api_p.get("pin") or api_p.get("cons")):
+                    # marché des bookmakers : plus juste que le modèle d'après nos tests → c'est la référence
+                    pm = api_p["pin"] or api_p["cons"]
+                    src_m = "Pinnacle" if api_p.get("pin") else f"{api_p['n']} bookmakers"
+                    mk_l = pm
+                elif label in mk:
+                    mk_l = mk[label]
+                    src_m = "moyenne des bookmakers (football-data)"
+                else:
+                    mk_l = None
+                p = w * p_mod + (1 - w) * mk_l if mk_l is not None else p_mod
                 fair = 1 / p if p > 0 else None
                 mini = fair * (1 + CONFIG["marge_value"]) if fair else None
                 marches.append({
                     "marche": label,
                     "proba_modele": round(p_mod, 4),
-                    "proba_marche": round(mk[label], 4) if label in mk else None,
+                    "source_marche": src_m,
+                    "proba_marche": round(mk_l, 4) if mk_l is not None else None,
                     "proba": round(p, 4),
                     "cote_juste": round(fair, 2) if fair else None,
                     "cote_minimum": round(mini, 2) if mini else None,
@@ -579,9 +599,16 @@ def explain(label: str, m: dict, mm: dict) -> str:
     home, away = m["match"].split(" - ", 1)
     fh, fa = m.get("forme", {}).get("dom"), m.get("forme", {}).get("ext")
     lb = m["lambda_boost"]
-    src = "cotes du marché" if mm["proba_marche"] is not None else "modèle calibré, testé sur 2025-26"
+    src = (f"cotes du marché : {mm.get('source_marche')}, marge retirée" if mm["proba_marche"] is not None
+           else "modèle calibré, testé sur 2025-26 ; pas de cote marché disponible")
     parts = [f"Proba {mm['proba']:.0%} ({src}) → cote juste {mm['cote_juste']:.2f}. "
              f"Value seulement si Winamax paie au moins {mm['cote_juste'] * 1.03:.2f} (+3 %)."]
+    if mm["proba_marche"] is not None:
+        ec = mm["proba_modele"] - mm["proba_marche"]
+        txt = f"Modèle maison : {mm['proba_modele']:.0%} (écart {ec * 100:+.0f} points avec le marché)"
+        if abs(ec) >= 0.08:
+            txt += " : écart important, souvent signe d'une info (absence, rotation) que le modèle ignore"
+        parts.append(txt + ".")
     parts.append(f"Buts attendus {home} {lb['dom']:.1f} – {lb['ext']:.1f} {away} (calés sur les cotes du marché).")
     if fh and fa:
         def f(t, x):
@@ -638,6 +665,8 @@ def to_dashboard_rows(res: dict) -> pd.DataFrame:
                 "lam_source": m["lambda_boost"]["source"],
                 "explication": explain(mm["marche"], m, mm),
                 "signaux": m.get("signaux", ""),
+                "proba_modele": mm["proba_modele"],
+                "ecart_modele": round(mm["proba_modele"] - mm["proba_marche"], 4) if mm["proba_marche"] is not None else None,
             })
     return pd.DataFrame(rows)
 

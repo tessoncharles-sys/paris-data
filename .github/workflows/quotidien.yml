@@ -32,6 +32,12 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/collect.py
 
+      - name: Cotes foot des bookmakers (Pinnacle et autres)
+        continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/odds_foot.py
+
       - name: Calculer les probabilités (foot)
         run: python scripts/model.py
 
