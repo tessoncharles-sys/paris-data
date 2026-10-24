@@ -1,0 +1,608 @@
+{
+ "td_atp_2025": {
+  "url": "http://www.tennis-data.co.uk/2025/2025.xlsx",
+  "status": 403,
+  "bytes": 4553
+ },
+ "td_wta_2025": {
+  "url": "http://www.tennis-data.co.uk/2025w/2025.xlsx",
+  "status": 403,
+  "bytes": 4553
+ },
+ "td_atp_2026": {
+  "url": "http://www.tennis-data.co.uk/2026/2026.xlsx",
+  "status": 403,
+  "bytes": 4553
+ },
+ "td_wta_2026": {
+  "url": "http://www.tennis-data.co.uk/2026w/2026.xlsx",
+  "status": 403,
+  "bytes": 4553
+ },
+ "sackmann_atp_2024": {
+  "url": "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_matches_2024.csv",
+  "status": 404,
+  "bytes": 14
+ },
+ "espn_atp": {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20261024",
+  "status": 200,
+  "bytes": 622985,
+  "top_keys": [
+   "leagues",
+   "events",
+   "provider"
+  ],
+  "events": 6,
+  "event0": {
+   "name": "BNP Paribas Fortis European Open",
+   "date": "2026-10-17T04:00Z",
+   "shortName": "BNP Paribas Fortis European Open"
+  },
+  "sample_competitions": [
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T10:30Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Federico Cina",
+     "Joel Josef Schwaerzler"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T10:30Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Gauthier Onclin",
+     "Harry Wendelken"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T12:00Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Remy Bertola",
+     "Giovanni Mpetshi Perricard"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T10:00Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T11:15Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T12:55Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   }
+  ],
+  "n_competitions": 54
+ },
+ "espn_wta": {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20261024",
+  "status": 200,
+  "bytes": 529202,
+  "top_keys": [
+   "leagues",
+   "events",
+   "provider"
+  ],
+  "events": 5,
+  "event0": {
+   "name": "Kinoshita Group Japan Open",
+   "date": "2026-10-16T04:00Z",
+   "shortName": "Kinoshita Group Japan Open"
+  },
+  "sample_competitions": [
+   {
+    "grouping": "Women's Singles",
+    "date": "2026-10-17T02:35Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Rinko Matsuda",
+     "Mary Stoiana"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Women's Singles",
+    "date": "2026-10-17T02:35Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Kayla Day",
+     "Ena Koike"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Women's Singles",
+    "date": "2026-10-17T02:40Z",
+    "status": "STATUS_RETIRED",
+    "players": [
+     "Elina Avanesyan",
+     "Sayaka Ishii"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Women's Doubles",
+    "date": "2026-10-19T04:15Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Women's Doubles",
+    "date": "2026-10-19T05:55Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Women's Doubles",
+    "date": "2026-10-19T06:20Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   }
+  ],
+  "n_competitions": 64
+ },
+ "espn_atp_nodate": {
+  "url": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard",
+  "status": 200,
+  "bytes": 623045,
+  "top_keys": [
+   "leagues",
+   "season",
+   "day",
+   "events",
+   "provider"
+  ],
+  "events": 6,
+  "event0": {
+   "name": "BNP Paribas Fortis European Open",
+   "date": "2026-10-17T04:00Z",
+   "shortName": "BNP Paribas Fortis European Open"
+  },
+  "sample_competitions": [
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T10:30Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Federico Cina",
+     "Joel Josef Schwaerzler"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T10:30Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Gauthier Onclin",
+     "Harry Wendelken"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Singles",
+    "date": "2026-10-17T12:00Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     "Remy Bertola",
+     "Giovanni Mpetshi Perricard"
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T10:00Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T11:15Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   },
+   {
+    "grouping": "Men's Doubles",
+    "date": "2026-10-19T12:55Z",
+    "status": "STATUS_FINAL",
+    "players": [
+     null,
+     null
+    ],
+    "keys": [
+     "id",
+     "uid",
+     "date",
+     "startDate",
+     "timeValid",
+     "recent",
+     "status",
+     "venue",
+     "format",
+     "notes",
+     "geoBroadcasts",
+     "broadcasts",
+     "broadcast",
+     "competitors",
+     "tournamentId",
+     "type",
+     "round",
+     "wasSuspended"
+    ]
+   }
+  ],
+  "n_competitions": 54
+ }
+}
