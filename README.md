@@ -51,3 +51,9 @@ Relancer le test : `python scripts/calibrate.py`.
 ## Recalibration mensuelle
 
 Le 1er de chaque mois, `.github/workflows/calibration.yml` relance les tests de fiabilité foot et tennis sur les données les plus récentes (fenêtres glissantes), met à jour les corrections utilisées chaque matin et écrit le bilan dans [`data/backtest/BILAN.md`](data/backtest/BILAN.md). Lancement à la main : onglet Actions → « Recalibration mensuelle » → Run workflow.
+
+## Handball
+
+- **Données** : API-Sports handball avec ta clé (offre gratuite : matchs d'hier, d'aujourd'hui et de demain, cotes de plusieurs bookmakers par match ; jusqu'à 80 matchs avec cotes par jour). Championnats suivis : Starligue, Proligue, Bundesliga, ASOBAL, Danemark, Ligues EHF, etc.
+- **Cotes justes** (`scripts/handball.py`) : consensus des bookmakers marge retirée → loi normale de l'écart et du total de buts ajustée sur les lignes de handicap et de total → victoire, nul, écarts, totaux, buts d'une équipe, 1re mi-temps.
+- **Pas encore de test de fiabilité** : l'offre gratuite ne donne pas d'historique. Résultats et prédictions s'archivent chaque jour (`data/raw/handball/`) pour un test dans quelques semaines.

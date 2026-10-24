@@ -39,6 +39,12 @@ jobs:
         continue-on-error: true
         run: python scripts/tennis.py
 
+      - name: Handball (matchs, cotes, cotes justes)
+        continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/handball.py
+
       - name: Assembler le fichier du tableau de bord
         run: python scripts/merge.py
 

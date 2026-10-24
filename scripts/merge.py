@@ -4,7 +4,7 @@ import pandas as pd
 
 OUT = Path(__file__).resolve().parent.parent / "data"
 parts = []
-for name in ("dashboard_foot.csv", "dashboard_tennis.csv"):
+for name in ("dashboard_foot.csv", "dashboard_tennis.csv", "dashboard_handball.csv"):
     f = OUT / name
     if f.exists() and f.stat().st_size > 10:
         try:
