@@ -1,131 +1,1375 @@
 {
- "fixtures_l1": {
-  "errors": {
-   "plan": "Free plans do not have access to this season, try from 2022 to 2024."
-  },
-  "results": 0
- },
- "fixture": {
-  "home": {
-   "id": 505,
-   "name": "Inter",
-   "logo": "https://media.api-sports.io/football/teams/505.png",
-   "winner": null
-  },
-  "away": {
-   "id": 502,
-   "name": "Fiorentina",
-   "logo": "https://media.api-sports.io/football/teams/502.png",
-   "winner": null
-  }
- },
- "odds": {
-  "errors": [],
-  "results": 1
- },
- "bookmakers": [
-  "William Hill",
-  "Bet365",
-  "Marathonbet",
-  "Betfair",
-  "BetVictor",
-  "Pinnacle",
-  "1xBet",
-  "Betano",
-  "Dafabet"
+ "fixture": 1550161,
+ "teams": "Inter - Fiorentina",
+ "update": "2026-10-24T13:13:32+00:00",
+ "all_bets": [
+  [
+   1,
+   "Match Winner"
+  ],
+  [
+   2,
+   "Home/Away"
+  ],
+  [
+   3,
+   "Second Half Winner"
+  ],
+  [
+   4,
+   "Asian Handicap"
+  ],
+  [
+   5,
+   "Goals Over/Under"
+  ],
+  [
+   6,
+   "Goals Over/Under First Half"
+  ],
+  [
+   7,
+   "HT/FT Double"
+  ],
+  [
+   8,
+   "Both Teams Score"
+  ],
+  [
+   9,
+   "Handicap Result"
+  ],
+  [
+   10,
+   "Exact Score"
+  ],
+  [
+   11,
+   "Highest Scoring Half"
+  ],
+  [
+   12,
+   "Double Chance"
+  ],
+  [
+   13,
+   "First Half Winner"
+  ],
+  [
+   14,
+   "Team To Score First"
+  ],
+  [
+   15,
+   "Team To Score Last"
+  ],
+  [
+   16,
+   "Total - Home"
+  ],
+  [
+   17,
+   "Total - Away"
+  ],
+  [
+   18,
+   "Handicap Result - First Half"
+  ],
+  [
+   19,
+   "Asian Handicap First Half"
+  ],
+  [
+   20,
+   "Double Chance - First Half"
+  ],
+  [
+   21,
+   "Odd/Even"
+  ],
+  [
+   22,
+   "Odd/Even - First Half"
+  ],
+  [
+   23,
+   "Home Odd/Even"
+  ],
+  [
+   24,
+   "Results/Both Teams Score"
+  ],
+  [
+   25,
+   "Result/Total Goals"
+  ],
+  [
+   26,
+   "Goals Over/Under - Second Half"
+  ],
+  [
+   27,
+   "Clean Sheet - Home"
+  ],
+  [
+   28,
+   "Clean Sheet - Away"
+  ],
+  [
+   29,
+   "Win to Nil - Home"
+  ],
+  [
+   31,
+   "Correct Score - First Half"
+  ],
+  [
+   32,
+   "Win Both Halves"
+  ],
+  [
+   33,
+   "Double Chance - Second Half"
+  ],
+  [
+   34,
+   "Both Teams Score - First Half"
+  ],
+  [
+   35,
+   "Both Teams To Score - Second Half"
+  ],
+  [
+   36,
+   "Win To Nil"
+  ],
+  [
+   37,
+   "Home win both halves"
+  ],
+  [
+   38,
+   "Exact Goals Number"
+  ],
+  [
+   39,
+   "To Win Either Half"
+  ],
+  [
+   40,
+   "Home Team Exact Goals Number"
+  ],
+  [
+   41,
+   "Away Team Exact Goals Number"
+  ],
+  [
+   42,
+   "Second Half Exact Goals Number"
+  ],
+  [
+   43,
+   "Home Team Score a Goal"
+  ],
+  [
+   44,
+   "Away Team Score a Goal"
+  ],
+  [
+   45,
+   "Corners Over Under"
+  ],
+  [
+   46,
+   "Exact Goals Number - First Half"
+  ],
+  [
+   47,
+   "Winning Margin"
+  ],
+  [
+   48,
+   "To Score In Both Halves By Teams"
+  ],
+  [
+   49,
+   "Total Goals/Both Teams To Score"
+  ],
+  [
+   50,
+   "Goal Line"
+  ],
+  [
+   53,
+   "Away win both halves"
+  ],
+  [
+   54,
+   "First 10 min Winner"
+  ],
+  [
+   55,
+   "Corners 1x2"
+  ],
+  [
+   56,
+   "Corners Asian Handicap"
+  ],
+  [
+   57,
+   "Home Corners Over/Under"
+  ],
+  [
+   58,
+   "Away Corners Over/Under"
+  ],
+  [
+   59,
+   "Own Goal"
+  ],
+  [
+   60,
+   "Away Odd/Even"
+  ],
+  [
+   62,
+   "Correct Score - Second Half"
+  ],
+  [
+   63,
+   "Odd/Even - Second Half"
+  ],
+  [
+   72,
+   "Goal Line (1st Half)"
+  ],
+  [
+   77,
+   "Total Corners (1st Half)"
+  ],
+  [
+   78,
+   "RTG_H1"
+  ],
+  [
+   79,
+   "Cards European Handicap"
+  ],
+  [
+   80,
+   "Cards Over/Under"
+  ],
+  [
+   81,
+   "Cards Asian Handicap"
+  ],
+  [
+   82,
+   "Home Team Total Cards"
+  ],
+  [
+   83,
+   "Away Team Total Cards"
+  ],
+  [
+   85,
+   "Total Corners (3 way)"
+  ],
+  [
+   87,
+   "Total ShotOnGoal"
+  ],
+  [
+   92,
+   "Anytime Goal Scorer"
+  ],
+  [
+   93,
+   "First Goal Scorer"
+  ],
+  [
+   94,
+   "Last Goal Scorer"
+  ],
+  [
+   97,
+   "First Goal Method"
+  ],
+  [
+   99,
+   "To Score A Penalty"
+  ],
+  [
+   100,
+   "To Miss A Penalty"
+  ],
+  [
+   104,
+   "Asian Handicap (2nd Half)"
+  ],
+  [
+   105,
+   "Home Team Total Goals(1st Half)"
+  ],
+  [
+   106,
+   "Away Team Total Goals(1st Half)"
+  ],
+  [
+   107,
+   "Home Team Total Goals(2nd Half)"
+  ],
+  [
+   108,
+   "Away Team Total Goals(2nd Half)"
+  ],
+  [
+   109,
+   "Draw No Bet (1st Half)"
+  ],
+  [
+   110,
+   "Scoring Draw"
+  ],
+  [
+   111,
+   "Home team will score in both halves"
+  ],
+  [
+   112,
+   "Away team will score in both halves"
+  ],
+  [
+   113,
+   "Both Teams To Score in Both Halves"
+  ],
+  [
+   136,
+   "1x2 - 15 minutes"
+  ],
+  [
+   137,
+   "1x2 - 60 minutes"
+  ],
+  [
+   138,
+   "1x2 - 75 minutes"
+  ],
+  [
+   139,
+   "1x2 - 30 minutes"
+  ],
+  [
+   176,
+   "ShotOnTarget 1x2"
+  ],
+  [
+   181,
+   "European Handicap (2nd Half)"
+  ],
+  [
+   182,
+   "Draw No Bet (2nd Half)"
+  ],
+  [
+   184,
+   "To Score in Both Halves"
+  ],
+  [
+   185,
+   "First Team to Score (3 way) 1st Half"
+  ],
+  [
+   192,
+   "Home Highest Scoring Half"
+  ],
+  [
+   193,
+   "Away Highest Scoring Half"
+  ],
+  [
+   211,
+   "Total Shots"
+  ],
+  [
+   213,
+   "Player Triples"
+  ],
+  [
+   215,
+   "Player Singles"
+  ],
+  [
+   218,
+   "Away Anytime Goal Scorer"
+  ],
+  [
+   219,
+   "Away First Goal Scorer"
+  ],
+  [
+   222,
+   "To Win From Behind"
+  ],
+  [
+   226,
+   "Away Last Goal Scorer"
+  ],
+  [
+   228,
+   "Home Goal Method Header"
+  ],
+  [
+   229,
+   "Goal Method Outside the Box"
+  ],
+  [
+   231,
+   "Home Anytime Goal Scorer"
+  ],
+  [
+   232,
+   "Home First Goal Scorer"
+  ],
+  [
+   233,
+   "Home Last Goal Scorer"
+  ],
+  [
+   239,
+   "Corners. European Handicap"
+  ],
+  [
+   240,
+   "Home Player Shots"
+  ],
+  [
+   241,
+   "Away Player Shots"
+  ],
+  [
+   245,
+   "Away Goal Method Header"
+  ],
+  [
+   247,
+   "Corners Race To"
+  ],
+  [
+   249,
+   "Multicorners"
+  ],
+  [
+   250,
+   "First Card Received (3 way)"
+  ],
+  [
+   257,
+   "Player to Score or Assist"
+  ],
+  [
+   266,
+   "Player Fouls Committed"
+  ],
+  [
+   267,
+   "Goalkeeper Saves"
+  ],
+  [
+   269,
+   "Home Player Shots On Target Total"
+  ],
+  [
+   275,
+   "Away Player Shots On Target Total"
+  ],
+  [
+   276,
+   "Away Player Shots Total"
+  ],
+  [
+   295,
+   "Corners. Total (Range)"
+  ],
+  [
+   297,
+   "Corners. total between 0 and 10m"
+  ],
+  [
+   299,
+   "Cards over/under between 0 and 10 m"
+  ],
+  [
+   338,
+   "Corners. Odd/Even"
+  ],
+  [
+   339,
+   "Corners. Double Chance"
+  ],
+  [
+   340,
+   "Shots.1x2"
+  ],
+  [
+   349,
+   "Number Of Goals In Match"
+  ]
  ],
- "bets": [
-  "1x2 - 15 minutes",
-  "1x2 - 30 minutes",
-  "1x2 - 60 minutes",
-  "1x2 - 75 minutes",
-  "Anytime Goal Scorer",
-  "Asian Handicap",
-  "Asian Handicap (2nd Half)",
-  "Asian Handicap First Half",
-  "Away Anytime Goal Scorer",
-  "Away Corners Over/Under",
-  "Away First Goal Scorer",
-  "Away Goal Method Header",
-  "Away Highest Scoring Half",
-  "Away Last Goal Scorer",
-  "Away Odd/Even",
-  "Away Player Shots",
-  "Away Player Shots On Target Total",
-  "Away Player Shots Total",
-  "Away Team Exact Goals Number",
-  "Away Team Score a Goal",
-  "Away Team Total Cards",
-  "Away Team Total Goals(1st Half)",
-  "Away Team Total Goals(2nd Half)",
-  "Away team will score in both halves",
-  "Away win both halves",
-  "Both Teams Score",
-  "Both Teams Score - First Half",
-  "Both Teams To Score - Second Half",
-  "Both Teams To Score in Both Halves",
-  "Cards Asian Handicap",
-  "Cards European Handicap",
-  "Cards Over/Under",
-  "Cards over/under between 0 and 10 m",
-  "Clean Sheet - Away",
-  "Clean Sheet - Home",
-  "Corners 1x2",
-  "Corners Asian Handicap",
-  "Corners Over Under",
-  "Corners Race To",
-  "Corners. Double Chance",
-  "Corners. European Handicap",
-  "Corners. Odd/Even",
-  "Corners. Total (Range)",
-  "Corners. total between 0 and 10m",
-  "Correct Score - First Half",
-  "Correct Score - Second Half",
-  "Double Chance",
-  "Double Chance - First Half",
-  "Double Chance - Second Half",
-  "Draw No Bet (1st Half)",
-  "Draw No Bet (2nd Half)",
-  "European Handicap (2nd Half)",
-  "Exact Goals Number",
-  "Exact Goals Number - First Half",
-  "Exact Score",
-  "First 10 min Winner",
-  "First Card Received (3 way)",
-  "First Goal Method",
-  "First Goal Scorer",
-  "First Half Winner",
-  "First Team to Score (3 way) 1st Half",
-  "Goal Line",
-  "Goal Line (1st Half)",
-  "Goal Method Outside the Box",
-  "Goalkeeper Saves",
-  "Goals Over/Under",
-  "Goals Over/Under - Second Half",
-  "Goals Over/Under First Half",
-  "HT/FT Double",
-  "Handicap Result",
-  "Handicap Result - First Half",
-  "Highest Scoring Half",
-  "Home Anytime Goal Scorer",
-  "Home Corners Over/Under",
-  "Home First Goal Scorer",
-  "Home Goal Method Header",
-  "Home Highest Scoring Half",
-  "Home Last Goal Scorer",
-  "Home Odd/Even",
-  "Home Player Shots"
- ],
- "odds_by_date": {
-  "errors": [],
-  "results": 10,
-  "paging": {
-   "current": 1,
-   "total": 50
-  }
+ "pinnacle_bets": {
+  "Match Winner": [
+   {
+    "value": "Home",
+    "odd": "1.34"
+   },
+   {
+    "value": "Draw",
+    "odd": "5.81"
+   },
+   {
+    "value": "Away",
+    "odd": "8.14"
+   }
+  ],
+  "Asian Handicap": [
+   {
+    "value": "Home -1.25",
+    "odd": "1.72"
+   },
+   {
+    "value": "Away -1.25",
+    "odd": "2.22"
+   },
+   {
+    "value": "Home -1",
+    "odd": "1.51"
+   },
+   {
+    "value": "Away -1",
+    "odd": "2.72"
+   },
+   {
+    "value": "Home -0.75",
+    "odd": "1.40"
+   },
+   {
+    "value": "Away -0.75",
+    "odd": "3.09"
+   },
+   {
+    "value": "Home -0.5",
+    "odd": "1.34"
+   },
+   {
+    "value": "Away -0.5",
+    "odd": "3.47"
+   },
+   {
+    "value": "Home -2",
+    "odd": "2.63"
+   },
+   {
+    "value": "Away -2",
+    "odd": "1.53"
+   },
+   {
+    "value": "Home -1.75",
+    "odd": "2.19"
+   },
+   {
+    "value": "Away -1.75",
+    "odd": "1.74"
+   }
+  ],
+  "Goals Over/Under": [
+   {
+    "value": "Over 2.25",
+    "odd": "1.28"
+   },
+   {
+    "value": "Under 2.25",
+    "odd": "3.75"
+   },
+   {
+    "value": "Over 2.5",
+    "odd": "1.40"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "2.99"
+   },
+   {
+    "value": "Over 2.75",
+    "odd": "1.49"
+   },
+   {
+    "value": "Under 2.75",
+    "odd": "2.69"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "2.06"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.81"
+   },
+   {
+    "value": "Over 3.0",
+    "odd": "1.61"
+   },
+   {
+    "value": "Under 3.0",
+    "odd": "2.39"
+   },
+   {
+    "value": "Over 3.25",
+    "odd": "1.85"
+   },
+   {
+    "value": "Under 3.25",
+    "odd": "2.04"
+   }
+  ],
+  "Goals Over/Under First Half": [
+   {
+    "value": "Over 1.5",
+    "odd": "2.10"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "1.76"
+   },
+   {
+    "value": "Over 1.75",
+    "odd": "2.52"
+   },
+   {
+    "value": "Under 1.75",
+    "odd": "1.53"
+   },
+   {
+    "value": "Over 2.0",
+    "odd": "3.50"
+   },
+   {
+    "value": "Under 2.0",
+    "odd": "1.31"
+   },
+   {
+    "value": "Over 0.75",
+    "odd": "1.29"
+   },
+   {
+    "value": "Under 0.75",
+    "odd": "3.67"
+   },
+   {
+    "value": "Over 1.0",
+    "odd": "1.40"
+   },
+   {
+    "value": "Under 1.0",
+    "odd": "2.99"
+   },
+   {
+    "value": "Over 1.25",
+    "odd": "1.74"
+   },
+   {
+    "value": "Under 1.25",
+    "odd": "2.11"
+   }
+  ],
+  "Exact Score": [
+   {
+    "value": "1:0",
+    "odd": "9.50"
+   },
+   {
+    "value": "2:0",
+    "odd": "8.00"
+   },
+   {
+    "value": "2:1",
+    "odd": "8.00"
+   },
+   {
+    "value": "3:0",
+    "odd": "9.00"
+   },
+   {
+    "value": "3:1",
+    "odd": "9.00"
+   },
+   {
+    "value": "3:2",
+    "odd": "16.00"
+   },
+   {
+    "value": "4:0",
+    "odd": "13.00"
+   },
+   {
+    "value": "4:1",
+    "odd": "13.00"
+   },
+   {
+    "value": "0:0",
+    "odd": "18.50"
+   },
+   {
+    "value": "1:1",
+    "odd": "9.50"
+   },
+   {
+    "value": "2:2",
+    "odd": "13.00"
+   },
+   {
+    "value": "0:1",
+    "odd": "19.00"
+   }
+  ],
+  "Correct Score - First Half": [
+   {
+    "value": "1:0",
+    "odd": "3.45"
+   },
+   {
+    "value": "2:0",
+    "odd": "5.75"
+   },
+   {
+    "value": "2:1",
+    "odd": "12.00"
+   },
+   {
+    "value": "3:0",
+    "odd": "12.50"
+   },
+   {
+    "value": "3:1",
+    "odd": "21.00"
+   },
+   {
+    "value": "3:2",
+    "odd": "71.00"
+   },
+   {
+    "value": "4:0",
+    "odd": "29.00"
+   },
+   {
+    "value": "4:1",
+    "odd": "51.00"
+   },
+   {
+    "value": "0:0",
+    "odd": "4.00"
+   },
+   {
+    "value": "1:1",
+    "odd": "7.50"
+   },
+   {
+    "value": "2:2",
+    "odd": "31.00"
+   },
+   {
+    "value": "0:1",
+    "odd": "8.00"
+   }
+  ],
+  "First Half Winner": [
+   {
+    "value": "Home",
+    "odd": "1.76"
+   },
+   {
+    "value": "Draw",
+    "odd": "2.98"
+   },
+   {
+    "value": "Away",
+    "odd": "7.17"
+   }
+  ],
+  "Total - Home": [
+   {
+    "value": "Over 1.5",
+    "odd": "1.30"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "3.52"
+   },
+   {
+    "value": "Over 2.5",
+    "odd": "2.04"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "1.81"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "3.75"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.27"
+   }
+  ],
+  "Total - Away": [
+   {
+    "value": "Over 1.5",
+    "odd": "3.69"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "1.28"
+   },
+   {
+    "value": "Over 0.5",
+    "odd": "1.55"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "2.52"
+   }
+  ],
+  "Asian Handicap First Half": [
+   {
+    "value": "Home -1.25",
+    "odd": "3.35"
+   },
+   {
+    "value": "Away -1.25",
+    "odd": "1.35"
+   },
+   {
+    "value": "Home -1",
+    "odd": "2.75"
+   },
+   {
+    "value": "Away -1",
+    "odd": "1.48"
+   },
+   {
+    "value": "Home -0.75",
+    "odd": "2.07"
+   },
+   {
+    "value": "Away -0.75",
+    "odd": "1.81"
+   },
+   {
+    "value": "Home -0.5",
+    "odd": "1.75"
+   },
+   {
+    "value": "Away -0.5",
+    "odd": "2.13"
+   },
+   {
+    "value": "Home -0.25",
+    "odd": "1.47"
+   },
+   {
+    "value": "Away -0.25",
+    "odd": "2.77"
+   }
+  ],
+  "Corners Over Under": [
+   {
+    "value": "Over 8.5",
+    "odd": "1.57"
+   },
+   {
+    "value": "Under 8.5",
+    "odd": "2.35"
+   },
+   {
+    "value": "Over 9",
+    "odd": "1.72"
+   },
+   {
+    "value": "Under 9",
+    "odd": "2.10"
+   },
+   {
+    "value": "Over 9.5",
+    "odd": "1.96"
+   },
+   {
+    "value": "Under 9.5",
+    "odd": "1.87"
+   },
+   {
+    "value": "Over 10",
+    "odd": "2.23"
+   },
+   {
+    "value": "Under 10",
+    "odd": "1.65"
+   },
+   {
+    "value": "Over 10.5",
+    "odd": "2.47"
+   },
+   {
+    "value": "Under 10.5",
+    "odd": "1.52"
+   }
+  ],
+  "Home Team Total Goals(1st Half)": [
+   {
+    "value": "Over 1.5",
+    "odd": "2.99"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "1.39"
+   },
+   {
+    "value": "Over 0.5",
+    "odd": "1.39"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "2.99"
+   }
+  ],
+  "Away Team Total Goals(1st Half)": [
+   {
+    "value": "Over 0.5",
+    "odd": "2.85"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "1.43"
+   }
+  ],
+  "Corners Asian Handicap": [
+   {
+    "value": "Home -3",
+    "odd": "1.81"
+   },
+   {
+    "value": "Away -3",
+    "odd": "1.99"
+   },
+   {
+    "value": "Home -2",
+    "odd": "1.47"
+   },
+   {
+    "value": "Away -2",
+    "odd": "2.54"
+   },
+   {
+    "value": "Home -4",
+    "odd": "2.27"
+   },
+   {
+    "value": "Away -4",
+    "odd": "1.58"
+   },
+   {
+    "value": "Home -2.5",
+    "odd": "1.64"
+   },
+   {
+    "value": "Away -2.5",
+    "odd": "2.20"
+   },
+   {
+    "value": "Home -3.5",
+    "odd": "2.00"
+   },
+   {
+    "value": "Away -3.5",
+    "odd": "1.78"
+   },
+   {
+    "value": "Home -4.5",
+    "odd": "2.48"
+   },
+   {
+    "value": "Away -4.5",
+    "odd": "1.49"
+   }
+  ],
+  "Home Corners Over/Under": [
+   {
+    "value": "Over 6.5",
+    "odd": "2.04"
+   },
+   {
+    "value": "Under 6.5",
+    "odd": "1.73"
+   }
+  ],
+  "Away Corners Over/Under": [
+   {
+    "value": "Over 2.5",
+    "odd": "1.68"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "2.12"
+   }
+  ],
+  "Total Corners (1st Half)": [
+   {
+    "value": "Over 4",
+    "odd": "1.66"
+   },
+   {
+    "value": "Under 4",
+    "odd": "2.12"
+   },
+   {
+    "value": "Over 5",
+    "odd": "2.32"
+   },
+   {
+    "value": "Under 5",
+    "odd": "1.55"
+   },
+   {
+    "value": "Over 4.5",
+    "odd": "1.96"
+   },
+   {
+    "value": "Under 4.5",
+    "odd": "1.80"
+   }
+  ],
+  "Cards Over/Under": [
+   {
+    "value": "Over 2.5",
+    "odd": "1.36"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "2.96"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "1.89"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.91"
+   },
+   {
+    "value": "Over 3.0",
+    "odd": "1.53"
+   },
+   {
+    "value": "Under 3.0",
+    "odd": "2.47"
+   },
+   {
+    "value": "Over 4.5",
+    "odd": "2.89"
+   },
+   {
+    "value": "Under 4.5",
+    "odd": "1.38"
+   },
+   {
+    "value": "Over 4.0",
+    "odd": "2.41"
+   },
+   {
+    "value": "Under 4.0",
+    "odd": "1.55"
+   }
+  ],
+  "Cards Asian Handicap": [
+   {
+    "value": "Home +0",
+    "odd": "2.79"
+   },
+   {
+    "value": "Away +0",
+    "odd": "1.38"
+   },
+   {
+    "value": "Home +0.5",
+    "odd": "1.93"
+   },
+   {
+    "value": "Away +0.5",
+    "odd": "1.81"
+   },
+   {
+    "value": "Home +1",
+    "odd": "1.54"
+   },
+   {
+    "value": "Away +1",
+    "odd": "2.31"
+   }
+  ]
  },
- "status": {
-  "current": 6,
-  "limit_day": 100
+ "bet365": {
+  "Match Winner": [
+   {
+    "value": "Home",
+    "odd": "1.36"
+   },
+   {
+    "value": "Draw",
+    "odd": "5.25"
+   },
+   {
+    "value": "Away",
+    "odd": "8.00"
+   }
+  ],
+  "Goals Over/Under": [
+   {
+    "value": "Over 1.5",
+    "odd": "1.12"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "6.00"
+   },
+   {
+    "value": "Over 2.5",
+    "odd": "1.44"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "2.75"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "2.00"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.80"
+   },
+   {
+    "value": "Over 0.5",
+    "odd": "1.02"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "19.00"
+   },
+   {
+    "value": "Over 8.5",
+    "odd": "41.00"
+   },
+   {
+    "value": "Under 8.5",
+    "odd": "1.00"
+   },
+   {
+    "value": "Over 4.5",
+    "odd": "3.40"
+   },
+   {
+    "value": "Under 4.5",
+    "odd": "1.33"
+   },
+   {
+    "value": "Over 7.5",
+    "odd": "21.00"
+   },
+   {
+    "value": "Under 7.5",
+    "odd": "1.01"
+   },
+   {
+    "value": "Over 5.5",
+    "odd": "6.00"
+   }
+  ],
+  "Both Teams Score": [
+   {
+    "value": "Yes",
+    "odd": "1.67"
+   },
+   {
+    "value": "No",
+    "odd": "2.10"
+   }
+  ],
+  "Double Chance": [
+   {
+    "value": "Home/Draw",
+    "odd": "1.08"
+   },
+   {
+    "value": "Home/Away",
+    "odd": "1.17"
+   },
+   {
+    "value": "Draw/Away",
+    "odd": "3.00"
+   }
+  ],
+  "Total - Home": [
+   {
+    "value": "Over 1.5",
+    "odd": "1.30"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "3.40"
+   },
+   {
+    "value": "Over 2.5",
+    "odd": "2.00"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "1.73"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "3.50"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.28"
+   },
+   {
+    "value": "Over 0.5",
+    "odd": "1.05"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "11.00"
+   },
+   {
+    "value": "Over 4.5",
+    "odd": "7.00"
+   },
+   {
+    "value": "Under 4.5",
+    "odd": "1.10"
+   },
+   {
+    "value": "Over 5.5",
+    "odd": "17.00"
+   },
+   {
+    "value": "Under 5.5",
+    "odd": "1.02"
+   },
+   {
+    "value": "Over 6.5",
+    "odd": "34.00"
+   },
+   {
+    "value": "Under 6.5",
+    "odd": "1.00"
+   }
+  ],
+  "Total - Away": [
+   {
+    "value": "Over 1.5",
+    "odd": "3.75"
+   },
+   {
+    "value": "Under 1.5",
+    "odd": "1.25"
+   },
+   {
+    "value": "Over 2.5",
+    "odd": "11.00"
+   },
+   {
+    "value": "Under 2.5",
+    "odd": "1.05"
+   },
+   {
+    "value": "Over 3.5",
+    "odd": "34.00"
+   },
+   {
+    "value": "Under 3.5",
+    "odd": "1.00"
+   },
+   {
+    "value": "Over 0.5",
+    "odd": "1.53"
+   },
+   {
+    "value": "Under 0.5",
+    "odd": "2.38"
+   }
+  ],
+  "Anytime Goal Scorer": [
+   {
+    "value": "Dodo dos Santos",
+    "odd": "12.00"
+   },
+   {
+    "value": "Petar Sucic",
+    "odd": "4.75"
+   },
+   {
+    "value": "Nicolo Fagioli",
+    "odd": "9.00"
+   },
+   {
+    "value": "Hakan Calhanoglu",
+    "odd": "3.00"
+   },
+   {
+    "value": "Aleksandar Stankovic",
+    "odd": "4.33"
+   },
+   {
+    "value": "Christ Oulai",
+    "odd": "10.00"
+   },
+   {
+    "value": "Pio Esposito",
+    "odd": "1.91"
+   },
+   {
+    "value": "Degnand Gnonto",
+    "odd": "5.50"
+   },
+   {
+    "value": "Franco Mastantuono",
+    "odd": "4.33"
+   },
+   {
+    "value": "Mateo Pellegrino",
+    "odd": "3.60"
+   },
+   {
+    "value": "Andy Diouf",
+    "odd": "4.33"
+   },
+   {
+    "value": "Mattia Mosconi",
+    "odd": "2.60"
+   },
+   {
+    "value": "Nicolo Barella",
+    "odd": "4.75"
+   },
+   {
+    "value": "Joao Mario",
+    "odd": "12.00"
+   },
+   {
+    "value": "Cher Ndour",
+    "odd": "9.00"
+   }
+  ]
  }
 }
