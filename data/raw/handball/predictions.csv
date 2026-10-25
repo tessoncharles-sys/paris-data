@@ -7,13 +7,22 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 194371,2026-10-24T20:30:00+02:00,Pologne - Superliga,Chrobry Glogow,Kielce,-10.78,6.45,63.78,7.09,26.5,37.3,31.6,7
 197677,2026-10-24T19:00:00+02:00,France - Starligue,Nantes,Chambery Savoie,5.93,5.83,64.41,6.92,35.2,29.2,31.8,8
 194989,2026-10-24T20:00:00+02:00,Allemagne - Bundesliga,HBW Balingen-Weilstetten,MT Melsungen,-1.97,5.17,58.16,7.63,28.1,30.1,28.5,8
+198595,2026-10-25T12:00:00+01:00,Espagne - Liga ASOBAL,Horneo Alicante,Ademar,1.25,5.43,65.16,8.5,33.2,32.0,31.9,8
+195742,2026-10-25T16:00:00+01:00,Suède - Handbollsligan,Karlskrona,Kristianstad,-3.27,5.83,64.48,6.97,30.6,33.9,31.8,8
+195743,2026-10-25T16:15:00+01:00,Suède - Handbollsligan,Amo HK,Malmo,1.04,4.97,64.31,6.87,32.7,31.6,31.7,8
+195744,2026-10-25T16:30:00+01:00,Suède - Handbollsligan,Skanela,Savehof,-5.64,5.83,62.68,7.06,28.5,34.2,31.2,8
+195745,2026-10-25T17:00:00+01:00,Suède - Handbollsligan,Lugi,Skovde,-1.64,5.45,62.71,7.15,30.5,32.2,30.9,8
+195746,2026-10-25T17:30:00+01:00,Suède - Handbollsligan,Alingsas,Onnereds,2.5,5.71,60.27,6.94,31.4,28.9,29.6,8
+203796,2026-10-25T17:00:00+01:00,Norvège - Elite,Sandnes,Bergen,-4.65,6.17,58.11,6.72,26.7,31.4,28.8,8
+203797,2026-10-25T18:00:00+01:00,Norvège - Elite,Fjellhammer,Bergsoy,3.97,5.76,58.4,6.84,31.2,27.2,28.5,8
+193580,2026-10-25T17:00:00+01:00,Suisse - NLA,Wacker Thun,HC Kriens,-4.79,5.96,66.34,7.0,30.8,35.6,33.0,8
+203092,2026-10-25T16:00:00+01:00,Roumanie - Liga Nationala,Cluj,Din. Bucuresti,-8.95,5.96,55.97,6.65,23.5,32.5,27.8,7
 197675,2026-10-25T16:00:00+01:00,France - Starligue,St. Raphael,PSG,-6.0,5.83,63.54,6.83,28.8,34.8,30.9,8
 197678,2026-10-25T17:00:00+01:00,France - Starligue,Montpellier,Saran,5.88,5.93,62.4,6.79,34.1,28.3,30.6,8
 194988,2026-10-25T15:00:00+01:00,Allemagne - Bundesliga,Rhein-Neckar,SC Magdeburg,-2.84,5.22,61.73,7.42,29.4,32.3,30.1,8
 194992,2026-10-25T16:30:00+01:00,Allemagne - Bundesliga,Fuchse Berlin,HSG Wetzlar,6.81,5.87,66.48,7.19,36.6,29.8,32.5,8
 194994,2026-10-25T16:30:00+01:00,Allemagne - Bundesliga,Bergischer,Hamburg,0.21,5.31,61.73,7.32,31.0,30.8,30.1,8
 194990,2026-10-25T18:00:00+01:00,Allemagne - Bundesliga,Gummersbach,Flensburg-H.,-1.3,5.35,64.99,8.72,31.8,33.1,32.1,8
-198595,2026-10-25T12:00:00+01:00,Espagne - Liga ASOBAL,Horneo Alicante,Ademar,1.25,5.43,65.16,8.5,33.2,32.0,31.9,8
 195593,2026-10-25T16:00:00+01:00,Danemark - Herre Handbold Ligaen,Skanderborg AGF,Holstebro,3.46,5.93,64.01,6.87,33.7,30.3,31.5,8
 195592,2026-10-25T18:00:00+01:00,Danemark - Herre Handbold Ligaen,Ringsted,GOG,-6.13,5.94,64.87,6.94,29.4,35.5,31.9,7
 195289,2026-10-25T17:00:00+01:00,Allemagne - 2. Bundesliga,Emsdetten,Dormagen,1.1,5.03,61.87,6.93,31.5,30.4,30.6,8

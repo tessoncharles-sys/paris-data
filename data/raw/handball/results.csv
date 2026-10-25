@@ -8,21 +8,21 @@ id,date,league_id,league,home,away,hs,as,h1,a1
 198593,2026-10-23T19:00:00+02:00,103,Espagne - Liga ASOBAL,CD Bidasoa Irun,Caserio Ciudad Real,36,32,17,13
 195284,2026-10-23T19:30:00+02:00,43,Allemagne - 2. Bundesliga,Potsdam,Nordhorn-Lingen,31,25,17,13
 198356,2026-10-23T19:30:00+02:00,2,Autriche - HLA,HSG Graz,Handball Tirol,29,31,13,17
+197679,2026-10-23T20:00:00+02:00,34,France - Starligue,Limoges,Dunkerque,32,24,15,15
+197680,2026-10-23T20:00:00+02:00,34,France - Starligue,Chartres,Nimes,32,33,15,17
+198190,2026-10-23T20:00:00+02:00,154,Championnat du monde féminin,Estonia W,Kosovo W,22,39,10,19
 197673,2026-10-23T20:00:00+02:00,34,France - Starligue,Provence Aix,Toulouse,32,26,14,15
 195288,2026-10-23T20:00:00+02:00,43,Allemagne - 2. Bundesliga,Coburg 2000,Minden,24,33,11,16
 194986,2026-10-23T20:00:00+02:00,39,Allemagne - Bundesliga,Hannover-Burgdorf,Lemgo,26,29,15,12
-198190,2026-10-23T20:00:00+02:00,154,Championnat du monde féminin,Estonia W,Kosovo W,22,39,10,19
-197680,2026-10-23T20:00:00+02:00,34,France - Starligue,Chartres,Nimes,32,33,15,17
-197679,2026-10-23T20:00:00+02:00,34,France - Starligue,Limoges,Dunkerque,32,24,15,15
-197149,2026-10-23T20:30:00+02:00,36,France - Proligue,Val d&apos;Oise,Dijon,29,34,15,14
-197152,2026-10-23T20:30:00+02:00,36,France - Proligue,Massy Essonne,Valence,33,44,17,26
-197148,2026-10-23T20:30:00+02:00,36,France - Proligue,Pau Billere,Cherbourg,38,37,17,16
-197151,2026-10-23T20:30:00+02:00,36,France - Proligue,Saintes,Frontignan,33,31,19,19
-197155,2026-10-23T20:30:00+02:00,36,France - Proligue,Besancon,Pontault,26,27,12,15
-197153,2026-10-23T20:30:00+02:00,36,France - Proligue,Creteil,Ivry,33,31,16,13
 197674,2026-10-23T20:30:00+02:00,34,France - Starligue,Tremblay,Cesson Rennes-Metropole,34,29,15,18
-197676,2026-10-23T20:30:00+02:00,34,France - Starligue,Selestat,Caen,24,26,12,11
 197154,2026-10-23T20:30:00+02:00,36,France - Proligue,Cournon d&apos;Auvergne,Istres,26,30,13,15
+197676,2026-10-23T20:30:00+02:00,34,France - Starligue,Selestat,Caen,24,26,12,11
+197153,2026-10-23T20:30:00+02:00,36,France - Proligue,Creteil,Ivry,33,31,16,13
+197155,2026-10-23T20:30:00+02:00,36,France - Proligue,Besancon,Pontault,26,27,12,15
+197151,2026-10-23T20:30:00+02:00,36,France - Proligue,Saintes,Frontignan,33,31,19,19
+197148,2026-10-23T20:30:00+02:00,36,France - Proligue,Pau Billere,Cherbourg,38,37,17,16
+197152,2026-10-23T20:30:00+02:00,36,France - Proligue,Massy Essonne,Valence,33,44,17,26
+197149,2026-10-23T20:30:00+02:00,36,France - Proligue,Val d&apos;Oise,Dijon,29,34,15,14
 204757,2026-10-24T13:00:00+02:00,147,Coupe d'Europe EHF,Mistra (Est),BK-46 (Fin),24,29,13,16
 204762,2026-10-24T13:00:00+02:00,147,Coupe d'Europe EHF,Istanbul Genclik Spor Kulubu (Tur),Ostrow Wielkopolski (Pol),30,41,15,17
 204740,2026-10-24T14:30:00+02:00,147,Coupe d'Europe EHF,Dragunas Klaipeda (Ltu),Zubri (Cze),28,22,13,8
