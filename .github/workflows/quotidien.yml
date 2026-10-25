@@ -96,6 +96,12 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: set -o pipefail; python scripts/handball.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
+      - name: Basket (matchs, cotes, cotes justes)
+        continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: set -o pipefail; python scripts/basket.py 2>&1 | tee -a data/logs/dernier_passage.txt
+
       - name: Assembler le fichier du tableau de bord
         run: set -o pipefail; python scripts/merge.py 2>&1 | tee -a data/logs/dernier_passage.txt
 

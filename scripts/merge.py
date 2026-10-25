@@ -1,10 +1,10 @@
-"""Assemble le fichier du tableau de bord : football + tennis (si disponible)."""
+"""Assemble le fichier du tableau de bord : football, tennis, handball et basket (ceux qui sont disponibles)."""
 from pathlib import Path
 import pandas as pd
 
 OUT = Path(__file__).resolve().parent.parent / "data"
 parts = []
-for name in ("dashboard_foot.csv", "dashboard_tennis.csv", "dashboard_handball.csv"):
+for name in ("dashboard_foot.csv", "dashboard_tennis.csv", "dashboard_handball.csv", "dashboard_basket.csv"):
     f = OUT / name
     if f.exists() and f.stat().st_size > 10:
         try:

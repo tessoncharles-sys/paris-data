@@ -1,7 +1,7 @@
 """Cotes Winamax et des autres opérateurs français (The Odds API, offre gratuite 500 crédits/mois).
 
 Une fois par jour (passage du matin), pour les grands championnats de foot et les tournois de tennis
-couverts : cote Winamax et meilleure cote française sur la victoire (et le total 2,5 buts en foot).
+couverts : cote Winamax et meilleure cote française sur la victoire (et le total 2,5 buts en foot ; vainqueur prolongation incluse en basket NBA et EuroLeague).
 Comparées à la cote juste, elles permettent de signaler automatiquement une value Winamax.
 
 Budget : la liste des compétitions et des matchs est gratuite ; chaque appel de cotes coûte
@@ -80,6 +80,7 @@ def main() -> int:
     print(f"  crédits restants : {left}, budget du jour : {budget} ; autres sports disponibles : {', '.join(others) or 'aucun'}")
     plan = [(k, "h2h,totals") for k in TOP if k in active]
     plan += [(s["key"], "h2h") for s in sports if s.get("active") and s["key"].startswith(("tennis_atp", "tennis_wta"))]
+    plan += [(k, "h2h") for k in ("basketball_nba", "basketball_euroleague") if k in active]
     plan += [(k, "h2h") for k in SECOND if k in active]
     plan += [(k, "h2h") for k in active if k.startswith("handball")]
     out, credits = [], 0
@@ -123,14 +124,19 @@ def main() -> int:
     return 0
 
 
-def lookup() -> dict:
-    """Index pour model.py et tennis.py : (date, équipe/joueur normalisés) → cotes par pari."""
+def lookup(prefix: str | None = None) -> dict:
+    """Index pour model.py et tennis.py : (date, équipe/joueur normalisés) → cotes par pari.
+    prefix : ne garder qu'un sport (ex. "basketball") ; par défaut le basket est exclu, pour ne pas
+    confondre un club de foot et sa section basket (Real Madrid, Olympiacos…)."""
     f = OUT / "fr_odds.json"
     if not f.exists():
         return {}
     data = json.loads(f.read_text())
     idx = {}
     for m in data.get("matchs", []):
+        sk = m.get("sport_key", "")
+        if (prefix and not sk.startswith(prefix)) or (not prefix and sk.startswith("basketball")):
+            continue
         day = pd.Timestamp(m["coup_envoi"]).tz_convert(PARIS).strftime("%Y-%m-%d")
         idx.setdefault(day, []).append(m)
     return idx

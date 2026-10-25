@@ -58,6 +58,14 @@ Le 1er de chaque mois, `.github/workflows/calibration.yml` relance les tests de 
 - **Cotes justes** (`scripts/handball.py`) : consensus des bookmakers marge retirée → loi normale de l'écart et du total de buts ajustée sur les lignes de handicap et de total → victoire, nul, écarts, totaux, buts d'une équipe, 1re mi-temps.
 - **Pas encore de test de fiabilité** : l'offre gratuite ne donne pas d'historique. Résultats et prédictions s'archivent chaque jour (`data/raw/handball/`) pour un test dans quelques semaines.
 
+## Basket (NBA, EuroLeague, Betclic Élite)
+
+- **Données** : API-Sports basketball avec la même clé (`API_FOOTBALL_KEY`, quota propre de 100 requêtes par jour) : matchs d'hier, d'aujourd'hui et de demain, cotes de 9 bookmakers dont Pinnacle (`scripts/basket.py`).
+- **Cotes justes** : cotes de Pinnacle (à défaut, consensus des bookmakers), marge retirée → loi normale de l'écart et du total de points ajustée sur les lignes de handicap et de total → vainqueur (prolongation incluse), écarts, totaux, points d'une équipe, 1re mi-temps, combinés « victoire + total » (écart et total supposés indépendants). Aucun modèle maison : la NBA est un marché très efficace, l'intérêt est de juger les boosts et de comparer les opérateurs.
+- **Signal** : back-to-back (équipe qui a joué dans les 32 heures précédentes, toutes compétitions).
+- **Cotes françaises** : vainqueur NBA et EuroLeague via The Odds API (pas de Betclic Élite).
+- **Pas encore de test de fiabilité** : résultats et prédictions s'archivent chaque jour (`data/raw/basket/`). Les paris joueur (points, rebonds, passes) ne sont pas couverts (étape 2).
+
 ## Cotes des bookmakers (foot)
 
 `scripts/odds_foot.py` récupère à chaque passage, via API-Football, les cotes de Pinnacle et de 8 autres bookmakers pour les matchs du tableau (jusqu'à ~80 matchs par jour avec le quota gratuit, championnats majeurs en priorité). Marge retirée, la cote Pinnacle devient la cote juste de référence ; la probabilité du modèle reste affichée avec l'écart (un écart de 8 points ou plus est signalé). Toutes les cotes sont archivées dans `data/raw/api-football/odds_archive/` pour tester le modèle face au marché et suivre la cote de clôture.
