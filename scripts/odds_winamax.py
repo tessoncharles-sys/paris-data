@@ -59,6 +59,15 @@ def norm(s: str) -> str:
 def main() -> int:
     import calendar
     now = dt.datetime.now(dt.timezone.utc)
+    prev = OUT / "fr_odds.json"
+    if prev.exists() and not os.environ.get("FORCER"):
+        try:
+            last = pd.Timestamp(json.loads(prev.read_text())["recupere_le"]).tz_convert(PARIS).date()
+        except (ValueError, KeyError):
+            last = None
+        if last == now.astimezone(PARIS).date():
+            print("cotes françaises : déjà relevées aujourd'hui, rien à faire")
+            return 0
     sports, left = get("/sports")                          # gratuit
     if not sports:
         return 1
