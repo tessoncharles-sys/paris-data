@@ -7,3 +7,21 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 194371,2026-10-24T20:30:00+02:00,Pologne - Superliga,Chrobry Glogow,Kielce,-10.78,6.45,63.78,7.09,26.5,37.3,31.6,7
 197677,2026-10-24T19:00:00+02:00,France - Starligue,Nantes,Chambery Savoie,5.93,5.83,64.41,6.92,35.2,29.2,31.8,8
 194989,2026-10-24T20:00:00+02:00,Allemagne - Bundesliga,HBW Balingen-Weilstetten,MT Melsungen,-1.97,5.17,58.16,7.63,28.1,30.1,28.5,8
+197675,2026-10-25T16:00:00+01:00,France - Starligue,St. Raphael,PSG,-6.0,5.83,63.54,6.83,28.8,34.8,30.9,8
+197678,2026-10-25T17:00:00+01:00,France - Starligue,Montpellier,Saran,5.88,5.93,62.4,6.79,34.1,28.3,30.6,8
+194988,2026-10-25T15:00:00+01:00,Allemagne - Bundesliga,Rhein-Neckar,SC Magdeburg,-2.84,5.22,61.73,7.42,29.4,32.3,30.1,8
+194992,2026-10-25T16:30:00+01:00,Allemagne - Bundesliga,Fuchse Berlin,HSG Wetzlar,6.81,5.87,66.48,7.19,36.6,29.8,32.5,8
+194994,2026-10-25T16:30:00+01:00,Allemagne - Bundesliga,Bergischer,Hamburg,0.21,5.31,61.73,7.32,31.0,30.8,30.1,8
+194990,2026-10-25T18:00:00+01:00,Allemagne - Bundesliga,Gummersbach,Flensburg-H.,-1.3,5.35,64.99,8.72,31.8,33.1,32.1,8
+198595,2026-10-25T12:00:00+01:00,Espagne - Liga ASOBAL,Horneo Alicante,Ademar,1.25,5.43,65.16,8.5,33.2,32.0,31.9,8
+195593,2026-10-25T16:00:00+01:00,Danemark - Herre Handbold Ligaen,Skanderborg AGF,Holstebro,3.46,5.93,64.01,6.87,33.7,30.3,31.5,8
+195592,2026-10-25T18:00:00+01:00,Danemark - Herre Handbold Ligaen,Ringsted,GOG,-6.13,5.94,64.87,6.94,29.4,35.5,31.9,7
+195289,2026-10-25T17:00:00+01:00,Allemagne - 2. Bundesliga,Emsdetten,Dormagen,1.1,5.03,61.87,6.93,31.5,30.4,30.6,8
+202372,2026-10-25T18:00:00+01:00,Hongrie - NB I,Szeged,Dabas,14.42,6.46,67.1,7.13,40.8,26.3,33.4,6
+194373,2026-10-25T15:00:00+01:00,Pologne - Superliga,Piotrkowianin Piotrkow,Legionowo,-3.46,5.86,61.12,7.22,28.8,32.3,29.9,7
+194374,2026-10-25T18:00:00+01:00,Pologne - Superliga,Slask Wroclaw,MMTS Kwidzyn,-4.85,5.85,62.53,6.8,28.8,33.7,30.8,2
+199511,2026-10-25T16:00:00+01:00,Portugal - Andebol 1,Belenenses,Carvalhos,4.15,5.62,55.82,7.01,30.0,25.8,27.4,8
+199513,2026-10-25T16:00:00+01:00,Portugal - Andebol 1,ABC Braga,Vitoria SC,2.96,5.7,59.28,6.79,31.1,28.2,29.2,8
+199508,2026-10-25T18:00:00+01:00,Portugal - Andebol 1,Benfica,Maritimo,6.04,6.25,63.34,7.17,34.7,28.7,31.2,8
+199510,2026-10-25T19:30:00+01:00,Portugal - Andebol 1,Sporting,Povoa,11.94,6.41,66.56,6.89,39.3,27.3,32.6,6
+195741,2026-10-25T14:00:00+01:00,Suède - Handbollsligan,Ystads IF,Hammarby,0.16,4.89,61.37,6.87,30.8,30.6,30.2,8

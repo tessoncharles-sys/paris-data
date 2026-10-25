@@ -1,10 +1,11 @@
-Passage du 2026-10-24 16:55 UTC
-football-data : 39 fichiers ; API-Football : {'2026-10-24': '1629 matchs', '2026-10-25': '1225 matchs'}
-cotes foot : 65 matchs reconnus, 20 requêtes, 20 matchs avec cotes en cache
-cotes françaises : 90 matchs, 13 crédits utilisés, 487 restants ce mois-ci
-148 matchs analysés, 296 paris retenus
-{'matchs_historique': 28873, 'matchs_programmes': 110, 'complet': False}
-tennis : 23 matchs, 690 cotes justes
-handball : 131 matchs suivis, 44 résultats, 67 à venir, cotes pour 8
-handball : 8 matchs, 368 cotes justes
-{'Football': 148, 'Handball': 8, 'Tennis': 23}
+Passage du 2026-10-25 08:30 UTC
+football-data : 39 fichiers ; API-Football : {'2026-10-25': '1226 matchs', '2026-10-26': '172 matchs'}
+cotes foot : 62 matchs reconnus, 22 requêtes, 39 matchs avec cotes en cache
+  crédits restants : 487, budget du jour : 30 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_ncaab, basketball_ncaab_championship_winner, basketball_wnba, handball_germany_bundesliga
+cotes françaises : 214 matchs, 23 crédits utilisés, 464 restants ce mois-ci
+62 matchs analysés, 125 paris retenus
+{'matchs_historique': 28887, 'matchs_programmes': 144, 'complet': False}
+tennis : 49 matchs, 1470 cotes justes
+handball : 109 matchs suivis, 61 résultats, 48 à venir, cotes pour 18
+handball : 18 matchs, 820 cotes justes
+{'Football': 62, 'Handball': 18, 'Tennis': 49}
