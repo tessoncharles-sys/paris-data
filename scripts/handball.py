@@ -267,6 +267,8 @@ def family(label: str) -> str:
 
 
 def predict(upcoming: list, odds: dict) -> pd.DataFrame:
+    import odds_winamax as OW
+    fr_idx = OW.lookup()                 # cotes Winamax et autres opérateurs français (si l'API couvre le championnat)
     rows, archive = [], []
     for g in upcoming:
         bks = odds.get(str(g["id"]))
@@ -288,10 +290,15 @@ def predict(upcoming: list, odds: dict) -> pd.DataFrame:
                 f"(écart-type du total {info['sd_t']:.1f}, de l'écart {info['sd_d']:.1f}). "
                 f"En handball, la cote juste vient du marché ; le calcul n'a pas encore été vérifié sur un historique "
                 f"(il s'accumule chaque jour).")
+        fr = OW.match_odds(fr_idx, t.strftime("%Y-%m-%d"), home, away) if fr_idx else None
+        fr_lab = {f"Victoire {home}": "1", "Match nul": "N", f"Victoire {away}": "2"}
         for label, p in mk.items():
             if p <= 0.02 or p >= 0.98:
                 continue
             fair = 1 / p
+            q = (fr or {}).get("cotes", {}).get(fr_lab.get(label, ""), {})
+            cw = q.get("Winamax")
+            best_op, best = (max(q.items(), key=lambda kv: kv[1]) if q else (None, None))
             expl = (f"Proba {p:.0%} → cote juste {fair:.2f}. Value seulement si Winamax paie au moins {fair * 1.03:.2f} (+3 %). "
                     + base)
             rows.append({
@@ -302,6 +309,8 @@ def predict(upcoming: list, odds: dict) -> pd.DataFrame:
                 "cote_moyenne_marche": None, "source_cote": "marché", "fiabilite": "bonne" if len(c["bookmakers"]) >= 2 else "moyenne",
                 "infos": f"{info['mu_t']:.1f} buts attendus · {home} {info['mu_h']:.1f} – {info['mu_a']:.1f} {away}",
                 "explication": re.sub(r"(\d)\.(\d)", r"\1,\2", expl),
+                "cote_winamax": cw, "value_winamax": round(p * cw - 1, 4) if cw else None,
+                "meilleure_cote_fr": best, "meilleur_operateur": best_op,
             })
     if archive:
         f = RAW / "predictions.csv"
