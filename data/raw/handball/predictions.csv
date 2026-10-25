@@ -32,5 +32,5 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 199511,2026-10-25T16:00:00+01:00,Portugal - Andebol 1,Belenenses,Carvalhos,4.15,5.62,55.82,7.01,30.0,25.8,27.4,8
 199513,2026-10-25T16:00:00+01:00,Portugal - Andebol 1,ABC Braga,Vitoria SC,2.96,5.7,59.28,6.79,31.1,28.2,29.2,8
 199508,2026-10-25T18:00:00+01:00,Portugal - Andebol 1,Benfica,Maritimo,6.04,6.25,63.34,7.17,34.7,28.7,31.2,8
-199510,2026-10-25T19:30:00+01:00,Portugal - Andebol 1,Sporting,Povoa,11.94,6.41,66.56,6.89,39.3,27.3,32.6,6
 195741,2026-10-25T14:00:00+01:00,Suède - Handbollsligan,Ystads IF,Hammarby,0.16,4.89,61.37,6.87,30.8,30.6,30.2,8
+199510,2026-10-25T19:30:00+01:00,Portugal - Andebol 1,Sporting,Povoa,11.94,6.41,66.56,6.89,39.3,27.3,32.6,6
