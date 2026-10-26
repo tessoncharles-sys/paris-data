@@ -35,6 +35,7 @@ def collect_rows() -> pd.DataFrame:
     elo = T.Elo()
     rows = []
     for r in m.itertuples():
+        elo.note_ranks(r.p1_id, r.p1_rank, r.p2_id, r.p2_rank)
         if r.status != "STATUS_FINAL" or r.winner not in (1, 2):
             continue
         sets = T.parse_sets(r.sets)
@@ -44,7 +45,8 @@ def collect_rows() -> pd.DataFrame:
             need = bo // 2 + 1
             if max(sa, sb) == need:   # match complet et cohérent
                 rows.append({"date": r.date, "tour": r.tour, "surface": r.surface, "bo": bo,
-                             "p": round(elo.prob(r.p1_id, r.p2_id, r.surface), 2),
+                             "x_elo": elo.diff(r.p1_id, r.p2_id, r.surface) / 400,
+                             "x_rang": elo.rank_gap(r.p1_id, r.p2_id),
                              "win": int(r.winner == 1), "sa": sa, "sb": sb,
                              "tg": sum(x + y for x, y in sets),
                              "tb": any(max(x, y) == 7 and min(x, y) == 6 for x, y in sets), "gd": sum(x - y for x, y in sets),
@@ -54,7 +56,32 @@ def collect_rows() -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def fit_win(df: pd.DataFrame) -> list:
+    """Régression : Elo (général + surface) et écart de classement → probabilité de victoire."""
+    lr = LogisticRegression(C=1e4).fit(df[["x_elo", "x_rang"]].to_numpy(), df["win"])
+    return [round(float(lr.intercept_[0]), 4), round(float(lr.coef_[0][0]), 4), round(float(lr.coef_[0][1]), 4)]
+
+
+def add_p(df: pd.DataFrame, c: list) -> pd.DataFrame:
+    z = c[0] + c[1] * df["x_elo"] + c[2] * df["x_rang"]
+    df = df.copy()
+    df["p"] = (1 / (1 + np.exp(-z))).round(2)
+    return df
+
+
 def fit_bases(df: pd.DataFrame) -> dict:
+    """Taux de jeux de service gardés : valeurs réelles du circuit (HOLD_DEFAUT).
+    L'ancien ajustement sur le nombre moyen de jeux était mal posé (plusieurs taux donnent la même
+    moyenne) et tombait sur 0,50, irréaliste ; on garde le calcul pour information seulement."""
+    bases = {f"{t}|{s}": v for (t, s), v in T.HOLD_DEFAUT.items()}
+    for (tour, surf), g in df[df.bo == 3].groupby(["tour", "surface"]):
+        g = g.sample(min(len(g), 400), random_state=1)
+        pred = np.mean([mk(p, bases[f"{tour}|{surf}"], 3)[1]["jeux_attendus"] for p in g["p"]])
+        print(f"  {tour} {surf}: {len(g)} matchs, {g['tg'].mean():.1f} jeux réels, {pred:.1f} simulés (hold {bases[f'{tour}|{surf}']})")
+    return bases
+
+
+def _fit_bases_ancien(df: pd.DataFrame) -> dict:
     bases = {}
     for (tour, surf), g in df[df.bo == 3].groupby(["tour", "surface"]):
         g = g.sample(min(len(g), 1500), random_state=1)
@@ -128,8 +155,14 @@ def report(test: pd.DataFrame) -> dict:
 
 
 if __name__ == "__main__":
-    df = collect_rows()
-    print(f"{len(df)} matchs testés ({df.date.min().date()} → {df.date.max().date()})")
+    df0 = collect_rows()
+    print(f"{len(df0)} matchs testés ({df0.date.min().date()} → {df0.date.max().date()})")
+    c_train = fit_win(df0[df0.date < SPLIT])
+    df = add_p(df0, c_train)
+    te = df[df.date >= SPLIT]
+    pp = te.p.clip(1e-4, 1 - 1e-4)
+    print("vainqueur (test) : perte log", round(float(-(te.win * np.log(pp) + (1 - te.win) * np.log(1 - pp)).mean()), 4),
+          "précision", round(float(((te.p >= .5) == (te.win == 1)).mean()), 4), "coefs", c_train)
     bases = fit_bases(df[df.date < SPLIT])
     o = outcomes(df, bases)
     train, test = o[o.date < SPLIT].copy(), o[o.date >= SPLIT].copy()
@@ -139,9 +172,12 @@ if __name__ == "__main__":
            "hold_moyen": bases,
            "precision_vainqueur_favori_test": round(float(((df[df.date >= SPLIT].p >= .5) == (df[df.date >= SPLIT].win == 1)).mean()), 3),
            "validation_test": report(test)}
+    c_all = fit_win(df0)
+    df = add_p(df0, c_all)
     bases_all = fit_bases(df)
     o_all = outcomes(df, bases_all)
     co = fit(o_all)
+    co["elo_rang"] = c_all
     (T.OUT / "tennis_params.json").write_text(json.dumps({"hold": bases_all}, indent=1))
     (T.OUT / "tennis_calibration.json").write_text(json.dumps(co, ensure_ascii=False, indent=1))
     (T.OUT / "backtest").mkdir(parents=True, exist_ok=True)

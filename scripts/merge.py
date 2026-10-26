@@ -15,7 +15,8 @@ df = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
 cols = ["sport", "id", "date", "heure", "championnat", "match", "famille", "marche", "proba",
         "cote_juste", "cote_minimum", "cote_moyenne_marche", "source_cote", "fiabilite", "infos",
         "lam_dom", "lam_ext", "lam_source", "explication", "signaux", "proba_modele", "ecart_modele", "cote_winamax", "value_winamax", "meilleure_cote_fr", "meilleur_operateur",
-        "value", "operateur_value", "cote_value"]
+        "value", "operateur_value", "cote_value",
+        "t_base", "t_tb", "t_bo", "t_a", "t_ca", "t_cb"]   # tennis : recalcul dans le tableau à partir des cotes tapées
 df = df.reindex(columns=cols)
 # value Winamax pour les lignes qui ont une cote Winamax (tennis compris)
 mask = df["cote_winamax"].notna() & df["value_winamax"].isna()

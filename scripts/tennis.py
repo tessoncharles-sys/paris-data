@@ -1,14 +1,17 @@
 """Modèle tennis : Elo par surface + simulation jeu par jeu.
 
-1. Elo (méthode FiveThirtyEight) : un classement général et un par surface, mélangés 50/50.
-   → probabilité que chaque joueur gagne le match.
+1. Elo (méthode FiveThirtyEight) : un classement général et un par surface (la salle compte comme
+   du dur : trop peu de matchs en salle pour un classement à part), mélangés 70/30, puis combinés
+   au dernier classement ATP/WTA connu (régression apprise sur l'historique, tennis_calibrate.py).
+   → probabilité que chaque joueur gagne le match. Si les cotes françaises du vainqueur sont
+   connues, c'est la probabilité du marché (marge retirée) qui est utilisée pour TOUS les marchés.
 2. On traduit cette probabilité en taux de jeux de service gagnés pour chaque joueur
    (autour de la moyenne du circuit et de la surface), puis on simule le match
    jeu par jeu, tie-breaks compris.
    → score en sets, au moins un set, total de jeux, handicap jeux.
 3. Une correction de calibration apprise sur l'historique (tennis_calibrate.py)
    est appliquée à chaque marché.
-Aucune cote marché n'étant disponible gratuitement, toutes les cotes justes viennent du modèle.
+Sans cote du vainqueur, les cotes justes viennent du modèle (moins précis que les bookmakers).
 """
 from __future__ import annotations
 
@@ -31,7 +34,7 @@ CONFIG = {
     "marge_value": 0.05,
     "matchs_min_fiable": 8,       # matchs joués par chaque joueur dans l'historique
     "matchs_bon_echantillon": 20,
-    "poids_surface": 0.5,
+    "poids_surface": 0.3,      # testé sur 2025-26 : 0,3 > 0,5 > 0,7 (perte logarithmique)
 }
 
 # Taux moyen de jeux de service gagnés (valeurs de départ, réajustées par tennis_calibrate.py)
@@ -91,22 +94,54 @@ def best_of(tour: str, event: str, rnd: str) -> int:
 
 # ------------------------------------------------------------------ Elo
 
+def elo_surface(surf: str) -> str:
+    """La salle est du dur rapide : on la range avec le dur pour l'Elo (bien plus de matchs)."""
+    return "dur" if surf == "salle" else surf
+
+
 class Elo:
     def __init__(self):
         self.r, self.n = {}, {}
         self.rs, self.ns = {}, {}
+        self.rank = {}               # dernier classement ATP/WTA connu de chaque joueur
 
     @staticmethod
     def k(n):
         return 250 / (n + 5) ** 0.4
 
+    def diff(self, a, b, surf):
+        w, s = CONFIG["poids_surface"], elo_surface(surf)
+        ra = (1 - w) * self.r.get(a, 1500) + w * self.rs.get((a, s), 1500)
+        rb = (1 - w) * self.r.get(b, 1500) + w * self.rs.get((b, s), 1500)
+        return ra - rb
+
     def prob(self, a, b, surf):
-        w = CONFIG["poids_surface"]
-        ra = (1 - w) * self.r.get(a, 1500) + w * self.rs.get((a, surf), 1500)
-        rb = (1 - w) * self.r.get(b, 1500) + w * self.rs.get((b, surf), 1500)
-        return 1 / (1 + 10 ** ((rb - ra) / 400))
+        return 1 / (1 + 10 ** (-self.diff(a, b, surf) / 400))
+
+    def rank_gap(self, a, b):
+        """log(classement B) - log(classement A) ; 300e par défaut si inconnu."""
+        ra = min(max(self.rank.get(a, 300.0), 1.0), 2000.0)
+        rb = min(max(self.rank.get(b, 300.0), 1.0), 2000.0)
+        return math.log(rb) - math.log(ra)
+
+    def win_prob(self, a, b, surf, coefs: dict) -> float:
+        """Probabilité de victoire de A : Elo combiné au classement si la régression est disponible."""
+        c = coefs.get("elo_rang") if coefs else None
+        if not c:
+            return self.prob(a, b, surf)
+        z = c[0] + c[1] * self.diff(a, b, surf) / 400 + c[2] * self.rank_gap(a, b)
+        return 1 / (1 + math.exp(-z))
+
+    def note_ranks(self, a, ra, b, rb):
+        for pid, rk in ((a, ra), (b, rb)):
+            try:
+                if rk == rk and rk is not None and float(rk) > 0:
+                    self.rank[pid] = float(rk)
+            except (TypeError, ValueError):
+                pass
 
     def update(self, w, l, surf):
+        surf = elo_surface(surf)
         for R, N, kw, kl in ((self.r, self.n, w, l), (self.rs, self.ns, (w, surf), (l, surf))):
             rw, rl = R.get(kw, 1500), R.get(kl, 1500)
             e = 1 / (1 + 10 ** ((rl - rw) / 400))
@@ -332,6 +367,7 @@ def build_elo(matches: pd.DataFrame, until=None) -> Elo:
     for r in matches.itertuples():
         if until is not None and r.date >= until:
             break
+        elo.note_ranks(r.p1_id, getattr(r, "p1_rank", None), r.p2_id, getattr(r, "p2_rank", None))
         if r.status != "STATUS_FINAL" or r.winner not in (1, 2):
             continue
         w, l = (r.p1_id, r.p2_id) if r.winner == 1 else (r.p2_id, r.p1_id)
@@ -455,7 +491,7 @@ def predict_today() -> list[dict]:
             continue
         surf = surface_of(r.event, str(r.date))
         bo = best_of(r.tour, r.event, r.round)
-        p = elo.prob(r.p1_id, r.p2_id, surf)
+        p = elo.win_prob(r.p1_id, r.p2_id, surf, coefs)
         base = holds.get((r.tour, surf), HOLD_DEFAUT[(r.tour, surf)])
         mk, info = markets(p, base, bo, r.p1, r.p2, HOLD_DEFAUT[(r.tour, surf)])
         fiab = "bonne" if n >= CONFIG["matchs_bon_echantillon"] else "moyenne"
@@ -477,14 +513,22 @@ def predict_today() -> list[dict]:
                     ps.append((1 / o1) / (1 / o1 + 1 / o2))
             if ps:
                 p_fr = sum(ps) / len(ps)
+        # Cotes du vainqueur connues : la probabilité du marché remplace celle du modèle pour TOUS les
+        # marchés (sets, jeux, handicaps…) ; le modèle ne sert plus qu'à répartir jeux et sets.
+        mk_model = mk
+        if p_fr is not None:
+            mk, info = markets(p_fr, base, bo, r.p1, r.p2, HOLD_DEFAUT[(r.tour, surf)])
         for label, praw in mk.items():
             key = calib_key(label) + (f" {r.tour}" if label == "Au moins un tie-break" else "")
-            pc = calibrate(key, praw, coefs)
-            p_model = pc
-            src = "modèle"
-            if p_fr is not None and label.startswith("Vainqueur"):
-                pc = p_fr if label == f"Vainqueur : {r.p1}" else 1 - p_fr
+            co = coefs.get(key) if not label.startswith("Vainqueur") else None
+            p_model = calibrate(key, mk_model[label], coefs) if label in mk_model else None
+            if p_fr is not None:
+                pc = (p_fr if label == f"Vainqueur : {r.p1}" else 1 - p_fr) if label.startswith("Vainqueur") \
+                    else calibrate(key, praw, coefs)
                 src = "marché"
+            else:
+                pc = p_model
+                src = "modèle"
             if pc <= 0.01 or pc >= 0.99:
                 continue
             fair = 1 / pc
@@ -497,15 +541,20 @@ def predict_today() -> list[dict]:
                 "proba": round(pc, 4), "cote_juste": round(fair, 2),
                 "cote_minimum": round(fair * (1 + CONFIG["marge_value"]), 2),
                 "cote_moyenne_marche": None, "source_cote": src, "fiabilite": fiab,
-                "proba_modele": round(p_model, 4),
-                "ecart_modele": round(p_model - pc, 4) if src == "marché" else None,
+                "proba_modele": round(p_model, 4) if p_model is not None else None,
+                "ecart_modele": round(p_model - pc, 4) if src == "marché" and p_model is not None else None,
                 "infos": infos,
                 "explication": explain_tennis(label, pc, fair, r.p1, r.p2, fa, fb, surf, p_fav, fav)
+                               + (" Cotes françaises du vainqueur connues : probabilité du marché utilisée"
+                                  + (f" (modèle : {p_model:.0%})." if p_model is not None else ".") if src == "marché" else "")
                                + (f" Signal : {signaux}." if signaux else ""),
                 "signaux": signaux,
                 "cote_winamax": (fr or {}).get(label.replace("Vainqueur : ", ""), {}).get("Winamax") if label.startswith("Vainqueur") and fr else None,
                 "meilleure_cote_fr": max((fr or {}).get(label.replace("Vainqueur : ", ""), {}).values(), default=None) if label.startswith("Vainqueur") and fr else None,
                 "meilleur_operateur": max((fr or {}).get(label.replace("Vainqueur : ", ""), {}).items(), key=lambda x: x[1], default=(None,))[0] if label.startswith("Vainqueur") and fr else None,
+                # pour le recalcul dans le tableau à partir des cotes tapées
+                "t_base": base, "t_tb": HOLD_DEFAUT[(r.tour, surf)], "t_bo": bo, "t_a": r.p1,
+                "t_ca": co[0] if co else None, "t_cb": co[1] if co else None,
             })
     return rows
 

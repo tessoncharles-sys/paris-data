@@ -1,12 +1,12 @@
 {
  "hold": {
-  "ATP|dur": 0.62,
-  "ATP|gazon": 0.5,
-  "ATP|salle": 0.67,
-  "ATP|terre": 0.5,
-  "WTA|dur": 0.5,
-  "WTA|gazon": 0.5,
-  "WTA|salle": 0.5,
-  "WTA|terre": 0.5
+  "ATP|dur": 0.8,
+  "ATP|terre": 0.77,
+  "ATP|gazon": 0.84,
+  "ATP|salle": 0.83,
+  "WTA|dur": 0.66,
+  "WTA|terre": 0.63,
+  "WTA|gazon": 0.69,
+  "WTA|salle": 0.68
  }
 }
