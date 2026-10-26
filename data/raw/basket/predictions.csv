@@ -9,12 +9,12 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,mu_d1,pinnacle,book
 519574,2026-10-26T00:30:00+01:00,NBA,Philadelphia 76ers,Detroit Pistons,0.15,13.5,227.99,19.0,114.1,113.9,116.9,0.01,True,9
 519575,2026-10-26T02:00:00+01:00,NBA,Sacramento Kings,Memphis Grizzlies,-3.62,13.5,235.04,19.0,115.7,119.3,121.1,-1.79,True,9
 518201,2026-10-25T19:00:00+01:00,France - Betclic Élite,Pau-Orthez,Limoges,-1.31,12.0,169.17,16.0,83.9,85.2,84.2,-0.53,True,9
+519576,2026-10-27T00:00:00+01:00,NBA,Charlotte Hornets,Washington Wizards,2.06,13.5,228.98,19.0,115.5,113.5,116.8,1.17,True,9
+519577,2026-10-27T00:00:00+01:00,NBA,Cleveland Cavaliers,Minnesota Timberwolves,4.83,13.5,232.41,19.0,118.6,113.8,113.0,2.72,True,9
+519578,2026-10-27T00:30:00+01:00,NBA,Boston Celtics,Chicago Bulls,14.29,12.81,232.98,19.0,123.6,109.3,113.7,8.23,True,9
+519579,2026-10-27T00:30:00+01:00,NBA,Miami Heat,Dallas Mavericks,8.37,12.39,238.64,19.0,123.5,115.1,122.5,4.58,True,9
 519580,2026-10-27T01:00:00+01:00,NBA,Milwaukee Bucks,Indiana Pacers,-3.92,13.5,239.97,19.0,118.0,121.9,118.0,-2.43,True,9
 519581,2026-10-27T01:00:00+01:00,NBA,Oklahoma City Thunder,Phoenix Suns,9.92,12.5,219.64,19.0,114.8,104.9,112.0,5.5,True,9
-519576,2026-10-27T00:00:00+01:00,NBA,Charlotte Hornets,Washington Wizards,1.63,13.5,228.91,19.0,115.3,113.6,117.5,0.72,True,9
-519577,2026-10-27T00:00:00+01:00,NBA,Cleveland Cavaliers,Minnesota Timberwolves,3.79,13.5,234.02,19.0,118.9,115.1,113.8,2.25,True,9
-519578,2026-10-27T00:30:00+01:00,NBA,Boston Celtics,Chicago Bulls,14.01,12.81,232.52,19.0,123.3,109.3,114.6,7.83,True,9
-519579,2026-10-27T00:30:00+01:00,NBA,Miami Heat,Dallas Mavericks,8.22,12.54,238.15,19.0,123.2,115.0,121.2,4.98,True,9
 519582,2026-10-27T01:30:00+01:00,NBA,Houston Rockets,Atlanta Hawks,4.99,13.5,229.35,19.0,117.2,112.2,112.1,2.7,True,9
 519583,2026-10-27T02:00:00+01:00,NBA,Utah Jazz,Memphis Grizzlies,1.23,20.0,237.69,21.04,119.5,118.2,121.9,0.1,False,7
 519584,2026-10-27T03:00:00+01:00,NBA,Denver Nuggets,Golden State Warriors,7.72,13.5,233.74,19.0,120.7,113.0,114.3,4.57,True,9
