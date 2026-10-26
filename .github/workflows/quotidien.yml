@@ -11,7 +11,12 @@ on:
     - cron: "23 9 * * *"
     - cron: "47 13 * * *"
     - cron: "23 15 * * *"
-  workflow_dispatch: {}     # bouton "Run workflow" pour lancer à la main
+  workflow_dispatch:        # bouton "Run workflow", ou réveil externe (cron-job.org)
+    inputs:
+      forcer:
+        description: "Relever à nouveau les cotes françaises même si c'est déjà fait aujourd'hui (oui/non)"
+        required: false
+        default: "non"
 
 permissions:
   contents: write
@@ -38,7 +43,8 @@ jobs:
           except Exception:
               age = 99
           manuel = os.environ.get("EVT") == "workflow_dispatch"
-          print("passer=" + ("oui" if age < 2 and not manuel else "non"))
+          # lancement manuel ou réveil externe : on recalcule si les données ont plus de 45 minutes
+          print("passer=" + ("oui" if age < (0.75 if manuel else 2) else "non"))
           PY
         env:
           EVT: ${{ github.event_name }}
@@ -76,7 +82,7 @@ jobs:
         continue-on-error: true
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          FORCER: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          FORCER: ${{ github.event.inputs.forcer == 'oui' && '1' || '' }}
         run: set -o pipefail; python scripts/odds_winamax.py 2>&1 | tee -a data/logs/dernier_passage.txt
 
       - name: Calculer les probabilités (foot)
