@@ -34,5 +34,5 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 199508,2026-10-25T18:00:00+01:00,Portugal - Andebol 1,Benfica,Maritimo,6.04,6.25,63.34,7.17,34.7,28.7,31.2,8
 195741,2026-10-25T14:00:00+01:00,Suède - Handbollsligan,Ystads IF,Hammarby,0.16,4.89,61.37,6.87,30.8,30.6,30.2,8
 199510,2026-10-25T19:30:00+01:00,Portugal - Andebol 1,Sporting,Povoa,11.94,6.41,66.56,6.89,39.3,27.3,32.6,6
-195287,2026-10-26T19:30:00+01:00,Allemagne - 2. Bundesliga,Hagen,Grosswallstadt,3.6,6.03,63.34,6.89,33.5,29.9,30.9,7
-195747,2026-10-26T19:00:00+01:00,Suède - Handbollsligan,Helsingborg,Hallby,2.01,4.67,60.33,9.31,31.2,29.2,29.8,7
+195287,2026-10-26T19:30:00+01:00,Allemagne - 2. Bundesliga,Hagen,Grosswallstadt,3.68,6.04,63.04,6.89,33.4,29.7,30.9,8
+195747,2026-10-26T19:00:00+01:00,Suède - Handbollsligan,Helsingborg,Hallby,2.04,5.51,60.15,6.75,31.1,29.1,29.7,8
