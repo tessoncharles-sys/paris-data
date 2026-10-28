@@ -29,15 +29,22 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,mu_d1,pinnacle,book
 508654,2026-10-27T20:15:00+01:00,EuroLeague,Panathinaikos,Olimpia Milano,12.83,12.78,167.62,16.0,90.2,77.4,84.4,7.2,True,9
 508656,2026-10-27T20:30:00+01:00,EuroLeague,Valencia,Fenerbahce,-0.11,12.0,174.11,16.0,87.0,87.1,86.8,-0.04,True,9
 508657,2026-10-27T21:00:00+01:00,EuroLeague,Baskonia,Real Madrid,-8.41,12.05,182.58,16.0,87.1,95.5,90.9,-4.76,True,9
-519589,2026-10-29T00:00:00+01:00,NBA,Indiana Pacers,Philadelphia 76ers,-4.77,13.5,236.18,19.0,115.7,120.5,119.9,-0.55,True,9
-519590,2026-10-29T00:00:00+01:00,NBA,Cleveland Cavaliers,Washington Wizards,9.58,12.18,238.94,19.0,124.3,114.7,119.5,4.56,True,9
-519591,2026-10-29T00:00:00+01:00,NBA,Detroit Pistons,Charlotte Hornets,6.51,13.5,215.37,19.0,110.9,104.4,107.7,3.12,True,8
-519592,2026-10-29T00:00:00+01:00,NBA,Atlanta Hawks,Miami Heat,3.16,13.5,241.41,19.0,122.3,119.1,120.5,1.7,True,9
-519593,2026-10-29T00:30:00+01:00,NBA,Toronto Raptors,Orlando Magic,4.27,13.5,223.01,19.0,113.6,109.4,111.5,2.14,True,9
-508662,2026-10-29T20:00:00+01:00,EuroLeague,Crvena Zvezda Meridianbet,Bayern,6.42,13.61,165.19,17.5,85.8,79.4,82.5,3.53,False,4
-508663,2026-10-29T20:05:00+01:00,EuroLeague,Maccabi Tel Aviv,Paris,5.26,13.56,180.52,17.83,92.9,87.6,90.2,2.82,False,5
-508664,2026-10-29T20:45:00+01:00,EuroLeague,Real Madrid,Fenerbahce,2.91,16.23,171.21,17.7,87.1,84.2,85.6,1.42,False,5
-508659,2026-10-28T18:30:00+01:00,EuroLeague,Besiktas,Olympiacos,-1.72,12.0,171.42,16.0,84.8,86.6,85.4,-1.08,True,9
-508658,2026-10-28T19:00:00+01:00,EuroLeague,Hapoel Tel Aviv,Anadolu Efes,5.74,12.0,171.45,16.0,88.6,82.9,85.5,3.12,True,9
+519594,2026-10-29T01:00:00+01:00,NBA,Chicago Bulls,New York Knicks,-6.77,13.5,234.29,19.0,113.8,120.5,120.5,-3.4,True,9
+519595,2026-10-29T01:00:00+01:00,NBA,Milwaukee Bucks,Houston Rockets,-8.5,12.34,228.53,19.0,110.0,118.5,110.5,-3.97,True,9
+519596,2026-10-29T01:00:00+01:00,NBA,Minnesota Timberwolves,Golden State Warriors,3.48,13.5,228.65,19.0,116.1,112.6,112.0,1.59,True,9
+519597,2026-10-29T01:00:00+01:00,NBA,New Orleans Pelicans,Denver Nuggets,-4.8,13.5,239.97,19.0,117.6,122.4,116.5,-2.08,True,9
+519598,2026-10-29T02:00:00+01:00,NBA,Utah Jazz,San Antonio Spurs,-11.92,12.71,233.51,19.0,110.8,122.7,120.5,-6.42,True,9
+519599,2026-10-29T02:30:00+01:00,NBA,Dallas Mavericks,Oklahoma City Thunder,-5.98,13.5,229.19,19.0,111.6,117.6,111.5,-2.89,True,9
+519600,2026-10-29T03:30:00+01:00,NBA,Los Angeles Clippers,Los Angeles Lakers,-4.34,13.5,228.79,19.0,112.2,116.6,117.5,-2.2,True,9
+519589,2026-10-29T00:00:00+01:00,NBA,Indiana Pacers,Philadelphia 76ers,-4.96,13.5,236.17,19.0,115.6,120.6,120.1,-1.52,True,9
+519590,2026-10-29T00:00:00+01:00,NBA,Cleveland Cavaliers,Washington Wizards,9.48,12.79,238.94,19.0,124.2,114.7,123.5,5.3,True,9
+519591,2026-10-29T00:00:00+01:00,NBA,Detroit Pistons,Charlotte Hornets,5.81,13.5,215.51,19.0,110.7,104.8,104.5,2.94,True,9
+519592,2026-10-29T00:00:00+01:00,NBA,Atlanta Hawks,Miami Heat,2.99,13.5,241.41,19.0,122.2,119.2,122.8,1.48,True,9
+519593,2026-10-29T00:30:00+01:00,NBA,Toronto Raptors,Orlando Magic,4.85,13.5,223.75,19.0,114.3,109.4,115.5,2.1,True,9
+508659,2026-10-28T18:30:00+01:00,EuroLeague,Besiktas,Olympiacos,-1.78,12.0,171.36,16.0,84.8,86.6,85.4,-1.08,True,9
+508658,2026-10-28T19:00:00+01:00,EuroLeague,Hapoel Tel Aviv,Anadolu Efes,5.9,12.0,171.43,16.0,88.7,82.8,85.5,3.19,True,9
 508660,2026-10-28T20:00:00+01:00,EuroLeague,Lyon-Villeurbanne,Partizan Mozzart Bet,0.54,12.0,167.95,16.0,84.2,83.7,83.7,0.28,True,9
-508661,2026-10-28T20:30:00+01:00,EuroLeague,Virtus Bologna,Zalgiris Kaunas,0.42,12.0,172.23,16.0,86.3,85.9,86.0,0.25,True,9
+508661,2026-10-28T20:30:00+01:00,EuroLeague,Virtus Bologna,Zalgiris Kaunas,0.42,12.0,173.09,16.0,86.8,86.3,86.5,0.25,True,9
+508662,2026-10-29T20:00:00+01:00,EuroLeague,Crvena Zvezda Meridianbet,Bayern,6.45,13.64,164.91,17.75,85.7,79.2,82.5,3.48,False,6
+508663,2026-10-29T20:05:00+01:00,EuroLeague,Maccabi Tel Aviv,Paris,5.28,13.52,180.7,17.95,93.0,87.7,90.3,2.8,False,6
+508664,2026-10-29T20:45:00+01:00,EuroLeague,Real Madrid,Fenerbahce,2.92,14.79,171.52,17.73,87.2,84.3,85.8,1.59,False,6
