@@ -68,8 +68,13 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,mu_d1,pinnacle,book
 508670,2026-10-30T20:30:00+01:00,EuroLeague,Barcelona,Valencia,2.21,12.0,182.39,16.0,92.3,90.1,91.0,1.27,True,9
 508671,2026-10-30T20:30:00+01:00,EuroLeague,Virtus Bologna,Besiktas,5.25,12.0,175.8,16.0,90.5,85.3,87.9,2.67,True,9
 518202,2026-10-30T20:00:00+01:00,France - Betclic Élite,Dijon,Nancy,8.56,11.93,169.63,16.0,89.1,80.5,84.8,4.77,True,9
-518203,2026-10-31T18:00:00+01:00,France - Betclic Élite,Gravelines-Dunkerque,Roanne,-0.08,14.11,164.96,18.02,82.4,82.5,82.8,-0.0,False,8
-518204,2026-10-31T18:00:00+01:00,France - Betclic Élite,Le Mans,Pau-Orthez,13.3,12.88,172.57,18.01,92.9,79.6,86.5,7.1,False,7
-518205,2026-10-31T18:30:00+01:00,France - Betclic Élite,Strasbourg,Cholet,-0.3,14.11,166.59,17.89,83.1,83.4,83.6,-0.12,False,8
-518206,2026-10-31T18:30:00+01:00,France - Betclic Élite,Limoges,Boulazac,7.01,13.64,169.03,17.94,88.0,81.0,84.8,3.69,False,8
-518207,2026-10-31T20:30:00+01:00,France - Betclic Élite,JL Bourg,Nanterre,3.82,13.88,168.5,17.9,86.2,82.3,84.7,2.04,False,8
+519614,2026-10-31T20:00:00+01:00,NBA,Utah Jazz,Portland Trail Blazers,-6.22,13.5,231.52,19.0,112.7,118.9,119.7,-3.07,True,6
+519615,2026-10-31T23:00:00+01:00,NBA,Charlotte Hornets,Philadelphia 76ers,-0.99,13.5,216.77,19.0,107.9,108.9,112.0,-0.41,False,5
+519616,2026-11-01T00:00:00+01:00,NBA,New Orleans Pelicans,Atlanta Hawks,-4.36,13.5,241.04,19.0,118.3,122.7,123.9,-1.86,True,6
+518208,2026-11-01T16:30:00+01:00,France - Betclic Élite,Saint Quentin,Lyon-Villeurbanne,-9.3,11.66,173.56,16.0,82.1,91.4,86.7,-5.26,True,9
+518209,2026-11-01T19:00:00+01:00,France - Betclic Élite,Paris,Chalon/Saone,8.13,12.09,177.74,16.0,92.9,84.8,88.9,4.41,True,9
+518203,2026-10-31T18:00:00+01:00,France - Betclic Élite,Gravelines-Dunkerque,Roanne,-0.53,12.0,166.08,16.0,82.8,83.3,83.0,-0.27,True,9
+518204,2026-10-31T18:00:00+01:00,France - Betclic Élite,Le Mans,Pau-Orthez,12.65,11.53,170.69,16.0,91.7,79.0,84.7,7.3,True,9
+518205,2026-10-31T18:30:00+01:00,France - Betclic Élite,Strasbourg,Cholet,-0.13,12.0,166.95,16.0,83.4,83.5,83.1,-0.03,True,9
+518206,2026-10-31T18:30:00+01:00,France - Betclic Élite,Limoges,Boulazac,5.47,12.0,167.18,16.0,86.3,80.9,83.3,2.85,True,9
+518207,2026-10-31T20:30:00+01:00,France - Betclic Élite,JL Bourg,Nanterre,4.26,12.0,167.24,16.0,85.7,81.5,83.2,2.2,True,9
