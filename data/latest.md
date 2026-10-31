@@ -8,6 +8,7 @@
 
 - Partick - Morton — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Leverkusen - Stuttgart — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- M'gladbach - Paderborn — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité moyenne
 - Shrewsbury - Gillingham — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Swindon - Rotherham — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Kasimpasa - Besiktas — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
@@ -25,6 +26,5 @@
 - Wigan - Bromley — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Albacete - Sabadell — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Arezzo - Ascoli — Ext. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité moyenne
-- Groningen - Sparta Rotterdam — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 
 _141 matchs analysés, 0 écartés._

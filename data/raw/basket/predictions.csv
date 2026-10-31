@@ -68,17 +68,17 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,mu_d1,pinnacle,book
 508670,2026-10-30T20:30:00+01:00,EuroLeague,Barcelona,Valencia,2.21,12.0,182.39,16.0,92.3,90.1,91.0,1.27,True,9
 508671,2026-10-30T20:30:00+01:00,EuroLeague,Virtus Bologna,Besiktas,5.25,12.0,175.8,16.0,90.5,85.3,87.9,2.67,True,9
 518202,2026-10-30T20:00:00+01:00,France - Betclic Élite,Dijon,Nancy,8.56,11.93,169.63,16.0,89.1,80.5,84.8,4.77,True,9
-519614,2026-10-31T20:00:00+01:00,NBA,Utah Jazz,Portland Trail Blazers,-6.24,13.5,232.14,19.0,112.9,119.2,119.7,-3.32,True,9
-519615,2026-10-31T23:00:00+01:00,NBA,Charlotte Hornets,Philadelphia 76ers,-1.1,13.5,215.46,19.0,107.2,108.3,111.8,-0.27,True,9
-519616,2026-11-01T00:00:00+01:00,NBA,New Orleans Pelicans,Atlanta Hawks,-4.21,13.5,240.53,19.0,118.2,122.4,123.9,-2.25,True,9
-519617,2026-11-01T01:00:00+01:00,NBA,San Antonio Spurs,Minnesota Timberwolves,12.09,12.21,226.63,19.0,119.4,107.3,109.8,6.55,True,9
-519618,2026-11-01T01:00:00+01:00,NBA,Memphis Grizzlies,Sacramento Kings,11.01,12.29,233.53,19.0,122.3,111.3,120.1,5.59,True,9
-519619,2026-11-01T01:00:00+01:00,NBA,Milwaukee Bucks,Cleveland Cavaliers,-8.41,12.36,237.4,19.0,114.5,122.9,115.0,-4.82,True,9
-519620,2026-11-01T01:30:00+01:00,NBA,Houston Rockets,Oklahoma City Thunder,3.74,16.19,218.47,20.15,111.1,107.4,109.0,1.41,False,7
 518203,2026-10-31T18:00:00+01:00,France - Betclic Élite,Gravelines-Dunkerque,Roanne,-0.53,12.0,166.08,16.0,82.8,83.3,83.0,-0.27,True,9
 518204,2026-10-31T18:00:00+01:00,France - Betclic Élite,Le Mans,Pau-Orthez,12.65,11.43,170.67,16.0,91.7,79.0,84.7,7.31,True,9
 518205,2026-10-31T18:30:00+01:00,France - Betclic Élite,Strasbourg,Cholet,-0.13,12.0,166.95,16.0,83.4,83.5,83.1,-0.03,True,9
 518206,2026-10-31T18:30:00+01:00,France - Betclic Élite,Limoges,Boulazac,5.51,12.0,167.53,16.0,86.5,81.0,83.6,2.88,True,9
-518207,2026-10-31T20:30:00+01:00,France - Betclic Élite,JL Bourg,Nanterre,4.14,12.0,167.24,16.0,85.7,81.5,83.2,2.2,True,9
+519614,2026-10-31T20:00:00+01:00,NBA,Utah Jazz,Portland Trail Blazers,-7.74,13.5,232.01,19.0,112.1,119.9,119.7,-3.47,True,9
+519615,2026-10-31T23:00:00+01:00,NBA,Charlotte Hornets,Philadelphia 76ers,-0.63,13.5,215.29,19.0,107.3,108.0,111.8,-0.28,True,9
+519616,2026-11-01T00:00:00+01:00,NBA,New Orleans Pelicans,Atlanta Hawks,-4.39,13.5,240.59,19.0,118.1,122.5,123.9,-2.25,True,9
+519617,2026-11-01T01:00:00+01:00,NBA,San Antonio Spurs,Minnesota Timberwolves,12.09,12.21,226.63,19.0,119.4,107.3,109.8,6.55,True,9
+519618,2026-11-01T01:00:00+01:00,NBA,Memphis Grizzlies,Sacramento Kings,11.01,12.29,233.53,19.0,122.3,111.3,120.1,5.59,True,9
+519619,2026-11-01T01:00:00+01:00,NBA,Milwaukee Bucks,Cleveland Cavaliers,-8.41,12.36,237.4,19.0,114.5,122.9,115.0,-4.82,True,9
+519620,2026-11-01T01:30:00+01:00,NBA,Houston Rockets,Oklahoma City Thunder,3.74,16.19,218.47,20.15,111.1,107.4,109.0,1.41,False,7
+518207,2026-10-31T20:30:00+01:00,France - Betclic Élite,JL Bourg,Nanterre,5.97,12.0,167.43,16.0,86.7,80.7,83.4,3.13,True,9
 518208,2026-11-01T16:30:00+01:00,France - Betclic Élite,Saint Quentin,Lyon-Villeurbanne,-9.3,11.66,173.56,16.0,82.1,91.4,86.7,-5.06,True,9
 518209,2026-11-01T19:00:00+01:00,France - Betclic Élite,Paris,Chalon/Saone,8.18,12.11,178.65,16.0,93.4,85.2,89.7,4.44,True,9
