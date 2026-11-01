@@ -1,12 +1,23 @@
-Passage du 2026-10-31 17:56 UTC
-football-data : 39 fichiers ; API-Football : {'2026-10-31': '1572 matchs', '2026-11-01': '1169 matchs'}
-cotes foot : 62 matchs reconnus, 7 requêtes, 112 matchs avec cotes en cache
-cotes françaises : déjà relevées aujourd'hui, rien à faire
-141 matchs analysés, 283 paris retenus
-{'matchs_historique': 29155, 'matchs_programmes': 102, 'complet': False}
-tennis : 18 matchs, 540 cotes justes
-handball : 93 matchs suivis, 35 résultats, 46 à venir, cotes pour 10
-handball : 10 matchs, 457 cotes justes
-basket : 37 matchs suivis, 21 résultats, 12 à venir, cotes pour 10
-basket : 10 matchs, 617 cotes justes
-{'Basket': 10, 'Football': 141, 'Handball': 10, 'Tennis': 18}
+Passage du 2026-11-01 08:10 UTC
+football-data : 39 fichiers ; API-Football : {'2026-11-01': '1172 matchs', '2026-11-02': '234 matchs'}
+cotes foot : 64 matchs reconnus, 22 requêtes, 63 matchs avec cotes en cache
+  crédits restants : 500, budget du jour : 16 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_nbl, basketball_ncaab, basketball_ncaab_championship_winner, basketball_wncaab, handball_germany_bundesliga
+  budget du jour atteint avant soccer_portugal_primeira_liga
+  budget du jour atteint avant soccer_belgium_first_div
+  budget du jour atteint avant soccer_germany_bundesliga2
+  budget du jour atteint avant soccer_italy_serie_b
+  budget du jour atteint avant soccer_spain_segunda_division
+  budget du jour atteint avant soccer_spl
+  budget du jour atteint avant soccer_turkey_super_league
+  budget du jour atteint avant soccer_greece_super_league
+  budget du jour atteint avant soccer_england_league1
+  budget du jour atteint avant handball_germany_bundesliga
+cotes françaises : 113 matchs, 16 crédits utilisés, 484 restants ce mois-ci
+65 matchs analysés, 130 paris retenus
+{'matchs_historique': 29165, 'matchs_programmes': 105, 'complet': False}
+tennis : 51 matchs, 1530 cotes justes
+handball : 64 matchs suivis, 38 résultats, 26 à venir, cotes pour 19
+handball : 19 matchs, 874 cotes justes
+basket : 28 matchs suivis, 22 résultats, 6 à venir, cotes pour 4
+basket : 4 matchs, 247 cotes justes
+{'Basket': 4, 'Football': 65, 'Handball': 19, 'Tennis': 51}
