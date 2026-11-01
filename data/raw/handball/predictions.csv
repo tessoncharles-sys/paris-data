@@ -97,7 +97,6 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 198600,2026-11-01T18:00:00+01:00,Espagne - Liga ASOBAL,Morrazo Cangas,Horneo Alicante,1.03,5.32,61.08,10.7,31.1,30.0,30.2,8
 195598,2026-11-01T16:00:00+01:00,Danemark - Herre Handbold Ligaen,Skanderborg AGF,Sonderjyske,2.82,5.99,62.91,6.87,32.9,30.0,31.1,8
 195599,2026-11-01T18:00:00+01:00,Danemark - Herre Handbold Ligaen,Holstebro,Ringsted,4.78,5.94,62.97,6.94,33.9,29.1,31.5,8
-195596,2026-11-01T20:00:00+01:00,Danemark - Herre Handbold Ligaen,Fredericia,Mors,4.77,6.06,63.34,7.05,34.1,29.3,31.6,8
 195292,2026-11-01T17:00:00+01:00,Allemagne - 2. Bundesliga,Lubeck-Schwartau,Hagen,1.59,5.34,62.76,6.91,32.2,30.6,31.0,7
 195293,2026-11-01T17:00:00+01:00,Allemagne - 2. Bundesliga,Nordhorn-Lingen,Dessauer,2.47,5.28,62.2,11.68,32.3,29.9,30.9,7
 195296,2026-11-01T17:00:00+01:00,Allemagne - 2. Bundesliga,Leipzig,Huttenberg,5.19,5.91,64.01,6.96,34.6,29.4,31.9,7
@@ -109,3 +108,4 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,bookmakers
 195754,2026-11-01T17:00:00+01:00,Suède - Handbollsligan,Lugi,Ystads IF,-4.09,5.55,60.07,7.1,28.0,32.1,29.7,7
 203802,2026-11-01T16:30:00+01:00,Norvège - Elite,Bergsoy,Follo,-3.03,5.72,60.0,9.83,28.5,31.5,29.3,7
 203804,2026-11-01T17:00:00+01:00,Norvège - Elite,Runar,Fjellhammer,3.64,5.41,56.38,10.16,30.0,26.4,28.1,7
+195596,2026-11-01T20:00:00+01:00,Danemark - Herre Handbold Ligaen,Fredericia,Mors,4.74,6.01,62.37,6.97,33.6,28.8,31.0,9
