@@ -10,8 +10,8 @@ id,date,league,home,away,hs,as,h1,a1,prolongation
 519559,2026-10-24T04:00:00+02:00,NBA,Los Angeles Lakers,Los Angeles Clippers,125,117,64,64,False
 519558,2026-10-24T04:00:00+02:00,NBA,Golden State Warriors,Memphis Grizzlies,108,111,56,60,False
 519560,2026-10-24T04:00:00+02:00,NBA,Sacramento Kings,Portland Trail Blazers,120,128,64,59,False
-518195,2026-10-24T18:00:00+02:00,France - Betclic Élite,Boulazac,Le Mans,72,97,47,43,False
 518196,2026-10-24T18:00:00+02:00,France - Betclic Élite,JL Bourg,Gravelines-Dunkerque,89,81,48,53,False
+518195,2026-10-24T18:00:00+02:00,France - Betclic Élite,Boulazac,Le Mans,72,97,47,43,False
 518197,2026-10-24T18:30:00+02:00,France - Betclic Élite,Chalon/Saone,Strasbourg,106,79,50,39,False
 518198,2026-10-24T20:30:00+02:00,France - Betclic Élite,Nanterre,Cholet,86,69,44,34,False
 519561,2026-10-25T00:00:00+02:00,NBA,Charlotte Hornets,Miami Heat,115,110,66,58,False
@@ -36,8 +36,8 @@ id,date,league,home,away,hs,as,h1,a1,prolongation
 519577,2026-10-27T00:00:00+01:00,NBA,Cleveland Cavaliers,Minnesota Timberwolves,127,125,50,60,True
 519578,2026-10-27T00:30:00+01:00,NBA,Boston Celtics,Chicago Bulls,134,99,66,54,False
 519579,2026-10-27T00:30:00+01:00,NBA,Miami Heat,Dallas Mavericks,109,113,52,53,False
-519581,2026-10-27T01:00:00+01:00,NBA,Oklahoma City Thunder,Phoenix Suns,125,114,67,53,False
 519580,2026-10-27T01:00:00+01:00,NBA,Milwaukee Bucks,Indiana Pacers,110,102,50,61,False
+519581,2026-10-27T01:00:00+01:00,NBA,Oklahoma City Thunder,Phoenix Suns,125,114,67,53,False
 519582,2026-10-27T01:30:00+01:00,NBA,Houston Rockets,Atlanta Hawks,120,110,63,66,False
 519583,2026-10-27T02:00:00+01:00,NBA,Utah Jazz,Memphis Grizzlies,105,110,52,58,False
 519584,2026-10-27T03:00:00+01:00,NBA,Denver Nuggets,Golden State Warriors,114,134,56,60,False
@@ -61,10 +61,10 @@ id,date,league,home,away,hs,as,h1,a1,prolongation
 519589,2026-10-29T00:00:00+01:00,NBA,Indiana Pacers,Philadelphia 76ers,109,114,52,62,False
 519590,2026-10-29T00:00:00+01:00,NBA,Cleveland Cavaliers,Washington Wizards,121,111,59,69,False
 519593,2026-10-29T00:30:00+01:00,NBA,Toronto Raptors,Orlando Magic,129,99,69,53,False
-519596,2026-10-29T01:00:00+01:00,NBA,Minnesota Timberwolves,Golden State Warriors,114,119,48,64,False
-519597,2026-10-29T01:00:00+01:00,NBA,New Orleans Pelicans,Denver Nuggets,91,104,45,57,False
 519594,2026-10-29T01:00:00+01:00,NBA,Chicago Bulls,New York Knicks,127,133,62,56,False
 519595,2026-10-29T01:00:00+01:00,NBA,Milwaukee Bucks,Houston Rockets,100,132,35,57,False
+519596,2026-10-29T01:00:00+01:00,NBA,Minnesota Timberwolves,Golden State Warriors,114,119,48,64,False
+519597,2026-10-29T01:00:00+01:00,NBA,New Orleans Pelicans,Denver Nuggets,91,104,45,57,False
 519598,2026-10-29T02:00:00+01:00,NBA,Utah Jazz,San Antonio Spurs,111,117,55,51,True
 519599,2026-10-29T02:30:00+01:00,NBA,Dallas Mavericks,Oklahoma City Thunder,120,96,65,59,False
 519600,2026-10-29T03:30:00+01:00,NBA,Los Angeles Clippers,Los Angeles Lakers,87,103,38,56,False
@@ -77,8 +77,8 @@ id,date,league,home,away,hs,as,h1,a1,prolongation
 508665,2026-10-30T17:00:00+01:00,EuroLeague,Dubai,Hapoel Tel Aviv,97,83,45,40,False
 508666,2026-10-30T18:30:00+01:00,EuroLeague,Anadolu Efes,Panathinaikos,83,68,45,37,False
 508667,2026-10-30T19:00:00+01:00,EuroLeague,Zalgiris Kaunas,Partizan Mozzart Bet,87,80,44,40,False
-518202,2026-10-30T20:00:00+01:00,France - Betclic Élite,Dijon,Nancy,94,108,47,46,False
 508668,2026-10-30T20:00:00+01:00,EuroLeague,Lyon-Villeurbanne,Baskonia,94,79,49,39,False
+518202,2026-10-30T20:00:00+01:00,France - Betclic Élite,Dijon,Nancy,94,108,47,46,False
 508669,2026-10-30T20:15:00+01:00,EuroLeague,Olympiacos,Olimpia Milano,84,78,44,44,False
 508671,2026-10-30T20:30:00+01:00,EuroLeague,Virtus Bologna,Besiktas,101,103,54,47,False
 508670,2026-10-30T20:30:00+01:00,EuroLeague,Barcelona,Valencia,98,94,44,42,False
