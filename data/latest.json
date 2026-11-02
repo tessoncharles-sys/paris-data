@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "genere_le": "2026-11-02T08:22:47+00:00",
+ "genere_le": "2026-11-02T11:20:36+00:00",
  "config": {
   "demi_vie_jours": 140,
   "poids_tirs_cadres": 0.5,
@@ -23,8 +23,8 @@
    "div": "E0",
    "coup_envoi": "2026-11-02 21:00",
    "buts_attendus": {
-    "dom": 1.49,
-    "ext": 1.38
+    "dom": 1.51,
+    "ext": 1.37
    },
    "lambda_boost": {
     "dom": 1.554,
@@ -32,12 +32,12 @@
     "source": "marché"
    },
    "corners_attendus": null,
-   "cartons_attendus": 4.4,
+   "cartons_attendus": 4.3,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.4024,
+     "proba_modele": 0.4097,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4257,
      "proba": 0.4257,
@@ -50,7 +50,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2626,
+     "proba_modele": 0.262,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2684,
      "proba": 0.2684,
@@ -63,7 +63,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.3319,
+     "proba_modele": 0.3256,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3058,
      "proba": 0.3058,
@@ -76,7 +76,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.6681,
+     "proba_modele": 0.6744,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6942,
      "proba": 0.6942,
@@ -86,7 +86,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7374,
+     "proba_modele": 0.738,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7316,
      "proba": 0.7316,
@@ -96,7 +96,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.5976,
+     "proba_modele": 0.5904,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5743,
      "proba": 0.5743,
@@ -106,7 +106,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7909,
+     "proba_modele": 0.7918,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.7797,
      "proba": 0.7797,
@@ -116,7 +116,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2091,
+     "proba_modele": 0.2082,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.2203,
      "proba": 0.2203,
@@ -126,7 +126,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5701,
+     "proba_modele": 0.5714,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5561,
      "proba": 0.5561,
@@ -139,7 +139,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.43,
+     "proba_modele": 0.4286,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4439,
      "proba": 0.4439,
@@ -152,7 +152,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.3301,
+     "proba_modele": 0.3314,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3467,
      "proba": 0.3467,
@@ -162,7 +162,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.6699,
+     "proba_modele": 0.6687,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6533,
      "proba": 0.6533,
@@ -172,7 +172,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5933,
+     "proba_modele": 0.594,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5969,
      "proba": 0.5969,
@@ -182,7 +182,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4067,
+     "proba_modele": 0.406,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4031,
      "proba": 0.4031,
@@ -192,7 +192,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8005,
+     "proba_modele": 0.8042,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7927,
      "proba": 0.7927,
@@ -202,7 +202,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4657,
+     "proba_modele": 0.4712,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4766,
      "proba": 0.4766,
@@ -212,7 +212,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.7585,
+     "proba_modele": 0.7562,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7357,
      "proba": 0.7357,
@@ -222,7 +222,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.4079,
+     "proba_modele": 0.4052,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3827,
      "proba": 0.3827,
@@ -232,112 +232,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.2515,
+     "proba_modele": 0.2542,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2515,
-     "cote_juste": 3.98,
-     "cote_minimum": 4.17,
+     "proba": 0.2542,
+     "cote_juste": 3.93,
+     "cote_minimum": 4.13,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.677,
+     "proba_modele": 0.6676,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.677,
-     "cote_juste": 1.48,
-     "cote_minimum": 1.55,
+     "proba": 0.6676,
+     "cote_juste": 1.5,
+     "cote_minimum": 1.57,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.323,
+     "proba_modele": 0.3324,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.323,
-     "cote_juste": 3.1,
-     "cote_minimum": 3.25,
+     "proba": 0.3324,
+     "cote_juste": 3.01,
+     "cote_minimum": 3.16,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5763,
+     "proba_modele": 0.5656,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5763,
-     "cote_juste": 1.74,
-     "cote_minimum": 1.82,
+     "proba": 0.5656,
+     "cote_juste": 1.77,
+     "cote_minimum": 1.86,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4237,
+     "proba_modele": 0.4344,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4237,
-     "cote_juste": 2.36,
-     "cote_minimum": 2.48,
+     "proba": 0.4344,
+     "cote_juste": 2.3,
+     "cote_minimum": 2.42,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.4519,
+     "proba_modele": 0.441,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4519,
-     "cote_juste": 2.21,
-     "cote_minimum": 2.32,
+     "proba": 0.441,
+     "cote_juste": 2.27,
+     "cote_minimum": 2.38,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.5481,
+     "proba_modele": 0.559,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5481,
-     "cote_juste": 1.82,
-     "cote_minimum": 1.92,
+     "proba": 0.559,
+     "cote_juste": 1.79,
+     "cote_minimum": 1.88,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.5993,
+     "proba_modele": 0.5916,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5993,
-     "cote_juste": 1.67,
-     "cote_minimum": 1.75,
+     "proba": 0.5916,
+     "cote_juste": 1.69,
+     "cote_minimum": 1.77,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.4007,
+     "proba_modele": 0.4084,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4007,
-     "cote_juste": 2.5,
-     "cote_minimum": 2.62,
+     "proba": 0.4084,
+     "cote_juste": 2.45,
+     "cote_minimum": 2.57,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.4253,
+     "proba_modele": 0.4168,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4253,
-     "cote_juste": 2.35,
-     "cote_minimum": 2.47,
+     "proba": 0.4168,
+     "cote_juste": 2.4,
+     "cote_minimum": 2.52,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.5747,
+     "proba_modele": 0.5832,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5747,
-     "cote_juste": 1.74,
-     "cote_minimum": 1.83,
+     "proba": 0.5832,
+     "cote_juste": 1.71,
+     "cote_minimum": 1.8,
      "cote_moyenne_marche": null
     }
    ],
@@ -376,7 +376,7 @@
    "coup_envoi": "2026-11-02 20:45",
    "buts_attendus": {
     "dom": 1.37,
-    "ext": 1.09
+    "ext": 1.06
    },
    "lambda_boost": {
     "dom": 1.326,
@@ -389,7 +389,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.4337,
+     "proba_modele": 0.4442,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3867,
      "proba": 0.3867,
@@ -402,7 +402,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2789,
+     "proba_modele": 0.2795,
      "source_marche": "Pinnacle",
      "proba_marche": 0.295,
      "proba": 0.295,
@@ -415,7 +415,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.2812,
+     "proba_modele": 0.2704,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3182,
      "proba": 0.3182,
@@ -428,7 +428,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.7188,
+     "proba_modele": 0.7297,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6818,
      "proba": 0.6818,
@@ -438,7 +438,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.721,
+     "proba_modele": 0.7204,
      "source_marche": "Pinnacle",
      "proba_marche": 0.705,
      "proba": 0.705,
@@ -448,7 +448,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.5664,
+     "proba_modele": 0.5558,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6133,
      "proba": 0.6133,
@@ -458,7 +458,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7485,
+     "proba_modele": 0.7452,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7103,
      "proba": 0.7103,
@@ -468,7 +468,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2515,
+     "proba_modele": 0.2548,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2897,
      "proba": 0.2897,
@@ -478,7 +478,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5078,
+     "proba_modele": 0.5031,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4515,
      "proba": 0.4515,
@@ -491,7 +491,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4922,
+     "proba_modele": 0.4969,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5485,
      "proba": 0.5485,
@@ -504,7 +504,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2758,
+     "proba_modele": 0.272,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2539,
      "proba": 0.2539,
@@ -514,7 +514,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7242,
+     "proba_modele": 0.7281,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7461,
      "proba": 0.7461,
@@ -524,7 +524,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5439,
+     "proba_modele": 0.5392,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.522,
      "proba": 0.522,
@@ -534,7 +534,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4561,
+     "proba_modele": 0.4608,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.478,
      "proba": 0.478,
@@ -544,7 +544,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.7758,
+     "proba_modele": 0.7773,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7314,
      "proba": 0.7314,
@@ -554,7 +554,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4302,
+     "proba_modele": 0.4323,
      "source_marche": "Pinnacle",
      "proba_marche": 0.375,
      "proba": 0.375,
@@ -564,7 +564,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.685,
+     "proba_modele": 0.6742,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6921,
      "proba": 0.6921,
@@ -574,7 +574,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.329,
+     "proba_modele": 0.3186,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3257,
      "proba": 0.3257,
@@ -584,111 +584,111 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3352,
+     "proba_modele": 0.3475,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3352,
-     "cote_juste": 2.98,
-     "cote_minimum": 3.13,
+     "proba": 0.3475,
+     "cote_juste": 2.88,
+     "cote_minimum": 3.02,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5803,
+     "proba_modele": 0.5862,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5803,
-     "cote_juste": 1.72,
-     "cote_minimum": 1.81,
+     "proba": 0.5862,
+     "cote_juste": 1.71,
+     "cote_minimum": 1.79,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4197,
+     "proba_modele": 0.4138,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4197,
-     "cote_juste": 2.38,
-     "cote_minimum": 2.5,
+     "proba": 0.4138,
+     "cote_juste": 2.42,
+     "cote_minimum": 2.54,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.4667,
+     "proba_modele": 0.4733,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4667,
-     "cote_juste": 2.14,
-     "cote_minimum": 2.25,
+     "proba": 0.4733,
+     "cote_juste": 2.11,
+     "cote_minimum": 2.22,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.5333,
+     "proba_modele": 0.5267,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5333,
-     "cote_juste": 1.88,
-     "cote_minimum": 1.97,
+     "proba": 0.5267,
+     "cote_juste": 1.9,
+     "cote_minimum": 1.99,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3429,
+     "proba_modele": 0.3493,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3429,
-     "cote_juste": 2.92,
-     "cote_minimum": 3.06,
+     "proba": 0.3493,
+     "cote_juste": 2.86,
+     "cote_minimum": 3.01,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6571,
+     "proba_modele": 0.6507,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6571,
-     "cote_juste": 1.52,
-     "cote_minimum": 1.6,
+     "proba": 0.6507,
+     "cote_juste": 1.54,
+     "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.5136,
+     "proba_modele": 0.5167,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5136,
-     "cote_juste": 1.95,
-     "cote_minimum": 2.04,
+     "proba": 0.5167,
+     "cote_juste": 1.94,
+     "cote_minimum": 2.03,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.4864,
+     "proba_modele": 0.4833,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4864,
-     "cote_juste": 2.06,
-     "cote_minimum": 2.16,
+     "proba": 0.4833,
+     "cote_juste": 2.07,
+     "cote_minimum": 2.17,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.3338,
+     "proba_modele": 0.337,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3338,
-     "cote_juste": 3.0,
-     "cote_minimum": 3.15,
+     "proba": 0.337,
+     "cote_juste": 2.97,
+     "cote_minimum": 3.12,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.6662,
+     "proba_modele": 0.663,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6662,
-     "cote_juste": 1.5,
+     "proba": 0.663,
+     "cote_juste": 1.51,
      "cote_minimum": 1.58,
      "cote_moyenne_marche": null
     }
@@ -728,7 +728,7 @@
    "coup_envoi": "2026-11-02 20:45",
    "buts_attendus": {
     "dom": 1.34,
-    "ext": 1.06
+    "ext": 1.07
    },
    "lambda_boost": {
     "dom": 1.38,
@@ -741,7 +741,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.4329,
+     "proba_modele": 0.4345,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4136,
      "proba": 0.4136,
@@ -754,7 +754,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2818,
+     "proba_modele": 0.2812,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2789,
      "proba": 0.2789,
@@ -767,7 +767,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.2784,
+     "proba_modele": 0.2776,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3075,
      "proba": 0.3075,
@@ -780,7 +780,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.7217,
+     "proba_modele": 0.7225,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6925,
      "proba": 0.6925,
@@ -790,7 +790,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7181,
+     "proba_modele": 0.7187,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7211,
      "proba": 0.7211,
@@ -800,7 +800,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.5672,
+     "proba_modele": 0.5655,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5864,
      "proba": 0.5864,
@@ -810,7 +810,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.742,
+     "proba_modele": 0.743,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7259,
      "proba": 0.7259,
@@ -820,7 +820,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.258,
+     "proba_modele": 0.257,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2741,
      "proba": 0.2741,
@@ -830,7 +830,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.4985,
+     "proba_modele": 0.4999,
      "source_marche": "Pinnacle",
      "proba_marche": 0.478,
      "proba": 0.478,
@@ -840,7 +840,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.5015,
+     "proba_modele": 0.5001,
      "source_marche": "Pinnacle",
      "proba_marche": 0.522,
      "proba": 0.522,
@@ -850,7 +850,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2681,
+     "proba_modele": 0.2693,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2729,
      "proba": 0.2729,
@@ -860,7 +860,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7319,
+     "proba_modele": 0.7307,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7271,
      "proba": 0.7271,
@@ -870,7 +870,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5368,
+     "proba_modele": 0.5377,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5428,
      "proba": 0.5428,
@@ -880,7 +880,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4632,
+     "proba_modele": 0.4623,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4572,
      "proba": 0.4572,
@@ -890,7 +890,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.7698,
+     "proba_modele": 0.7714,
      "source_marche": "Pinnacle",
      "proba_marche": 0.751,
      "proba": 0.751,
@@ -900,7 +900,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.422,
+     "proba_modele": 0.4241,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4112,
      "proba": 0.4112,
@@ -910,7 +910,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6762,
+     "proba_modele": 0.6767,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6916,
      "proba": 0.6916,
@@ -920,7 +920,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.3206,
+     "proba_modele": 0.321,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3279,
      "proba": 0.3279,
@@ -930,110 +930,110 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3452,
+     "proba_modele": 0.3446,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3452,
+     "proba": 0.3446,
      "cote_juste": 2.9,
-     "cote_minimum": 3.04,
+     "cote_minimum": 3.05,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5317,
+     "proba_modele": 0.533,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5317,
+     "proba": 0.533,
      "cote_juste": 1.88,
      "cote_minimum": 1.97,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4683,
+     "proba_modele": 0.467,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4683,
+     "proba": 0.467,
      "cote_juste": 2.14,
-     "cote_minimum": 2.24,
+     "cote_minimum": 2.25,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.4129,
+     "proba_modele": 0.4143,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4129,
-     "cote_juste": 2.42,
-     "cote_minimum": 2.54,
+     "proba": 0.4143,
+     "cote_juste": 2.41,
+     "cote_minimum": 2.53,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.5871,
+     "proba_modele": 0.5857,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5871,
-     "cote_juste": 1.7,
+     "proba": 0.5857,
+     "cote_juste": 1.71,
      "cote_minimum": 1.79,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.2918,
+     "proba_modele": 0.2931,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2918,
-     "cote_juste": 3.43,
-     "cote_minimum": 3.6,
+     "proba": 0.2931,
+     "cote_juste": 3.41,
+     "cote_minimum": 3.58,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.7082,
+     "proba_modele": 0.7069,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7082,
+     "proba": 0.7069,
      "cote_juste": 1.41,
-     "cote_minimum": 1.48,
+     "cote_minimum": 1.49,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6087,
+     "proba_modele": 0.6073,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6087,
-     "cote_juste": 1.64,
-     "cote_minimum": 1.72,
+     "proba": 0.6073,
+     "cote_juste": 1.65,
+     "cote_minimum": 1.73,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3913,
+     "proba_modele": 0.3927,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3913,
-     "cote_juste": 2.56,
-     "cote_minimum": 2.68,
+     "proba": 0.3927,
+     "cote_juste": 2.55,
+     "cote_minimum": 2.67,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.4357,
+     "proba_modele": 0.434,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4357,
+     "proba": 0.434,
      "cote_juste": 2.3,
-     "cote_minimum": 2.41,
+     "cote_minimum": 2.42,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.5643,
+     "proba_modele": 0.566,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5643,
+     "proba": 0.566,
      "cote_juste": 1.77,
      "cote_minimum": 1.86,
      "cote_moyenne_marche": null
@@ -1073,8 +1073,8 @@
    "div": "F2",
    "coup_envoi": "2026-11-02 20:45",
    "buts_attendus": {
-    "dom": 1.96,
-    "ext": 0.83
+    "dom": 1.98,
+    "ext": 0.82
    },
    "lambda_boost": {
     "dom": 1.751,
@@ -1087,7 +1087,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.6457,
+     "proba_modele": 0.6524,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5657,
      "proba": 0.5657,
@@ -1100,7 +1100,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2316,
+     "proba_modele": 0.2296,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2427,
      "proba": 0.2427,
@@ -1113,7 +1113,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.1383,
+     "proba_modele": 0.1343,
      "source_marche": "Pinnacle",
      "proba_marche": 0.1916,
      "proba": 0.1916,
@@ -1126,7 +1126,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.8618,
+     "proba_modele": 0.8658,
      "source_marche": "Pinnacle",
      "proba_marche": 0.8084,
      "proba": 0.8084,
@@ -1136,7 +1136,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7685,
+     "proba_modele": 0.7706,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7573,
      "proba": 0.7573,
@@ -1146,7 +1146,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.3545,
+     "proba_modele": 0.3477,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4343,
      "proba": 0.4343,
@@ -1156,7 +1156,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7835,
+     "proba_modele": 0.7844,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7601,
      "proba": 0.7601,
@@ -1166,7 +1166,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2165,
+     "proba_modele": 0.2156,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2399,
      "proba": 0.2399,
@@ -1176,7 +1176,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5589,
+     "proba_modele": 0.5603,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5351,
      "proba": 0.5351,
@@ -1186,7 +1186,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4411,
+     "proba_modele": 0.4397,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4649,
      "proba": 0.4649,
@@ -1196,7 +1196,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.3201,
+     "proba_modele": 0.3213,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3196,
      "proba": 0.3196,
@@ -1206,7 +1206,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.6799,
+     "proba_modele": 0.6787,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6804,
      "proba": 0.6804,
@@ -1216,7 +1216,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5384,
+     "proba_modele": 0.537,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5425,
      "proba": 0.5425,
@@ -1226,7 +1226,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4616,
+     "proba_modele": 0.463,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4575,
      "proba": 0.4575,
@@ -1236,7 +1236,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8713,
+     "proba_modele": 0.8736,
      "source_marche": "5 bookmakers",
      "proba_marche": 0.822,
      "proba": 0.822,
@@ -1246,7 +1246,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.5848,
+     "proba_modele": 0.5892,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5492,
      "proba": 0.5492,
@@ -1256,7 +1256,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.5973,
+     "proba_modele": 0.5933,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6265,
      "proba": 0.6265,
@@ -1266,7 +1266,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2508,
+     "proba_modele": 0.2475,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2597,
      "proba": 0.2597,
@@ -1276,110 +1276,110 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.4346,
+     "proba_modele": 0.4391,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4346,
-     "cote_juste": 2.3,
-     "cote_minimum": 2.42,
+     "proba": 0.4391,
+     "cote_juste": 2.28,
+     "cote_minimum": 2.39,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6513,
+     "proba_modele": 0.6508,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6513,
+     "proba": 0.6508,
      "cote_juste": 1.54,
      "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3487,
+     "proba_modele": 0.3492,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3487,
-     "cote_juste": 2.87,
+     "proba": 0.3492,
+     "cote_juste": 2.86,
      "cote_minimum": 3.01,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5469,
+     "proba_modele": 0.5463,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5469,
+     "proba": 0.5463,
      "cote_juste": 1.83,
      "cote_minimum": 1.92,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4531,
+     "proba_modele": 0.4537,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4531,
-     "cote_juste": 2.21,
-     "cote_minimum": 2.32,
+     "proba": 0.4537,
+     "cote_juste": 2.2,
+     "cote_minimum": 2.31,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.4221,
+     "proba_modele": 0.4215,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4221,
+     "proba": 0.4215,
      "cote_juste": 2.37,
      "cote_minimum": 2.49,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.5779,
+     "proba_modele": 0.5785,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5779,
+     "proba": 0.5785,
      "cote_juste": 1.73,
      "cote_minimum": 1.82,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.4731,
+     "proba_modele": 0.4705,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4731,
-     "cote_juste": 2.11,
-     "cote_minimum": 2.22,
+     "proba": 0.4705,
+     "cote_juste": 2.13,
+     "cote_minimum": 2.23,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.5269,
+     "proba_modele": 0.5295,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5269,
-     "cote_juste": 1.9,
-     "cote_minimum": 1.99,
+     "proba": 0.5295,
+     "cote_juste": 1.89,
+     "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.2929,
+     "proba_modele": 0.2904,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2929,
-     "cote_juste": 3.41,
-     "cote_minimum": 3.58,
+     "proba": 0.2904,
+     "cote_juste": 3.44,
+     "cote_minimum": 3.62,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.7071,
+     "proba_modele": 0.7096,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7071,
+     "proba": 0.7096,
      "cote_juste": 1.41,
      "cote_minimum": 1.48,
      "cote_moyenne_marche": null
@@ -1419,21 +1419,21 @@
    "div": "G1",
    "coup_envoi": "2026-11-02 17:00",
    "buts_attendus": {
-    "dom": 1.59,
-    "ext": 0.93
+    "dom": 1.6,
+    "ext": 0.92
    },
    "lambda_boost": {
     "dom": 1.576,
     "ext": 1.021,
     "source": "marché"
    },
-   "corners_attendus": 8.5,
+   "corners_attendus": 8.4,
    "cartons_attendus": 5.7,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5346,
+     "proba_modele": 0.5399,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5043,
      "proba": 0.5043,
@@ -1443,7 +1443,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2642,
+     "proba_modele": 0.2638,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2653,
      "proba": 0.2653,
@@ -1453,7 +1453,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.2036,
+     "proba_modele": 0.199,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2304,
      "proba": 0.2304,
@@ -1463,7 +1463,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.7965,
+     "proba_modele": 0.801,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7696,
      "proba": 0.7696,
@@ -1473,7 +1473,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7358,
+     "proba_modele": 0.7362,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7347,
      "proba": 0.7347,
@@ -1483,7 +1483,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.4654,
+     "proba_modele": 0.4601,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4957,
      "proba": 0.4957,
@@ -1493,7 +1493,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7562,
+     "proba_modele": 0.7548,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7227,
      "proba": 0.7227,
@@ -1503,7 +1503,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2438,
+     "proba_modele": 0.2452,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2773,
      "proba": 0.2773,
@@ -1513,7 +1513,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5188,
+     "proba_modele": 0.5168,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4768,
      "proba": 0.4768,
@@ -1523,7 +1523,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4812,
+     "proba_modele": 0.4832,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5232,
      "proba": 0.5232,
@@ -1533,7 +1533,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2852,
+     "proba_modele": 0.2835,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2701,
      "proba": 0.2701,
@@ -1543,7 +1543,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7149,
+     "proba_modele": 0.7165,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7299,
      "proba": 0.7299,
@@ -1553,7 +1553,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.537,
+     "proba_modele": 0.5342,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5126,
      "proba": 0.5126,
@@ -1563,7 +1563,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.463,
+     "proba_modele": 0.4658,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4874,
      "proba": 0.4874,
@@ -1573,7 +1573,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8194,
+     "proba_modele": 0.8201,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7869,
      "proba": 0.7869,
@@ -1583,7 +1583,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4948,
+     "proba_modele": 0.4959,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4701,
      "proba": 0.4701,
@@ -1593,7 +1593,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6336,
+     "proba_modele": 0.6278,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6326,
      "proba": 0.6326,
@@ -1603,7 +1603,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2815,
+     "proba_modele": 0.2764,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2676,
      "proba": 0.2676,
@@ -1613,112 +1613,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3935,
+     "proba_modele": 0.4001,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3935,
-     "cote_juste": 2.54,
-     "cote_minimum": 2.67,
+     "proba": 0.4001,
+     "cote_juste": 2.5,
+     "cote_minimum": 2.62,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5707,
+     "proba_modele": 0.5615,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5707,
-     "cote_juste": 1.75,
-     "cote_minimum": 1.84,
+     "proba": 0.5615,
+     "cote_juste": 1.78,
+     "cote_minimum": 1.87,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4293,
+     "proba_modele": 0.4385,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4293,
-     "cote_juste": 2.33,
-     "cote_minimum": 2.45,
+     "proba": 0.4385,
+     "cote_juste": 2.28,
+     "cote_minimum": 2.39,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.4561,
+     "proba_modele": 0.4458,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4561,
-     "cote_juste": 2.19,
-     "cote_minimum": 2.3,
+     "proba": 0.4458,
+     "cote_juste": 2.24,
+     "cote_minimum": 2.36,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.5439,
+     "proba_modele": 0.5542,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5439,
-     "cote_juste": 1.84,
-     "cote_minimum": 1.93,
+     "proba": 0.5542,
+     "cote_juste": 1.8,
+     "cote_minimum": 1.89,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3326,
+     "proba_modele": 0.3228,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3326,
-     "cote_juste": 3.01,
-     "cote_minimum": 3.16,
+     "proba": 0.3228,
+     "cote_juste": 3.1,
+     "cote_minimum": 3.25,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6674,
+     "proba_modele": 0.6772,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6674,
-     "cote_juste": 1.5,
-     "cote_minimum": 1.57,
+     "proba": 0.6772,
+     "cote_juste": 1.48,
+     "cote_minimum": 1.55,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.7023,
+     "proba_modele": 0.7031,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7023,
+     "proba": 0.7031,
      "cote_juste": 1.42,
-     "cote_minimum": 1.5,
+     "cote_minimum": 1.49,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.2977,
+     "proba_modele": 0.2969,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2977,
-     "cote_juste": 3.36,
-     "cote_minimum": 3.53,
+     "proba": 0.2969,
+     "cote_juste": 3.37,
+     "cote_minimum": 3.54,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.5434,
+     "proba_modele": 0.5445,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5434,
+     "proba": 0.5445,
      "cote_juste": 1.84,
      "cote_minimum": 1.93,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.4566,
+     "proba_modele": 0.4555,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4566,
-     "cote_juste": 2.19,
-     "cote_minimum": 2.3,
+     "proba": 0.4555,
+     "cote_juste": 2.2,
+     "cote_minimum": 2.31,
      "cote_moyenne_marche": null
     }
    ],
@@ -1757,7 +1757,7 @@
    "coup_envoi": "2026-11-02 18:30",
    "buts_attendus": {
     "dom": 2.05,
-    "ext": 1.14
+    "ext": 1.12
    },
    "lambda_boost": {
     "dom": 1.339,
@@ -1770,7 +1770,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5913,
+     "proba_modele": 0.595,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4307,
      "proba": 0.4307,
@@ -1780,7 +1780,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2316,
+     "proba_modele": 0.2313,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3006,
      "proba": 0.3006,
@@ -1790,7 +1790,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.1893,
+     "proba_modele": 0.1861,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2687,
      "proba": 0.2687,
@@ -1800,7 +1800,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.8108,
+     "proba_modele": 0.814,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7313,
      "proba": 0.7313,
@@ -1810,7 +1810,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7686,
+     "proba_modele": 0.7689,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6994,
      "proba": 0.6994,
@@ -1820,7 +1820,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.4088,
+     "proba_modele": 0.4051,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5693,
      "proba": 0.5693,
@@ -1830,7 +1830,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.8191,
+     "proba_modele": 0.8178,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7118,
      "proba": 0.7118,
@@ -1840,7 +1840,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.1809,
+     "proba_modele": 0.1822,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2882,
      "proba": 0.2882,
@@ -1850,7 +1850,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.6139,
+     "proba_modele": 0.6119,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4473,
      "proba": 0.4473,
@@ -1860,7 +1860,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.3861,
+     "proba_modele": 0.3881,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5527,
      "proba": 0.5527,
@@ -1870,7 +1870,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.371,
+     "proba_modele": 0.3691,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2485,
      "proba": 0.2485,
@@ -1880,7 +1880,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.629,
+     "proba_modele": 0.6309,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7515,
      "proba": 0.7515,
@@ -1890,7 +1890,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.6009,
+     "proba_modele": 0.5983,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5034,
      "proba": 0.5034,
@@ -1900,7 +1900,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.3991,
+     "proba_modele": 0.4017,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4966,
      "proba": 0.4966,
@@ -1920,7 +1920,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.6057,
+     "proba_modele": 0.6058,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4081,
      "proba": 0.4081,
@@ -1930,7 +1930,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6983,
+     "proba_modele": 0.6939,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6636,
      "proba": 0.6636,
@@ -1940,7 +1940,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.3424,
+     "proba_modele": 0.3379,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2904,
      "proba": 0.2904,
@@ -1950,112 +1950,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.32,
+     "proba_modele": 0.3251,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.32,
-     "cote_juste": 3.13,
-     "cote_minimum": 3.28,
+     "proba": 0.3251,
+     "cote_juste": 3.08,
+     "cote_minimum": 3.23,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.3348,
+     "proba_modele": 0.3305,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3348,
-     "cote_juste": 2.99,
-     "cote_minimum": 3.14,
+     "proba": 0.3305,
+     "cote_juste": 3.03,
+     "cote_minimum": 3.18,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.6652,
+     "proba_modele": 0.6695,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6652,
-     "cote_juste": 1.5,
-     "cote_minimum": 1.58,
+     "proba": 0.6695,
+     "cote_juste": 1.49,
+     "cote_minimum": 1.57,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.2126,
+     "proba_modele": 0.2087,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2126,
-     "cote_juste": 4.7,
-     "cote_minimum": 4.94,
+     "proba": 0.2087,
+     "cote_juste": 4.79,
+     "cote_minimum": 5.03,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.7874,
+     "proba_modele": 0.7913,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7874,
-     "cote_juste": 1.27,
+     "proba": 0.7913,
+     "cote_juste": 1.26,
      "cote_minimum": 1.33,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.1224,
+     "proba_modele": 0.1195,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.1224,
-     "cote_juste": 8.17,
-     "cote_minimum": 8.58,
+     "proba": 0.1195,
+     "cote_juste": 8.37,
+     "cote_minimum": 8.78,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.8776,
+     "proba_modele": 0.8805,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.8776,
+     "proba": 0.8805,
      "cote_juste": 1.14,
-     "cote_minimum": 1.2,
+     "cote_minimum": 1.19,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.7015,
+     "proba_modele": 0.6993,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7015,
+     "proba": 0.6993,
      "cote_juste": 1.43,
      "cote_minimum": 1.5,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.2985,
+     "proba_modele": 0.3007,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2985,
-     "cote_juste": 3.35,
-     "cote_minimum": 3.52,
+     "proba": 0.3007,
+     "cote_juste": 3.33,
+     "cote_minimum": 3.49,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.5425,
+     "proba_modele": 0.5399,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5425,
-     "cote_juste": 1.84,
+     "proba": 0.5399,
+     "cote_juste": 1.85,
      "cote_minimum": 1.94,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.4575,
+     "proba_modele": 0.4601,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4575,
-     "cote_juste": 2.19,
-     "cote_minimum": 2.3,
+     "proba": 0.4601,
+     "cote_juste": 2.17,
+     "cote_minimum": 2.28,
      "cote_moyenne_marche": null
     }
    ],
@@ -2093,7 +2093,7 @@
    "div": "I1",
    "coup_envoi": "2026-11-02 18:30",
    "buts_attendus": {
-    "dom": 1.61,
+    "dom": 1.64,
     "ext": 1.46
    },
    "lambda_boost": {
@@ -2107,7 +2107,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.4171,
+     "proba_modele": 0.4219,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3334,
      "proba": 0.3334,
@@ -2120,7 +2120,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2548,
+     "proba_modele": 0.2537,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2573,
      "proba": 0.2573,
@@ -2133,7 +2133,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.3274,
+     "proba_modele": 0.3242,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4093,
      "proba": 0.4093,
@@ -2146,7 +2146,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.6726,
+     "proba_modele": 0.6758,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5907,
      "proba": 0.5907,
@@ -2156,7 +2156,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7452,
+     "proba_modele": 0.7464,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7427,
      "proba": 0.7427,
@@ -2166,7 +2166,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.5829,
+     "proba_modele": 0.5781,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6666,
      "proba": 0.6666,
@@ -2176,7 +2176,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.8088,
+     "proba_modele": 0.8113,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.809,
      "proba": 0.809,
@@ -2186,7 +2186,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.1912,
+     "proba_modele": 0.1887,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.191,
      "proba": 0.191,
@@ -2196,7 +2196,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5977,
+     "proba_modele": 0.6016,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6195,
      "proba": 0.6195,
@@ -2209,7 +2209,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4023,
+     "proba_modele": 0.3984,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3805,
      "proba": 0.3805,
@@ -2222,7 +2222,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.3556,
+     "proba_modele": 0.3593,
      "source_marche": "Pinnacle",
      "proba_marche": 0.405,
      "proba": 0.405,
@@ -2232,7 +2232,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.6444,
+     "proba_modele": 0.6407,
      "source_marche": "Pinnacle",
      "proba_marche": 0.595,
      "proba": 0.595,
@@ -2242,7 +2242,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.6135,
+     "proba_modele": 0.6162,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.643,
      "proba": 0.643,
@@ -2252,7 +2252,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.3865,
+     "proba_modele": 0.3838,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.357,
      "proba": 0.357,
@@ -2262,7 +2262,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8223,
+     "proba_modele": 0.8263,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7818,
      "proba": 0.7818,
@@ -2272,7 +2272,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4994,
+     "proba_modele": 0.5057,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4473,
      "proba": 0.4473,
@@ -2282,7 +2282,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.7749,
+     "proba_modele": 0.776,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7834,
      "proba": 0.7834,
@@ -2292,7 +2292,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.4276,
+     "proba_modele": 0.4289,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5039,
      "proba": 0.5039,
@@ -2302,112 +2302,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.233,
+     "proba_modele": 0.2318,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.233,
-     "cote_juste": 4.29,
-     "cote_minimum": 4.51,
+     "proba": 0.2318,
+     "cote_juste": 4.31,
+     "cote_minimum": 4.53,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5814,
+     "proba_modele": 0.5768,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5814,
-     "cote_juste": 1.72,
-     "cote_minimum": 1.81,
+     "proba": 0.5768,
+     "cote_juste": 1.73,
+     "cote_minimum": 1.82,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4186,
+     "proba_modele": 0.4232,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4186,
-     "cote_juste": 2.39,
-     "cote_minimum": 2.51,
+     "proba": 0.4232,
+     "cote_juste": 2.36,
+     "cote_minimum": 2.48,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.468,
+     "proba_modele": 0.4628,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.468,
-     "cote_juste": 2.14,
-     "cote_minimum": 2.24,
+     "proba": 0.4628,
+     "cote_juste": 2.16,
+     "cote_minimum": 2.27,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.532,
+     "proba_modele": 0.5372,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.532,
-     "cote_juste": 1.88,
-     "cote_minimum": 1.97,
+     "proba": 0.5372,
+     "cote_juste": 1.86,
+     "cote_minimum": 1.95,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3441,
+     "proba_modele": 0.3392,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3441,
-     "cote_juste": 2.91,
-     "cote_minimum": 3.05,
+     "proba": 0.3392,
+     "cote_juste": 2.95,
+     "cote_minimum": 3.1,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6559,
+     "proba_modele": 0.6608,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6559,
-     "cote_juste": 1.52,
-     "cote_minimum": 1.6,
+     "proba": 0.6608,
+     "cote_juste": 1.51,
+     "cote_minimum": 1.59,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6358,
+     "proba_modele": 0.6307,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6358,
-     "cote_juste": 1.57,
-     "cote_minimum": 1.65,
+     "proba": 0.6307,
+     "cote_juste": 1.59,
+     "cote_minimum": 1.66,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3642,
+     "proba_modele": 0.3693,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3642,
-     "cote_juste": 2.75,
-     "cote_minimum": 2.88,
+     "proba": 0.3693,
+     "cote_juste": 2.71,
+     "cote_minimum": 2.84,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.466,
+     "proba_modele": 0.4602,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.466,
-     "cote_juste": 2.15,
-     "cote_minimum": 2.25,
+     "proba": 0.4602,
+     "cote_juste": 2.17,
+     "cote_minimum": 2.28,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.534,
+     "proba_modele": 0.5398,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.534,
-     "cote_juste": 1.87,
-     "cote_minimum": 1.97,
+     "proba": 0.5398,
+     "cote_juste": 1.85,
+     "cote_minimum": 1.95,
      "cote_moyenne_marche": null
     }
    ],
@@ -2445,8 +2445,8 @@
    "div": "I1",
    "coup_envoi": "2026-11-02 20:45",
    "buts_attendus": {
-    "dom": 1.6,
-    "ext": 0.82
+    "dom": 1.62,
+    "ext": 0.81
    },
    "lambda_boost": {
     "dom": 2.079,
@@ -2459,7 +2459,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5653,
+     "proba_modele": 0.5735,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6345,
      "proba": 0.6345,
@@ -2472,7 +2472,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2637,
+     "proba_modele": 0.2617,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2061,
      "proba": 0.2061,
@@ -2485,7 +2485,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.1754,
+     "proba_modele": 0.1702,
      "source_marche": "Pinnacle",
      "proba_marche": 0.1594,
      "proba": 0.1594,
@@ -2498,7 +2498,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.8247,
+     "proba_modele": 0.8299,
      "source_marche": "Pinnacle",
      "proba_marche": 0.8406,
      "proba": 0.8406,
@@ -2508,7 +2508,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7363,
+     "proba_modele": 0.7383,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7939,
      "proba": 0.7939,
@@ -2518,7 +2518,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.4348,
+     "proba_modele": 0.4267,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3655,
      "proba": 0.3655,
@@ -2528,7 +2528,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7434,
+     "proba_modele": 0.7444,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.7979,
      "proba": 0.7979,
@@ -2538,7 +2538,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2566,
+     "proba_modele": 0.2556,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.2021,
      "proba": 0.2021,
@@ -2548,7 +2548,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5005,
+     "proba_modele": 0.502,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6005,
      "proba": 0.6005,
@@ -2561,7 +2561,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4995,
+     "proba_modele": 0.498,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3995,
      "proba": 0.3995,
@@ -2574,7 +2574,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2698,
+     "proba_modele": 0.271,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3848,
      "proba": 0.3848,
@@ -2584,7 +2584,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7303,
+     "proba_modele": 0.729,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6152,
      "proba": 0.6152,
@@ -2594,7 +2594,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5143,
+     "proba_modele": 0.5133,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.551,
      "proba": 0.551,
@@ -2604,7 +2604,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4857,
+     "proba_modele": 0.4867,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.449,
      "proba": 0.449,
@@ -2614,7 +2614,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8198,
+     "proba_modele": 0.8232,
      "source_marche": "5 bookmakers",
      "proba_marche": 0.8628,
      "proba": 0.8628,
@@ -2624,7 +2624,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4953,
+     "proba_modele": 0.5007,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6344,
      "proba": 0.6344,
@@ -2634,7 +2634,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.5908,
+     "proba_modele": 0.5863,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6216,
      "proba": 0.6216,
@@ -2644,7 +2644,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2455,
+     "proba_modele": 0.2419,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2627,
      "proba": 0.2627,
@@ -2654,111 +2654,111 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.4419,
+     "proba_modele": 0.447,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4419,
-     "cote_juste": 2.26,
-     "cote_minimum": 2.38,
+     "proba": 0.447,
+     "cote_juste": 2.24,
+     "cote_minimum": 2.35,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6196,
+     "proba_modele": 0.6157,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6196,
-     "cote_juste": 1.61,
-     "cote_minimum": 1.69,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "-8.5 corners",
-     "proba_modele": 0.3804,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.3804,
-     "cote_juste": 2.63,
-     "cote_minimum": 2.76,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "+9.5 corners",
-     "proba_modele": 0.5108,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.5108,
-     "cote_juste": 1.96,
-     "cote_minimum": 2.06,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "-9.5 corners",
-     "proba_modele": 0.4892,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.4892,
-     "cote_juste": 2.04,
-     "cote_minimum": 2.15,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "+10.5 corners",
-     "proba_modele": 0.3861,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.3861,
-     "cote_juste": 2.59,
-     "cote_minimum": 2.72,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "-10.5 corners",
-     "proba_modele": 0.6139,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.6139,
-     "cote_juste": 1.63,
+     "proba": 0.6157,
+     "cote_juste": 1.62,
      "cote_minimum": 1.71,
      "cote_moyenne_marche": null
     },
     {
-     "marche": "+3.5 cartons",
-     "proba_modele": 0.4252,
+     "marche": "-8.5 corners",
+     "proba_modele": 0.3843,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4252,
-     "cote_juste": 2.35,
-     "cote_minimum": 2.47,
+     "proba": 0.3843,
+     "cote_juste": 2.6,
+     "cote_minimum": 2.73,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+9.5 corners",
+     "proba_modele": 0.5065,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5065,
+     "cote_juste": 1.97,
+     "cote_minimum": 2.07,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-9.5 corners",
+     "proba_modele": 0.4935,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4935,
+     "cote_juste": 2.03,
+     "cote_minimum": 2.13,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+10.5 corners",
+     "proba_modele": 0.3818,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3818,
+     "cote_juste": 2.62,
+     "cote_minimum": 2.75,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-10.5 corners",
+     "proba_modele": 0.6182,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6182,
+     "cote_juste": 1.62,
+     "cote_minimum": 1.7,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+3.5 cartons",
+     "proba_modele": 0.4209,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4209,
+     "cote_juste": 2.38,
+     "cote_minimum": 2.49,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.5748,
+     "proba_modele": 0.5791,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5748,
-     "cote_juste": 1.74,
-     "cote_minimum": 1.83,
+     "proba": 0.5791,
+     "cote_juste": 1.73,
+     "cote_minimum": 1.81,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.2468,
+     "proba_modele": 0.2427,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2468,
-     "cote_juste": 4.05,
-     "cote_minimum": 4.26,
+     "proba": 0.2427,
+     "cote_juste": 4.12,
+     "cote_minimum": 4.33,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.7532,
+     "proba_modele": 0.7573,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7532,
-     "cote_juste": 1.33,
+     "proba": 0.7573,
+     "cote_juste": 1.32,
      "cote_minimum": 1.39,
      "cote_moyenne_marche": null
     }
@@ -2797,8 +2797,8 @@
    "div": "P1",
    "coup_envoi": "2026-11-02 21:15",
    "buts_attendus": {
-    "dom": 2.48,
-    "ext": 0.84
+    "dom": 2.5,
+    "ext": 0.83
    },
    "lambda_boost": {
     "dom": 2.781,
@@ -2811,7 +2811,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.7405,
+     "proba_modele": 0.746,
      "source_marche": "Pinnacle",
      "proba_marche": 0.84,
      "proba": 0.84,
@@ -2824,7 +2824,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.1903,
+     "proba_modele": 0.1883,
      "source_marche": "Pinnacle",
      "proba_marche": 0.1049,
      "proba": 0.1049,
@@ -2837,7 +2837,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.0962,
+     "proba_modele": 0.0933,
      "source_marche": "Pinnacle",
      "proba_marche": 0.0551,
      "proba": 0.0551,
@@ -2850,7 +2850,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.9039,
+     "proba_modele": 0.9068,
      "source_marche": "Pinnacle",
      "proba_marche": 0.9449,
      "proba": 0.9449,
@@ -2860,7 +2860,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.81,
+     "proba_modele": 0.8121,
      "source_marche": "Pinnacle",
      "proba_marche": 0.8951,
      "proba": 0.8951,
@@ -2870,7 +2870,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.2596,
+     "proba_modele": 0.2541,
      "source_marche": "Pinnacle",
      "proba_marche": 0.16,
      "proba": 0.16,
@@ -2880,7 +2880,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.8293,
+     "proba_modele": 0.8301,
      "source_marche": "Pinnacle",
      "proba_marche": 0.863,
      "proba": 0.863,
@@ -2890,7 +2890,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.1707,
+     "proba_modele": 0.1699,
      "source_marche": "Pinnacle",
      "proba_marche": 0.137,
      "proba": 0.137,
@@ -2900,7 +2900,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.6303,
+     "proba_modele": 0.6316,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7137,
      "proba": 0.7137,
@@ -2910,7 +2910,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.3697,
+     "proba_modele": 0.3684,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2863,
      "proba": 0.2863,
@@ -2920,7 +2920,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.3869,
+     "proba_modele": 0.3881,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5116,
      "proba": 0.5116,
@@ -2930,7 +2930,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.6131,
+     "proba_modele": 0.6119,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4884,
      "proba": 0.4884,
@@ -2940,7 +2940,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5595,
+     "proba_modele": 0.5577,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4742,
      "proba": 0.4742,
@@ -2950,7 +2950,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4405,
+     "proba_modele": 0.4423,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5258,
      "proba": 0.5258,
@@ -2960,7 +2960,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.9201,
+     "proba_modele": 0.9216,
      "source_marche": "4 bookmakers",
      "proba_marche": 0.9206,
      "proba": 0.9206,
@@ -2970,7 +2970,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.6897,
+     "proba_modele": 0.6933,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7586,
      "proba": 0.7586,
@@ -2980,7 +2980,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6009,
+     "proba_modele": 0.5971,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4661,
      "proba": 0.4661,
@@ -2990,7 +2990,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2537,
+     "proba_modele": 0.2506,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.1703,
      "proba": 0.1703,
@@ -3000,112 +3000,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.4305,
+     "proba_modele": 0.4348,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4305,
-     "cote_juste": 2.32,
-     "cote_minimum": 2.44,
+     "proba": 0.4348,
+     "cote_juste": 2.3,
+     "cote_minimum": 2.41,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6184,
+     "proba_modele": 0.6238,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6184,
-     "cote_juste": 1.62,
-     "cote_minimum": 1.7,
+     "proba": 0.6238,
+     "cote_juste": 1.6,
+     "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3816,
+     "proba_modele": 0.3762,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3816,
-     "cote_juste": 2.62,
-     "cote_minimum": 2.75,
+     "proba": 0.3762,
+     "cote_juste": 2.66,
+     "cote_minimum": 2.79,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5096,
+     "proba_modele": 0.5157,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5096,
-     "cote_juste": 1.96,
-     "cote_minimum": 2.06,
+     "proba": 0.5157,
+     "cote_juste": 1.94,
+     "cote_minimum": 2.04,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4904,
+     "proba_modele": 0.4843,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4904,
-     "cote_juste": 2.04,
-     "cote_minimum": 2.14,
+     "proba": 0.4843,
+     "cote_juste": 2.06,
+     "cote_minimum": 2.17,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3848,
+     "proba_modele": 0.3909,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3848,
-     "cote_juste": 2.6,
-     "cote_minimum": 2.73,
+     "proba": 0.3909,
+     "cote_juste": 2.56,
+     "cote_minimum": 2.69,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6152,
+     "proba_modele": 0.6091,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6152,
-     "cote_juste": 1.63,
-     "cote_minimum": 1.71,
+     "proba": 0.6091,
+     "cote_juste": 1.64,
+     "cote_minimum": 1.72,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6394,
+     "proba_modele": 0.6416,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6394,
+     "proba": 0.6416,
      "cote_juste": 1.56,
      "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3606,
+     "proba_modele": 0.3584,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3606,
-     "cote_juste": 2.77,
-     "cote_minimum": 2.91,
+     "proba": 0.3584,
+     "cote_juste": 2.79,
+     "cote_minimum": 2.93,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.4702,
+     "proba_modele": 0.4726,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4702,
-     "cote_juste": 2.13,
-     "cote_minimum": 2.23,
+     "proba": 0.4726,
+     "cote_juste": 2.12,
+     "cote_minimum": 2.22,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.5298,
+     "proba_modele": 0.5274,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5298,
-     "cote_juste": 1.89,
-     "cote_minimum": 1.98,
+     "proba": 0.5274,
+     "cote_juste": 1.9,
+     "cote_minimum": 1.99,
      "cote_moyenne_marche": null
     }
    ],
@@ -3143,8 +3143,8 @@
    "div": "P1",
    "coup_envoi": "2026-11-02 21:15",
    "buts_attendus": {
-    "dom": 1.21,
-    "ext": 0.95
+    "dom": 1.22,
+    "ext": 0.93
    },
    "lambda_boost": {
     "dom": 1.142,
@@ -3157,7 +3157,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.4233,
+     "proba_modele": 0.43,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3219,
      "proba": 0.3219,
@@ -3167,7 +3167,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2961,
+     "proba_modele": 0.2956,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3136,
      "proba": 0.3136,
@@ -3177,7 +3177,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.2693,
+     "proba_modele": 0.2637,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3645,
      "proba": 0.3645,
@@ -3187,7 +3187,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.7307,
+     "proba_modele": 0.7364,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6355,
      "proba": 0.6355,
@@ -3197,7 +3197,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7036,
+     "proba_modele": 0.7042,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6864,
      "proba": 0.6864,
@@ -3207,7 +3207,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.5767,
+     "proba_modele": 0.57,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6781,
      "proba": 0.6781,
@@ -3217,7 +3217,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.711,
+     "proba_modele": 0.7112,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6933,
      "proba": 0.6933,
@@ -3227,7 +3227,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.289,
+     "proba_modele": 0.2888,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3067,
      "proba": 0.3067,
@@ -3237,7 +3237,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.4559,
+     "proba_modele": 0.4562,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4275,
      "proba": 0.4275,
@@ -3247,7 +3247,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.5441,
+     "proba_modele": 0.5438,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5725,
      "proba": 0.5725,
@@ -3257,7 +3257,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2338,
+     "proba_modele": 0.234,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2336,
      "proba": 0.2336,
@@ -3267,7 +3267,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7662,
+     "proba_modele": 0.766,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7664,
      "proba": 0.7664,
@@ -3277,7 +3277,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5044,
+     "proba_modele": 0.5039,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4977,
      "proba": 0.4977,
@@ -3287,7 +3287,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4956,
+     "proba_modele": 0.4961,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5023,
      "proba": 0.5023,
@@ -3297,7 +3297,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.7391,
+     "proba_modele": 0.7423,
      "source_marche": "Pinnacle",
      "proba_marche": 0.69,
      "proba": 0.69,
@@ -3307,7 +3307,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.3819,
+     "proba_modele": 0.386,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3167,
      "proba": 0.3167,
@@ -3317,7 +3317,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.638,
+     "proba_modele": 0.6341,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7127,
      "proba": 0.7127,
@@ -3327,7 +3327,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2853,
+     "proba_modele": 0.2818,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3515,
      "proba": 0.3515,
@@ -3337,112 +3337,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3885,
+     "proba_modele": 0.3931,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3885,
-     "cote_juste": 2.57,
-     "cote_minimum": 2.7,
+     "proba": 0.3931,
+     "cote_juste": 2.54,
+     "cote_minimum": 2.67,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5843,
+     "proba_modele": 0.5836,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5843,
+     "proba": 0.5836,
      "cote_juste": 1.71,
      "cote_minimum": 1.8,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4157,
+     "proba_modele": 0.4164,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4157,
-     "cote_juste": 2.41,
-     "cote_minimum": 2.53,
+     "proba": 0.4164,
+     "cote_juste": 2.4,
+     "cote_minimum": 2.52,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.4712,
+     "proba_modele": 0.4704,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4712,
-     "cote_juste": 2.12,
+     "proba": 0.4704,
+     "cote_juste": 2.13,
      "cote_minimum": 2.23,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.5288,
+     "proba_modele": 0.5296,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5288,
+     "proba": 0.5296,
      "cote_juste": 1.89,
-     "cote_minimum": 1.99,
+     "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3473,
+     "proba_modele": 0.3465,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3473,
-     "cote_juste": 2.88,
-     "cote_minimum": 3.02,
+     "proba": 0.3465,
+     "cote_juste": 2.89,
+     "cote_minimum": 3.03,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6527,
+     "proba_modele": 0.6535,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6527,
+     "proba": 0.6535,
      "cote_juste": 1.53,
      "cote_minimum": 1.61,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6292,
+     "proba_modele": 0.6267,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6292,
-     "cote_juste": 1.59,
-     "cote_minimum": 1.67,
+     "proba": 0.6267,
+     "cote_juste": 1.6,
+     "cote_minimum": 1.68,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3708,
+     "proba_modele": 0.3733,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3708,
-     "cote_juste": 2.7,
-     "cote_minimum": 2.83,
+     "proba": 0.3733,
+     "cote_juste": 2.68,
+     "cote_minimum": 2.81,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.4586,
+     "proba_modele": 0.4558,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4586,
-     "cote_juste": 2.18,
-     "cote_minimum": 2.29,
+     "proba": 0.4558,
+     "cote_juste": 2.19,
+     "cote_minimum": 2.3,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.5414,
+     "proba_modele": 0.5442,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5414,
-     "cote_juste": 1.85,
-     "cote_minimum": 1.94,
+     "proba": 0.5442,
+     "cote_juste": 1.84,
+     "cote_minimum": 1.93,
      "cote_moyenne_marche": null
     }
    ],
@@ -3481,7 +3481,7 @@
    "coup_envoi": "2026-11-02 21:00",
    "buts_attendus": {
     "dom": 1.63,
-    "ext": 0.97
+    "ext": 0.98
    },
    "lambda_boost": {
     "dom": 1.358,
@@ -3489,12 +3489,12 @@
     "source": "marché"
    },
    "corners_attendus": null,
-   "cartons_attendus": 4.5,
+   "cartons_attendus": 4.6,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5331,
+     "proba_modele": 0.5323,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4418,
      "proba": 0.4418,
@@ -3507,7 +3507,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2613,
+     "proba_modele": 0.2612,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2959,
      "proba": 0.2959,
@@ -3520,7 +3520,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.2086,
+     "proba_modele": 0.2095,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2622,
      "proba": 0.2622,
@@ -3533,7 +3533,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.7915,
+     "proba_modele": 0.7906,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7378,
      "proba": 0.7378,
@@ -3543,7 +3543,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7387,
+     "proba_modele": 0.7388,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7041,
      "proba": 0.7041,
@@ -3553,7 +3553,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.467,
+     "proba_modele": 0.4678,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5582,
      "proba": 0.5582,
@@ -3563,7 +3563,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7644,
+     "proba_modele": 0.7649,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6868,
      "proba": 0.6868,
@@ -3573,7 +3573,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2356,
+     "proba_modele": 0.2351,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3132,
      "proba": 0.3132,
@@ -3583,7 +3583,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5306,
+     "proba_modele": 0.5314,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4278,
      "proba": 0.4278,
@@ -3596,7 +3596,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4694,
+     "proba_modele": 0.4686,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5722,
      "proba": 0.5722,
@@ -3609,7 +3609,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2952,
+     "proba_modele": 0.2959,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.2366,
      "proba": 0.2366,
@@ -3619,7 +3619,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7048,
+     "proba_modele": 0.7041,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.7634,
      "proba": 0.7634,
@@ -3629,7 +3629,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5469,
+     "proba_modele": 0.5477,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4923,
      "proba": 0.4923,
@@ -3639,7 +3639,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4531,
+     "proba_modele": 0.4523,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5077,
      "proba": 0.5077,
@@ -3649,7 +3649,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8252,
+     "proba_modele": 0.8254,
      "source_marche": "Pinnacle",
      "proba_marche": 0.747,
      "proba": 0.747,
@@ -3659,7 +3659,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.5039,
+     "proba_modele": 0.5042,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4,
      "proba": 0.4,
@@ -3669,7 +3669,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6476,
+     "proba_modele": 0.6489,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6377,
      "proba": 0.6377,
@@ -3679,7 +3679,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.2939,
+     "proba_modele": 0.2951,
      "source_marche": "Pinnacle",
      "proba_marche": 0.268,
      "proba": 0.268,
@@ -3689,112 +3689,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3777,
+     "proba_modele": 0.3762,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3777,
-     "cote_juste": 2.65,
-     "cote_minimum": 2.78,
+     "proba": 0.3762,
+     "cote_juste": 2.66,
+     "cote_minimum": 2.79,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6317,
+     "proba_modele": 0.6346,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6317,
+     "proba": 0.6346,
      "cote_juste": 1.58,
-     "cote_minimum": 1.66,
+     "cote_minimum": 1.65,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3683,
+     "proba_modele": 0.3654,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3683,
-     "cote_juste": 2.72,
-     "cote_minimum": 2.85,
+     "proba": 0.3654,
+     "cote_juste": 2.74,
+     "cote_minimum": 2.87,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5246,
+     "proba_modele": 0.5279,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5246,
-     "cote_juste": 1.91,
-     "cote_minimum": 2.0,
+     "proba": 0.5279,
+     "cote_juste": 1.89,
+     "cote_minimum": 1.99,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4754,
+     "proba_modele": 0.4721,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4754,
-     "cote_juste": 2.1,
-     "cote_minimum": 2.21,
+     "proba": 0.4721,
+     "cote_juste": 2.12,
+     "cote_minimum": 2.22,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3998,
+     "proba_modele": 0.4031,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3998,
-     "cote_juste": 2.5,
-     "cote_minimum": 2.63,
+     "proba": 0.4031,
+     "cote_juste": 2.48,
+     "cote_minimum": 2.61,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6002,
+     "proba_modele": 0.5969,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6002,
-     "cote_juste": 1.67,
-     "cote_minimum": 1.75,
+     "proba": 0.5969,
+     "cote_juste": 1.68,
+     "cote_minimum": 1.76,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6118,
+     "proba_modele": 0.6158,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6118,
-     "cote_juste": 1.63,
-     "cote_minimum": 1.72,
+     "proba": 0.6158,
+     "cote_juste": 1.62,
+     "cote_minimum": 1.71,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3882,
+     "proba_modele": 0.3842,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3882,
-     "cote_juste": 2.58,
-     "cote_minimum": 2.7,
+     "proba": 0.3842,
+     "cote_juste": 2.6,
+     "cote_minimum": 2.73,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.439,
+     "proba_modele": 0.4435,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.439,
-     "cote_juste": 2.28,
-     "cote_minimum": 2.39,
+     "proba": 0.4435,
+     "cote_juste": 2.25,
+     "cote_minimum": 2.37,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.561,
+     "proba_modele": 0.5565,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.561,
-     "cote_juste": 1.78,
-     "cote_minimum": 1.87,
+     "proba": 0.5565,
+     "cote_juste": 1.8,
+     "cote_minimum": 1.89,
      "cote_moyenne_marche": null
     }
    ],
@@ -3832,21 +3832,21 @@
    "div": "SP2",
    "coup_envoi": "2026-11-02 16:15",
    "buts_attendus": {
-    "dom": 1.83,
+    "dom": 1.84,
     "ext": 1.04
    },
    "lambda_boost": {
-    "dom": 1.665,
+    "dom": 1.664,
     "ext": 0.955,
     "source": "marché"
    },
    "corners_attendus": null,
-   "cartons_attendus": 5.5,
+   "cartons_attendus": 5.4,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5661,
+     "proba_modele": 0.5675,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5622,
      "proba": 0.5622,
@@ -3859,7 +3859,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.246,
+     "proba_modele": 0.2451,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2448,
      "proba": 0.2448,
@@ -3872,7 +3872,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.196,
+     "proba_modele": 0.1956,
      "source_marche": "Pinnacle",
      "proba_marche": 0.193,
      "proba": 0.193,
@@ -3885,7 +3885,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.804,
+     "proba_modele": 0.8045,
      "source_marche": "Pinnacle",
      "proba_marche": 0.807,
      "proba": 0.807,
@@ -3895,7 +3895,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7541,
+     "proba_modele": 0.755,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7552,
      "proba": 0.7552,
@@ -3905,7 +3905,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.4341,
+     "proba_modele": 0.4326,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4378,
      "proba": 0.4378,
@@ -3915,7 +3915,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.791,
+     "proba_modele": 0.7926,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7332,
      "proba": 0.7332,
@@ -3925,7 +3925,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.209,
+     "proba_modele": 0.2074,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2668,
      "proba": 0.2668,
@@ -3935,7 +3935,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.5703,
+     "proba_modele": 0.5727,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4936,
      "proba": 0.4936,
@@ -3945,7 +3945,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.4297,
+     "proba_modele": 0.4273,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5064,
      "proba": 0.5064,
@@ -3955,7 +3955,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.3303,
+     "proba_modele": 0.3325,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2815,
      "proba": 0.2815,
@@ -3965,7 +3965,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.6697,
+     "proba_modele": 0.6675,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7185,
      "proba": 0.7185,
@@ -3975,7 +3975,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5717,
+     "proba_modele": 0.5733,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5094,
      "proba": 0.5094,
@@ -3985,7 +3985,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4283,
+     "proba_modele": 0.4267,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4906,
      "proba": 0.4906,
@@ -3995,7 +3995,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8552,
+     "proba_modele": 0.8568,
      "source_marche": "5 bookmakers",
      "proba_marche": 0.8074,
      "proba": 0.8074,
@@ -4005,7 +4005,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.5551,
+     "proba_modele": 0.5579,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5143,
      "proba": 0.5143,
@@ -4015,7 +4015,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.6686,
+     "proba_modele": 0.6702,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6055,
      "proba": 0.6055,
@@ -4025,7 +4025,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.3133,
+     "proba_modele": 0.3148,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2399,
      "proba": 0.2399,
@@ -4035,112 +4035,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3538,
+     "proba_modele": 0.352,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3538,
-     "cote_juste": 2.83,
-     "cote_minimum": 2.97,
+     "proba": 0.352,
+     "cote_juste": 2.84,
+     "cote_minimum": 2.98,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6689,
+     "proba_modele": 0.6732,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6689,
-     "cote_juste": 1.5,
-     "cote_minimum": 1.57,
+     "proba": 0.6732,
+     "cote_juste": 1.49,
+     "cote_minimum": 1.56,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3311,
+     "proba_modele": 0.3268,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3311,
-     "cote_juste": 3.02,
-     "cote_minimum": 3.17,
+     "proba": 0.3268,
+     "cote_juste": 3.06,
+     "cote_minimum": 3.21,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5671,
+     "proba_modele": 0.572,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5671,
-     "cote_juste": 1.76,
-     "cote_minimum": 1.85,
+     "proba": 0.572,
+     "cote_juste": 1.75,
+     "cote_minimum": 1.84,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4329,
+     "proba_modele": 0.428,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4329,
-     "cote_juste": 2.31,
-     "cote_minimum": 2.43,
+     "proba": 0.428,
+     "cote_juste": 2.34,
+     "cote_minimum": 2.45,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.4425,
+     "proba_modele": 0.4475,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4425,
-     "cote_juste": 2.26,
-     "cote_minimum": 2.37,
+     "proba": 0.4475,
+     "cote_juste": 2.23,
+     "cote_minimum": 2.35,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.5575,
+     "proba_modele": 0.5525,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5575,
-     "cote_juste": 1.79,
-     "cote_minimum": 1.88,
+     "proba": 0.5525,
+     "cote_juste": 1.81,
+     "cote_minimum": 1.9,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6846,
+     "proba_modele": 0.6818,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6846,
-     "cote_juste": 1.46,
-     "cote_minimum": 1.53,
+     "proba": 0.6818,
+     "cote_juste": 1.47,
+     "cote_minimum": 1.54,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3154,
+     "proba_modele": 0.3182,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3154,
-     "cote_juste": 3.17,
-     "cote_minimum": 3.33,
+     "proba": 0.3182,
+     "cote_juste": 3.14,
+     "cote_minimum": 3.3,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.5224,
+     "proba_modele": 0.5191,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5224,
-     "cote_juste": 1.91,
-     "cote_minimum": 2.01,
+     "proba": 0.5191,
+     "cote_juste": 1.93,
+     "cote_minimum": 2.02,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.4776,
+     "proba_modele": 0.4809,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4776,
-     "cote_juste": 2.09,
-     "cote_minimum": 2.2,
+     "proba": 0.4809,
+     "cote_juste": 2.08,
+     "cote_minimum": 2.18,
      "cote_moyenne_marche": null
     }
    ],
@@ -4192,7 +4192,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.5274,
+     "proba_modele": 0.5295,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4712,
      "proba": 0.4712,
@@ -4205,7 +4205,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2729,
+     "proba_modele": 0.2722,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2727,
      "proba": 0.2727,
@@ -4218,7 +4218,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.1997,
+     "proba_modele": 0.1986,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2561,
      "proba": 0.2561,
@@ -4231,7 +4231,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.8004,
+     "proba_modele": 0.8015,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7439,
      "proba": 0.7439,
@@ -4241,7 +4241,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.727,
+     "proba_modele": 0.7277,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7273,
      "proba": 0.7273,
@@ -4251,7 +4251,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.4726,
+     "proba_modele": 0.4706,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5288,
      "proba": 0.5288,
@@ -4261,7 +4261,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7369,
+     "proba_modele": 0.7378,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7028,
      "proba": 0.7028,
@@ -4271,7 +4271,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2631,
+     "proba_modele": 0.2622,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2972,
      "proba": 0.2972,
@@ -4281,7 +4281,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.4914,
+     "proba_modele": 0.4926,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4464,
      "proba": 0.4464,
@@ -4291,7 +4291,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.5086,
+     "proba_modele": 0.5074,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5536,
      "proba": 0.5536,
@@ -4301,7 +4301,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2622,
+     "proba_modele": 0.2633,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2433,
      "proba": 0.2433,
@@ -4311,7 +4311,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7378,
+     "proba_modele": 0.7368,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7567,
      "proba": 0.7567,
@@ -4321,7 +4321,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.5161,
+     "proba_modele": 0.5167,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5081,
      "proba": 0.5081,
@@ -4331,7 +4331,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.4839,
+     "proba_modele": 0.4833,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4919,
      "proba": 0.4919,
@@ -4341,7 +4341,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.8021,
+     "proba_modele": 0.8035,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7633,
      "proba": 0.7633,
@@ -4351,7 +4351,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.468,
+     "proba_modele": 0.4702,
      "source_marche": "Pinnacle",
      "proba_marche": 0.43,
      "proba": 0.43,
@@ -4381,110 +4381,110 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.4227,
+     "proba_modele": 0.4228,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4227,
+     "proba": 0.4228,
      "cote_juste": 2.37,
      "cote_minimum": 2.48,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.5781,
+     "proba_modele": 0.5822,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5781,
-     "cote_juste": 1.73,
-     "cote_minimum": 1.82,
+     "proba": 0.5822,
+     "cote_juste": 1.72,
+     "cote_minimum": 1.8,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.4219,
+     "proba_modele": 0.4178,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4219,
-     "cote_juste": 2.37,
-     "cote_minimum": 2.49,
+     "proba": 0.4178,
+     "cote_juste": 2.39,
+     "cote_minimum": 2.51,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.4643,
+     "proba_modele": 0.4689,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4643,
-     "cote_juste": 2.15,
-     "cote_minimum": 2.26,
+     "proba": 0.4689,
+     "cote_juste": 2.13,
+     "cote_minimum": 2.24,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.5357,
+     "proba_modele": 0.5311,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5357,
-     "cote_juste": 1.87,
-     "cote_minimum": 1.96,
+     "proba": 0.5311,
+     "cote_juste": 1.88,
+     "cote_minimum": 1.98,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.3405,
+     "proba_modele": 0.345,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3405,
-     "cote_juste": 2.94,
-     "cote_minimum": 3.08,
+     "proba": 0.345,
+     "cote_juste": 2.9,
+     "cote_minimum": 3.04,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.6595,
+     "proba_modele": 0.655,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6595,
-     "cote_juste": 1.52,
-     "cote_minimum": 1.59,
+     "proba": 0.655,
+     "cote_juste": 1.53,
+     "cote_minimum": 1.6,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.7239,
+     "proba_modele": 0.7237,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.7239,
+     "proba": 0.7237,
      "cote_juste": 1.38,
      "cote_minimum": 1.45,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.2761,
+     "proba_modele": 0.2763,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.2761,
+     "proba": 0.2763,
      "cote_juste": 3.62,
      "cote_minimum": 3.8,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.5696,
+     "proba_modele": 0.5694,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5696,
+     "proba": 0.5694,
      "cote_juste": 1.76,
      "cote_minimum": 1.84,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.4304,
+     "proba_modele": 0.4306,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4304,
+     "proba": 0.4306,
      "cote_juste": 2.32,
      "cote_minimum": 2.44,
      "cote_moyenne_marche": null
@@ -4524,8 +4524,8 @@
    "div": "SP2",
    "coup_envoi": "2026-11-02 21:00",
    "buts_attendus": {
-    "dom": 1.47,
-    "ext": 0.53
+    "dom": 1.48,
+    "ext": 0.54
    },
    "lambda_boost": {
     "dom": 1.867,
@@ -4538,7 +4538,7 @@
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.6129,
+     "proba_modele": 0.6128,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6367,
      "proba": 0.6367,
@@ -4551,7 +4551,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2733,
+     "proba_modele": 0.2725,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2262,
      "proba": 0.2262,
@@ -4564,7 +4564,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.1196,
+     "proba_modele": 0.1207,
      "source_marche": "Pinnacle",
      "proba_marche": 0.1371,
      "proba": 0.1371,
@@ -4577,7 +4577,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.8805,
+     "proba_modele": 0.8794,
      "source_marche": "Pinnacle",
      "proba_marche": 0.8629,
      "proba": 0.8629,
@@ -4587,7 +4587,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7266,
+     "proba_modele": 0.7275,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7738,
      "proba": 0.7738,
@@ -4597,7 +4597,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.3872,
+     "proba_modele": 0.3873,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3633,
      "proba": 0.3633,
@@ -4607,7 +4607,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.6908,
+     "proba_modele": 0.6931,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7288,
      "proba": 0.7288,
@@ -4617,7 +4617,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.3092,
+     "proba_modele": 0.3069,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2712,
      "proba": 0.2712,
@@ -4627,7 +4627,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.4291,
+     "proba_modele": 0.4321,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4961,
      "proba": 0.4961,
@@ -4637,7 +4637,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.5709,
+     "proba_modele": 0.5679,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5039,
      "proba": 0.5039,
@@ -4647,7 +4647,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2131,
+     "proba_modele": 0.2154,
      "source_marche": "Pinnacle",
      "proba_marche": 0.283,
      "proba": 0.283,
@@ -4657,7 +4657,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7869,
+     "proba_modele": 0.7846,
      "source_marche": "Pinnacle",
      "proba_marche": 0.717,
      "proba": 0.717,
@@ -4667,7 +4667,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.4341,
+     "proba_modele": 0.437,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4677,
      "proba": 0.4677,
@@ -4677,7 +4677,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.5659,
+     "proba_modele": 0.563,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5323,
      "proba": 0.5323,
@@ -4687,7 +4687,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.7978,
+     "proba_modele": 0.7994,
      "source_marche": "5 bookmakers",
      "proba_marche": 0.8344,
      "proba": 0.8344,
@@ -4697,7 +4697,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.4617,
+     "proba_modele": 0.464,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5667,
      "proba": 0.5667,
@@ -4707,7 +4707,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.4579,
+     "proba_modele": 0.4622,
      "source_marche": "Pinnacle",
      "proba_marche": 0.526,
      "proba": 0.526,
@@ -4717,7 +4717,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.152,
+     "proba_modele": 0.1546,
      "source_marche": "6 bookmakers",
      "proba_marche": 0.2012,
      "proba": 0.2012,
@@ -4727,112 +4727,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.5884,
+     "proba_modele": 0.5838,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5884,
-     "cote_juste": 1.7,
-     "cote_minimum": 1.78,
+     "proba": 0.5838,
+     "cote_juste": 1.71,
+     "cote_minimum": 1.8,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6422,
+     "proba_modele": 0.6487,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6422,
-     "cote_juste": 1.56,
-     "cote_minimum": 1.63,
+     "proba": 0.6487,
+     "cote_juste": 1.54,
+     "cote_minimum": 1.62,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3578,
+     "proba_modele": 0.3513,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3578,
-     "cote_juste": 2.8,
-     "cote_minimum": 2.93,
+     "proba": 0.3513,
+     "cote_juste": 2.85,
+     "cote_minimum": 2.99,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5366,
+     "proba_modele": 0.5439,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5366,
-     "cote_juste": 1.86,
-     "cote_minimum": 1.96,
+     "proba": 0.5439,
+     "cote_juste": 1.84,
+     "cote_minimum": 1.93,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4634,
+     "proba_modele": 0.4561,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4634,
-     "cote_juste": 2.16,
-     "cote_minimum": 2.27,
+     "proba": 0.4561,
+     "cote_juste": 2.19,
+     "cote_minimum": 2.3,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.4117,
+     "proba_modele": 0.4191,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4117,
-     "cote_juste": 2.43,
-     "cote_minimum": 2.55,
+     "proba": 0.4191,
+     "cote_juste": 2.39,
+     "cote_minimum": 2.51,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-10.5 corners",
-     "proba_modele": 0.5883,
+     "proba_modele": 0.5809,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5883,
-     "cote_juste": 1.7,
-     "cote_minimum": 1.78,
+     "proba": 0.5809,
+     "cote_juste": 1.72,
+     "cote_minimum": 1.81,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+3.5 cartons",
-     "proba_modele": 0.6331,
+     "proba_modele": 0.6318,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6331,
+     "proba": 0.6318,
      "cote_juste": 1.58,
      "cote_minimum": 1.66,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-3.5 cartons",
-     "proba_modele": 0.3669,
+     "proba_modele": 0.3682,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3669,
-     "cote_juste": 2.73,
-     "cote_minimum": 2.86,
+     "proba": 0.3682,
+     "cote_juste": 2.72,
+     "cote_minimum": 2.85,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+4.5 cartons",
-     "proba_modele": 0.463,
+     "proba_modele": 0.4615,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.463,
-     "cote_juste": 2.16,
-     "cote_minimum": 2.27,
+     "proba": 0.4615,
+     "cote_juste": 2.17,
+     "cote_minimum": 2.28,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-4.5 cartons",
-     "proba_modele": 0.537,
+     "proba_modele": 0.5385,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.537,
+     "proba": 0.5385,
      "cote_juste": 1.86,
-     "cote_minimum": 1.96,
+     "cote_minimum": 1.95,
      "cote_moyenne_marche": null
     }
    ],
@@ -4870,7 +4870,7 @@
    "div": "T1",
    "coup_envoi": "2026-11-02 18:00",
    "buts_attendus": {
-    "dom": 1.18,
+    "dom": 1.17,
     "ext": 1.18
    },
    "lambda_boost": {
@@ -4879,12 +4879,12 @@
     "source": "marché"
    },
    "corners_attendus": 10.0,
-   "cartons_attendus": 4.2,
+   "cartons_attendus": 4.3,
    "fiabilite": "bonne",
    "marches": [
     {
      "marche": "1",
-     "proba_modele": 0.3614,
+     "proba_modele": 0.3579,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3554,
      "proba": 0.3554,
@@ -4894,7 +4894,7 @@
     },
     {
      "marche": "N",
-     "proba_modele": 0.2869,
+     "proba_modele": 0.2871,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2879,
      "proba": 0.2879,
@@ -4904,7 +4904,7 @@
     },
     {
      "marche": "2",
-     "proba_modele": 0.3407,
+     "proba_modele": 0.3438,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3567,
      "proba": 0.3567,
@@ -4914,7 +4914,7 @@
     },
     {
      "marche": "1N",
-     "proba_modele": 0.6593,
+     "proba_modele": 0.6562,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6433,
      "proba": 0.6433,
@@ -4924,7 +4924,7 @@
     },
     {
      "marche": "12",
-     "proba_modele": 0.7129,
+     "proba_modele": 0.7127,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7121,
      "proba": 0.7121,
@@ -4934,7 +4934,7 @@
     },
     {
      "marche": "N2",
-     "proba_modele": 0.6386,
+     "proba_modele": 0.6421,
      "source_marche": "Pinnacle",
      "proba_marche": 0.6446,
      "proba": 0.6446,
@@ -4944,7 +4944,7 @@
     },
     {
      "marche": "+1.5 buts",
-     "proba_modele": 0.7362,
+     "proba_modele": 0.7357,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7284,
      "proba": 0.7284,
@@ -4954,7 +4954,7 @@
     },
     {
      "marche": "-1.5 buts",
-     "proba_modele": 0.2638,
+     "proba_modele": 0.2643,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2716,
      "proba": 0.2716,
@@ -4964,7 +4964,7 @@
     },
     {
      "marche": "+2.5 buts",
-     "proba_modele": 0.4904,
+     "proba_modele": 0.4898,
      "source_marche": "Pinnacle",
      "proba_marche": 0.4756,
      "proba": 0.4756,
@@ -4974,7 +4974,7 @@
     },
     {
      "marche": "-2.5 buts",
-     "proba_modele": 0.5096,
+     "proba_modele": 0.5102,
      "source_marche": "Pinnacle",
      "proba_marche": 0.5244,
      "proba": 0.5244,
@@ -4984,7 +4984,7 @@
     },
     {
      "marche": "+3.5 buts",
-     "proba_modele": 0.2615,
+     "proba_modele": 0.2609,
      "source_marche": "Pinnacle",
      "proba_marche": 0.2673,
      "proba": 0.2673,
@@ -4994,7 +4994,7 @@
     },
     {
      "marche": "-3.5 buts",
-     "proba_modele": 0.7385,
+     "proba_modele": 0.7391,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7327,
      "proba": 0.7327,
@@ -5004,7 +5004,7 @@
     },
     {
      "marche": "Les 2 marquent : oui",
-     "proba_modele": 0.534,
+     "proba_modele": 0.5335,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.5245,
      "proba": 0.5245,
@@ -5014,7 +5014,7 @@
     },
     {
      "marche": "Les 2 marquent : non",
-     "proba_modele": 0.466,
+     "proba_modele": 0.4665,
      "source_marche": "7 bookmakers",
      "proba_marche": 0.4755,
      "proba": 0.4755,
@@ -5024,7 +5024,7 @@
     },
     {
      "marche": "Dom. +0.5 but",
-     "proba_modele": 0.7314,
+     "proba_modele": 0.7291,
      "source_marche": "Pinnacle",
      "proba_marche": 0.7248,
      "proba": 0.7248,
@@ -5034,7 +5034,7 @@
     },
     {
      "marche": "Dom. +1.5 but",
-     "proba_modele": 0.3723,
+     "proba_modele": 0.3696,
      "source_marche": "Pinnacle",
      "proba_marche": 0.3654,
      "proba": 0.3654,
@@ -5044,7 +5044,7 @@
     },
     {
      "marche": "Ext. +0.5 but",
-     "proba_modele": 0.7085,
+     "proba_modele": 0.7097,
      "source_marche": "Pinnacle",
      "proba_marche": 0.723,
      "proba": 0.723,
@@ -5054,7 +5054,7 @@
     },
     {
      "marche": "Ext. +1.5 but",
-     "proba_modele": 0.3527,
+     "proba_modele": 0.354,
      "source_marche": "Pinnacle",
      "proba_marche": 0.368,
      "proba": 0.368,
@@ -5064,112 +5064,112 @@
     },
     {
      "marche": "Dom. ou nul, les 2 marquent : non",
-     "proba_modele": 0.3084,
+     "proba_modele": 0.307,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3084,
-     "cote_juste": 3.24,
-     "cote_minimum": 3.4,
+     "proba": 0.307,
+     "cote_juste": 3.26,
+     "cote_minimum": 3.42,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+8.5 corners",
-     "proba_modele": 0.6432,
+     "proba_modele": 0.6407,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.6432,
-     "cote_juste": 1.55,
-     "cote_minimum": 1.63,
+     "proba": 0.6407,
+     "cote_juste": 1.56,
+     "cote_minimum": 1.64,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-8.5 corners",
-     "proba_modele": 0.3568,
+     "proba_modele": 0.3593,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.3568,
-     "cote_juste": 2.8,
-     "cote_minimum": 2.94,
+     "proba": 0.3593,
+     "cote_juste": 2.78,
+     "cote_minimum": 2.92,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+9.5 corners",
-     "proba_modele": 0.5377,
+     "proba_modele": 0.5348,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5377,
-     "cote_juste": 1.86,
-     "cote_minimum": 1.95,
+     "proba": 0.5348,
+     "cote_juste": 1.87,
+     "cote_minimum": 1.96,
      "cote_moyenne_marche": null
     },
     {
      "marche": "-9.5 corners",
-     "proba_modele": 0.4623,
+     "proba_modele": 0.4652,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4623,
-     "cote_juste": 2.16,
-     "cote_minimum": 2.27,
+     "proba": 0.4652,
+     "cote_juste": 2.15,
+     "cote_minimum": 2.26,
      "cote_moyenne_marche": null
     },
     {
      "marche": "+10.5 corners",
-     "proba_modele": 0.4128,
+     "proba_modele": 0.41,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.4128,
+     "proba": 0.41,
+     "cote_juste": 2.44,
+     "cote_minimum": 2.56,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-10.5 corners",
+     "proba_modele": 0.59,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.59,
+     "cote_juste": 1.69,
+     "cote_minimum": 1.78,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+3.5 cartons",
+     "proba_modele": 0.5883,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5883,
+     "cote_juste": 1.7,
+     "cote_minimum": 1.78,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 cartons",
+     "proba_modele": 0.4117,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4117,
+     "cote_juste": 2.43,
+     "cote_minimum": 2.55,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+4.5 cartons",
+     "proba_modele": 0.4132,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4132,
      "cote_juste": 2.42,
      "cote_minimum": 2.54,
      "cote_moyenne_marche": null
     },
     {
-     "marche": "-10.5 corners",
-     "proba_modele": 0.5872,
+     "marche": "-4.5 cartons",
+     "proba_modele": 0.5868,
      "source_marche": null,
      "proba_marche": null,
-     "proba": 0.5872,
+     "proba": 0.5868,
      "cote_juste": 1.7,
      "cote_minimum": 1.79,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "+3.5 cartons",
-     "proba_modele": 0.5834,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.5834,
-     "cote_juste": 1.71,
-     "cote_minimum": 1.8,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "-3.5 cartons",
-     "proba_modele": 0.4166,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.4166,
-     "cote_juste": 2.4,
-     "cote_minimum": 2.52,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "+4.5 cartons",
-     "proba_modele": 0.4078,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.4078,
-     "cote_juste": 2.45,
-     "cote_minimum": 2.57,
-     "cote_moyenne_marche": null
-    },
-    {
-     "marche": "-4.5 cartons",
-     "proba_modele": 0.5922,
-     "source_marche": null,
-     "proba_marche": null,
-     "proba": 0.5922,
-     "cote_juste": 1.69,
-     "cote_minimum": 1.77,
      "cote_moyenne_marche": null
     }
    ],
