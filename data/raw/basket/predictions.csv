@@ -84,3 +84,18 @@ id,date,league,home,away,mu_d,sd_d,mu_t,sd_t,mu_h,mu_a,mu_t1,mu_d1,pinnacle,book
 518209,2026-11-01T19:00:00+01:00,France - Betclic Élite,Paris,Chalon/Saone,8.45,12.1,179.78,16.0,94.1,85.7,90.4,4.58,True,9
 519621,2026-11-01T21:30:00+01:00,NBA,Orlando Magic,Boston Celtics,-7.19,13.5,221.76,19.0,107.3,114.5,114.0,-3.64,True,9
 519622,2026-11-01T23:00:00+01:00,NBA,Indiana Pacers,Brooklyn Nets,3.72,13.5,229.74,19.0,116.7,113.0,117.6,1.82,True,9
+519625,2026-11-03T01:00:00+01:00,NBA,Cleveland Cavaliers,Oklahoma City Thunder,4.0,13.5,228.22,19.0,116.1,112.1,114.1,1.8,True,9
+519626,2026-11-03T01:30:00+01:00,NBA,Philadelphia 76ers,Chicago Bulls,11.74,12.26,239.33,19.0,125.5,113.8,119.7,6.5,True,9
+519627,2026-11-03T01:30:00+01:00,NBA,Orlando Magic,Washington Wizards,2.13,13.5,225.03,19.0,113.6,111.5,112.5,0.96,True,9
+519628,2026-11-03T01:30:00+01:00,NBA,New York Knicks,Brooklyn Nets,14.84,12.26,221.42,19.0,118.1,103.3,110.7,7.57,True,9
+519629,2026-11-03T01:30:00+01:00,NBA,Indiana Pacers,Atlanta Hawks,-4.91,13.5,231.98,19.0,113.5,118.4,119.3,-2.31,True,9
+519630,2026-11-03T01:30:00+01:00,NBA,Charlotte Hornets,Detroit Pistons,-4.11,13.5,210.03,19.0,103.0,107.1,105.0,-1.96,True,9
+519631,2026-11-03T02:00:00+01:00,NBA,Dallas Mavericks,Sacramento Kings,10.52,13.21,234.45,19.0,122.5,112.0,120.5,5.26,True,9
+519632,2026-11-03T02:00:00+01:00,NBA,Memphis Grizzlies,New Orleans Pelicans,5.68,13.5,235.22,19.0,120.5,114.8,117.6,3.5,True,9
+519633,2026-11-03T02:00:00+01:00,NBA,Minnesota Timberwolves,Milwaukee Bucks,10.14,12.36,233.41,19.0,121.8,111.6,116.7,6.08,True,9
+519634,2026-11-03T02:30:00+01:00,NBA,Houston Rockets,Boston Celtics,4.75,13.5,219.89,19.0,112.3,107.6,109.9,2.5,True,9
+519635,2026-11-03T02:30:00+01:00,NBA,San Antonio Spurs,Utah Jazz,16.52,12.38,230.98,19.0,123.8,107.2,115.5,9.11,True,9
+519636,2026-11-03T03:00:00+01:00,NBA,Denver Nuggets,Portland Trail Blazers,4.27,13.5,230.47,19.0,117.4,113.1,115.2,2.5,True,9
+519637,2026-11-03T04:00:00+01:00,NBA,Los Angeles Lakers,Miami Heat,1.99,13.5,237.33,19.0,119.7,117.7,123.1,1.02,True,8
+519638,2026-11-03T04:00:00+01:00,NBA,Los Angeles Clippers,Toronto Raptors,-5.23,13.5,219.5,19.0,107.1,112.4,106.5,-2.51,True,8
+519639,2026-11-03T04:00:00+01:00,NBA,Golden State Warriors,Phoenix Suns,4.78,13.5,227.98,19.0,116.4,111.6,117.4,2.17,True,9

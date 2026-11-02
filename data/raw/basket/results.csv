@@ -105,3 +105,8 @@ id,date,league,home,away,hs,as,h1,a1,prolongation
 519619,2026-11-01T01:00:00+01:00,NBA,Milwaukee Bucks,Cleveland Cavaliers,111,136,46,72,False
 519620,2026-11-01T01:30:00+01:00,NBA,Houston Rockets,Oklahoma City Thunder,119,98,62,51,False
 518208,2026-11-01T16:30:00+01:00,France - Betclic Élite,Saint Quentin,Lyon-Villeurbanne,99,94,45,39,False
+518209,2026-11-01T19:00:00+01:00,France - Betclic Élite,Paris,Chalon/Saone,116,112,57,58,True
+519621,2026-11-01T21:30:00+01:00,NBA,Orlando Magic,Boston Celtics,97,108,50,55,False
+519622,2026-11-01T23:00:00+01:00,NBA,Indiana Pacers,Brooklyn Nets,90,98,40,43,False
+519623,2026-11-02T02:30:00+01:00,NBA,Golden State Warriors,Los Angeles Clippers,124,112,63,57,False
+519624,2026-11-02T03:00:00+01:00,NBA,Los Angeles Lakers,Toronto Raptors,131,125,66,54,False

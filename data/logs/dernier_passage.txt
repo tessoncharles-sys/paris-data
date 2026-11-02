@@ -1,12 +1,17 @@
-Passage du 2026-11-01 18:34 UTC
-football-data : 39 fichiers ; API-Football : {'2026-11-01': '1184 matchs', '2026-11-02': '235 matchs'}
-cotes foot : 20 matchs reconnus, 8 requêtes, 38 matchs avec cotes en cache
-cotes françaises : déjà relevées aujourd'hui, rien à faire
-65 matchs analysés, 130 paris retenus
-{'matchs_historique': 29186, 'matchs_programmes': 94, 'complet': False}
-tennis : 37 matchs, 1110 cotes justes
-handball : 64 matchs suivis, 59 résultats, 1 à venir, cotes pour 1
-handball : 1 matchs, 46 cotes justes
-basket : 28 matchs suivis, 23 résultats, 4 à venir, cotes pour 2
-basket : 2 matchs, 123 cotes justes
-{'Basket': 2, 'Football': 65, 'Handball': 1, 'Tennis': 37}
+Passage du 2026-11-02 08:20 UTC
+football-data : 39 fichiers ; API-Football : {'2026-11-02': '237 matchs', '2026-11-03': '217 matchs'}
+cotes foot : 15 matchs reconnus, 15 requêtes, 15 matchs avec cotes en cache
+  crédits restants : 484, budget du jour : 16 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_nbl, basketball_ncaab, basketball_ncaab_championship_winner, basketball_wncaab
+  budget du jour atteint avant soccer_turkey_super_league
+  budget du jour atteint avant soccer_greece_super_league
+  budget du jour atteint avant soccer_england_league1
+  budget du jour atteint avant soccer_england_league2
+cotes françaises : 167 matchs, 16 crédits utilisés, 468 restants ce mois-ci
+15 matchs analysés, 30 paris retenus
+{'matchs_historique': 29191, 'matchs_programmes': 85, 'complet': False}
+tennis : 59 matchs, 1770 cotes justes
+handball : 26 matchs suivis, 26 résultats, 0 à venir, cotes pour 0
+handball : 0 matchs, 0 cotes justes
+basket : 27 matchs suivis, 11 résultats, 16 à venir, cotes pour 15
+basket : 15 matchs, 914 cotes justes
+{'Basket': 15, 'Football': 15, 'Tennis': 59}
