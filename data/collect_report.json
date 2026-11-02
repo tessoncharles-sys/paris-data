@@ -42,7 +42,7 @@
     "fixtures": "ok"
   },
   "api_football": {
-    "2026-11-02": "241 matchs",
-    "2026-11-03": "225 matchs"
+    "2026-11-02": "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}",
+    "2026-11-03": "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"
   }
 }
