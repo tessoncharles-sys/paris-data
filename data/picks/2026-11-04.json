@@ -1,0 +1,1143 @@
+{
+ "date": "2026-11-04",
+ "genere_le": "2026-11-04T08:01:42+00:00",
+ "config": {
+  "demi_vie_jours": 140,
+  "poids_tirs_cadres": 0.5,
+  "poids_modele": 0.0,
+  "marge_value": 0.05,
+  "cote_min": 1.35,
+  "cote_max": 3.0,
+  "matchs_min_fiable": 5,
+  "matchs_bon_echantillon": 10,
+  "horizon_jours": 1,
+  "marches_exclus": [
+   "corners",
+   "cartons"
+  ]
+ },
+ "matchs": [
+  {
+   "match": "Cardiff - West Ham",
+   "championnat": "Angleterre - Championship",
+   "div": "E1",
+   "coup_envoi": "2026-11-04 20:45",
+   "buts_attendus": {
+    "dom": 1.81,
+    "ext": 2.39
+   },
+   "lambda_boost": {
+    "dom": 1.519,
+    "ext": 1.967,
+    "source": "marché"
+   },
+   "corners_attendus": null,
+   "cartons_attendus": 4.0,
+   "fiabilite": "bonne",
+   "marches": [
+    {
+     "marche": "1",
+     "proba_modele": 0.2944,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2891,
+     "proba": 0.2891,
+     "cote_juste": 3.46,
+     "cote_minimum": 3.63,
+     "cote_moyenne_marche": 3.24,
+     "cote_winamax": 3.05,
+     "meilleure_cote_fr": 3.15,
+     "meilleur_operateur": "Betclic"
+    },
+    {
+     "marche": "N",
+     "proba_modele": 0.2187,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2378,
+     "proba": 0.2378,
+     "cote_juste": 4.21,
+     "cote_minimum": 4.42,
+     "cote_moyenne_marche": 3.94,
+     "cote_winamax": 3.9,
+     "meilleure_cote_fr": 3.9,
+     "meilleur_operateur": "Winamax"
+    },
+    {
+     "marche": "2",
+     "proba_modele": 0.4927,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.4731,
+     "proba": 0.4731,
+     "cote_juste": 2.11,
+     "cote_minimum": 2.22,
+     "cote_moyenne_marche": 1.98,
+     "cote_winamax": 1.88,
+     "meilleure_cote_fr": 1.88,
+     "meilleur_operateur": "PMU"
+    },
+    {
+     "marche": "1N",
+     "proba_modele": 0.5072,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.5269,
+     "proba": 0.5269,
+     "cote_juste": 1.9,
+     "cote_minimum": 1.99,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "12",
+     "proba_modele": 0.7815,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.7622,
+     "proba": 0.7622,
+     "cote_juste": 1.31,
+     "cote_minimum": 1.38,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "N2",
+     "proba_modele": 0.7055,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.7109,
+     "proba": 0.7109,
+     "cote_juste": 1.41,
+     "cote_minimum": 1.48,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+1.5 buts",
+     "proba_modele": 0.8855,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.8855,
+     "cote_juste": 1.13,
+     "cote_minimum": 1.19,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-1.5 buts",
+     "proba_modele": 0.1145,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.1145,
+     "cote_juste": 8.73,
+     "cote_minimum": 9.17,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+2.5 buts",
+     "proba_modele": 0.7272,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.6783,
+     "proba": 0.6783,
+     "cote_juste": 1.47,
+     "cote_minimum": 1.55,
+     "cote_moyenne_marche": 1.38
+    },
+    {
+     "marche": "-2.5 buts",
+     "proba_modele": 0.2728,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.3217,
+     "proba": 0.3217,
+     "cote_juste": 3.11,
+     "cote_minimum": 3.26,
+     "cote_moyenne_marche": 2.91
+    },
+    {
+     "marche": "+3.5 buts",
+     "proba_modele": 0.4889,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4889,
+     "cote_juste": 2.05,
+     "cote_minimum": 2.15,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 buts",
+     "proba_modele": 0.5112,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5112,
+     "cote_juste": 1.96,
+     "cote_minimum": 2.05,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : oui",
+     "proba_modele": 0.7041,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7041,
+     "cote_juste": 1.42,
+     "cote_minimum": 1.49,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : non",
+     "proba_modele": 0.2959,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2959,
+     "cote_juste": 3.38,
+     "cote_minimum": 3.55,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +0.5 but",
+     "proba_modele": 0.8522,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.8522,
+     "cote_juste": 1.17,
+     "cote_minimum": 1.23,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +1.5 but",
+     "proba_modele": 0.5496,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5496,
+     "cote_juste": 1.82,
+     "cote_minimum": 1.91,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +0.5 but",
+     "proba_modele": 0.9032,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.9032,
+     "cote_juste": 1.11,
+     "cote_minimum": 1.16,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +1.5 but",
+     "proba_modele": 0.627,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.627,
+     "cote_juste": 1.59,
+     "cote_minimum": 1.67,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. ou nul, les 2 marquent : non",
+     "proba_modele": 0.0919,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.0919,
+     "cote_juste": 10.88,
+     "cote_minimum": 11.42,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+8.5 corners",
+     "proba_modele": 0.7425,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7425,
+     "cote_juste": 1.35,
+     "cote_minimum": 1.41,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-8.5 corners",
+     "proba_modele": 0.2575,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2575,
+     "cote_juste": 3.88,
+     "cote_minimum": 4.08,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+9.5 corners",
+     "proba_modele": 0.6528,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6528,
+     "cote_juste": 1.53,
+     "cote_minimum": 1.61,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-9.5 corners",
+     "proba_modele": 0.3472,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3472,
+     "cote_juste": 2.88,
+     "cote_minimum": 3.02,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+10.5 corners",
+     "proba_modele": 0.5317,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5317,
+     "cote_juste": 1.88,
+     "cote_minimum": 1.97,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-10.5 corners",
+     "proba_modele": 0.4683,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4683,
+     "cote_juste": 2.14,
+     "cote_minimum": 2.24,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+3.5 cartons",
+     "proba_modele": 0.5603,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5603,
+     "cote_juste": 1.78,
+     "cote_minimum": 1.87,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 cartons",
+     "proba_modele": 0.4397,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4397,
+     "cote_juste": 2.27,
+     "cote_minimum": 2.39,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+4.5 cartons",
+     "proba_modele": 0.3828,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3828,
+     "cote_juste": 2.61,
+     "cote_minimum": 2.74,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-4.5 cartons",
+     "proba_modele": 0.6172,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6172,
+     "cote_juste": 1.62,
+     "cote_minimum": 1.7,
+     "cote_moyenne_marche": null
+    }
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "DDNDVDVNVD",
+     "bm": 1.4,
+     "be": 1.5,
+     "marque": 7,
+     "encaisse": 9,
+     "o15": 8,
+     "u35": 7,
+     "o25": 6,
+     "btts": 6
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "VVVVNNVVDD",
+     "bm": 2.9,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 6,
+     "o15": 9,
+     "u35": 3,
+     "o25": 8,
+     "btts": 6
+    }
+   },
+   "signaux": ""
+  },
+  {
+   "match": "Wrexham - Middlesbrough",
+   "championnat": "Angleterre - Championship",
+   "div": "E1",
+   "coup_envoi": "2026-11-04 20:45",
+   "buts_attendus": {
+    "dom": 1.16,
+    "ext": 1.76
+   },
+   "lambda_boost": {
+    "dom": 1.163,
+    "ext": 1.849,
+    "source": "marché"
+   },
+   "corners_attendus": null,
+   "cartons_attendus": 2.8,
+   "fiabilite": "bonne",
+   "marches": [
+    {
+     "marche": "1",
+     "proba_modele": 0.2488,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2309,
+     "proba": 0.2309,
+     "cote_juste": 4.33,
+     "cote_minimum": 4.55,
+     "cote_moyenne_marche": 4.07,
+     "cote_winamax": 3.9,
+     "meilleure_cote_fr": 4.05,
+     "meilleur_operateur": "Betclic"
+    },
+    {
+     "marche": "N",
+     "proba_modele": 0.2515,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.241,
+     "proba": 0.241,
+     "cote_juste": 4.15,
+     "cote_minimum": 4.36,
+     "cote_moyenne_marche": 3.9,
+     "cote_winamax": 3.9,
+     "meilleure_cote_fr": 3.9,
+     "meilleur_operateur": "Winamax"
+    },
+    {
+     "marche": "2",
+     "proba_modele": 0.4972,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.5281,
+     "proba": 0.5281,
+     "cote_juste": 1.89,
+     "cote_minimum": 1.99,
+     "cote_moyenne_marche": 1.78,
+     "cote_winamax": 1.66,
+     "meilleure_cote_fr": 1.7,
+     "meilleur_operateur": "PMU"
+    },
+    {
+     "marche": "1N",
+     "proba_modele": 0.5028,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.4719,
+     "proba": 0.4719,
+     "cote_juste": 2.12,
+     "cote_minimum": 2.22,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "12",
+     "proba_modele": 0.7485,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.759,
+     "proba": 0.759,
+     "cote_juste": 1.32,
+     "cote_minimum": 1.38,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "N2",
+     "proba_modele": 0.7511,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.7691,
+     "proba": 0.7691,
+     "cote_juste": 1.3,
+     "cote_minimum": 1.37,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+1.5 buts",
+     "proba_modele": 0.795,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.795,
+     "cote_juste": 1.26,
+     "cote_minimum": 1.32,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-1.5 buts",
+     "proba_modele": 0.2051,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2051,
+     "cote_juste": 4.88,
+     "cote_minimum": 5.12,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+2.5 buts",
+     "proba_modele": 0.5762,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.5807,
+     "proba": 0.5807,
+     "cote_juste": 1.72,
+     "cote_minimum": 1.81,
+     "cote_moyenne_marche": 1.61
+    },
+    {
+     "marche": "-2.5 buts",
+     "proba_modele": 0.4238,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.4193,
+     "proba": 0.4193,
+     "cote_juste": 2.39,
+     "cote_minimum": 2.5,
+     "cote_moyenne_marche": 2.23
+    },
+    {
+     "marche": "+3.5 buts",
+     "proba_modele": 0.3358,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3358,
+     "cote_juste": 2.98,
+     "cote_minimum": 3.13,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 buts",
+     "proba_modele": 0.6643,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6643,
+     "cote_juste": 1.51,
+     "cote_minimum": 1.58,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : oui",
+     "proba_modele": 0.5858,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5858,
+     "cote_juste": 1.71,
+     "cote_minimum": 1.79,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : non",
+     "proba_modele": 0.4142,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4142,
+     "cote_juste": 2.41,
+     "cote_minimum": 2.54,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +0.5 but",
+     "proba_modele": 0.7259,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7259,
+     "cote_juste": 1.38,
+     "cote_minimum": 1.45,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +1.5 but",
+     "proba_modele": 0.3657,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3657,
+     "cote_juste": 2.73,
+     "cote_minimum": 2.87,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +0.5 but",
+     "proba_modele": 0.8289,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.8289,
+     "cote_juste": 1.21,
+     "cote_minimum": 1.27,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +1.5 but",
+     "proba_modele": 0.4998,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4998,
+     "cote_juste": 2.0,
+     "cote_minimum": 2.1,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. ou nul, les 2 marquent : non",
+     "proba_modele": 0.1725,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.1725,
+     "cote_juste": 5.8,
+     "cote_minimum": 6.09,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+8.5 corners",
+     "proba_modele": 0.6489,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6489,
+     "cote_juste": 1.54,
+     "cote_minimum": 1.62,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-8.5 corners",
+     "proba_modele": 0.3511,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3511,
+     "cote_juste": 2.85,
+     "cote_minimum": 2.99,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+9.5 corners",
+     "proba_modele": 0.5442,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5442,
+     "cote_juste": 1.84,
+     "cote_minimum": 1.93,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-9.5 corners",
+     "proba_modele": 0.4558,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4558,
+     "cote_juste": 2.19,
+     "cote_minimum": 2.3,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+10.5 corners",
+     "proba_modele": 0.4194,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4194,
+     "cote_juste": 2.38,
+     "cote_minimum": 2.5,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-10.5 corners",
+     "proba_modele": 0.5806,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5806,
+     "cote_juste": 1.72,
+     "cote_minimum": 1.81,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+3.5 cartons",
+     "proba_modele": 0.4369,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4369,
+     "cote_juste": 2.29,
+     "cote_minimum": 2.4,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 cartons",
+     "proba_modele": 0.5631,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5631,
+     "cote_juste": 1.78,
+     "cote_minimum": 1.86,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+4.5 cartons",
+     "proba_modele": 0.2577,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2577,
+     "cote_juste": 3.88,
+     "cote_minimum": 4.07,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-4.5 cartons",
+     "proba_modele": 0.7423,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7423,
+     "cote_juste": 1.35,
+     "cote_minimum": 1.41,
+     "cote_moyenne_marche": null
+    }
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VNNDVNDVDD",
+     "bm": 1.2,
+     "be": 1.5,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 8,
+     "u35": 8,
+     "o25": 5,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "NVVNNVVNVV",
+     "bm": 2.4,
+     "be": 1.3,
+     "marque": 10,
+     "encaisse": 7,
+     "o15": 8,
+     "u35": 4,
+     "o25": 7,
+     "btts": 7
+    }
+   },
+   "signaux": ""
+  },
+  {
+   "match": "Bristol City - Wolves",
+   "championnat": "Angleterre - Championship",
+   "div": "E1",
+   "coup_envoi": "2026-11-04 21:00",
+   "buts_attendus": {
+    "dom": 1.21,
+    "ext": 1.2
+   },
+   "lambda_boost": {
+    "dom": 1.161,
+    "ext": 1.538,
+    "source": "marché"
+   },
+   "corners_attendus": null,
+   "cartons_attendus": 4.3,
+   "fiabilite": "bonne",
+   "marches": [
+    {
+     "marche": "1",
+     "proba_modele": 0.3638,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2789,
+     "proba": 0.2789,
+     "cote_juste": 3.59,
+     "cote_minimum": 3.77,
+     "cote_moyenne_marche": 3.36,
+     "cote_winamax": 2.95,
+     "meilleure_cote_fr": 3.1,
+     "meilleur_operateur": "PMU"
+    },
+    {
+     "marche": "N",
+     "proba_modele": 0.2838,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.2685,
+     "proba": 0.2685,
+     "cote_juste": 3.72,
+     "cote_minimum": 3.91,
+     "cote_moyenne_marche": 3.49,
+     "cote_winamax": 3.25,
+     "meilleure_cote_fr": 3.25,
+     "meilleur_operateur": "Winamax"
+    },
+    {
+     "marche": "2",
+     "proba_modele": 0.3424,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.4527,
+     "proba": 0.4527,
+     "cote_juste": 2.21,
+     "cote_minimum": 2.32,
+     "cote_moyenne_marche": 2.07,
+     "cote_winamax": 2.0,
+     "meilleure_cote_fr": 2.02,
+     "meilleur_operateur": "PMU"
+    },
+    {
+     "marche": "1N",
+     "proba_modele": 0.6576,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.5473,
+     "proba": 0.5473,
+     "cote_juste": 1.83,
+     "cote_minimum": 1.92,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "12",
+     "proba_modele": 0.7161,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.7315,
+     "proba": 0.7315,
+     "cote_juste": 1.37,
+     "cote_minimum": 1.44,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "N2",
+     "proba_modele": 0.6362,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.7211,
+     "proba": 0.7211,
+     "cote_juste": 1.39,
+     "cote_minimum": 1.46,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+1.5 buts",
+     "proba_modele": 0.7431,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7431,
+     "cote_juste": 1.35,
+     "cote_minimum": 1.41,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-1.5 buts",
+     "proba_modele": 0.2569,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2569,
+     "cote_juste": 3.89,
+     "cote_minimum": 4.09,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+2.5 buts",
+     "proba_modele": 0.5001,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.508,
+     "proba": 0.508,
+     "cote_juste": 1.97,
+     "cote_minimum": 2.07,
+     "cote_moyenne_marche": 1.84
+    },
+    {
+     "marche": "-2.5 buts",
+     "proba_modele": 0.4999,
+     "source_marche": "moyenne des bookmakers (football-data)",
+     "proba_marche": 0.492,
+     "proba": 0.492,
+     "cote_juste": 2.03,
+     "cote_minimum": 2.13,
+     "cote_moyenne_marche": 1.9
+    },
+    {
+     "marche": "+3.5 buts",
+     "proba_modele": 0.2694,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2694,
+     "cote_juste": 3.71,
+     "cote_minimum": 3.9,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 buts",
+     "proba_modele": 0.7306,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7306,
+     "cote_juste": 1.37,
+     "cote_minimum": 1.44,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : oui",
+     "proba_modele": 0.5413,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5413,
+     "cote_juste": 1.85,
+     "cote_minimum": 1.94,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Les 2 marquent : non",
+     "proba_modele": 0.4587,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4587,
+     "cote_juste": 2.18,
+     "cote_minimum": 2.29,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +0.5 but",
+     "proba_modele": 0.739,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.739,
+     "cote_juste": 1.35,
+     "cote_minimum": 1.42,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. +1.5 but",
+     "proba_modele": 0.3818,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3818,
+     "cote_juste": 2.62,
+     "cote_minimum": 2.75,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +0.5 but",
+     "proba_modele": 0.7161,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.7161,
+     "cote_juste": 1.4,
+     "cote_minimum": 1.47,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Ext. +1.5 but",
+     "proba_modele": 0.3607,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3607,
+     "cote_juste": 2.77,
+     "cote_minimum": 2.91,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "Dom. ou nul, les 2 marquent : non",
+     "proba_modele": 0.2998,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.2998,
+     "cote_juste": 3.34,
+     "cote_minimum": 3.5,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+8.5 corners",
+     "proba_modele": 0.6622,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.6622,
+     "cote_juste": 1.51,
+     "cote_minimum": 1.59,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-8.5 corners",
+     "proba_modele": 0.3378,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.3378,
+     "cote_juste": 2.96,
+     "cote_minimum": 3.11,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+9.5 corners",
+     "proba_modele": 0.5594,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5594,
+     "cote_juste": 1.79,
+     "cote_minimum": 1.88,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-9.5 corners",
+     "proba_modele": 0.4406,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4406,
+     "cote_juste": 2.27,
+     "cote_minimum": 2.38,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+10.5 corners",
+     "proba_modele": 0.4347,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4347,
+     "cote_juste": 2.3,
+     "cote_minimum": 2.42,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-10.5 corners",
+     "proba_modele": 0.5653,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5653,
+     "cote_juste": 1.77,
+     "cote_minimum": 1.86,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+3.5 cartons",
+     "proba_modele": 0.5875,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5875,
+     "cote_juste": 1.7,
+     "cote_minimum": 1.79,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-3.5 cartons",
+     "proba_modele": 0.4125,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4125,
+     "cote_juste": 2.42,
+     "cote_minimum": 2.55,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "+4.5 cartons",
+     "proba_modele": 0.4123,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.4123,
+     "cote_juste": 2.43,
+     "cote_minimum": 2.55,
+     "cote_moyenne_marche": null
+    },
+    {
+     "marche": "-4.5 cartons",
+     "proba_modele": 0.5877,
+     "source_marche": null,
+     "proba_marche": null,
+     "proba": 0.5877,
+     "cote_juste": 1.7,
+     "cote_minimum": 1.79,
+     "cote_moyenne_marche": null
+    }
+   ],
+   "forme": {
+    "dom": {
+     "n": 10,
+     "bilan": "VVDDVNDDNV",
+     "bm": 1.1,
+     "be": 1.2,
+     "marque": 6,
+     "encaisse": 8,
+     "o15": 5,
+     "u35": 7,
+     "o25": 4,
+     "btts": 5
+    },
+    "ext": {
+     "n": 10,
+     "bilan": "DNVVDDVNVV",
+     "bm": 1.4,
+     "be": 1.2,
+     "marque": 9,
+     "encaisse": 6,
+     "o15": 6,
+     "u35": 7,
+     "o25": 5,
+     "btts": 5
+    }
+   },
+   "signaux": ""
+  }
+ ],
+ "selection": [
+  {
+   "match": "Wrexham - Middlesbrough",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 20:45",
+   "marche": "N2",
+   "proba": 0.7691,
+   "cote_minimum": 1.37,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Cardiff - West Ham",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 20:45",
+   "marche": "12",
+   "proba": 0.7622,
+   "cote_minimum": 1.38,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Wrexham - Middlesbrough",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 20:45",
+   "marche": "12",
+   "proba": 0.759,
+   "cote_minimum": 1.38,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Bristol City - Wolves",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 21:00",
+   "marche": "+1.5 buts",
+   "proba": 0.7431,
+   "cote_minimum": 1.41,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Bristol City - Wolves",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 21:00",
+   "marche": "Dom. +0.5 but",
+   "proba": 0.739,
+   "cote_minimum": 1.42,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  },
+  {
+   "match": "Cardiff - West Ham",
+   "championnat": "Angleterre - Championship",
+   "coup_envoi": "2026-11-04 20:45",
+   "marche": "N2",
+   "proba": 0.7109,
+   "cote_minimum": 1.48,
+   "cote_moyenne_marche": null,
+   "value_vs_marche": null,
+   "fiabilite": "bonne",
+   "a_verifier": true
+  }
+ ],
+ "ecartes": [
+  {
+   "match": "Kortrijk - KV Mechelen",
+   "raison": "équipe sans assez de matchs dans ce championnat"
+  },
+  {
+   "match": "Oxford Utd - Reading",
+   "raison": "équipe sans assez de matchs dans ce championnat"
+  }
+ ]
+}
