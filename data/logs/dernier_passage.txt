@@ -1,21 +1,28 @@
-Passage du 2026-11-06 20:05 UTC
-football-data : 39 fichiers ; API-Football : {'2026-11-06': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-07': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
+Passage du 2026-11-07 07:47 UTC
+football-data : 39 fichiers ; API-Football : {'2026-11-07': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-08': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 cotes foot : 0 matchs reconnus, 0 requêtes, 0 matchs avec cotes en cache
-cotes françaises : déjà relevées aujourd'hui, rien à faire
-91 matchs analysés, 182 paris retenus
-{'matchs_historique': 29354, 'matchs_programmes': 43, 'complet': False}
-tennis : 10 matchs, 300 cotes justes
-  erreur API /games {'date': '2026-11-05', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
+  crédits restants : 413, budget du jour : 17 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_nbl, basketball_ncaab, basketball_ncaab_championship_winner
+  budget du jour atteint avant soccer_germany_bundesliga2
+  budget du jour atteint avant soccer_italy_serie_b
+  budget du jour atteint avant soccer_spain_segunda_division
+  budget du jour atteint avant soccer_spl
+  budget du jour atteint avant soccer_turkey_super_league
+  budget du jour atteint avant soccer_greece_super_league
+cotes françaises : 142 matchs, 17 crédits utilisés, 396 restants ce mois-ci
+129 matchs analysés, 258 paris retenus
+{'matchs_historique': 29356, 'matchs_programmes': 43, 'complet': False}
+tennis : 11 matchs, 330 cotes justes
   erreur API /games {'date': '2026-11-06', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-07', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
+  erreur API /games {'date': '2026-11-08', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 handball : 0 matchs suivis, 0 résultats, 0 à venir, cotes pour 0
 handball : 0 matchs, 0 cotes justes
-  erreur API /games {'date': '2026-11-05', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-06', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-07', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
+  erreur API /games {'date': '2026-11-08', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 basket : 0 matchs suivis, 0 résultats, 0 à venir, cotes pour 0
 basket : 0 matchs, 0 cotes justes
-{'Football': 91, 'Tennis': 10}
+{'Football': 129, 'Tennis': 11}
