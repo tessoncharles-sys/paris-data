@@ -43,6 +43,6 @@
   },
   "api_football": {
     "2026-11-10": "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}",
-    "2026-11-11": "erreur API : {'plan': 'Free plans do not have access to this date, try from 2026-11-08 to 2026-11-10.'}"
+    "2026-11-11": "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"
   }
 }
