@@ -1,4 +1,4 @@
-Passage du 2026-11-10 08:50 UTC
+Passage du 2026-11-10 11:20 UTC
 football-data : 39 fichiers ; API-Football : {'2026-11-10': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-11': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
 cotes foot : pas de matchs à venir
 cotes françaises : déjà relevées aujourd'hui, rien à faire
