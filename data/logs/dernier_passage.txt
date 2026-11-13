@@ -1,8 +1,7 @@
-Passage du 2026-11-13 08:46 UTC
+Passage du 2026-11-13 11:08 UTC
 football-data : 39 fichiers ; API-Football : {'2026-11-13': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-14': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
 cotes foot : pas de matchs à venir
-  crédits restants : 369, budget du jour : 20 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_nbl, basketball_ncaab, basketball_ncaab_championship_winner, handball_germany_bundesliga
-cotes françaises : 69 matchs, 7 crédits utilisés, 362 restants ce mois-ci
+cotes françaises : déjà relevées aujourd'hui, rien à faire
 0 matchs analysés, 0 paris retenus
 {'matchs_historique': 29449, 'matchs_programmes': 10, 'complet': False}
 tennis : 7 matchs, 210 cotes justes
