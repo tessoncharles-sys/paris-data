@@ -1,4 +1,4 @@
-# Sélection du 2026-11-12
+# Sélection du 2026-11-13
 
 ## Value confirmée par le marché
 
