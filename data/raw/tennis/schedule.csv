@@ -1,7 +1,8 @@
 id,tour,event_id,event,major,round,date,status,venue,p1_id,p1,p2_id,p2,p1_rank,p2_rank,winner,sets
-186552,ATP,148-2026,Bybit Stockholm Open,False,Final,2026-11-14T12:00Z,STATUS_SCHEDULED,"Stockholm, Sweden",2946,Taylor Fritz,4010,Thiago Agustin Tirante,1.0,,0,
 187505,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-15T13:00Z,STATUS_SCHEDULED,"Turin, Italy",2375,Alexander Zverev,12657,Rafael Jodar,1.0,8.0,0,
 187506,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-15T19:30Z,STATUS_SCHEDULED,"Turin, Italy",9250,Ben Shelton,10052,Arthur Fils,3.0,6.0,0,
+187510,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-16T05:00Z,STATUS_SCHEDULED,"Turin, Italy",3782,Carlos Alcaraz,7602,Flavio Cobolli,2.0,5.0,0,
+187514,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-16T05:00Z,STATUS_SCHEDULED,"Turin, Italy",7602,Flavio Cobolli,2708,Frances Tiafoe,5.0,7.0,0,
 187441,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T20:00Z,STATUS_SCHEDULED,"Indian Wells, USA",2113,Jessica Pegula,9820,Mirra Andreeva,5.0,3.0,0,
 187440,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T21:30Z,STATUS_SCHEDULED,"Indian Wells, USA",6970,Linda Noskova,1797,Elina Svitolina,8.0,6.0,0,
 187442,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Final,2026-11-15T05:00Z,STATUS_SCHEDULED,"Indian Wells, USA",-3,TBD,-4,TBD,,,0,
