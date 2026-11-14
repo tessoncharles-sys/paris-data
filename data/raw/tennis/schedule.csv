@@ -1,7 +1,8 @@
 id,tour,event_id,event,major,round,date,status,venue,p1_id,p1,p2_id,p2,p1_rank,p2_rank,winner,sets
 186552,ATP,148-2026,Bybit Stockholm Open,False,Final,2026-11-14T12:00Z,STATUS_SCHEDULED,"Stockholm, Sweden",2946,Taylor Fritz,4010,Thiago Agustin Tirante,1.0,,0,
-187379,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Group Stage,2026-11-13T21:30Z,STATUS_SCHEDULED,"Indian Wells, USA",3038,Aryna Sabalenka,1797,Elina Svitolina,2.0,6.0,0,
-187440,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T05:00Z,STATUS_SCHEDULED,"Indian Wells, USA",6970,Linda Noskova,-4,TBD,8.0,,0,
-187441,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T05:00Z,STATUS_SCHEDULED,"Indian Wells, USA",2113,Jessica Pegula,9820,Mirra Andreeva,5.0,3.0,0,
+187505,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-15T13:00Z,STATUS_SCHEDULED,"Turin, Italy",2375,Alexander Zverev,12657,Rafael Jodar,1.0,8.0,0,
+187506,ATP,339-2026,Nitto ATP Finals,False,Group Stage,2026-11-15T19:30Z,STATUS_SCHEDULED,"Turin, Italy",9250,Ben Shelton,10052,Arthur Fils,3.0,6.0,0,
+187441,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T20:00Z,STATUS_SCHEDULED,"Indian Wells, USA",2113,Jessica Pegula,9820,Mirra Andreeva,5.0,3.0,0,
+187440,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Semifinal,2026-11-14T21:30Z,STATUS_SCHEDULED,"Indian Wells, USA",6970,Linda Noskova,1797,Elina Svitolina,8.0,6.0,0,
 187442,WTA,382-2026,FAGE WTA Finals Indian Wells,False,Final,2026-11-15T05:00Z,STATUS_SCHEDULED,"Indian Wells, USA",-3,TBD,-4,TBD,,,0,
 186772,WTA,1084-2026,DIRECTV Open Presentado por Compesar,False,Final,2026-11-14T17:00Z,STATUS_SCHEDULED,"Sopo, Colombia",2979,Bianca Andreescu,1955,Elizabeth Mandlik,3.0,,0,
