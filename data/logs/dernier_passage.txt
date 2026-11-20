@@ -1,10 +1,10 @@
-Passage du 2026-11-20 16:25 UTC
+Passage du 2026-11-20 21:32 UTC
 football-data : 39 fichiers ; API-Football : {'2026-11-20': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-21': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 cotes foot : 0 matchs reconnus, 0 requêtes, 0 matchs avec cotes en cache
 cotes françaises : déjà relevées aujourd'hui, rien à faire
 116 matchs analysés, 232 paris retenus
-{'matchs_historique': 29499, 'matchs_programmes': 10, 'complet': False}
+{'matchs_historique': 29502, 'matchs_programmes': 7, 'complet': False}
 tennis : 4 matchs, 120 cotes justes
   erreur API /games {'date': '2026-11-19', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-20', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
