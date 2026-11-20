@@ -1,19 +1,40 @@
-Passage du 2026-11-19 21:48 UTC
-football-data : 39 fichiers ; API-Football : {'2026-11-19': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-20': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
+Passage du 2026-11-20 09:11 UTC
+football-data : 39 fichiers ; API-Football : {'2026-11-20': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}", '2026-11-21': "erreur API : {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}"}
 cotes foot : pas de matchs à venir
-cotes françaises : déjà relevées aujourd'hui, rien à faire
+  crédits restants : 324, budget du jour : 29 ; autres sports disponibles : basketball_euroleague, basketball_nba, basketball_nba_championship_winner, basketball_nbl, basketball_ncaab, basketball_ncaab_championship_winner, handball_germany_bundesliga
+  erreur 429 /sports/soccer_efl_champ/odds {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_netherlands_eredivisie/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_italy_serie_b/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_spain_segunda_division/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_spl/odds {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_turkey_super_league/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_greece_super_league/odds {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_england_league1/odds {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_england_league2/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+  erreur 429 /sports/soccer_uefa_europa_conference_league/events {"message":"Requests are too frequent","error_code":"EXCEEDED_FREQ_LIMIT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#exceeded-freq-limit"}
+
+cotes françaises : 151 matchs, 20 crédits utilisés, 308 restants ce mois-ci
 0 matchs analysés, 0 paris retenus
-{'matchs_historique': 29497, 'matchs_programmes': 11, 'complet': False}
+{'matchs_historique': 29498, 'matchs_programmes': 10, 'complet': False}
 tennis : 6 matchs, 180 cotes justes
-  erreur API /games {'date': '2026-11-18', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-19', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-20', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
+  erreur API /games {'date': '2026-11-21', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 handball : 0 matchs suivis, 0 résultats, 0 à venir, cotes pour 0
 handball : 0 matchs, 0 cotes justes
-  erreur API /games {'date': '2026-11-18', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-19', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /games {'date': '2026-11-20', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
+  erreur API /games {'date': '2026-11-21', 'timezone': 'Europe/Paris'} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
   erreur API /status {} {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}
 basket : 0 matchs suivis, 0 résultats, 0 à venir, cotes pour 0
 basket : 0 matchs, 0 cotes justes
