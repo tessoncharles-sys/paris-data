@@ -1,4 +1,4 @@
-# Sélection du 2026-11-20
+# Sélection du 2026-11-21
 
 ## Value confirmée par le marché
 
@@ -19,7 +19,7 @@ _Aucune aujourd'hui._
 - Kocaelispor - Fenerbahce — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Hibernian - Dundee United — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Northampton - Rochdale — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Verona - Cesena — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Go Ahead Eagles - For Sittard — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Leyton Orient - AFC Wimbledon — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Accrington - Salford — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Cheltenham - Bristol Rvs — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
@@ -27,4 +27,4 @@ _Aucune aujourd'hui._
 - Wolfsburg - Holstein Kiel — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Bradford - Doncaster — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 
-_116 matchs analysés, 0 écartés._
+_145 matchs analysés, 0 écartés._
