@@ -1,4 +1,4 @@
-# Sélection du 2026-11-21
+# Sélection du 2026-11-22
 
 ## Value confirmée par le marché
 
@@ -6,25 +6,25 @@ _Aucune aujourd'hui._
 
 ## À vérifier sur Winamax (pas de cote marché dans les données)
 
-- Bolton - Portsmouth — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Sevilla - Betis — Ext. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Bolton - Portsmouth — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Norwich - Cardiff — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Elversberg - Freiburg — Ext. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité moyenne
-- West Ham - Preston — Dom. +1.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Aston Villa - Sunderland — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Bradford - Doncaster — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Catanzaro - Palermo — N2 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Cheltenham - Bristol Rvs — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Kocaelispor - Fenerbahce — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Hibernian - Dundee United — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Northampton - Rochdale — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
 - Go Ahead Eagles - For Sittard — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Leyton Orient - AFC Wimbledon — 1N : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Accrington - Salford — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Cheltenham - Bristol Rvs — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Empoli - Pisa — Dom. +0.5 but : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Wolfsburg - Holstein Kiel — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
-- Bradford - Doncaster — -3.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Nantes - Grenoble — 12 : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Osasuna - Malaga — +1.5 buts : proba 78%, **jouer seulement si cote ≥ 1.35** — fiabilité bonne
+- Kortrijk - St. Gilloise — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Kaiserslautern - Dresden — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Werder Bremen - Hamburg — 12 : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Sparta Rotterdam - AZ Alkmaar — 12 : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Liverpool - Man United — 12 : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Bologna - Udinese — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Girona - Eibar — 1N : proba 77%, **jouer seulement si cote ≥ 1.36** — fiabilité bonne
+- Liverpool - Man United — 1N : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Lorient - Rennes — Ext. +0.5 but : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Juventus - Venezia — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Sassuolo - Genoa — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Panetolikos - Volos NFC — Dom. +0.5 but : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Santander - Sociedad — 12 : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Sparta Rotterdam - AZ Alkmaar — N2 : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Anderlecht - Oud-Heverlee Leuven — +1.5 buts : proba 77%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Konyaspor - Besiktas — 12 : proba 76%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
+- Burnley - Blackburn — Ext. +0.5 but : proba 76%, **jouer seulement si cote ≥ 1.37** — fiabilité bonne
 
-_145 matchs analysés, 0 écartés._
+_52 matchs analysés, 0 écartés._
