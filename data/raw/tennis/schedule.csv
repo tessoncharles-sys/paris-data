@@ -1,6 +1,4 @@
 id,tour,event_id,event,major,round,date,status,venue,p1_id,p1,p2_id,p2,p1_rank,p2_rank,winner,sets
-186828,WTA,867-2026,IEB+ Argentina Open,False,Round 1,2026-11-25T18:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",15617,Sol Ailin Larraya Guidi,3220,Maria Lourdes Carle,,,0,
-186839,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-25T18:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",1374,Martina Trevisan,5878,Veronika Erjavec,,8.0,0,
 186837,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-25T19:30Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",10197,Ipek Oz,5749,Julia Riera,,5.0,0,
 186838,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-25T19:30Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",4629,Alicia Herrero Linana,14607,Ariana Geerlings,,,0,
 186840,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-25T21:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",6500,Solana Sierra,5299,Carole Monnet,1.0,,0,
