@@ -3,7 +3,7 @@ id,tour,event_id,event,major,round,date,status,venue,p1_id,p1,p2_id,p2,p1_rank,p
 186834,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-26T18:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",14562,Sofia Costoulas,423,Varvara Lepchenko,,,0,
 186833,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-26T19:30Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",4546,Irene Burillo,15069,Laura Samson,,2.0,0,
 186835,WTA,867-2026,IEB+ Argentina Open,False,Round 2,2026-11-26T21:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",3220,Maria Lourdes Carle,3256,Nadia Podoroska,,,0,
-186832,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,5878,Veronika Erjavec,,8.0,0,
+186832,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",5299,Carole Monnet,5878,Veronika Erjavec,,8.0,0,
 186831,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",4629,Alicia Herrero Linana,5749,Julia Riera,,5.0,0,
 186830,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
 186829,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
