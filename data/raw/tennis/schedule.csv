@@ -7,3 +7,5 @@ id,tour,event_id,event,major,round,date,status,venue,p1_id,p1,p2_id,p2,p1_rank,p
 186831,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",4629,Alicia Herrero Linana,5749,Julia Riera,,5.0,0,
 186830,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
 186829,WTA,867-2026,IEB+ Argentina Open,False,Quarterfinal,2026-11-27T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
+186842,WTA,867-2026,IEB+ Argentina Open,False,Semifinal,2026-11-28T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
+186841,WTA,867-2026,IEB+ Argentina Open,False,Semifinal,2026-11-28T05:00Z,STATUS_SCHEDULED,"Buenos Aires, Argentina",-3,TBD,-4,TBD,,,0,
